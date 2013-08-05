@@ -1,4 +1,59 @@
-<h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
-<% end %>
+ <%= render "snippets/mainheader" %>
+
+<!-- slider -->
+<div id="slider-header" class="row">
+    <p class="lead col-lg-8 col-lg-offset-2"><strong>Silicon Vision is a leading IP provider of high-performance, low power radio frequency intellectual property (RFIPs).</strong></p>
+    <p class="lead col-lg-8 col-lg-offset-2">
+      <a class="btn btn-large btn-primary" href="#">Learn More About Silicon Vision</a>
+    </p>
+</div>
+<!-- slider end -->
+<div id="about-strip">
+  <div class="row">
+    <p class="col-lg-10 col-lg-offset-1">
+      <strong>Silicon Vision </strong>had been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF circuit and systems design, digital design and backend design.
+    </p>
+  </div>
+</div>
+<div id="ips-section">
+  <div class="row">
+      <h3>Silicon Vision Offers a Portfolio Of High Performance IPs</h3>
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul class="nav nav-pills">
+          <li><a class="rf" href="#">Radio Frequency IPs</a></li>
+          <li><a class="pm" href="#">Power Manegement IPs</a></li>
+          <li><a class="dc" href="#">Data Coverters IPs</a></li>
+          <li><a class="ams" href="#">AMS IPs</a></li>
+        </ul>
+      </div>
+      <p class="col-lg-10 col-lg-offset-1">Silicon Vision offers a portfolio of high performance IPs focusing on Radio frequency (RF), Power Management (PM), data-converters (DC), and other AMS IPs. Our IPs are silicon proven over several process nodes, also demo boards are available for most of the IPs. Our IPs are used in millions of devices selling in the market. </p>
+  </div>
+</div>
+<div id="latest-news" class="container">
+  <h4 class="title"><strong>Latest</strong> News</h4>
+
+  <div class="row">
+    <div class="panel col-lg-6">
+      <img class="pull-left" src="assets/dac-news.png">
+      <div class="pull-left">
+        <a class="h4" href="" >Silicon Vision participates at Global Forum, DAC 2013</a>
+        <p>Monday 22 July 2013</p>
+      </div>
+    </div>
+  </div>  
+
+</div>
+
+<div class="container">
+      <div class="body-content">
+        <!-- Example row of columns -->
+        
+
+      </div><!-- /.body-content -->
+
+      <!-- Site footer -->
+      <div class="footer">
+        <p>&copy; Company 2013</p>
+      </div>
+
+</div> <!-- /container -->
