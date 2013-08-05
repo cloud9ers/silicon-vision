@@ -6,6 +6,9 @@ class HomeController < ApplicationController
   def about
   end
 
+  def ips
+  end
+
   def applications
   end
   

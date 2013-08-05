@@ -10,13 +10,13 @@
     </a>
       <div class="nav-collapse pull-right collapse">
         <ul class="nav navbar-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#ips">IPs</a></li>
-          <li><a href="#apps">Applications</a></li>
-          <li><a href="#media">Media And Resources</a></li>
-          <li><a href="#career">careers</a></li>
-          <li><a href="#contact">contact us</a></li>
+          <li><%= link_to('Home', {:action => 'index'}) %></li>
+          <li><%= link_to('About Us', {:action => 'about'}) %></li>
+          <li><%= link_to('IPs', {:action => 'ips'}) %></li>
+          <li><%= link_to('Applications', {:action => 'applications'}) %></li>
+          <li><%= link_to('Media And Resources', {:action => 'media'}) %></li>
+          <li><%= link_to('Careers', {:action => 'careers'}) %></li>
+          <li><%= link_to('Contact Us', {:action => 'contact'}) %></li>
         </ul>
       </div><!--/.nav-collapse -->
   </div>
