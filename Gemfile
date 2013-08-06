@@ -6,8 +6,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 gem 'jquery-rails'
-gem 'cancan'
-gem 'devise'
 gem 'figaro'
 gem 'rolify'
 gem 'simple_form'
