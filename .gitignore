@@ -70,8 +70,20 @@ pickle-email-*.html
 # Textmate project files
 /*.tmproj
 
+# sublime project files
+*.sublime-project
+*.sublime-workspace
+
 # vim artifacts
 **.swp
 
-# Ignore application configuration
-/config/application.yml
+.project
+.rvmrc*
+Gemfile.lock
+
+# nginx log 
+/nginx/log/*
+junit.xml
+*.pyc
+coverage
+output
