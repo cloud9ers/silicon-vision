@@ -4,10 +4,52 @@
 @sec_font:  'Kreon', serif;
 @text_color: #434343;
 
+h4.title{
+	background: url('heads-strip.png') no-repeat left;
+	padding-left: 20px;
+}
+
+a.blue-but{
+	background: #1d9eec;
+	border-radius: 3px;
+	color: #fff !important;
+	font-family: @main_font;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 15px 30px 10px;
+	font-weight: 300;
+	font-size: 12px;
+	border-bottom: 5px solid #1b91d9;
+
+	&:hover{
+		color: #fff !important;
+		background: #20abff;
+	}
+}
+
+a.blue-but.small{
+	background: #1d9eec;
+	border-radius: 3px;
+	color: #fff !important;
+	font-family: @main_font;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 5px 30px;
+	font-weight: 300;
+	font-size: 12px;
+	border-bottom: 5px solid #1b91d9;
+
+	&:hover{
+		color: #fff !important;
+		background: #20abff;
+	}
+}
+
 body{
 	padding-top: 60px;
 	font-size: 14px;
 	line-height: 1.7em;
+	padding-bottom: -50px;
 	a{
 		color: @main_color !important;
 		&:hover{
@@ -38,27 +80,29 @@ body{
 
 #slider-header{
 	margin-top: 25px;
-	padding-top: 100px;
+	padding-top: 150px;
 	text-align: center;
-	height: 300px;
-	background: url('sub-head-bg.png') no-repeat #e8e8e8 0 -65px;
+	height: 350px;
+	background: url('sub-head-bg.png') no-repeat top center fixed;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 	color: #fff;
 	font-family: 'Kreon', serif;
 	font-size: 24px;
 
-	.btn{
-		font-family: @main_font;
-		color: #fff !important;
-		text-transform: uppercase;
-		font-size: 14px;
-		font-weight: 300;
-	}
 }
 #about-strip{
 	background: @main_color;
 	text-align: center;
 	color: #fff;
 	padding:1em 0;
+}
+
+#latest-news , #apps-section{
+	margin-top: 30px;
 }
 
 #ips-section{
@@ -70,7 +114,7 @@ body{
 
 		li{
 			height: 230px;
-			width: 200px;
+			width: 190px;
 			margin: 0px !important;
 			a{
 				padding-top: 190px;
@@ -95,8 +139,52 @@ body{
 	}
 }
 
-h4.title{
-	background: url('heads-strip.png') no-repeat left;
-	padding-left: 20px;
+
+
+#latest-news{
+	.news-item{
+		.news-head{
+			padding-left: 15px;
+			padding-top: 5px;
+			font-family: @main_font;
+			font-size: 12px;
+			color: #c3c3c3;
+
+			a{
+				font-size: 16px;
+				font-family: @main_font;
+				font-weight: 300;
+			}
+
+		}
+	}
 }
 
+#apps-section{
+	background: #efefef;
+	padding: 20px 0 25px;
+	#applications-list{
+		margin-top: 20px;
+	}
+}
+
+#footer{
+	background: #f6f6f6;
+	padding-top:40px; 
+
+	input , button{
+		height: 50px;
+	}
+	h3{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	#copyrights{
+		margin-top: 70px;
+		background: #0966a3;
+		color: #fff;
+		font-size: 12px;
+		height: 45px;
+		padding: 12px 0;
+	}
+}
