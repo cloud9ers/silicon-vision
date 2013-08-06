@@ -45,7 +45,9 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
-
+html, body{
+  height: 100%;
+}
 body {
   margin: 0;
 }
@@ -222,7 +224,7 @@ table {
   }
   a,
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
   a[href]:after {
     content: " (" attr(href) ")";
@@ -321,7 +323,7 @@ a {
 a:hover,
 a:focus {
   color: #2a6496;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:focus {
@@ -2375,7 +2377,7 @@ a.list-group-item.active .list-group-item-text {
   color: #e1edf7;
 }
 
-.panel {
+.panel , .news-item {
   padding: 15px;
   margin-bottom: 20px;
   background-color: #ffffff;
