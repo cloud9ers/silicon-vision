@@ -3,6 +3,9 @@
 @main_font : 'Open Sans', sans-serif;
 @sec_font:  'Kreon', serif;
 @text_color: #434343;
+@section_htxt_color:#ffffff;
+@section_header_color:#0c81cf;
+@section_menu_bgcolor:#1d9eec;
 
 body{
 	padding-top: 60px;
@@ -99,4 +102,121 @@ h4.title{
 	background: url('heads-strip.png') no-repeat left;
 	padding-left: 20px;
 }
+.section-header{
+	color:#ffffff;
+	background: @section_header_color;
+	height: 82px;
+	.container{
+		h4{
+			color:@section_htxt_color;
+			line-height: 3em;
+		}
+		line-height: 5.7;
+		margin-left: 125px;
+		margin-right: 120px;
+	}
+}
+.section-main{
+	
+	
+	#section-left{
 
+	}
+	#section-right{
+		
+	}
+}
+#media-section{
+	.section-header{
+		margin-top: 10px;
+	}
+	.section-main{
+		h3{
+			margin-top: 68px;
+			margin-left: -15px;
+			color: #434343;
+		}
+		margin-left: 125px;
+		margin-right: 120px;
+		#section-left{
+			border: 1px solid #f0f0f0;
+			position: relative;
+			.date{
+				position: absolute;
+				top: -15px;
+				right: -22px;
+				background-image:url('date-label0icon.png');
+				width: 58px;
+				height: 58px;
+				color: #ffffff;
+			}
+			.news{
+				.pull-left{
+					border:  1px solid #f0f0f0;
+					margin-top: 10px;
+					margin-bottom: 10px;
+					margin-left: -5px;
+					img{
+						width: 250px;
+						height: 240px;
+						margin-left: 10px;
+						margin-right: 10px;
+					}
+
+				}
+				.pull-right{
+					width: 65%;
+					margin-top: 32px;
+					a{
+						display: block;
+						font-size: 20px;
+					}
+					p{
+						margin-top: 10px;
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		#section-right{
+			color: #ffffff;
+			text-align: center;
+			ul{
+				list-style: none;
+				li{
+					line-height: 5em;
+					height: 80px;
+					background: @section_menu_bgcolor;
+					padding: 0;
+
+				}
+			}
+		}
+	}
+}
+#contact-section{
+	.section-header{
+		margin-top: 25px;
+	}
+	.section-main{
+
+	}
+}
+.mmt{
+	margin-top: 10px;
+}
+.fwn{
+	font-weight: 300;
+}
+.fszs{
+	font-size: 12px
+}
+.fszt{
+	font-size: 10px;
+}
+.center-txt{
+	text-align: center;
+}
+.fwb{
+	font-weight: 500;
+}
