@@ -12,8 +12,11 @@
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
   </head>
-  <body class="<%= controller_name %> <%= action_name %>">
+  <body>
     <%= render "snippets/mainheader" %>
     <%= yield %>
+    <div id="footer">
+      <%= render "snippets/footer" %>
+    </div>
   </body>
 </html>
