@@ -42,3 +42,4 @@ $(document).ready(function(){
      intID = setInterval(changeImg, 6000);
     }
   });
+$('.carousel').carousel()
