@@ -48,7 +48,7 @@ h4.title{
     -webkit-transform: translateY(-100%);  
     transform: translateY(-100%);  
 }*/ 
-a.blue-but{
+.blue-but{
 	background: #1d9eec;
 	border-radius: 3px;
 	color: #fff !important;
@@ -66,7 +66,7 @@ a.blue-but{
 	}
 }
 
-a.blue-but.small{
+.blue-but.small{
 	background: #1d9eec;
 	border-radius: 3px;
 	color: #fff !important;
@@ -361,57 +361,49 @@ body{
 	}
 }
 
-
-#contact-section{
-	.section-header{
-		margin-top: 25px;
+#contact-page{
+	#map{
+		width: 55%;
 	}
 
-	.section-main{
-		#map{
-			width: 57.7%;
+	#address{
+		background:#0966a3;
+		color: #ffffff;
+		width: 45%;
+		div{
+			margin: 66px 0px 66px 35px;
+			font-size: 14px;
 		}
-		#address{
-			background:#0966a3;
-			color: #ffffff;
-			width: 42.3%;
-			div{
-				margin: 66px 0px 66px 35px;
-			}
-		}
-		#contactus-forms{
-			margin-left: 140px;
-			label{
-				display: block;
-				// color: #858585;
-				.fwn;
-				font-size: 18px;
+	}
 
-			}
-			input, textarea{
-				background: #f6f6f6;
-				width: 620px;
-				border: 0;
-			}
-			textarea{
-				border-radius: 4px;
-			}
-			button{
-				background: #1d9eec;
-				-webkit-box-shadow: 0 4px 3px -3px #1d9eec;
-				   -moz-box-shadow: 0 4px 3px -3px #1d9eec;
-				        box-shadow: 0 4px 3px -3px #1d9eec;
-
-				border: none;
-				border-radius: 4px;
-				width: 105px;
-				padding: 7px 0px 7px 0px;
-				margin-right: 102px;
-			}
-
-		}
-		#sales-rep{
+	#contactus-forms{
+		margin-left: 140px;
+		label{
+			display: block;
+			color: #858585;
+			font-weight: 300;
 			font-size: 18px;
+
+		}
+		input, textarea{
+			background: #f6f6f6;
+			border: 0;
+			width: 100%;
+
+		}
+		textarea{
+			border-radius: 3px;
+			height: 200px;
+		}
+		input{
+			height: 35px;
+		}
+		
+
+	}
+
+	#sales-rep{
+			font-size: 16px;
 			#head{
 				font-size: 20px;
 				color: @main_color;
@@ -433,8 +425,10 @@ body{
 			}
 
 		}
-	}
 }
+
+
+
 .mmt{
 	margin-top: 10px;
 }

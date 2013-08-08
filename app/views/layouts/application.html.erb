@@ -8,16 +8,12 @@
     <link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300' rel='stylesheet' type='text/css'>
     <%= stylesheet_link_tag "bootstrap", "main", :media => "all" %>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <!-- imagesLoaded jQuery plugin by @desandro : https://github.com/desandro/imagesloaded -->
-
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
     <%= render "snippets/mainheader" %>
-
     <%= yield %>
     <div id="footer">
       <%= render "snippets/footer" %>
