@@ -11,15 +11,17 @@ h4.title{
 	background: url('heads-strip.png') no-repeat left;
 	padding-left: 20px;
 }
-.model-body{
+.app-caption{
 	position: relative;
     overflow: hidden;
     max-height: none;
+
 	.caption{
 		position: absolute;
-		left: 10px;
-		right: 11px;
-		bottom: -40px;
+		left: 5px;
+		right: 13px;
+		bottom: 5px;
+		padding-top: 10px;
 		background: #000;
 		background: rgba(0, 0, 0, 0.6);
 		color: white;
@@ -28,14 +30,24 @@ h4.title{
 		text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
 		font-size: 14px;
 		line-height: 18px;
+		-webkit-transition:background 0.2s ease-in;  
+	  	-moz-transition:background 0.2s ease-in;  
+	   	-o-transition:background 0.2s ease-in;  
+	   	transition:background 0.2s ease-in;
 	}
+
+	   	&:hover{
+	   		span.caption{
+	   			background: @main_color;
+	   		}
+	   	} 
 }
-.model-body:hover .caption {  
+/*.app-img:hover .caption {  
     -moz-transform: translateY(-100%);  
     -o-transform: translateY(-100%);  
     -webkit-transform: translateY(-100%);  
     transform: translateY(-100%);  
-}  
+}  */
 a.blue-but{
 	background: #1d9eec;
 	border-radius: 3px;
@@ -203,6 +215,10 @@ body{
 	padding: 20px 0 25px;
 	#applications-list{
 		margin-top: 20px;
+		a{
+			display: block;
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -278,6 +294,9 @@ body{
 #apps-page{
 	a img{
 		margin-top: 20px;
+	}
+	a{
+		display: block;
 	}
 }
 
