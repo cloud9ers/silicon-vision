@@ -10,28 +10,13 @@
 </div>
 <!-- head strip end -->
 
-<div id="ips-navbar" class="navbar">
-  <ul class="nav navbar-nav pull-right">
-    <li><a href="#">One</a></li>
-    <li><a href="#">two</a></li>
-    <li><a href="#">three</a></li>
-    <li>
-    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-    		Dropdown <b class="caret"></b>
-    	</a>
-    	<ul class="dropdown-menu">
-    		<li><a href="#">EIH</a></li>
-    		<li><a href="#">BEE</a></li>
-    		<li><a href="#">CEE</a></li>
-    		<li><a href="#">EEEH</a></li>
-    		<li><a href="#">EF</a></li>
-    	</ul>
-    </li>
-  </ul>
-</div>
+<%= render "snippets/ips-navbar" %>
 
-<%= render "snippets/ips-icons" %>
-
-<div id="footer">
-  <%= render "snippets/footer" %>
+<div id="ips-section">
+  <div class="container">
+    <div class="row">
+      <%= render "snippets/ips-icons" %>
+      <p class="col-lg-10 col-lg-offset-1">Silicon Vision offers a portfolio of high performance IPs focusing on Radio frequency (RF), Power Management (PM), data-converters (DC), and other AMS IPs. Our IPs are silicon proven over several process nodes, also demo boards are available for most of the IPs. Our IPs are used in millions of devices selling in the market. </p>
+    </div>
+  </div>
 </div>
