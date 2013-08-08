@@ -35,7 +35,8 @@ h4.title{
     -o-transform: translateY(-100%);  
     -webkit-transform: translateY(-100%);  
     transform: translateY(-100%);  
-}  
+}
+
 a.blue-but{
 	background: #1d9eec;
 	border-radius: 3px;
@@ -131,6 +132,18 @@ body{
 		font-size: 14px;
 		font-weight: 300;
 	}
+	#slider-controls{
+		line-height: 7;
+	}
+	span.slider-prev:before {
+	    content: url("left-arrow.png");
+	}
+
+	span.slider-next:before {
+	    content: url("right-arrow.png");
+}
+
+
 }
 #about-strip{
 	background: @main_color;
