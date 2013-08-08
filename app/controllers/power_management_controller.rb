@@ -1,4 +1,7 @@
 class PowerManagementController < ApplicationController
+  define_method('index') do
+  end
+  
   define_method('band-gap-reference') do
   end
   
