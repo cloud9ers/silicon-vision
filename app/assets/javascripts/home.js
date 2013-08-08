@@ -3,7 +3,7 @@ $(document).ready(function(){
      'assets/1.png',
      'assets/2.png',
      'assets/3.png',
-     'assets/4.png',
+     'assets/sub-head-bg2.png',
      'assets/sub-head-bg.png'
      );
      
