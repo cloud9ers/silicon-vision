@@ -20,14 +20,6 @@
 				Data Converters IPs
 			</h3>
 		</div>
-		<div class="col-lg-5">
-			<button type="submit" class="btn blue-but small m30t m50b pull-right">
-				Download Product Brief
-			</button>
-			<button type="submit" class="btn blue-but small m30t m50b pull-right">
-				REQUEST DATA SHEET
-			</button>
-		</div>
 	</div>
 	<div class="row">
 		<div class="col-lg-8">
@@ -57,8 +49,13 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>DAC IPs</h4>
- 			<table class="table table-striped">
+			<h4 class="pull-left">DAC IPs</h4> 
+			<div class="pull-right">
+				<a class="blue-but small m30t m50b pull-right" data-toggle="modal" href="#data-req">
+					REQUEST DATA SHEET
+				</a>
+			</div>
+ 			<table class="table table-striped m80t">
 				<thead>
 					<tr>
 						<th></th>
@@ -134,8 +131,13 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>ADC IPs</h4>
- 			<table class=table table-striped>
+			<h4 class="pull-left">ADC IPs</h4>
+			<div class="pull-right">
+				<a class="blue-but small m30t m50b pull-right" data-toggle="modal" href="#data-req">
+					REQUEST DATA SHEET
+				</a>
+			</div>
+ 			<table class="table table-striped m80t">
 				<thead>
 					<tr>
 						<th></th>
@@ -274,3 +276,26 @@
 		</div>
 	</div>
 </div>
+
+<div class="modal fade" id="data-req">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Request Date Sheet</h4>
+      </div>
+      <div class="modal-body">
+		<form>
+		  <fieldset>
+
+		    <div class="form-group">
+		      <label for="inputEmail">Email</label>
+		      <input type="text" class="form-control" id="inputEmail" placeholder="">
+		    </div>
+		    <button type="submit" class="btn blue-but small pull-right">Request Date Sheet</button>
+		  </fieldset>
+		</form>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
