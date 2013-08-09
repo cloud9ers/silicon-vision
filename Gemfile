@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '1.9.2'
 gem 'rails', '3.2.13'
 group :assets do
   gem 'less-rails', '2.3.2'
