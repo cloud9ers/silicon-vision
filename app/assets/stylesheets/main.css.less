@@ -7,8 +7,8 @@
 @section_header_color:#0c81cf;
 @section_menu_bgcolor:#1d9eec;
 
-.modal-dialog{
-	width: 650px;
+.tleft{
+	text-align: left ;
 }
 
 h4.title{
@@ -128,20 +128,15 @@ body{
     background: url('sub-head-bg.png') no-repeat top center fixed;
 }
 .slide1{
-    background: url('1.png') no-repeat top center fixed;
+    background: url('sub-head-bg2.png') no-repeat top center fixed;
 }
 .slide2{
-    background: url('2.png') no-repeat top center fixed;
+    background: url('sub-head-bg3.png') no-repeat top center fixed;
 }
-.slide3{
-    background: url('3.png') no-repeat top center fixed;
-}
-.slide4{
-	background: url('4.png') no-repeat top center fixed;
-}
+
 .slider-header{
     margin-top: 25px;
-    padding-top: 120px;
+    padding-top: 90px;
     text-align: center;
     height: 350px;
     width: 100%;
@@ -168,6 +163,7 @@ body{
         left: 50%;
         z-index: 5;
         display: inline-block;
+        text-align: center;
     }
     .slider-prev:before {
         content: url("left-arrow.png");
@@ -176,6 +172,11 @@ body{
     .slider-next:before {
         content: url("right-arrow.png");
     }
+    p.desc{
+    	font-size: 14px;
+    	font-family: @main_font;
+    }
+
 }
 
 
@@ -465,8 +466,8 @@ body{
 .m50t{
 	margin-top: 50px;
 }
-.m50b{
-	margin-bottom: 50px;
+.mmt{
+	margin-top: 10px;
 }
 .fszs{
 	font-size: 12px
