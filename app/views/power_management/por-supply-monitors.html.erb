@@ -1,1 +1,109 @@
-por-supplymonitors
+<div class="head-strip">
+	<div class="container">
+		<h4 class="pull-left">
+			<strong>Silicon Vision's</strong> Intellectual Properties			
+		</h4>
+		<div  class="pull-right fszs">
+			<a href="#">Home</a> <span>/ IPs</span>
+		</div>
+	</div>
+</div>
+<!-- head strip end -->
+
+<%= render "snippets/ips-navbar" %>
+
+<div class="container ips-pages">
+	<div class="row">
+		<div class="col-lg-7">
+			<h3 class="m50b">
+				<img src="/assets/pm-icon-s.png" />
+				Power On Reset (POR) and Supply Monitors
+			</h3>
+		</div>
+		<div class="col-lg-5">
+			<button type="submit" class="btn blue-but small m30t m50b pull-right">
+				Download Product Brief
+			</button>
+			<button type="submit" class="btn blue-but small m30t m50b pull-right">
+				REQUEST DATA SHEET
+			</button>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8">
+			<p>
+				Silicon Vision IP library provide a wide variety of supply monitors that are highly required in most of high end SoCs. It is characterized by its ultra-low steady state current consumption and off-chip components. All supply monitors have a brown-out feature to trigger a reset signal when the supply drops to programmable threshold. The library is silicon verified on different technology nodes from 180nm to 65nm.
+ 			</p>
+ 			
+		</div>
+		<div class="col-lg-4 center-txt">
+			<a data-toggle="modal" href="#myModal">
+				<img src="/assets/por-s.jpg" />
+			</a>
+			<div class="modal fade" id="myModal">
+				<div class="modal-dialog">
+				  <div class="modal-content">
+				    <div class="modal-header">
+				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				      <h4 class="modal-title">Low Power Bluetooth</h4>
+				    </div>
+				    <div class="modal-body">
+				      <img src="/assets/por.jpg" />
+				    </div>
+				  </div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<h4>POR and Supply Monitor IPs</h4>
+ 			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Process</th>
+						<th>Status</th>
+						<th>Supply Voltage</th>
+						<th>Vth</th>
+						<th>Brown out Feature</th>
+						<th>steady state current</th>
+						<th>Minimum Reset Duration</th>
+					</tr>
+			    </thead>
+				<tbody>
+					<tr>
+						<td class="tleft"><strong>SiVi-POR6501</strong></td>
+						<td>TSMC-65nmG</td>
+						<td>Silicon Verified</td>
+						<td>1.5V ( /-10%)</td>
+						<td>0.8V</td>
+						<td>Yes</td>
+						<td>&lt;200pA</td>
+						<td>0.5ms</td>
+					</tr>
+					<tr>
+						<td class="tleft"><strong>SiVi-POR18001</strong></td>
+						<td>TSMC-180nmG</td>
+						<td>Silicon Verified</td>
+						<td>3V : 5.5V</td>
+						<td>1.2V</td>
+						<td>Yes</td>
+						<td>&lt;100pA</td>
+						<td>1ms</td>
+					</tr>
+					<tr>
+						<td class="tleft"><strong>SiVi-POR13001</strong></td>
+						<td>TSMC-130nmG</td>
+						<td>Silicon Verified</td>
+						<td>3V : 3.6V</td>
+						<td>1.2V</td>
+						<td>No</td>
+						<td>&lt;100pA</td>
+						<td>0.5ms</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
