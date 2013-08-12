@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 # mailchimp wrapper
-#gem 'hominid'
+# gem 'hominid'
 gem 'mailchimp'
 
 gem 'pry'
