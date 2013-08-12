@@ -1,12 +1,14 @@
   <div class="container">
       <div class="row">
         <h3 class="col-lg-6 col-lg-offset-3">Subscribe to our mail list to keep you updated </h3>
-        <div class="input-group col-lg-6 col-lg-offset-3">
-          <input type="text" placeholder="write your email" class="form-control">
-          <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">Go!</button>
-          </span>
-      </div><!-- /input-group -->
+        <%= form_tag(newsletters_subscribe_path(:format => 'json'), :id=>'subscribe-form', :class=>'input-group col-lg-6 col-lg-offset-3') do %>
+            <div style="margin-left:0;">
+              <%= email_field(:user, :address, :required => true, :placeholder => "write your email", :id =>"subscribe", :class => "form-control")%>
+            </div>
+            <span class="input-group-btn">
+              <%= submit_tag("Go!", :id=> 'subscribe-btn', :class => 'btn btn-primary')%>
+            </span>
+        <% end %>
       </div>
     </div>
 

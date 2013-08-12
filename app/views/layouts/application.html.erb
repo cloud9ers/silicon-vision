@@ -12,11 +12,68 @@
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
+  <%= render :partial => "layouts/snippets/flash_msg" %>
     <%= render "snippets/mainheader" %>
     <%= yield %>
     <div id="footer">
       <%= render "snippets/footer" %>
     </div>
     <%= javascript_include_tag "application" %>
+    <%= javascript_include_tag "jquery.scrollTo-min" %>
+  <script type="text/javascript" charset="utf-8">
+      function announceMessage(message, level) {
+          resetBox(function() {
+              $("#general-box").removeClass('hidden');
+              $("#general-box").addClass(level);
+              $("#general-box span").text(message);
+              $("#general-box").slideDown("normal");
+              $.scrollTo("#general-box", 500, {offset:{top:-100}});
+          });
+      }
+      function announceError(message)  { announceMessage(message, 'error')  }
+      function announceWarn(message)   { announceMessage(message, 'warn')   }
+      function announceNotice(message) { announceMessage(message, 'notice') }
+      function announceInfo(message)   { announceMessage(message, 'notice') }
+      function resetBox(callback) {
+          var element = $("#general-box");
+          if (element.is(":visible")) {
+              element.slideUp("normal", function() {
+                  element.removeClass('warn').removeClass('notice').removeClass('error');
+                  if (callback) {
+                      callback();
+                      return;
+                  }
+              });
+          }
+          if (callback) {
+              callback();
+          }
+      }
+
+      $(function() {
+          $('#subscribe-form').submit(function(e) {
+              e.preventDefault();
+              $.ajax({
+                  beforeSend: function () {
+                      $('#subscribe-btn').attr('disabled', 'disabled');
+                  },
+                  url: '<%= newsletters_subscribe_path(:format => 'json') %>',
+                  data: $('#subscribe-form').serialize(),
+                  success: function(data) {
+                      if(data.error) {
+                          announceError(data.error);
+                      } else if(data.success) {
+                          announceInfo(data.success);
+                      }
+                      $('#subscribe').val('');
+                      $('#subscribe-btn').removeAttr('disabled');
+                  },
+                  error: function(data) {
+                      announceError('Some error occured while processing your request. Please try again in a few minutes.');
+                  }
+              });
+          });
+      });
+  </script>
   </body>
 </html>

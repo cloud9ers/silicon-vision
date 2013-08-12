@@ -3,3 +3,9 @@
 
 en:
   hello: "Hello world"
+  subscribe_title: "Subscribe to our mailing list"
+  subscription_text: "You can now subscribe to our mailing list to receive news and updates about simtry. Enter your email address to subscribe."
+  successful_subscription: "You successfully subscribed to our mailing list. Check your mail for the confirmation message."
+  failed_subscription: "Sorry. We couldn't subscribe you right now. Please try again in a few minutes."
+  already_registered: "You are already a subscriber. Try another email address?"
+  invalid_address: "This is not a valid email address. Please check the address and try again."

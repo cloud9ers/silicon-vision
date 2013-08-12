@@ -1,0 +1,6 @@
+<div id="general-box" class="center pam bold large-bg <%= (flash.first==nil)? 'hidden' : flash.first.first.to_s %>" onclick="resetBox()">
+	<span><%= flash.first and flash.first.last %></span> 
+	<a href="#" class="right mrl sTxt" onclick="resetBox()">
+		<%=t :click_to_close %>
+	</a>
+</div>

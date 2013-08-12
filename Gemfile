@@ -19,6 +19,10 @@ group :development, :test do
   gem 'factory_girl_rails'
   gem 'rspec-rails'
 end
+
+# mailchimp wrapper
+gem 'hominid'
+
 # group :test do
 #   # gem 'capybara'
 #   gem 'cucumber-rails', :require=>false
