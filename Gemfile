@@ -11,7 +11,7 @@ gem 'figaro'
 gem 'rolify'
 gem 'simple_form'
 group :development do
-  # gem 'better_errors'
+  gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
   gem 'hub', :require=>nil
   gem 'quiet_assets'
@@ -22,7 +22,7 @@ group :development, :test do
 end
 
 # mailchimp wrapper
-#gem 'hominid'
+# gem 'hominid'
 gem 'mailchimp'
 
 gem 'pry'
