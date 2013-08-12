@@ -78,7 +78,7 @@ h4.title{
 	}
 }
 
-.blue-but.small{
+.blue-but.small, input[type="submit"]{
 	background: #1d9eec;
 	border-radius: 3px;
 	color: #fff !important;
@@ -156,7 +156,7 @@ body{
 	font-family: 'Kreon', serif;
 	font-size: 24px;
 
-	.btn{
+	.btn, input[type="submit"]{
 		font-family: @main_font;
 		color: #fff !important;
 		text-transform: uppercase;
@@ -421,7 +421,7 @@ body{
 			font-size: 18px;
 
 		}
-		input, textarea{
+		input[type="text"], textarea{
 			background: #f6f6f6;
 			border: 0;
 			width: 100%;
@@ -431,7 +431,7 @@ body{
 			border-radius: 3px;
 			height: 200px;
 		}
-		input{
+		input[type="text"]{
 			height: 35px;
 		}
 	}
@@ -461,7 +461,9 @@ body{
 }
 
 
-
+.np{
+	padding: 0 !important;
+}
 .mmt{
 	margin-top: 10px;
 }
@@ -479,6 +481,9 @@ body{
 }
 .m50t{
 	margin-top: 50px;
+}
+.m80t{
+	margin-top: 80px;
 }
 .mmt{
 	margin-top: 10px;
@@ -520,8 +525,22 @@ body{
 	}
 	h4{
 		margin-top: 30px;
+		line-height: 1.5em;
 	}
 	button{
 		margin-left: 15px;
 	}
+	.standalone-ip{
+		margin-top: 100px;
+		margin-bottom: 100px;
+
+		p{
+			padding: 40px 0;
+		}
+
+	}
+	a.blue-but{
+		margin-right: 20px;
+	}
 }
+

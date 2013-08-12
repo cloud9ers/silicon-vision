@@ -41,14 +41,19 @@ SiliconVesion::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
-  config.action_mailer.smtp_settings = {
-    address: "smtp.gmail.com",
-    port: 587,
-    domain: ENV["DOMAIN_NAME"],
-    authentication: "plain",
-    enable_starttls_auto: true,
-    user_name: ENV["GMAIL_USERNAME"],
-    password: ENV["GMAIL_PASSWORD"]
-  }
+  #newsletter settings
+  config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
 
+  #smtp settings
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => 'silicon-vision',
+      :user_name            => 'mohamed.daif.cloud9ers@gmail.com',
+      :password             => 'abudaif123456',
+      :authentication       => 'plain',
+      :enable_starttls_auto => true
+  }
+  config.receiver_address = "ashihaby@cloud9ers.com"
 end
