@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '1.9.2'
+ruby '2.0.0'
 gem 'rails', '3.2.13'
 group :assets do
   gem 'less-rails', '2.3.2'
@@ -11,7 +11,7 @@ gem 'figaro'
 gem 'rolify'
 gem 'simple_form'
 group :development do
-  # gem 'better_errors'
+  gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :rbx]
   gem 'hub', :require=>nil
   gem 'quiet_assets'
