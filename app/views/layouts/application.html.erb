@@ -70,6 +70,8 @@
                   },
                   error: function(data) {
                       announceError('Some error occured while processing your request. Please try again in a few minutes.');
+                      $('#subscribe').val('');
+                      $('#subscribe-btn').removeAttr('disabled');
                   }
               });
           });
