@@ -11,7 +11,7 @@ class HomeController < ApplicationController
   def applications
   end
   
-  def media
+  define_method('sivi-media') do
   end
   
   def careers

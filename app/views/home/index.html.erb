@@ -145,7 +145,7 @@
                   <div class="modal-body">
                     <p>Applications related to communications systems as zigbee like communications, DSL links and analog front ends.
                     Link to ISM TXRX</p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -172,7 +172,7 @@
                       Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
                       
                     </p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -198,7 +198,10 @@
                       Wireless Health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, Wireless health differs from mHealth in that wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas.
                       
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -224,7 +227,10 @@
                       Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
                       
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
