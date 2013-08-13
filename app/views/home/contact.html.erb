@@ -38,8 +38,14 @@
                       <%= text_field(:user, :inputname, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
+                        <label for="country">Countries</label>
+                        <%= select_tag(:country, :country, :required => true, :class => "form-control")%>
+                        <script language="javascript">print_country("country")</script>
+                      </div>
+
+                      <div class="form-group">
                         <label for="inputEmail">Email</label>
-                        <%= email_field(:user, :inputEmail, :required => true, :class => "form-control")%>
+                        <%= text_field(:user, :inputEmail, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
                         <label for="inputCompany">Company Name</label>
