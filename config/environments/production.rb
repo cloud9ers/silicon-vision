@@ -74,7 +74,8 @@ SiliconVesion::Application.configure do
   config.receiver_address = "info@cloud9ers.com"
 
   #newsletter settings
-  config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
+  #config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
+  config.mail_chimp_api_key = "ededfcfd9f52af734edf08af6926e914-us7"
 
   config.action_mailer.default_url_options = { :host => 'example.com' }
   # ActionMailer Config
