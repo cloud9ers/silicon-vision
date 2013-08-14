@@ -28,7 +28,7 @@
                   <div class="modal-body">
                     <p>Applications related to communications systems as zigbee like communications, DSL links and analog front ends.
                     Link to ISM TXRX</p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -55,7 +55,7 @@
                       Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
                       
                     </p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -81,7 +81,10 @@
                       Wireless Health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, Wireless health differs from mHealth in that wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas.
                       
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -107,7 +110,10 @@
                       Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
                       
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -134,7 +140,7 @@
                   <div class="modal-body">
                     <p>A tire pressure monitoring system (TPMS) is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMS report real-time tire-pressure information to the driver of the vehicle, either via a gauge, a pictogram display, or a simple low-pressure warning light. TPMS can be divided into two different types — direct (dTPMS) and indirect (iTPMS). TPMS are provided both at an OEM (factory) level as well as an aftermarket solution.
                   </p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -161,7 +167,7 @@
                       A wireless sensor network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc. and to cooperatively pass their data through the network to a main location,The development of wireless sensor networks was motivated by military applications such as battlefield surveillance; today such networks are used in many industrial process monitoring and control.
                       
                     </p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -186,7 +192,10 @@
                     <p>
                       Toys remote controls that are steerable with the use of radio control. All types of vehicles imaginable have had RC systems installed in them, including cars, boats, planes, and even helicopters and scale railway toys.
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -211,7 +220,10 @@
                     <p>
                       Home automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
                     </p>
-                    <a href="#">Data Converters IPs</a>
+                    <%= link_to('Data Converters IPs', {
+                    :controller => 'DataConverter',
+                    :action => 'index'
+                }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -237,7 +249,10 @@
                     <p>
                       PC peripherals are becoming more integrated of our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) through to entertainment (advanced navigation remotes for multi-media centers).
                     </p>
-                    <a href="#">Bluetooth Low Energy (BLE)</a>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -262,7 +277,7 @@
                     <p>
                       A wireless smart meter is usually an electrical meter that records consumption of electric energy in intervals of an hour or less and communicates wirelessly that information at least daily back to the utility for monitoring and billing purposes, Smart meters enable two-way communication between the meter and the central system.Such an advanced metering infrastructure(AMI)differs from traditional automatic meter reading (AMR) in that it enables two-way communications with the meter.
                     </p>
-                    <a href="#">Sub 1GHz Transceiver</a>
+                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->

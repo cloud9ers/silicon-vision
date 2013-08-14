@@ -39,8 +39,13 @@
                       </div>
                       <div class="form-group">
                         <label for="country">Countries</label>
-                        <%= select_tag(:country, :country, :required => true, :class => "form-control")%>
-                        <script language="javascript">print_country("country")</script>
+                 		<select name="country" id="country" class="form-control">
+						  <option value="USA">USA</option>
+						  <option value="China">China</option>
+						  <option value="Taiwan">Taiwan</option>
+						  <option value="Taiwan">WorledWide</option>
+						</select>
+						<!-- To Be Handled -->
                       </div>
 
                       <div class="form-group">
