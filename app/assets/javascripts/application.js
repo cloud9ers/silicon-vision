@@ -11,5 +11,5 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery-1.7.1.min.js
-//= require bootstrap
+
 //= require_tree .
