@@ -45,7 +45,10 @@ SiliconVesion::Application.configure do
   # => config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
   config.mail_chimp_api_key = "ededfcfd9f52af734edf08af6926e914-us7"
 
-  #smtp settings
+  # ActionMailer::Base.deliveries array.
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
