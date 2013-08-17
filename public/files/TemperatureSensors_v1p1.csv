@@ -1,4 +1,0 @@
-Items,Process,Status,One Point Calibration Mode,Accuracy without Calibration (ÃƒÂ±4 Co),Accuracy with Calibration (ÃƒÂ±1 Co),Reading Accuracy,Current Consumption,Product Brief
-SiVi-T4016,Toshiba-40nmG,Silicon Verified,Yes,in the range from -10 to 50 Co,in the range from -10 to 50 Co,16bit ADC,1.4mA,
-SiVi-T6516,TSMC-65nmG,Silicon Verified,Yes,in the range from -10 to 50 Co,in the range from -10 to 50 Co,16bit ADC,1.4mA,
-SiVi-T18009,TSMC-180nmG,Silicon Verified,Yes,in the range from -10 to 50 Co,in the range from -10 to 50 Co,9bi ADC,0.25mA,
