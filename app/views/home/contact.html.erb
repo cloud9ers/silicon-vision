@@ -1,3 +1,7 @@
+<% content_for :title do %>
+  Contact Us
+<% end %>
+
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
@@ -12,26 +16,38 @@
 <div id="contact-page">
 	<div class="loction">
 		<div id='map' class="pull-left">
-			<iframe width="100%" height="323" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Si-Vision,+79+Al-Moltaqa+Al-Araby+district,+Ahmed+Ismail+St.,+Sheraton,+Heliopolis,+Cairo,+Egypt,+Egypt&amp;output=embed"></iframe>
+			<iframe width="100%" height="348" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Si-Vision,+79+Al-Moltaqa+Al-Araby+district,+Ahmed+Ismail+St.,+Sheraton,+Heliopolis,+Cairo,+Egypt,+Egypt&amp;output=embed"></iframe>
 		</div>
 		<div id="address"class="pull-right">
 			<div class="fszl">
 				<strong>Silicon Vision HQ</strong>
-				<p class="mmt">79 Al-Moltaqa Al-Araby district, Ahmed Ismail St.
-				<br />
-				, Sheraton, Heliopolis, Cairo, Egypt</p>
-				<strong>Postal Code : </strong> 11361<br>
-				<strong>Tel : </strong>+202 22 69-2160, +202 22 69-7820 <br>
-				+1 949 204 3669 <br>
-				<strong>Fax : </strong>+202 22 69-2190
+				<p>
+					14 Manchester Square<br />
+					London W1U 3PP, United Kingdom
+				</p>
+				<strong>Sub location</strong>
+				<p>
+					79- AL-Moltaqa Al-Araby District,<br />
+					Sheraton Buildings, Heliopolis,<br />
+					Cairo, Egypt<br />
+					Postal Code: 11361<br />
+					<strong>Tel:</strong>  
+						+202 22 69-2160&nbsp;&nbsp;
+						+202 22 69-7820&nbsp;&nbsp;
+						+1 949 204 3669<br />
+					<strong>Fax:</strong> +202 22 69-2190
+				</p>
+				<p>
+					<strong>Email:</strong> info [AT] si-vision.com
+				</p>
 			</div>
 		</div>
 	</div>
-
 	<div class="container">
 		<div class="row m50t">
 			<div id="section-left" class="col-lg-6 pull-left">
 				<div id="contactus-forms">
+					<strong class="head">Sales Request</strong>
                   <%= form_tag('', :method=>"post") do %>
                       <div class="form-group">
                         <label for="name">Name</label>
@@ -43,6 +59,7 @@
 						  <option value="USA">USA</option>
 						  <option value="China">China</option>
 						  <option value="Taiwan">Taiwan</option>
+						  <option value="Korea">Korea</option>
 						  <option value="Egypt">Egypt</option>
 						  <option value="Taiwan">WorledWide</option>
 						</select>
@@ -68,60 +85,69 @@
                       </div>
                       <%= submit_tag("Submit", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
                   <% end %>
+                  <br />&nbsp;
 
 				</div>
 			</div>
 
 			<div id="section-right" class="col-lg-5 col-lg-offset-1 pull-right">
 				<div id="sales-rep">
-					<strong id="head">Sales Representatives</strong>
+					<strong class="head">Sales Representatives</strong>
 					<p class="mmt">Check our Available representatives in different countries, if you didn't find one in your country please contact us.</p>
 					<ul>
 						<li>
 							<div class="rep-header">
-								<img src="assets/usa-flag-icon.png">
-								IP-Semantics -
-								<strong> USA</strong>
-							</div>
-							<p>2901 Tasman Dr.Suite 113, Santa Clara, CA - 95054
-							</p>
-							<a href="mailto:sales@ip-semantics.com">sales@ip-semantics.com</a><br>
-							<a href="www.ip-semantics.com">www.ip-semantics.com</a>
-						</li>
-						<li>
-							<div class="rep-header">
 								<img src="assets/china-flag-icon.png">
-								S2C -
 								<strong> China</strong>
 							</div>
-							<p>
-								Rm.15J, World plaza, 885 Pudong South Road Shanghai 200120, China
-							</p>
-							<strong>Tel:</strong> +86 21 68879287
-							<br><strong>Fax:</strong> +86 21 68879289
-
-							<br><strong>Local Hotline:</strong> 400 8888 427
+							<a href="mailto:china-sales@si-vision.com">
+								china-sales@si-vision.com
+							</a>
 						</li>
 						<li>
 							<div class="rep-header">
 								<img src="assets/Taiwan-flag-icon.png">
-								Quantek -
 								<strong> Taiwan</strong>
 							</div>
-							<p>3F, No.18-3, MinCyuan E.RD, Sec.6 NeiHu District, Taipi city 11466 Taiwan, R.O.C
-							</p>
-							<strong>Tel:</strong> 8886-2-2790-0400
-							<br><strong>Fax:</strong> 8886-2-2790-2250
-							<br><a href="mailto:sales@quantekcorp.com">sales@quantekcorp.com</a><br>
+							<a href="mailto:taiwan-sales@si-vision.com">
+								taiwan-sales@si-vision.com
+							</a>
+						</li>
+						<li>
+							<div class="rep-header">
+								<img src="assets/japan.png">
+								<strong> Japan</strong>
+							</div>
+							<a href="mailto:japan-sales@si-vision.com">
+								japan-sales@si-vision.com
+							</a>
+						</li>
+						<li>
+							<div class="rep-header">
+								<img src="assets/usa-flag-icon.png">
+								<strong> USA</strong>
+							</div>
+							<a href="mailto:usa-sales@si-vision.com">
+								usa-sales@si-vision.com
+							</a>
+						</li>
+						<li>
+							<div class="rep-header">
+								<img src="assets/korea.png">
+								<strong> Korea</strong>
+							</div>
+							<a href="mailto:korea-sales@si-vision.com">
+								korea-sales@si-vision.com
+							</a>
 						</li>
 						<li>
 							<div class="rep-header">
 								<img src="assets/worldwide-icon.png">
-								T2M -
 								<strong> WorldWide</strong>
 							</div>
-							<strong>Tel:</strong> +49-89-89-9-94-92
-							<br><a href="mailto:info@t-2-m.com">info@t-2-m.com</a><br>
+							<a href="worldwide-sales@si-vision.com">
+								worldwide-sales@si-vision.com
+							</a>
 						</li>
 					</ul>
 				</div>

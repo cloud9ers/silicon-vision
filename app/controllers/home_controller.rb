@@ -13,6 +13,9 @@ class HomeController < ApplicationController
   
   define_method('sivi-media') do
   end
+
+  define_method('white-papers') do
+  end
   
   def careers
   end

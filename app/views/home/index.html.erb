@@ -1,11 +1,13 @@
-
+<% content_for :title do %>
+  Home
+<% end %>
 
 <!-- slider -->
 
 <div id="main-slider" class="carousel slide">
     <div class="carousel-inner">
         <div class="slider-header slidehead item active">
-                <p class="lead col-lg-8 col-lg-offset-2"><strong>Silicon Vision is a leading IP provider of high-performance, low power radio frequency intellectual property (RFIPs).</strong>
+                <p class="lead col-lg-8 col-lg-offset-2"><strong>Silicon Vision is a leading provider of high-performance, low power radio frequency intellectual property (RFIPs).</strong>
                 </p>
                 <div class="col-lg-8 col-lg-offset-2">
                   <a class="blue-but" href="/about">Learn More About Silicon Vision</a>
@@ -13,14 +15,12 @@
         </div>
         <div class="slider-header slide1 item">
             <div class="row">
-                <div class="col-lg-3 col-lg-offset-2">
-                  <img src="assets/rf-icon.png" />
-                </div>
-                <div class="col-lg-5 tleft">
-                  <p>Radio Frequency (RF) IPs</p>
-                  <p class="desc">Silicon Vision RFIPs are focused on low power wireless domain. Several customers all over the globe use our RFIPs. Datasheets and Demo boards are available for all the available IPs 
+                <div class="col-lg-6 col-lg-offset-3">
+                  <p class="h2">Radio Frequency (RF) IPs</p>
+                  <p class="desc bold" >Silicon Vision RFIPs are focused on low power wireless domain. Several customers all over the globe use our RFIPs.
                   </p>
-                  <a class="blue-but" href="/">See more about RFIPs</a>
+                  <br />
+                  <a class="blue-but" href="/">See more about Radio Frequency IPs</a>
 
               </div>
 
@@ -30,17 +30,14 @@
         <div class="slider-header slide2 item">
             <div class="row">
                 
-                <div class="col-lg-5 col-lg-offset-3 tleft">
-                  <p>Power Manegement Units IPs</p>
-                  <p class="desc">RFIPs Silicon Vision PMU IP list contains a groups of high end building blocks that are optimum for building state of the art SoCs (high efficient low quiescent current DC-DC buck converters, high precision ultra-low power voltage references, and etc..) 
+                <div class="col-lg-8 col-lg-offset-2">
+                  <p class="h2">Power Manegement IPs</p>
+                  <p class="desc bold">RFIPs Silicon Vision PMU IP list contains a groups of high end building blocks that are optimum for building state of the art SoCs
                   </p>
-                  <a class="blue-but" href="/about">See more about PMIPs</a>
+                  <br />
+                  <a class="blue-but" href="/about">See more about Power Manegement IPs</a>
 
               </div>
-              <div class="col-lg-3 tleft">
-                  <img src="assets/pm-icon.png" />
-                </div>
-
             </div>
         </div>
 
@@ -60,7 +57,8 @@
   <div class="container">
     <div class="row">
       <p class="col-lg-10 col-lg-offset-1">
-        <strong>Silicon Vision </strong>had been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF circuit and systems design, digital design and backend design.
+        <strong>Silicon Vision</strong> had been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe.Silicon Vision team has broad experience in RF circuit and systems design, digital design and backend design.
+
       </p>
     </div>
   </div>
@@ -71,50 +69,52 @@
     <div class="row">
       <h3>Silicon Vision Offers a Portfolio Of High Performance IPs</h3>
       <%= render "snippets/ips-icons" %>
-      <p class="col-lg-10 col-lg-offset-1">Silicon Vision offers a portfolio of high performance IPs focusing on Radio frequency (RF), Power Management (PM), data-converters (DC), and other AMS IPs. Our IPs are silicon proven over several process nodes, also demo boards are available for most of the IPs. Our IPs are used in millions of devices selling in the market. </p>
+      <p class="col-lg-10 col-lg-offset-1">Silicon Vision offers a portfolio of high performance IPs that focus on Radio frequency (RF), Power Management (PM), data-converters (DC) and other AMS IPs. Our IPs are silicon proven over several process nodes,  demo boards are also available for most of the IPs. Our IPs are used in millions of devices in the market.</p>
     </div>
   </div>
 </div>
 
 <!-- latest news -->
-<div id="latest-news" class="container">
+<div id="latest-news" >
   
-
+<div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <h4 class="title"><strong>Latest</strong> News</h4>
-      <div class="list-group">
-        <a href="/sivi-media#participated-dac2013" class="list-group-item clearfix">
-          <img class="pull-left" src="/assets/dac-news.png">
-          <h4 class="list-group-item-heading pull-left">Silicon Vision participates at Global Forum, DAC 2013</h4>
-          <p class="list-group-item-text pull-left">July 7, 2013</p>
-        </a>
-        <a href="/sivi-media#participated-mwc2013" class="list-group-item clearfix">
-          <img class="pull-left" src="/assets/mwc-news-sm.png">
-          <h4 class="list-group-item-heading pull-left">Silicon Vision at Mobile Worled Conferance 2013</h4>
-          <p class="list-group-item-text pull-left">July 7, 2013</p>
-        </a>
+      <h4 class="title">Latest News</h4>
+      <div class="media-list">
+        <div class="media">
+          <img class="pull-left media-object" src="/assets/dac-news.png" >
+          <div class="media-body">
+            <a href="/sivi-media#participated-dac2013">
+              <h4 class="media-heading">Silicon Vision participates at Global Forum, DAC 2013</h4>
+            </a>
+            <p>July 7, 2013</p>
+          </div>
+        </div>
 
-        <a href="/sivi-media#sivi-cef2013" class="list-group-item clearfix">
-          <img class="pull-left" src="/assets/cef-news-sm.png">
-          <h4 class="list-group-item-heading pull-left">Silicon Vision participates at the CEF 2013</h4>
-          <p class="list-group-item-text pull-left">JJuly 7, 2013</p>
-        </a>
+        <div class="media">
+          <img class="pull-left media-object" src="/assets/mwc-news-sm.png" >
+          <div class="media-body">
+            <a href="/sivi-media#participated-dac2013">
+              <h4 class="media-heading">Silicon Vision at Mobile Worled Conferance 2013</h4>
+            </a>
+            <p>July 7, 2013</p>
+          </div>
+        </div>
+
       </div>
+
     </div>
 
     <div class="col-lg-6">
-      <h4 class="title">Sales Representetives</h4>
+      <h4 class="title">Contact Us</h4>
       <p>
-        Check our Available representatives in different countries, if you didnt find one in your country please contact us on the Contact Form.
-        <a href="/contact">Check Our Sales Representetives</a>
+        Feel free to contact us any time or contact our <a href="/contact">Sales Representetives</a> in different countries, if you didnt find one in your country please contact us on the Contact Form.
+        <br />
+        Check Out our latest AMS and RF IPs <a href="/contact"> here </a> , you can press on request data sheet button to fill in your E-mail for data sheet request.
+        
       </p>
 
-      <h4 class="title m50t">Request Data Sheets</h4>
-      <p>
-        Check Out our latest AMS and RF IPs , you can press on request data sheet button to fill in your data for data sheet request
-        <a href="/ips">Request Data Sheets</a>
-      </p>
 
     </div>
 
@@ -122,6 +122,7 @@
 
 
   </div>
+</div>
 
 </div>
 <!-- latest news End -->

@@ -1,3 +1,7 @@
+<% content_for :title do %>
+  Data Converters IPs 
+<% end %>
+
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
@@ -51,9 +55,6 @@
 		<div class="col-lg-12">
 			<h4 class="pull-left">DAC IPs</h4> 
 			<div class="pull-right">
-				<a class="blue-but small m30t m50b pull-right" data-toggle="modal" href="#data-req">
-					REQUEST DATA SHEET
-				</a>
 			</div>
  			<table class="table table-striped m80t">
 				<thead>
@@ -67,6 +68,7 @@
 						<th>Gain Error</th>
 						<th>DC Error</th>
 						<th>Bandwidth</th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -80,6 +82,15 @@
 						<td>+/-10% FS</td>
 						<td>+/- 0.5 LSB</td>
 						<td>0.5MHz to 5MHz</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDAC6501</strong></td>
@@ -91,6 +102,15 @@
 						<td>+/- 10% FS</td>
 						<td>+/- 0.5 LSB</td>
 						<td>DC</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-CDAC180</strong></td>
@@ -102,6 +122,15 @@
 						<td>+/- 10% FS</td>
 						<td>+/- 0.5 LSB</td>
 						<td>up to 2MHz</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDAC130</strong></td>
@@ -113,6 +142,15 @@
 						<td>+/- 10% FS</td>
 						<td>+/- 0.5 LSB</td>
 						<td>6MHz</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-JDAC180</strong></td>
@@ -124,6 +162,15 @@
 						<td>+/- 10% FS</td>
 						<td>+/- 0.5 LSB</td>
 						<td>DC</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 				</tbody>
 			</table>
@@ -133,9 +180,6 @@
 		<div class="col-lg-12">
 			<h4 class="pull-left">ADC IPs</h4>
 			<div class="pull-right">
-				<a class="blue-but small m30t m50b pull-right" data-toggle="modal" href="#data-req">
-					REQUEST DATA SHEET
-				</a>
 			</div>
  			<table class="table table-striped m80t">
 				<thead>
@@ -145,9 +189,10 @@
 						<th>Status</th>
 						<th>ENOB</th>
 						<th>SNDR</th>
-						<th>Sampling Frequency</th>
+						<th>Sampling<br />Frequency</th>
 						<th>Signal BW</th>
 						<th>Input Differential<br />Dynamic Range</th>
+						<th></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -160,6 +205,15 @@
 						<td>36 MHz</td>
 						<td>1.1 MHz</td>
 						<td>4 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDADC1601</strong></td>
@@ -170,6 +224,15 @@
 						<td>8 MHz</td>
 						<td>DC</td>
 						<td>1.2 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDADC1602</strong></td>
@@ -180,6 +243,15 @@
 						<td>8 MHz</td>
 						<td>DC</td>
 						<td>2.4 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDADC1603</strong></td>
@@ -190,6 +262,15 @@
 						<td>16 MHz</td>
 						<td>DC</td>
 						<td>2.4 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SDADC1202</strong></td>
@@ -200,6 +281,15 @@
 						<td>32 MHz</td>
 						<td>DC</td>
 						<td>6.6 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SAADC0901</strong></td>
@@ -210,16 +300,34 @@
 						<td>0.2 MHz</td>
 						<td>DC</td>
 						<td>1.2 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-SAADC1301</strong></td>
-						<td>TSMC-180nm G non pure 5V</td>
+						<td>TSMC-180nm G<br />non pure 5V</td>
 						<td>Silicon Verified</td>
 						<td>13 bits</td>
 						<td>68 dB</td>
 						<td>0.2 MHz</td>
 						<td>DC</td>
 						<td>Up to 3.5V</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-PADC1001</strong></td>
@@ -230,6 +338,15 @@
 						<td>150 MHz</td>
 						<td>75 MHz</td>
 						<td>1 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-PADC1002</strong></td>
@@ -240,6 +357,15 @@
 						<td>36 MHz</td>
 						<td>7 MHz</td>
 						<td>1 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-PADC1003</strong></td>
@@ -250,6 +376,15 @@
 						<td>50 MHz</td>
 						<td>25 MHz</td>
 						<td>1.2 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-PADC1004</strong></td>
@@ -260,6 +395,15 @@
 						<td>32 MHz</td>
 						<td>8 MHz</td>
 						<td>1.0 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-13AD205B</strong></td>
@@ -270,6 +414,15 @@
 						<td>205 MHz</td>
 						<td>100 MHz</td>
 						<td>1.0 Vppd</td>
+						<td>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 				</tbody>
 			</table>

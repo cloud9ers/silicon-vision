@@ -7,6 +7,39 @@
 @section_header_color:#0c81cf;
 @section_menu_bgcolor:#1d9eec;
 
+.btn-group, .drp-ips{
+	.btn-default{
+		color: #333;
+		border-color: #333;
+		background-color: #fff;
+		&:hover{
+			background-color: #ebebeb;
+		}
+	}
+	.btn-xs{
+		font-size: 12px;
+		line-height: 1.5;
+		padding: 3px 5px;
+	}
+	.caret{
+		border-top-color: #000;
+	}
+	ul{
+		padding: 3px 0;
+	}
+	li{
+		font-size: 12px;
+	}
+	a{
+		color: #333 !important;
+		&:hover{
+			color: #333 !important;
+			background-color: #ebebeb !important;
+			background-image: none !important;
+		}
+	}
+}
+
 .tleft{
 	text-align: left ;
 }
@@ -130,10 +163,10 @@ body{
     background: url('sub-head-bg.png') no-repeat top center fixed;
 }
 .slide1{
-    background: url('sub-head-bg2.png') no-repeat top center fixed;
+    background: url('radio-frequency-slider.jpg') no-repeat 0 -70px fixed;
 }
 .slide2{
-    background: url('sub-head-bg3.png') no-repeat top center fixed;
+    background: url('sub-head-bg3.png') repeat -300px -250px fixed;
 }
 
 .slider-header{
@@ -190,9 +223,6 @@ body{
 	padding:1em 0;
 }
 
-#latest-news , #apps-section{
-	margin-top: 30px;
-}
 
 #ips-section{
 	text-align: center;
@@ -232,8 +262,12 @@ body{
 }
 
 #latest-news{
-		a{
-				p,h4{
+	margin-top: 40px;
+	background: url('shadow-sep.png') no-repeat top center;
+	padding-top:100px;
+	padding-bottom: 100px;
+		.media-list{
+			p,h4{
 					font-size: 16px;
 					font-family: @main_font;
 					font-weight: 300;
@@ -245,19 +279,12 @@ body{
 				p{
 					color: #c3c3c3;
 				}
+
+				a:hover{
+					text-decoration: underline;
+				}
 		}
-	.news-item{
-		.news-head{
-			
-			padding-top: 5px;
-			font-family: @main_font;
-			font-size: 12px;
-			
 
-
-
-		}
-	}
 }
 
 #apps-section{
@@ -411,12 +438,16 @@ body{
 		color: #ffffff;
 		width: 45%;
 		div{
-			margin: 66px 0px 66px 35px;
+			margin: 15px 0px 15px 35px;
 			font-size: 14px;
 		}
 	}
 
 	#contactus-forms{
+		.head{
+			font-size: 20px;
+			color: @main_color;
+		}
 		margin-left: 140px;
 		label{
 			display: block;
@@ -442,7 +473,7 @@ body{
 
 	#sales-rep{
 		font-size: 16px;
-		#head{
+		.head{
 			font-size: 20px;
 			color: @main_color;
 		}
@@ -512,6 +543,9 @@ body{
 }
 .fwn{
 	font-weight: 300;
+}
+.bold{
+	font-weight: bold;
 }
 
 /* IPs Page */
