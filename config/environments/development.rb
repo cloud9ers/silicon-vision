@@ -45,7 +45,10 @@ SiliconVesion::Application.configure do
   # => config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
   config.mail_chimp_api_key = "ededfcfd9f52af734edf08af6926e914-us7"
 
-  #smtp settings
+  # ActionMailer::Base.deliveries array.
+  config.action_mailer.delivery_method = :test
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       :address              => "smtp.gmail.com",
@@ -56,5 +59,13 @@ SiliconVesion::Application.configure do
       :authentication       => 'plain',
       :enable_starttls_auto => true
   }
-  config.receiver_address = "ashihaby@cloud9ers.com"
+  config.receiver_address = {
+      'USA'    => 'usa-sales@si-vision.com'  ,
+      'China'  => 'china-sales@si-vision.com',
+      'Taiwan' => 'taiwan-sales@si-vision.com',
+      'Egypt'  => 'worldwide-sales@si-vision.com',
+      'Japan'  => 'japan-sales@si-vision.com',
+      'Korea'  => 'korea-sales@si-vision.com',
+      'worldWide' => 'worldwide-sales@si-vision.com'
+  }
 end

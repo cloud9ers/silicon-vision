@@ -23,7 +23,7 @@ class HomeController < ApplicationController
   def contact
     if request.post?
       Rails.logger.debug {"User #{params["user"]["name"]} is sending a message"}
-      user = {:name=>params["user"]["name"], :email=>params["user"]["email"]}
+      user = params["user"]
       msg = params["message"]
       begin
         ContactMailer.email_message(user, msg).deliver

@@ -50,37 +50,38 @@
 					<strong class="head">Sales Request</strong>
                   <%= form_tag('', :method=>"post") do %>
                       <div class="form-group">
-                        <label for="inputname">Name</label>
-                      <%= text_field(:user, :inputname, :required => true, :class => "form-control")%>
+                        <label for="name">Name</label>
+                      <%= text_field(:user, :name, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for="country">Countries</label>
-                 		<select name="country" id="country" class="form-control">
+                        <label for='user_country'>Countries</label>
+                 		<select id="user_country" name='user[country]' class="form-control">
 						  <option value="USA">USA</option>
 						  <option value="China">China</option>
-						  <option value="Taiwan">Taiwan</option>
+						  <option value="Japan">Japan</option>
+                          <option value="Egypt">Egypt</option>
 						  <option value="Korea">Korea</option>
 						  <option value="Egypt">Egypt</option>
-						  <option value="Taiwan">WorledWide</option>
+						  <option value="WorldWide">WorldWide</option>
 						</select>
 						<!-- To Be Handled -->
                       </div>
 
                       <div class="form-group">
-                        <label for="inputEmail">Email</label>
-                        <%= text_field(:user, :inputEmail, :required => true, :class => "form-control")%>
+                        <label for="email">Email</label>
+                        <%= text_field(:user, :email, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for="inputCompany">Company Name</label>
-                        <%= text_field(:user, :inputCompany, :class => "form-control")%>
+                        <label for="company">Company Name</label>
+                        <%= text_field(:user, :company, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for="inputMsg">Message</label>
-                        <%= text_area_tag(:inputMsg, "",  :required => true)%>
+                        <label for="message">Message</label>
+                        <%= text_area_tag(:message, "",  :required => true)%>
                       </div>
                       <div class="form-group">
-                        <label for="inputIp">Requested IP Number</label>
-                        <%= text_field(:user, :inputIp, :class => "form-control")%>
+                        <label for="ip">Requested IP Number</label>
+                        <%= text_field(:user, :ip, :class => "form-control")%>
                         <p class="help-block">In case of Data Sheet Request.</p>
                       </div>
                       <%= submit_tag("Submit", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
