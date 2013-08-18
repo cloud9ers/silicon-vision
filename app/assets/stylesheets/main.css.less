@@ -580,8 +580,27 @@ body{
 		margin-top: 100px;
 		margin-bottom: 100px;
 
-		p{
+/*		p{
 			padding: 40px 0;
+		}*/
+		ul.nav{
+			a{
+				color: #434343 !important;
+				background: #f7f7f7; 
+				margin-top: 10px;
+				font-size: 16px;
+				font-weight: 300;
+
+				&:hover{
+					color:#fff !important;
+				}
+			}
+			li:hover{
+				a{
+					background: @main_color !important;
+				}
+				
+			}
 		}
 
 	}
@@ -589,4 +608,23 @@ body{
 		margin-right: 20px;
 	}
 }
+#general-box{
+	height: 100px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	width:100%;
+	background: rgba(57,181,74,0.9);
+	color: #fff;
+	z-index: 99999;
+	padding-top: 20px;
 
+	a{
+		color: #fff !important;
+		&:hover{
+			text-decoration:underline;
+		} 
+	}
+
+}

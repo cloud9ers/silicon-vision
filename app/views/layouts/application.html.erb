@@ -12,7 +12,7 @@
     <%= yield(:head) %>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
-  <%= render :partial => "layouts/snippets/flash_msg" %>
+    <%= render :partial => "layouts/snippets/flash_msg" %>
     <%= render "snippets/mainheader" %>
     <%= yield %>
     <div id="footer">
@@ -26,7 +26,7 @@
           resetBox(function() {
               $("#general-box").removeClass('hidden');
               $("#general-box").addClass(level);
-              $("#general-box span").text(message);
+              $("#general-box p").text(message);
               $("#general-box").slideDown("normal");
               $.scrollTo("#general-box", 500, {offset:{top:-100}});
           });

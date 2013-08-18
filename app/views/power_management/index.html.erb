@@ -19,12 +19,53 @@
 <div class="container ips-pages">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 standalone-ip">
-			<div class="col-lg-3 pull-left"><img src="/assets/pm-icon.png" /></div>
-			<p class="col-lg-8 pull-right tleft np">
-				Radio Frequency (RF) IPs Silicon Vision PMU IP list contains a groups of high end building blocks that are optimum for building state of the art SoCs. The main building blocks include high efficient low quiescent current DC-DC buck converters, high precision ultra-low power voltage references, high accurate temperature sensors and battery management solutions. In addition to the availability of the main building blocks, Si-Vision provide full customization for complete PMUs with different flavors
-
-
-			</p>
+			<div class="col-lg-3 pull-left">
+				<img src="/assets/pm-icon.png" />
+			</div>
+			<div class="col-lg-8 pull-right tleft np">
+				<p>
+					Radio Frequency (RF) IPs Silicon Vision PMU IP list contains a groups of high end building blocks that are optimum for building state of the art SoCs. The main building blocks include high efficient low quiescent current DC-DC buck converters, high precision ultra-low power voltage references, high accurate temperature sensors and battery management solutions. In addition to the availability of the main building blocks, Si-Vision provide full customization for complete PMUs with different flavors.
+				</p>
+				<h4>Power Manegment IPs Includs :</h4>
+				<ul class="nav nav-pills nav-stacked">
+					<li>
+                        <%= link_to('Band Gap Refrence ips-pmu-bgr', {
+                            :controller => 'PowerManagement',
+                            :action => 'band-gap-reference'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to('DC-DC Buck Converters ips-pmu-dcb', {
+                            :controller => 'PowerManagement',
+                            :action => 'dc-dc-buck-converters'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to('Temperature Sensors ips-pmu-ts', {
+                            :controller => 'PowerManagement',
+                            :action => 'temperature-sensors'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to('Power On Reset (POR)', {
+                            :controller => 'PowerManagement',
+                            :action => 'por-supply-monitors'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to('Linear Charger ips-pmu-lc', {
+                            :controller => 'PowerManagement',
+                            :action => 'linear-chargers'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to('Low Drop-Out Regulators(LDO)', {
+                            :controller => 'PowerManagement',
+                            :action => 'loe-drop-out-regulators'
+                        }) %>
+                    </li>
+				</ul>
+			</div>
 		</div>
 		
 	</div>
