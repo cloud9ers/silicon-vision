@@ -10,6 +10,7 @@
     <%= stylesheet_link_tag "bootstrap", "main", :media => "all" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
   </head>
   <body class="<%= controller_name %> <%= action_name %>">
     <%= render :partial => "layouts/snippets/flash_msg" %>
@@ -21,6 +22,7 @@
     <%= javascript_include_tag "countries2" %>
     <%= javascript_include_tag "application" %>
     <%= javascript_include_tag "jquery.scrollTo-min" %>
+
   <script type="text/javascript" charset="utf-8">
       function announceMessage(message, level) {
           resetBox(function() {
