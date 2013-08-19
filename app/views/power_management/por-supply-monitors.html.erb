@@ -9,7 +9,19 @@
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
-			<span>/ IPs</span>
+			<span>/ 
+				<%= link_to('IPs', {
+                    :controller => 'home',
+                    :action => 'ips'
+                }) %>
+			</span>
+			<span>/ 
+				<%= link_to('Power Manegment', {
+                    :controller => 'PowerManagement',
+                    :action => 'index'
+                }) %>
+			</span>
+			<span>/ Power On Reset</span>
 		</div>
 	</div>
 </div>
