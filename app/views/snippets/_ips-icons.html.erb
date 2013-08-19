@@ -1,4 +1,4 @@
-<div class="col-lg-8 col-lg-offset-2">
+<div class="col-lg-8 col-lg-offset-2 visible-lg">
   <ul class="nav nav-pills">
     <li>
     	<%= link_to('Radio Frequency IPs', {
@@ -27,6 +27,40 @@
     		:action => 'index'
     	},
     	{:class => 'ams'}) %>
+    </li>
+  </ul>
+</div>
+
+
+<div class="hidden-lg row">
+  <ul class="nav nav-pills">
+    <li>
+        <%= link_to('Radio Frequency IPs', {
+            :controller => 'RadioFrequency',
+            :action => 'index'
+        },
+        {:class => 'rf'}) %>
+    </li>
+    <li>
+        <%= link_to('Power Manegement IPs', {
+            :controller => 'PowerManagement',
+            :action => 'index'
+        },
+        {:class => 'pm'}) %>
+    </li>
+    <li>
+        <%= link_to('Data Coverters IPs', {
+            :controller => 'DataConverter',
+            :action => 'index'
+        },
+        {:class => 'dc'}) %>
+    </li>
+    <li>
+        <%= link_to('AMS IPs', {
+            :controller => 'Ams',
+            :action => 'index'
+        },
+        {:class => 'ams'}) %>
     </li>
   </ul>
 </div>

@@ -1,13 +1,22 @@
 <div id="main-header" class="navbar navbar-fixed-top">
   <div class="container">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <%= link_to(image_tag("Logo.png", :border=>0), {:controller => 'home', :action => 'index'}, {:class => 'navbar-brand'}) %>
-      <div class="nav-collapse pull-right collapse">
+    <%= link_to(image_tag("Logo.png", :border=>0), {:controller => 'home', :action => 'index'}, {:class => 'navbar-brand visible-lg'}) %>
+
+      <div class="nav-collapse pull-right visible-lg">
         <ul class="nav navbar-nav">
+          <li><%= link_to('HOME', {:controller => 'home', :action => 'index'}) %></li>
+          <li><%= link_to('ABOUT US', {:controller => 'home', :action => 'about'}) %></li>
+          <li><%= link_to('IPs', {:controller => 'home', :action => 'ips'}) %></li>
+          <li><%= link_to('APPLICATIONS', {:controller => 'home', :action => 'applications'}) %></li>
+          <li><%= link_to('LATEST NEWS', {:controller => 'home', :action => 'sivi-media'}) %></li>
+          <li><%= link_to('CAREERS', {:controller => 'home', :action => 'careers'}) %></li>
+          <li><%= link_to('CONTACT US', {:controller => 'home', :action => 'contact'}) %></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+
+      <%= link_to(image_tag("Logo.png", :border=>0), {:controller => 'home', :action => 'index'}, {:class => 'm20t center-txt hidden-lg'}) %>
+      <div class="hidden-lg">
+        <ul class="nav nav-pills">
           <li><%= link_to('HOME', {:controller => 'home', :action => 'index'}) %></li>
           <li><%= link_to('ABOUT US', {:controller => 'home', :action => 'about'}) %></li>
           <li><%= link_to('IPs', {:controller => 'home', :action => 'ips'}) %></li>

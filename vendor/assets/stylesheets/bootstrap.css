@@ -4510,6 +4510,9 @@ a.list-group-item.active > .badge,
 .clearfix:after {
   clear: both;
 }
+.clear{
+  clear: both;
+}
 
 .pull-right {
   float: right;
