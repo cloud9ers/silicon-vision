@@ -446,12 +446,14 @@
       </div>
       <div class="modal-body">
         <%= form_tag('', :method=>"post") do %>
-		    <div class="form-group">
-		      <label for="email">Email</label>
-              <%= email_field(:request, :email, :required => true, :class => "form-control")%>
-               <%= hidden_field(:request, :product, :id => "product", :class => "form-control")%>
-               <%= submit_tag("Request Date Sheet", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
-            </div>
+        	<fieldset>
+			    <div class="form-group">
+			      <label for="email">Email</label>
+	              <%= email_field(:request, :email, :required => true, :class => "form-control")%>
+	               <%= hidden_field(:request, :product, :id => "product", :class => "form-control")%>
+	            </div>
+	            <%= submit_tag("Request Date Sheet", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
+        	</fieldset>
 		<%end%>
       </div>
     </div><!-- /.modal-content -->
