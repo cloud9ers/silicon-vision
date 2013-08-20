@@ -22,6 +22,7 @@
     <%= javascript_include_tag "countries2" %>
     <%= javascript_include_tag "application" %>
     <%= javascript_include_tag "jquery.scrollTo-min" %>
+    <%= yield(:javascript) %>
 
   <script type="text/javascript" charset="utf-8">
       function announceMessage(message, level) {

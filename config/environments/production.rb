@@ -71,8 +71,17 @@ SiliconVesion::Application.configure do
       :enable_starttls_auto => true
   }
 
-  config.receiver_address = "info@cloud9ers.com"
+  config.receiver_address = {
+      'USA'    => 'usa-sales@si-vision.com'  ,
+      'China'  => 'china-sales@si-vision.com',
+      'Taiwan' => 'taiwan-sales@si-vision.com',
+      'Egypt'  => 'worldwide-sales@si-vision.com',
+      'Japan'  => 'japan-sales@si-vision.com',
+      'Korea'  => 'korea-sales@si-vision.com',
+      'worldWide' => 'worldwide-sales@si-vision.com'
+  }
 
+  config.datasheets_receiver_address = "ngamal@cloud9ers.com"
   #newsletter settings
   #config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
   config.mail_chimp_api_key = "ededfcfd9f52af734edf08af6926e914-us7"

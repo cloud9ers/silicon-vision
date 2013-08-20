@@ -68,4 +68,7 @@ SiliconVesion::Application.configure do
       'Korea'  => 'korea-sales@si-vision.com',
       'worldWide' => 'worldwide-sales@si-vision.com'
   }
+
+  config.datasheets_receiver_address = "ashihaby@cloud9ers.com"
+
 end
