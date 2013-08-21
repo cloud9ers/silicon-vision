@@ -7,8 +7,18 @@
 	<form>
 	  <fieldset>
 	    <div class="form-group">
-	      <label for="inputEmail">Email</label>
-	      <input type="text" class="form-control" id="inputEmail" placeholder="">
+	      <label for="request_name">Name</label>
+	      <%= text_field(:request, :name, :required => true, :class => "form-control")%>
+
+	      <label for="request_email">Email</label>
+	      <%= text_field(:request, :email, :required => true, :class => "form-control")%>
+
+	      <label for="request_title">Title</label>
+	      <%= text_field(:request, :title, :required => true, :class => "form-control")%>
+
+	      <label for="request_company">Company</label>
+	      <%= text_field(:request, :company, :required => true, :class => "form-control")%>
+
 	    </div>
 	    <button type="submit" class="btn blue-but small pull-right">Request Date Sheet</button>
 	  </fieldset>
