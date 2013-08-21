@@ -439,24 +439,7 @@
 
 <div class="modal fade" id="data-req">
   <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title">Request Date Sheet</h4>
-      </div>
-      <div class="modal-body">
-        <%= form_tag('', :method=>"post") do %>
-        	<fieldset>
-			    <div class="form-group">
-			      <label for="email">Email</label>
-	              <%= email_field(:request, :email, :required => true, :class => "form-control")%>
-	               <%= hidden_field(:request, :product, :id => "product", :class => "form-control")%>
-	            </div>
-	            <%= submit_tag("Request Date Sheet", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
-        	</fieldset>
-		<%end%>
-      </div>
-    </div><!-- /.modal-content -->
+    <%= render "snippets/data-request-form" %>
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
