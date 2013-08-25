@@ -75,7 +75,7 @@ SiliconVesion::Application.configure do
       'USA'    => 'usa-sales@si-vision.com'  ,
       'China'  => 'china-sales@si-vision.com',
       'Taiwan' => 'taiwan-sales@si-vision.com',
-      'Egypt'  => 'worldwide-sales@si-vision.com',
+      'Egypt'  => 'info@si-vision.com',
       'Japan'  => 'japan-sales@si-vision.com',
       'Korea'  => 'korea-sales@si-vision.com',
       'worldWide' => 'worldwide-sales@si-vision.com'
