@@ -20,7 +20,7 @@
             <a class="app-caption" data-toggle="modal" href="#com-sys">
               <img class="img-thumbnail" src="/assets/comunication-system.png">
               <span class="caption">
-                <p>COMMUNICATION SYSTEM</p>  
+                <p>COMMUNICATION SYSTEMS</p>  
               </span>
             </a>
             <div class="modal fade" id="com-sys">
@@ -28,11 +28,12 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Comunication System</h4>
+                    <h4 class="modal-title">Comunication Systems</h4>
                   </div>
                   <div class="modal-body">
                     <p>Applications related to communications systems such as zigbee like communications, DSL links and analog front ends.</p>
                     <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to('Video Analog Front-Ends IPs', {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -43,7 +44,7 @@
             <a class="app-caption" data-toggle="modal" href="#wireless-ind">
               <img class="img-thumbnail" src="/assets/2.png">
               <span class="caption">
-                <p>Wirless Industrial control</p>  
+                <p>Industrial Control (Wireless Machine to Machine M2M)</p>  
               </span>
             </a>
 
@@ -52,11 +53,11 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wirless Industrial control</h4>
+                    <h4 class="modal-title">Industrial Control (Wireless Machine to Machine M2M)</h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
+                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
                       
                     </p>
                     <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
@@ -82,7 +83,7 @@
                   </div>
                   <div class="modal-body">
                     <p>
-                      Wireless Health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, Wireless health differs from M-Health because wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas.
+                      Wireless health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, as well as other tools that can help individuals improve their personal health and well-being. Wireless health differs from mhealth in that wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas while improving productivity and convenience through data transmission.
                       
                     </p>
                     <%= link_to('Bluetooth Low Energy (BLE)', {
@@ -111,8 +112,7 @@
                   </div>
                   <div class="modal-body">
                     <p>
-                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
-                      
+                      A remote control is a component of an electronic device, most commonly a television set, DVD player and home theater systems originally used for operating the device wirelessly from a short line-of-sight distance. Remote control has continually evolved and advanced over recent years to include Bluetooth low energy connectivity, motion sensorenabled capabilities and voice control.
                     </p>
                     <%= link_to('Bluetooth Low Energy (BLE)', {
                             :controller => 'RadioFrequency',
@@ -168,8 +168,7 @@
                   </div>
                   <div class="modal-body">
                     <p>
-                      A wireless sensor network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc. and to cooperatively pass their data through the network to a main location,The development of wireless sensor networks was motivated by military applications such as battlefield surveillance; today such networks are used in many industrial process monitoring and control.
-                      
+                      A wireless sensor network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc. and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance; today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
                     </p>
                     <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
@@ -182,7 +181,7 @@
             <a class="app-caption" data-toggle="modal" href="#toys">
               <img class="img-thumbnail" src="/assets/remote-control-toys.png">
               <span class="caption">
-                <p>Remote control toys</p>  
+                <p>Remote Controls for Toys</p>  
               </span>
             </a>
                <div class="modal fade" id="toys">
@@ -190,7 +189,7 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Remote control toys</h4>
+                    <h4 class="modal-title">Remote Controls for Toys</h4>
                   </div>
                   <div class="modal-body">
                     <p>
@@ -210,7 +209,7 @@
             <a class="app-caption" data-toggle="modal" href="#home-auto">
               <img class="img-thumbnail" src="/assets/home-automation.png">
               <span class="caption">
-                <p>Home Automation, security ...</p>  
+                <p>Wireless Home Automation</p>  
               </span>
             </a>
             <div class="modal fade" id="home-auto">
@@ -218,16 +217,20 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Home Automation, security and Alarm</h4>
+                    <h4 class="modal-title">Wireless Home Automation</h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Home automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
+                      Home automation is the residential extension of building automation. It is automation of the home, ho     usework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
                     </p>
                     <%= link_to('Data Converters IPs', {
                     :controller => 'DataConverter',
                     :action => 'index'
-                }) %>
+                    }) %>
+                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    :controller => 'RadioFrequency',
+                    :action => 'bluetooth-low-energy'
+                    }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -267,7 +270,7 @@
             <a class="app-caption" data-toggle="modal" href="#smart-meter">
               <img class="img-thumbnail" src="/assets/smart-meter.png">
               <span class="caption">
-                <p>smart meters</p>  
+                <p>Wireless Smart Meters</p>  
               </span>
             </a>
             <div class="modal fade" id="smart-meter">
@@ -275,11 +278,11 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">smart meter</h4>
+                    <h4 class="modal-title">Wireless Smart Meters</h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      A wireless smart meter is usually an electrical meter that records consumption of electric energy in intervals of an hour or less and communicates wirelessly that information at least daily back to the utility for monitoring and billing purposes, Smart meters enable two-way communication between the meter and the central system.Such an advanced metering infrastructure(AMI)differs from traditional automatic meter reading (AMR) in that it enables two-way communications with the meter.
+                      A wireless smart meter is usually an electrical meter that records the consumption of electric energy in intervals of an hour or less and communicates wirelessly that information at least daily back to the utility for monitoring and billing purposes. [7] Smart meters enable two-way communication between the meter and the central system. Unlike home energy monitors, smart meters can gather data for remote reporting. Such an advanced metering infrastructure (AMI) differs from traditional automatic meter reading (AMR) in that it enables two-way communications with the meter.
                     </p>
                     <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
