@@ -50,28 +50,35 @@
  			<p>
 				Silicon Vision, Inc. ESI-TRX401 device is a fully integrated single-chip radio transceiver operating on 433MHz/868MHz/915MHz ISM frequency bands, compatible with IEEE 802.15.4g standard. Transmitter output power ranges from -10 to +15 dBm, while receiver sensitivity is -110 dBm at 19.2kbps rate​.
  			</p>
- 			<h4>Features:</h4>
- 			<ul>
-				<li>Frequency range 400-960MHz, with FSK/GFSK</li>
-				<li>Sensitivity = -110 dBm @ 19.2kbps</li>
-				<li>Output power range : -10 – +15 dBm</li>
-				<li>Ultra low power consumption</li>
-			</ul>
-			<div class="btn-toolbar">
-				<div class="btn-group">
-					<a class="btn btn-default btn-xs" data-toggle="modal" href="#data-req">
-						Request Data Sheet
-					</a>
-					<button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
-						<span class="caret"></span>
-					</button>
-					<ul class="dropdown-menu">
-						<li>
-			        		<%= link_to 'Download Product Brief', '/files/ESI-TRX401.pdf', :target => '_blank' %>
-			        	</li>
-					</ul>
+ 			<div class="col-lg-6">
+ 				<h4 class="pull-left">Features:</h4>
+
+ 				<div class="pull-right btn-toolbar m30t">
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+							Select Action
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+				        		<%= link_to 'Download Product Brief', '/files/ESI-TRX401.pdf', :target => '_blank' %>
+				        	</li>
+				        	<li>
+				        		<a data-toggle="modal" href="#data-req">Request Data Sheet</a>
+				        	</li>
+						</ul>
+					</div>
 				</div>
-			</div>
+
+
+				<ul class="clear">
+					<li>Frequency range 400-960MHz, with FSK/GFSK</li>
+					<li>Sensitivity = -110 dBm @ 19.2kbps</li>
+					<li>Output power range : -10 – +15 dBm</li>
+					<li>Ultra low power consumption</li>
+				</ul>
+ 			</div>
+
 			<br />
 		</div>
 		<div class="col-lg-4 center-txt">
