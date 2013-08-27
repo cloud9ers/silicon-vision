@@ -442,22 +442,3 @@
     <%= render "snippets/data-request-form" %>
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
-
-<% content_for :javascript do %>
-<script>
-$(document).on("click", ".data-req-btn", function () {
-var requestId = $(this).data('id');
-$(".modal-body #product").val( requestId );
-});
-$('#data-req form').on("submit", function(e) {
-    e.preventDefault();
-    console.log($(this).serialize())  ;
-    $.ajax({
-        type: "POST",
-        url: "/aj/datasheets/request",
-        data: $(this).serialize()
-    }).done(function(res) {$('.modal').modal("hide");announceInfo(res["msg"]) ;})
-            .fail(function() { $('.modal').modal("hide");announceError(res["msg"]) ;});
-});
-</script>
-<% end %>
