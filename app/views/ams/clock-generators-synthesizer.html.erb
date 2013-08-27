@@ -84,7 +84,7 @@
 				<tbody>
 					<tr>
 						<td class="tleft"><strong>SiVi-NPLL1G65</strong></td>
-						<td>TSMC-65nm G</td>
+						<td>TSMC-65nm-G</td>
 						<td>Silicon Verified</td>
 						<td>25MHz</td>
 						<td>1GHz</td>
@@ -102,22 +102,30 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL4G65</strong></td>
-						<td>TSMC-65nm G</td>
+						<td>TSMC-65nm-G</td>
 						<td>Silicon Verified</td>
 						<td>300MHz to 550MHz</td>
 						<td>1.25GHz : 3.4GHz</td>
 						<td>&lt; 7ps</td>
 						<td>&lt;10mA</td>
-						<td nowrap>Ferrari Slave PLL<br />current consumptions</td>
+						<td nowrap>
+							<div class="btn-toolbar">
+								<div class="btn-group">
+									<a data-id="SiVi-FPLL128M130" class="btn btn-primary btn-xs" data-toggle="modal" href="#data-req">
+										Request Data Sheet
+									</a>
+								</div>
+							</div>
+						</td>
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL128M130</strong></td>
-						<td>TSMC-130nm G</td>
+						<td>TSMC-130nm-G</td>
 						<td>Silicon Verified</td>
 						<td>10MHz to 20MHz</td>
 						<td>(8, 32, 64, 128)MHz</td>
-						<td>1MHz to 8MHz 120ps</td>
-						<td>&lt;5mA</td>
+						<td>120ps (1MHz to 8MHz)</td>
+						<td>5mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
 								<div class="btn-group">
@@ -130,11 +138,11 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-NPLL1P25G65</strong></td>
-						<td>TSMC-65nm G</td>
-						<td>GDS</td>
+						<td>TSMC-65nm-G</td>
+						<td>GDSII</td>
 						<td>25MHz</td>
 						<td>1.25GHz</td>
-						<td>(BER 10-12) < 150ps</td>
+						<td>< 150ps (BER 10e-12) </td>
 						<td>&lt;6mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
@@ -148,7 +156,7 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-NPLL70M180</strong></td>
-						<td>TSMC-180nm G</td>
+						<td>TSMC-180nm-G</td>
 						<td>Silicon Verified</td>
 						<td>35MHz and 70MHz</td>
 						<td>(640, 70, 35)MHz</td>
@@ -166,7 +174,7 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-NPLL32M180</strong></td>
-						<td>Jazz- 180nm G</td>
+						<td>Jazz- 180nm-G</td>
 						<td>Silicon Verified</td>
 						<td>161MHz</td>
 						<td>2.576GHz</td>
@@ -184,7 +192,7 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL600M180</strong></td>
-						<td>SMIC-180nm G</td>
+						<td>SMIC-180nm-G</td>
 						<td>Silicon Verified</td>
 						<td>up to 150MHz</td>
 						<td></td>
@@ -200,23 +208,29 @@
 							</div>
 						</td>
 					</tr>
-					<tr class="success">
-						<td><strong>RMS Phase error</strong></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
-						<td></td>
+				</tbody>
+			</table>
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Process</th>
+						<th>Status</th>
+						<th>Input<br />frequency</th>
+						<th>Output<br />clock frequency</th>
+						<th>RMS Phase Error</th>
+						<th>Current<br />consumption</th>
+						<th></th>
 					</tr>
+				</thead>
+				<tbody>
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL0P9G180</strong></td>
-						<td>TSMC-180nm G</td>
+						<td>TSMC-180nm-G</td>
 						<td>Silicon Verified</td>
 						<td>13MHz to 26MHz</td>
 						<td>0.4GHz to 1.05GHz</td>
-						<td>< 1.2 o</td>
+						<td>< 1.2 deg</td>
 						<td>< 4.5 mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
@@ -230,11 +244,11 @@
 					</tr>
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL2P4G180</strong></td>
-						<td>TSMC-180nm G</td>
+						<td>TSMC-180nm-G</td>
 						<td>Silicon Verified</td>
 						<td>13MHz, 26MHz, 52MHz</td>
 						<td>2.4GHz to 2.5GHz</td>
-						<td>< 1.8 o</td>
+						<td>< 1.8 deg</td>
 						<td>< 5 mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
@@ -249,10 +263,10 @@
 					<tr>
 						<td class="tleft"><strong>SiVi-FPLL2P4G130</strong></td>
 						<td>GSMC-130nm</td>
-						<td></td>
+						<td>GDSII</td>
 						<td>13MHz, 26MHz, 52MHz</td>
 						<td>2.4GHz to 2.5GHz</td>
-						<td>< 1.8 o</td>
+						<td>< 1.8 deg</td>
 						<td>< 4 mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
