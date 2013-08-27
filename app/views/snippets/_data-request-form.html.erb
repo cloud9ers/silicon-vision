@@ -1,4 +1,4 @@
-<div class="modal-content">
+<div class="modal-content"  id="data-req">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
     <h4 class="modal-title">Request Date Sheet</h4>
@@ -12,8 +12,9 @@
 
 	      <label for="request_email">Email</label>
 	      <%= text_field(:request, :email, :required => true, :class => "form-control")%>
+          <%= hidden_field(:request, :product, :id => "product", :class => "form-control")%>
 
-	      <label for="request_title">Title</label>
+          <label for="request_title">Title</label>
 	      <%= text_field(:request, :title, :required => true, :class => "form-control")%>
 
 	      <label for="request_company">Company</label>
