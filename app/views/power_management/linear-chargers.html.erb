@@ -96,12 +96,19 @@
 						<td>30 mins</td>
 						<td>30 mins</td>
 						<td nowrap>
-							<div class="btn-toolbar">
-								<div class="btn-group">
-									<a class="btn btn-primary btn-xs" data-id="SiVi-LiCH5V1A" data-toggle="modal" href="#data-req">
-										Request Data Sheet
-									</a>
-								</div>
+							<div class="btn-group pull-left">
+								<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+									Download
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu">
+									<li>
+						        		<%= link_to 'Download Product Brief', '/files/SVI-LiCH5V1A.pdf', :target => '_blank' %>
+						        	</li>
+						        	<li>
+						        		<a data-id="SiVi-LiCH5V1A" class="data-req-btn" data-toggle="modal" href="#data-req">Request Data Sheet</a>
+						        	</li>
+								</ul>
 							</div>
 						</td>
 					</tr>
