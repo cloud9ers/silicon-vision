@@ -8,13 +8,13 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li>
-                        <%= link_to('Bluetooth Low Energy (BLE)', {
+                        <%= link_to('Bluetooth Low Energy Radio (BLE)', {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
                     </li>
                     <li>
-                        <%= link_to('Sub 1GHz Tx/Rx', {
+                        <%= link_to('High Performance ISM Transceiver', {
                             :controller => 'RadioFrequency',
                             :action => 'sub-1ghz'
                         }) %>
@@ -27,19 +27,19 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li>
-                        <%= link_to('Band Gap Refrence ips-pmu-bgr', {
+                        <%= link_to('Band Gap Refrences', {
                             :controller => 'PowerManagement',
                             :action => 'band-gap-reference'
                         }) %>
                     </li>
                     <li>
-                        <%= link_to('DC-DC Buck Converters ips-pmu-dcb', {
+                        <%= link_to('DC-DC Buck Converters', {
                             :controller => 'PowerManagement',
                             :action => 'dc-dc-buck-converters'
                         }) %>
                     </li>
                     <li>
-                        <%= link_to('Temperature Sensors ips-pmu-ts', {
+                        <%= link_to('Temperature Sensors', {
                             :controller => 'PowerManagement',
                             :action => 'temperature-sensors'
                         }) %>
@@ -51,13 +51,13 @@
                         }) %>
                     </li>
                     <li>
-                        <%= link_to('Linear Charger ips-pmu-lc', {
+                        <%= link_to('Linear Chargers', {
                             :controller => 'PowerManagement',
                             :action => 'linear-chargers'
                         }) %>
                     </li>
                     <li>
-                        <%= link_to('Low Drop-Out Regulators(LDO)', {
+                        <%= link_to('Low Drop-Out Regulators', {
                             :controller => 'PowerManagement',
                             :action => 'loe-drop-out-regulators'
                         }) %>
