@@ -68,7 +68,7 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>Clock Generatos and Synthesizer IPs</h4>
+			<h4>Clock Generator IPs</h4>
  			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -114,16 +114,25 @@
 						<td class="tleft"><strong>SiVi-FPLL4G65</strong></td>
 						<td>TSMC-65nm-G</td>
 						<td>Silicon Verified</td>
-						<td>300MHz to 550MHz</td>
+						<td>300 to 550MHz</td>
 						<td>1.25GHz : 3.4GHz</td>
 						<td>&lt; 7ps</td>
 						<td>&lt;10mA</td>
 						<td nowrap>
 							<div class="btn-toolbar">
 								<div class="btn-group">
-									<a data-id="SiVi-FPLL128M130" class="btn btn-primary btn-xs" data-toggle="modal" href="#data-req">
-										Request Data Sheet
-									</a>
+									<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+										Download
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+										<li>
+							        		<%= link_to 'Download Product Brief', '/files/SVI-FPLL4G65.pdf', :target => '_blank' %>
+							        	</li>
+							        	<li>
+							        		<a data-id="SiVi-FPLL4G655" class="data-req-btn" data-toggle="modal" href="#data-req">Request Data Sheet</a>
+							        	</li>
+									</ul>
 								</div>
 							</div>
 						</td>
@@ -132,7 +141,7 @@
 						<td class="tleft"><strong>SiVi-FPLL128M130</strong></td>
 						<td>TSMC-130nm-G</td>
 						<td>Silicon Verified</td>
-						<td>10MHz to 20MHz</td>
+						<td>10 to 20MHz</td>
 						<td>(8, 32, 64, 128)MHz</td>
 						<td>120ps (1MHz to 8MHz)</td>
 						<td>5mA</td>
@@ -265,6 +274,7 @@
 					</tr>
 				</tbody>
 			</table>
+			<h4>Frequency Synthesizer IPs</h4>
 			<table class="table table-striped">
 				<thead>
 					<tr>
