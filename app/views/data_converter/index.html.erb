@@ -215,9 +215,18 @@
 						<td nowrap>
 							<div class="btn-toolbar">
 								<div class="btn-group">
-									<a class="btn btn-primary data-req-btn btn-xs" data-id="SiVi-SDADC1201" data-toggle="modal" href="#data-req">
-										Request Data Sheet
-									</a>
+									<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+										Download
+										<span class="caret"></span>
+									</button>
+									<ul class="dropdown-menu">
+										<li>
+							        		<%= link_to 'Download Product Brief', '/files/SVI-SDADC1201.pdf', :target => '_blank' %>
+							        	</li>
+							        	<li>
+							        		<a data-id="SiVi-SDADC1201" class="data-req-btn" data-toggle="modal" href="#data-req">Request Data Sheet</a>
+							        	</li>
+									</ul>
 								</div>
 							</div>
 						</td>
