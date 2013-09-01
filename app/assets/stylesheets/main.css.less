@@ -7,6 +7,7 @@
 @section_header_color:#0c81cf;
 @section_menu_bgcolor:#1d9eec;
 
+
 .btn-group, .drp-ips{
 	.btn-default{
 		color: #333;
@@ -302,6 +303,7 @@ body{
 				}
 				p{
 					color: #c3c3c3;
+					text-align: justify;
 				}
 
 				a:hover{
@@ -380,6 +382,7 @@ body{
 }
 
 #about-page{
+	text-align: justify;
 	img{
 		text-align: center;
 		padding-top: 30px;
@@ -414,7 +417,9 @@ body{
 	.date{
 		font-size: 12px;
 	}
-
+	a.btn{
+		color: #fff !important;
+	}
 	ul.nav{
 		margin-top: 50px;
 
@@ -437,12 +442,30 @@ body{
 		right: -20px;
 		color: #fff;
 		display: block;
-		padding: 13px 20px;
+		padding: 10px 15px;
 		width: 60px;
 		height: 60px;
 		font-size: 14px;
 		font-weight: 800;
-		line-height: 1em;
+		line-height: 1.3em;
+	}
+	p{
+		text-align: justify;
+	}
+
+	ul.nav-stacked{
+		li{
+			margin-top: 10px;
+			a{
+				background: @main_color;
+				color: #fff !important;
+
+				&:hover{
+					background:@hover-links;
+				}
+			}
+		}
+		
 	}
 }
 
@@ -634,7 +657,7 @@ body{
 }
 
 .ips-pages{
-	background: url('shadow-sep.png') no-repeat top center;
+	background: url('shadow-sep.png') no-repeat top center;\
 	h3{
 		img{
 			margin-right: 15px;
@@ -647,13 +670,16 @@ body{
 	button{
 		margin-left: 15px;
 	}
+	p{
+		text-align: justify;
+	}
 	.standalone-ip{
 		margin-top: 100px;
 		margin-bottom: 100px;
 
-/*		p{
-			padding: 40px 0;
-		}*/
+		p{
+			text-align: justify;
+		}
 		ul.nav{
 			padding-bottom: 30px;
 			a{
