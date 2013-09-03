@@ -647,6 +647,8 @@ body{
 	margin-bottom: 0 !important;
 	ul{
 		/*text-align: right;*/
+		
+		
 		li.open{
 			a{
 				background: none !important;
@@ -656,6 +658,7 @@ body{
 		ul.dropdown-menu{
 			right: 15px;
 			top: 75%;
+			width: 250px;
 		}
 	}
 }
@@ -750,9 +753,40 @@ body{
 
 }
 
-@media all and (max-width: 716px){
+@media all and (max-width: 758px){
 	body{
-		padding-top: 150px !important;
+		padding-top: 170px !important;
+
+
+		.head-strip{
+			padding: 10px 10px !important;
+			.pull-left{
+				margin-right: 20px;
+			}
+			.pull-right{
+				float: left;
+			}
+		}
+	}
+
+}
+
+@media all and (max-width: 406px){
+	body{
+		padding-top: 210px !important;
+
+		.head-strip{
+			padding: 15px 10px !important;
+			.pull-left{
+				margin-right: 20px;
+			}
+			.pull-right{
+				float: left;
+			}
+		}
+
+		
+
 	}
 
 }
