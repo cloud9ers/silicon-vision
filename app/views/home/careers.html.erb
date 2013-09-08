@@ -1,0 +1,55 @@
+<% content_for :title do %>
+  Careers
+<% end %>
+
+<div class="head-strip">
+	<div class="container">
+		<h4 class="pull-left">
+			<strong>Silicon Vision's</strong> careers		
+		</h4>
+		<div  class="pull-right fszs">
+			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
+			<span>/ Careers</span>
+		</div>
+	</div>
+</div>
+<!-- head strip end -->
+<div id="careers-page" class="container">
+	<h3>Join our team...</h3>
+	<p>
+		If you want to join a fast growing Analog/Mixed Signal Team, work in an environment which encourage innovation and productivity, and get competitive benefits and compensations, please send your updated resume on <a href="mailto:careers@si-vision.com">careers@si-vision.com</a>
+	</p>
+
+	<h4>RF/Analog Design</h4>
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<%= link_to 'RF IC Design Engineer', '/files/RFICDesignEngineer.pdf', :target => '_blank' %>
+		</li>
+		<li>
+			<%= link_to 'RF IC Senior Design Engineer', '/files/RFICSeniorDesignEngineer.pdf', :target => '_blank' %>
+		</li>
+		<li>
+			<%= link_to 'Analog IC Senior Design Engineer', '/files/AnalogICSeniorDesignEngineer.pdf', :target => '_blank' %>
+		</li>
+	</ul>
+
+	<h4>Layout/Backend Design</h4>
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<%= link_to 'IC Layout Engineer', '/files/ICLayoutEngineer.pdf', :target => '_blank' %>
+		</li>
+	</ul>
+
+	<h4>Digital Design/Verification</h4>
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<%= link_to 'AMS Verification Engineer Contract', '/files/AMSVerificationEngineerContract.pdf', :target => '_blank' %>
+		</li>
+		<li>
+			<%= link_to 'AMS Verification Engineer', '/files/AMSVerificationEngineer.pdf', :target => '_blank' %>
+		</li>
+		<li>
+			<%= link_to 'Digital Design Engineer', '/files/DigitalDesignEngineer.pdf', :target => '_blank' %>
+		</li>
+	</ul>
+</div>
