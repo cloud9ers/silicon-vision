@@ -158,6 +158,7 @@ body{
     background: #fff;
     -webkit-box-shadow:  0px 4px 0px 1px rgba(0, 0, 0, 0.1);
     box-shadow:  0px 4px 0px 1px rgba(0, 0, 0, 0.1);
+    
     .nav-pills{
     	a:hover{
     		background:none;
@@ -216,13 +217,20 @@ body{
         display: inline-block;
         text-align: center;
     }
-    .slider-prev:before {
-        content: url("left-arrow.png");
+    .slider-prev {
+        background-image: url("left-arrow2x.png");
+	    background-size: 35px 35px;
+	        width: 35px;
+	        height: 35px;
     }
 
-    .slider-next:before {
-        content: url("right-arrow.png");
+    .slider-next {
+        background-image: url("right-arrow2x.png");
+        background-size: 35px 35px;
+	        width: 35px;
+	        height: 35px;
     }
+
     p.desc{
     	font-size: 21px;
     	font-family: @sec_font;
@@ -267,16 +275,28 @@ body{
 				}
 			}
 			a.rf{
-				background: url('rf-icon.png') no-repeat top center;
+				background: url('rf-icon2x.png') no-repeat top center;
+				background-size: 172px 172px;
+				width: 172px;
+				height: 172px;
 			}
 			a.dc{
-				background: url('dc-icon.png') no-repeat top center;
+				background: url('dc-icon2x.png') no-repeat top center;
+				background-size: 172px 172px;
+				width: 172px;
+				height: 172px;
 			}
 			a.pm{
-				background: url('pm-icon.png') no-repeat top center;
+				background: url('pm-icon2x.png') no-repeat top center;
+				background-size: 172px 172px;
+				width: 172px;
+				height: 172px;
 			}
 			a.ams{
-				background: url('AMS-icon.png') no-repeat top center;
+				background: url('AMS-icon2x.png') no-repeat top center;
+				background-size: 172px 172px;
+				width: 172px;
+				height: 172px;
 			}
 		}
 	}
