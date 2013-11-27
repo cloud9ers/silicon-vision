@@ -12,4 +12,18 @@ module ApplicationHelper
     html.html_safe
   end
 
+  def get_localized_path(lang)
+    current_path = request.fullpath
+
+    ["en", "ch", "ja"].each do |g|
+      current_path.gsub! "/#{g}", ""
+    end
+
+    if current_path == "/" || current_path.blank?
+      "/#{lang}"
+    else
+      "/#{lang}#{current_path}"
+    end
+  end
+
 end
