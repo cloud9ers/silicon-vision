@@ -1,0 +1,19 @@
+en:
+  home: Home
+  si_vi:  Silicon Vision
+  si_vi_short_desc:  A leading IP provider of high performance Silicon IPs
+  si_vi_learn_more:  LEARN MORE ABOUT SILICON VISION
+  rf_ips:  RADIO FREQUENCY RF IPs
+  rf_ips_desc:  Silicon Vision RF IPs are focused on low power wireless domain
+  rf_ips_see_more:  SEE MORE ABOUT RADIO FREQUENCY IPs
+  pm_ips:  Power Management IPs
+  pm_ips_desc: Optimized PM IPs for building state of the art SoCs
+  pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IPs
+  si_vi_intro_1: Silicon Vision Technologies Ltd. has been in business since 2007, with more than 350 years of collective experience and serving Class A customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Power Management, Digital and Backend Designs.
+  si_vi_offers:  Silicon Vision Offers a Selection of High Performance IPs
+  si_vi_offer_1:  Radio Frequency IPs
+  si_vi_offer_2: Power Management IPs
+  si_vi_offer_3: Data Coverter IPs
+  si_vi_offer_4: AMS IPs
+  si_vi_intro_2: Silicon Vision offers a portfolio of high performance IPs that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IPs. Our IPs are silicon proven over several process nodes. Demo Boards are also available for most of the IPs.
+  si_vi_intro_3: Our IPs are used in millions of devices in the market all over the globe.
