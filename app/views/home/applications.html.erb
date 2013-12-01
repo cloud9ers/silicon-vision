@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Applications
+  <%= t :apps %>
 <% end %>
 
 <% content_for :description do %>
-  Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), data-converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes, demo boards are also available for most of the IP. Our IP are used in millions of devices in the market
+  <%= t :ips_desc %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Applications		
+  <%= t :apps_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -28,7 +28,7 @@
             <a class="app-caption" data-toggle="modal" href="#com-sys">
               <img class="img-thumbnail" src="/assets/comunication-system.png">
               <span class="caption">
-                <p>COMMUNICATION SYSTEMS</p>  
+                <p><%= t :app_comm_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="com-sys">
@@ -36,12 +36,12 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Comunication Systems</h4>
+                    <h4 class="modal-title"><%= t :app_comm_0 %></h4>
                   </div>
                   <div class="modal-body">
-                    <p>Applications related to communications systems such as zigbee like communications, DSL links and analog front ends.</p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
-                    <%= link_to('Video Analog Front-Ends IP', {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
+                    <p><%= t :app_comm_1 %></p>
+                    <%= link_to(t(:app_comm_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_comm_3), {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -52,7 +52,7 @@
             <a class="app-caption" data-toggle="modal" href="#wireless-ind">
               <img class="img-thumbnail" src="/assets/2.png">
               <span class="caption">
-                <p>Industrial Control (Wireless Machine to Machine M2M)</p>  
+                <p><%= t :app_industrial_ctrl_0 %></p>  
               </span>
             </a>
 
@@ -61,14 +61,14 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Industrial Control (Wireless Machine to Machine M2M)</h4>
+                    <h4 class="modal-title"><%= t :app_industrial_ctrl_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
+<%= t :app_industrial_ctrl_1 %>
                       
                     </p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_industrial_ctrl_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -79,7 +79,7 @@
             <a class="app-caption" data-toggle="modal" href="#health">
               <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
               <span class="caption">
-                <p>Wirless health monitors</p>  
+                <p><%= t :app_wireless_monitors_0 %></p>  
               </span>
             </a>
                <div class="modal fade" id="health">
@@ -87,14 +87,14 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wirless health monitors</h4>
+                    <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Wireless health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, as well as other tools that can help individuals improve their personal health and well-being. Wireless health differs from mhealth in that wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas while improving productivity and convenience through data transmission.
+<%= t :app_wireless_monitors_1 %>
                       
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_wireless_monitors_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -108,7 +108,7 @@
             <a class="app-caption" data-toggle="modal" href="#remote-control">
               <img class="img-thumbnail" src="/assets/4.png">
               <span class="caption">
-                <p>Advanced remote controls</p>  
+                <p><%= t :app_remote_controls_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="remote-control">
@@ -116,13 +116,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Advanced remote controls</h4>
+                    <h4 class="modal-title"><%= t :app_remote_controls_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      A remote control is a component of an electronic device, most commonly a television set, DVD player and home theater systems originally used for operating the device wirelessly from a short line-of-sight distance. Remote control has continually evolved and advanced over recent years to include Bluetooth low energy connectivity, motion sensorenabled capabilities and voice control.
+<%= t :app_remote_controls_1 %>
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_remote_controls_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -139,7 +139,7 @@
             <a class="app-caption" data-toggle="modal" href="#tire-pres">
               <img class="img-thumbnail" src="/assets/Tire-pressure-monitoring.png">
               <span class="caption">
-                <p>Tire pressure monitoring</p>  
+                <p><%= t :app_tire_pressure_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="tire-pres">
@@ -147,12 +147,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Tire Pressure Monitoring</h4>
+                    <h4 class="modal-title"><%= t :app_tire_pressure_0 %></h4>
                   </div>
                   <div class="modal-body">
-                    <p>A tire pressure monitoring system (TPMS) is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMS report real-time tire-pressure information to the driver of the vehicle, either via a gauge, a pictogram display, or a simple low-pressure warning light. TPMS can be divided into two different types — direct (dTPMS) and indirect (iTPMS). TPMS are provided both at an OEM (factory) level as well as an aftermarket solution.
+                  <p>
+<%= t :app_tire_pressure_1 %>
                   </p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_tire_pressure_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -163,7 +164,7 @@
             <a class="app-caption" data-toggle="modal" href="#sensor-net">
               <img class="img-thumbnail" src="/assets/sensor-networks.png">
               <span class="caption">
-                <p>Sensor Networks</p>  
+                <p><%= t :app_sensor_networks_0 %></p>  
               </span>
             </a>
 
@@ -172,13 +173,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Sensor Networks</h4>
+                    <h4 class="modal-title"><%= t :app_sensor_networks_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      A wireless sensor network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc. and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance; today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
+<%= t :app_sensor_networks_1 %>
                     </p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_sensor_networks_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -189,7 +190,7 @@
             <a class="app-caption" data-toggle="modal" href="#toys">
               <img class="img-thumbnail" src="/assets/remote-control-toys.png">
               <span class="caption">
-                <p>Remote Controls for Toys</p>  
+                <p><%= t :app_rc_toys_0 %></p>  
               </span>
             </a>
                <div class="modal fade" id="toys">
@@ -197,13 +198,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Remote Controls for Toys</h4>
+                    <h4 class="modal-title"><%= t :app_rc_toys_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Toys remote controls that are steerable with the use of radio control. All types of vehicles imaginable have had RC systems installed in them, including cars, boats, planes, and even helicopters and scale railway toys.
+<%= t :app_rc_toys_1 %>
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_rc_toys_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -217,7 +218,7 @@
             <a class="app-caption" data-toggle="modal" href="#home-auto">
               <img class="img-thumbnail" src="/assets/home-automation.png">
               <span class="caption">
-                <p>Wireless Home Automation</p>  
+                <p><%= t :app_hw_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="home-auto">
@@ -225,17 +226,17 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wireless Home Automation</h4>
+                    <h4 class="modal-title"><%= t :app_hw_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Home automation is the residential extension of building automation. It is automation of the home, ho     usework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
+<%= t :app_hw_1 %>
                     </p>
-                    <%= link_to('Data Converters IP', {
+                    <%= link_to(t(:app_hw_2), {
                     :controller => 'DataConverter',
                     :action => 'index'
                     }) %>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_hw_3), {
                     :controller => 'RadioFrequency',
                     :action => 'bluetooth-low-energy'
                     }) %>
@@ -250,7 +251,7 @@
             <a class="app-caption" data-toggle="modal" href="#wireless-pc">
               <img class="img-thumbnail" src="/assets/wireless-pc-peripherals.png">
               <span class="caption">
-                <p>Wireless PC peripherals</p>  
+                <p><%= t :app_wireless_periphs_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="wireless-pc">
@@ -258,13 +259,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wireless PC peripherals</h4>
+                    <h4 class="modal-title"><%= t :app_wireless_periphs_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      PC peripherals are becoming more integrated of our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) through to entertainment (advanced navigation remotes for multi-media centers).
+<%= t :app_wireless_periphs_1 %>
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_wireless_periphs_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -278,7 +279,7 @@
             <a class="app-caption" data-toggle="modal" href="#smart-meter">
               <img class="img-thumbnail" src="/assets/smart-meter.png">
               <span class="caption">
-                <p>Wireless Smart Meters</p>  
+                <p><%= t :app_wireless_meters_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="smart-meter">
@@ -286,13 +287,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wireless Smart Meters</h4>
+                    <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      A wireless smart meter is usually an electrical meter that records the consumption of electric energy in intervals of an hour or less and communicates wirelessly that information at least daily back to the utility for monitoring and billing purposes. [7] Smart meters enable two-way communication between the meter and the central system. Unlike home energy monitors, smart meters can gather data for remote reporting. Such an advanced metering infrastructure (AMI) differs from traditional automatic meter reading (AMR) in that it enables two-way communications with the meter.
+<%= t :app_wireless_meters_1 %>
                     </p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_wireless_meters_2),{:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -301,20 +302,20 @@
 
 
           <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="data_converter/index">
+            <a class="app-caption" data-toggle="modal" href="<%= url_for :controller => "data_converter", :action => "index" %>">
               <img class="img-thumbnail" src="/assets/data-conv-app.png">
               <span class="caption">
-                <p>Instrumentation</p>  
+                <p><%= t :app_instrumentation_0 %></p>  
               </span>
             </a>
           </div>
 
 
           <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="ams/video-analog-front-ends">
+            <a class="app-caption" data-toggle="modal" href="<%= url_for :controller => "ams", :action => "video-analog-front-ends"%>">
               <img class="img-thumbnail" src="/assets/hdtv-app.png">
               <span class="caption">
-                <p>Flat Panel Displays</p>  
+                <p><%= t :app_flat_panel_0 %></p>  
               </span>
             </a>
             

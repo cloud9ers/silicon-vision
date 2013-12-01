@@ -88,3 +88,39 @@ en:
   ams_real_time_clocks_2: RTC and Oscillator IPs
   ams_video_analog_0: Video Analog Front-End IPs
   ams_video_analog_1: Silicon Vision provides a high end IP library suitable for diversified HD video applications. This includes video analog front-ends that deals with RGB/YPrPb graphics processing and C-Y/CVBS signal processing. Different sampling rates are supported starting from 36MHz up to 205MHz. The library contains high speed LVDS transmitters for high resolution flat panel displays. The library is silicon verified on different nodes starting from 180nm to 90nm.
+  apps: Applications
+  apps_title: Silicon Vision's Applications HOME / Applications
+  app_comm_0: Communication Systems
+  app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
+  app_comm_2: Sub 1GHz Tx/Rx
+  app_comm_3: Video Analog Front-End IPs
+  app_industrial_ctrl_0: Industrial Control (Wireless Machine to Machine M2M)
+  app_industrial_ctrl_1: Machine to Machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
+  app_industrial_ctrl_2: Sub 1GHz Tx/Rx
+  app_wireless_monitors_0: Wireless Health Monitors
+  app_wireless_monitors_1: Wireless Health Monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, as well as other tools that can help individuals improve their personal health and well-being. Wireless health solutions differ from normal health solutions in that; wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas while improving productivity and convenience through data transmission.
+  app_wireless_monitors_2: Bluetooth Low Energy (BLE)
+  app_remote_controls_0: Advanced remote controls
+  app_remote_controls_1: A Remote Control is a component of an electronic device, most commonly a television set, DVD player and home theater systems, originally used for operating the device wirelessly from a short line-of-sight distance. Remote control has continually evolved and advanced over recent years to include Bluetooth low energy connectivity, motion sensor-enabled capabilities and voice control.
+  app_remote_controls_2: Bluetooth Low Energy (BLE)
+  app_tire_pressure_0: Tire Pressure Monitoring
+  app_tire_pressure_1: A Tire Pressure Monitoring System (TPMS) is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMSs report real-time tire-pressure information to the driver of the vehicle, either via a gauge, a pictogram display, or a simple low-pressure warning light. TPMSs can be divided into two different types — direct (dTPMSs) and indirect (iTPMSs). TPMSs are provided both at an OEM (factory) level as well as an aftermarket solution level.
+  app_tire_pressure_2: Sub 1GHz Tx/Rx
+  app_sensor_networks_0: Sensor Networks
+  app_sensor_networks_1: A Wireless Sensor Network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc., and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance. Today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
+  app_sensor_networks_2: Sub 1GHz Tx/Rx
+  app_rc_toys_0: Remote Controls for Toys
+  app_rc_toys_1: Toy Remote Controls that are steerable with the use of radio control. All types of vehicles imaginable have had RC systems installed in them, including cars, boats, planes, and even helicopters and scale railway toys.
+  app_rc_toys_2: Bluetooth Low Energy (BLE)
+  app_hw_0: Wireless Home Automation
+  app_hw_1: Home Automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
+  app_hw_2: Data Converter IPs
+  app_hw_3: Bluetooth Low Energy (BLE)
+  app_wireless_periphs_0: Wireless PC peripherals
+  app_wireless_periphs_1: PC Peripherals are becoming more integrated into our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) all the way to entertainment (advanced navigation remotes for multi-media centers).
+  app_wireless_periphs_2: Bluetooth Low Energy (BLE)
+  app_wireless_meters_0: Wireless Smart Meters
+  app_wireless_meters_1: A Wireless Smart Meter is usually an electrical meter that records the consumption of electric energy in intervals of an hour or less and communicates that information wirelessly at least once a day back to the utility for monitoring and billing purposes. [7] Smart meters enable two-way communication between the meter and the central system. Unlike home energy monitors, smart meters can gather data for remote reporting. Such an Advanced Metering Infrastructure (AMI) differs from traditional Automatic Meter Reading (AMR) in that it enables two-way communication with the meter.
+  app_wireless_meters_2: Sub 1GHz Tx/Rx
+  app_instrumentation_0: INSTRUMENTATION
+  app_flat_panel_0: FLAT PANEL DISPLAYS
