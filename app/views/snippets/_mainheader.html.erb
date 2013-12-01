@@ -11,26 +11,26 @@
 
       <div class="nav-collapse pull-right visible-lg">
         <ul class="nav navbar-nav">
-          <li><%= link_to('HOME', {:controller => 'home', :action => 'index'}) %></li>
-          <li><%= link_to('ABOUT US', {:controller => 'home', :action => 'about'}) %></li>
-          <li><%= link_to('IP', {:controller => 'home', :action => 'ips'}) %></li>
-          <li><%= link_to('APPLICATIONS', {:controller => 'home', :action => 'applications'}) %></li>
-          <li><%= link_to('NEWS AND PRESS', {:controller => 'home', :action => 'sivi-media'}) %></li>
-          <li><%= link_to('CAREERS', {:controller => 'home', :action => 'careers'}) %></li>
-          <li><%= link_to('CONTACT US', {:controller => 'home', :action => 'contact'}) %></li>
+          <li><%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %></li>
+          <li><%= link_to(t(:about), {:controller => 'home', :action => 'about'}) %></li>
+          <li><%= link_to(t(:ips), {:controller => 'home', :action => 'ips'}) %></li>
+          <li><%= link_to(t(:apps), {:controller => 'home', :action => 'applications'}) %></li>
+          <li><%= link_to(t(:news), {:controller => 'home', :action => 'sivi-media'}) %></li>
+          <li><%= link_to(t(:careers), {:controller => 'home', :action => 'careers'}) %></li>
+          <li><%= link_to(t(:contact), {:controller => 'home', :action => 'contact'}) %></li>
         </ul>
       </div><!--/.nav-collapse -->
 
       <%= link_to(image_tag("Logo2x.png", :border=>0), {:controller => 'home', :action => 'index'}, {:class => 'm20t center-txt hidden-lg'}) %>
       <div class="hidden-lg">
         <ul class="nav nav-pills">
-          <li><%= link_to('HOME', {:controller => 'home', :action => 'index'}) %></li>
-          <li><%= link_to('ABOUT US', {:controller => 'home', :action => 'about'}) %></li>
-          <li><%= link_to('IP', {:controller => 'home', :action => 'ips'}) %></li>
-          <li><%= link_to('APPLICATIONS', {:controller => 'home', :action => 'applications'}) %></li>
-          <li><%= link_to('NEWS AND PRESS', {:controller => 'home', :action => 'sivi-media'}) %></li>
-          <li><%= link_to('CAREERS', {:controller => 'home', :action => 'careers'}) %></li>
-          <li><%= link_to('CONTACT US', {:controller => 'home', :action => 'contact'}) %></li>
+          <li><%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %></li>
+          <li><%= link_to(t(:about), {:controller => 'home', :action => 'about'}) %></li>
+          <li><%= link_to(t(:ips), {:controller => 'home', :action => 'ips'}) %></li>
+          <li><%= link_to(t(:apps), {:controller => 'home', :action => 'applications'}) %></li>
+          <li><%= link_to(t(:news), {:controller => 'home', :action => 'sivi-media'}) %></li>
+          <li><%= link_to(t(:careers), {:controller => 'home', :action => 'careers'}) %></li>
+          <li><%= link_to(t(:contact), {:controller => 'home', :action => 'contact'}) %></li>
         </ul>
       </div><!--/.nav-collapse -->
 
