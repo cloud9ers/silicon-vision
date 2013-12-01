@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Sub 1GHz Transceiver 
+  <%= t :rf_transceiver_0 %>
 <% end %>
 
 <% content_for :description do %>
-  SVITRX402 is a highly integrated, low power, high performance multiband radio transceiver IP covering the 415/433/868/915/950MHz ISM bands (Industrial, Scientific and Medical) and compatible with IEEE 802.15.4G standard. SVITRX402 contains an integrated +17dBm power amplifier, and receiver sensitivity of -114dBm at 2kbps on air data rate. SVITRX402 is an ideal solution for longer-range low data rate applications and is widely used in smart meters
+  <%= t :rf_transceiver_2 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -42,7 +42,7 @@
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/rf-icon-s2x.png" width="53px" height="53px" />
-				Sub-1GHz ISM Transceiver
+  <%= t :rf_transceiver_0 %>
 			</h3>
 		</div>
 		<div class="col-lg-5 center-txt">
@@ -50,17 +50,17 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-8">
- 			<h4>SVI-TRX402 High Performance Sub-1GHz ISM Transceiver</h4>
+ 			<h4><%= t :rf_transceiver_1 %></h4>
  			<p>
-				Silicon Vision, SVITRX402 is a highly integrated, low power, high performance multiband radio transceiver IP covering the 415/433/868/915/950MHz ISM bands (Industrial, Scientific and Medical) and compatible with <strong>IEEE 802.15.4G standard</strong>. SVITRX402 contains an integrated +17dBm power amplifier, and receiver sensitivity of -114dBm at 2kbps on air data rate. SVITRX402 is an ideal solution for longer-range low data rate applications and is widely used in smart meters. The integrated hardware protocol accelerator and encryption co-processor offload time critical protocol functions from the application microcontroller enabling the implementation of advanced and robust wireless connectivity with low cost 3rd-party microcontrollers.
+<%= t :rf_transceiver_2 %>
  			</p>
  			<div class="col-lg-6">
- 				<h4 class="pull-left">Features:</h4>
+ 				<h4 class="pull-left"><%= t(:rf_transceiver_3).split(":")[0] %>:</h4>
 
  				<div class="pull-right btn-toolbar m30t">
 					<div class="btn-group">
 						<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
-							Download
+<%= t(:rf_transceiver_3).split(":")[1] %>
 							<span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu">
@@ -76,12 +76,12 @@
 
 
 				<ul class="clear">
-					<li>Frequency Range: 400-960MHz,</li>
-					<li>Modulation: FSK/GFSK</li>
-					<li>Sensitivity = -110 dBm @ 19.2kbps</li>
-					<li>Output power range : From -12 to +17 dBm</li>
-					<li>Programmable date rates: up to 200 kbps</li>
-					<li>Ultra low power consumption</li>
+					<li><%= t :rf_transceiver_4 %></li>
+					<li><%= t :rf_transceiver_5 %></li>
+					<li><%= t :rf_transceiver_6 %></li>
+					<li><%= t :rf_transceiver_7 %></li>
+					<li><%= t :rf_transceiver_8 %></li>
+					<li><%= t :rf_transceiver_9 %></li>
 				</ul>
  			</div>
 
@@ -96,7 +96,7 @@
 				  <div class="modal-content">
 				    <div class="modal-header">
 				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title">Sub 1GHz Transceiver</h4>
+				      <h4 class="modal-title"><%= t :rf_transceiver_0 %></h4>
 				    </div>
 				    <div class="modal-body">
 				      <img src="/assets/rf-transceiver.jpg" />

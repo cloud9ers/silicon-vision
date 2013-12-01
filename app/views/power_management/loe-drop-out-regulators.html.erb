@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Low Drop Out Regulators (LDOs) 
+  <%= t :pm_regulators_0 %>
 <% end %>
 
 <% content_for :description do %>
-  Silicon Vision SiVi-LDO library contains different specifications for low dropout regulators which are highly required by high end SoCs. The library contains ultra-low power regulators with less the 0.5uA as a quiescent current, low noise regulators, and regulators which can supply load currents up to 100mA. Its small silicon area and minimum usage of off-chip components are very competing edges for SiVi-LDO library. The whole library is silicon verified on different nodes starting from 180nm to 65nm.
+  <%= t :pm_regulators_1 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -42,7 +42,7 @@
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/pm-icon-s2x.png" width="53px" height="53px" />
-				Low Drop Out Regulators (LDOs)
+  <%= t :pm_regulators_0 %>
 			</h3>
 		</div>
 		<div class="col-lg-5 center-txt">
@@ -51,7 +51,7 @@
 	<div class="row">
 		<div class="col-lg-8">
 			<p>
-				Silicon Vision SiVi-LDO library contains different specifications for low dropout regulators which are highly required by high end SoCs. The library contains ultra-low power regulators with less the 0.5uA as a quiescent current, low noise regulators, and regulators which can supply load currents up to 100mA. Its small silicon area and minimum usage of off-chip components are very competing edges for SiVi-LDO library. The whole library is silicon verified on different nodes starting from 180nm to 65nm.
+  <%= t :pm_regulators_1 %>
  			</p>
  			
 		</div>
@@ -64,7 +64,7 @@
 				  <div class="modal-content">
 				    <div class="modal-header">
 				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title">Low Drop Out Regulators (LDOs)</h4>
+				      <h4 class="modal-title"></h4>
 				    </div>
 				    <div class="modal-body">
 				      <img src="/assets/ldo.jpg" />
@@ -76,7 +76,9 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>LDO IP</h4>
+      <h4>
+  <%= t :pm_regulators_2 %>
+      </h4>
  			<table class="table table-striped">
 				<thead>
 					<tr>

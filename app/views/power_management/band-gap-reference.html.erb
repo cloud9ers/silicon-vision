@@ -1,9 +1,9 @@
 <% content_for :title do %>
-Band Gap References (BG)
+  <%= t :pm_bandgap_0 %>
 <% end %>
 
 <% content_for :description do %>
-  SiVi-BG series is a list of IP that covers different specifications of high performance bandgap reference cells. This IP list covers important features such as ultra low current, low noise, high supply rejection, wide supply range, and small silicon area. The whole IP list is silicon verified on different technology nodes starting from 180nm down to 40nm.
+  <%= t :pm_bandgap_1 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@ Band Gap References (BG)
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -42,7 +42,7 @@ Band Gap References (BG)
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/pm-icon-s2x.png" width="53px" height="53px" />
-				Band Gap References (BG)
+  <%= t :pm_bandgap_0 %>
 			</h3>
 		</div>
 		<div class="col-lg-5 center-txt">
@@ -51,7 +51,7 @@ Band Gap References (BG)
 	<div class="row">
 		<div class="col-lg-8">
 			<p>
-				SiVi-BG series is a list of IP that covers different specifications of high performance bandgap reference cells. This IP list covers important features such as ultra low current, low noise, high supply rejection, wide supply range, and small silicon area. The whole IP list is silicon verified on different technology nodes starting from 180nm down to 40nm.
+  <%= t :pm_bandgap_1 %>
  			</p>
  			
 		</div>
@@ -64,7 +64,7 @@ Band Gap References (BG)
 				  <div class="modal-content">
 				    <div class="modal-header">
 				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title">Band Gap References (BG)</h4>
+				      <h4 class="modal-title"></h4>
 				    </div>
 				    <div class="modal-body">
 				      <img src="/assets/bgs.jpg" />
@@ -76,7 +76,10 @@ Band Gap References (BG)
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>Band Gap Reference IP</h4>
+      <h4>
+      
+  <%= t :pm_bandgap_2 %>
+      </h4>
  			<table class="table table-striped">
 		        <thead>
 					<tr>

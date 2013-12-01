@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  About
+  <%= t :about %>
 <% end %>
 
 <% content_for :description do %>
-  Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low power radio frequency intellectual property (RFIP). Our solutions leverage Bluetooth low energy technology, low power Zigbee like RF technology and also advanced power management IP
+  <%= t :si_vi_intro_2 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Story			
+      <%= t :about_us_si_vi_story %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -25,14 +25,14 @@
 <div id="about-page" class="container">
 	<div class="row">
 		<div class="col-lg-8">
-			<h3>Welcome to Innovative Silicon IP</h3>
+      <h3><%= t :about_us_welcome %></h3>
 			<p>
-				<strong>Silicon Vision Technologies Ltd.</strong> is a leading IP provider of high-performance, low power radio frequency intellectual property (RFIP). Our solutions leverage Bluetooth low energy technology, low power Zigbee like RF technology and also advanced power management IP. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications in the consumer applications, HIDs, smart metering, industrial, mobile wireless device, and generally wireless markets.
+      <%= t :about_us_parag_1 %>
  			<p>
-				Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. Silicon Vision team has broad experience in RF circuits and systems, power management, digital and backend designs.
+      <%= t :about_us_parag_2 %>
 			</p>
 			<p>	 
-				We also collaborate with world-class technology partners including TSMC, SMIC, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
+      <%= t :about_us_parag_3 %>
 			</p>
 		</div>
 		<div class="col-lg-4 visible-lg center-txt">
@@ -40,7 +40,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<h4 class="title col-lg-12">Partners And Clients</h4>
+    <h4 class="title col-lg-12"><%= t :about_us_partners %></h4>
 	</div>
 	<div class="row">
 		<div class="col-lg-10 col-lg-offset-1">

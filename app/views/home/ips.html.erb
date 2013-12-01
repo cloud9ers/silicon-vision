@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Intellectual Properties
+  <%= t :ips %>
 <% end %>
 
 <% content_for :description do %>
-  Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), data-converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes, demo boards are also available for most of the IP. Our IP are used in millions of devices in the market
+  <%= t :si_vi_intro_2 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -29,7 +29,7 @@
   <div class="container">
     <div class="row">
       <%= render "snippets/ips-icons" %>
-      <p class="col-lg-10 col-lg-offset-1">Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), data-converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes,  demo boards are also available for most of the IP. Our IP are used in millions of devices in the market.</p>
+      <p style="margin-top:10px;" class="col-lg-10 col-lg-offset-1"><%= t :ips_desc %></p>
     </div>
   </div>
 </div>

@@ -1,6 +1,6 @@
   <div class="container">
       <div class="row">
-        <h3 class="col-lg-6 col-lg-offset-3">Subscribe to our mail list to keep you updated </h3>
+        <h3 class="col-lg-6 col-lg-offset-3"><%= t :subscribe %> </h3>
         <%= form_tag(newsletters_subscribe_path(:format => 'json'), :id=>'subscribe-form', :class=>'input-group col-lg-6 col-lg-offset-3') do %>
             <div style="margin-left:0;">
               <%= email_field(:user, :address, :required => true, :placeholder => "write your email", :id =>"subscribe", :class => "form-control")%>

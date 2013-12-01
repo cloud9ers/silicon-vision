@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Bluetooth Low Energy
+<%= t :rf_bluetooth_0 %>
 <% end %>
 
 <% content_for :description do %>
-  The SVI-TRX201 Radio is a highly integrated and ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0). The SVI-TRX201 Radio IP covers the Bluetooth low energy specifications with support of GFSK modulation
+<%= t :rf_bluetooth_2 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -42,7 +42,7 @@
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/rf-icon-s2x.png" width="53px" height="53px" />
-				Bluetooth Low Energy
+<%= t :rf_bluetooth_0 %>
 			</h3>
 		</div>
 		<div class="col-lg-5">
@@ -50,18 +50,17 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-8">
- 			<h4>SVI-TRX201 Bluetooth Low Energy Radio</h4>
+ 			<h4><%= t :rf_bluetooth_1 %></h4>
  			<p>
-				The SVI-TRX201 Radio is a highly integrated and ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0). The SVI-TRX201 Radio IP covers the Bluetooth low energy specifications with support of GFSK modulation. 
-				RF and digital modem are included in the design. When combined with the Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX201 Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and register programming interface.
+<%= t :rf_bluetooth_2 %>
  			</p>
  			<div class="col-lg-6">
- 				<h4 class="pull-left">Features:</h4>
+ 				<h4 class="pull-left"><%= t(:rf_bluetooth_3).split(":")[0] %>:</h4>
 
  				<div class="pull-right btn-toolbar m30t">
 					<div class="btn-group">
 						<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
-							Download
+              <%= t(:rf_bluetooth_3).split(":")[1] %>
 							<span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu">
@@ -76,13 +75,13 @@
 				</div>
 
 	 			<ul class="clear">
-					<li>TSMC/SMIC 0.18um RFCMOS-G Process</li>
-					<li>Compatible with Bluetooth low energy</li>
-					<li>Supply: 1.8 to 3.6V</li>
-					<li>Modulation: FSK/GFSK</li>
-					<li>Sensitivity = -87 dBm @ 1.0Mbps</li>
-					<li>Integrated power amplifier: -20 – +3 dBm</li>
-					<li>RX Peak/TX Peak: 13mA/11mA</li>
+					<li><%= t :rf_bluetooth_4 %></li>
+					<li><%= t :rf_bluetooth_5 %></li>
+					<li><%= t :rf_bluetooth_6 %></li>
+					<li><%= t :rf_bluetooth_7 %></li>
+					<li><%= t :rf_bluetooth_8 %></li>
+					<li><%= t :rf_bluetooth_9 %></li>
+					<li><%= t :rf_bluetooth_10 %></li>
 				</ul>
 				
 	 		</div>
@@ -96,7 +95,7 @@
 				  <div class="modal-content">
 				    <div class="modal-header">
 				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title">Bluetooth Low Energy Radio</h4>
+				      <h4 class="modal-title"><%= t :rf_bluetooth_0 %></h4>
 				    </div>
 				    <div class="modal-body">
 				      <img src="/assets/ble.jpg" />

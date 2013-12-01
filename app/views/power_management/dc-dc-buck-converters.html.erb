@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  DC-DC Buck Converters 
+  <%= t :pm_converters_0 %>
 <% end %>
 
 <% content_for :description do %>
-  SiVi-DCBU series is an IP of list of step down DC-DC converters achieving high efficiency and high accuracy. These IP are designed with the flexibility to supply wide range of processors that require different supply voltages with efficient power management. It operates with a relatively high switching frequency and digital control loop in order to minimize the required BoM. This list is characterized with the small output ripples achieved, and they also have an on-chip automatic calibrators and an I2C digital interface.
+  <%= t :pm_converters_1 %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> Intellectual Properties			
+      <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -42,7 +42,7 @@
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/pm-icon-s2x.png" width="53px" height="53px" />
-				DC-DC Buck Converters
+<%= t :pm_converters_0 %>
 			</h3>
 		</div>
 		<div class="col-lg-5 center-txt">
@@ -51,7 +51,7 @@
 	<div class="row">
 		<div class="col-lg-8">
 			<p>
-				SiVi-DCBU series is an IP of list of step down DC-DC converters achieving high efficiency and high accuracy. These IP are designed with the flexibility to supply wide range of processors that require different supply voltages with efficient power management. It operates with a relatively high switching frequency and digital control loop in order to minimize the required BoM. This list is characterized with the small output ripples achieved, and they also have an on-chip automatic calibrators and an I2C digital interface.
+<%= t :pm_converters_1 %>
  			</p>
  			
 		</div>
@@ -64,7 +64,7 @@
 				  <div class="modal-content">
 				    <div class="modal-header">
 				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title">DC-DC Buck Converters</h4>
+				      <h4 class="modal-title"></h4>
 				    </div>
 				    <div class="modal-body">
 				      <img src="/assets/dc-buck.png" />
@@ -76,7 +76,9 @@
 	</div>
 	<div class="row">
 		<div class="col-lg-12">
-			<h4>DC-DC Buck Converter IP</h4>
+      <h4>
+<%= t :pm_converters_2 %>
+      </h4>
  			<table class="table table-striped">
 				<thead>
 					<tr>
