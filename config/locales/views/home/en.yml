@@ -1,34 +1,34 @@
 en:
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: A leading IP provider of high performance Silicon IPs
+  si_vi_short_desc: A leading IP provider of high performance Silicon IP
   si_vi_learn_more: LEARN MORE ABOUT SILICON VISION
-  rf_ips: Radio Frequency IPs
-  pm_ips: Power Management IPs
-  dc_ips: Data Coverter IPs
-  ams_ips: AMS IPs
-  rf_ips_desc: Silicon Vision RF IPs are focused on low power wireless domain
-  rf_ips_see_more: SEE MORE ABOUT RADIO FREQUENCY IPs
-  pm_ips_desc: Optimized PM IPs for building state of the art SoCs
-  pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IPs
-  si_vi_offers:  Silicon Vision Offers a Selection of High Performance IPs
+  rf_ips: Radio Frequency IP
+  pm_ips: Power Management IP
+  dc_ips: Data Coverter IP
+  ams_ips: AMS IP
+  rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
+  rf_ips_see_more: SEE MORE ABOUT RADIO FREQUENCY IP
+  pm_ips_desc: Optimized PM IP for building state of the art SoCs
+  pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IP
+  si_vi_offers:  Silicon Vision Offers a Selection of High Performance IP
   si_vi_intro_1: Silicon Vision Technologies Ltd. has been in business since 2007, with more than 350 years of collective experience and serving Class A customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Power Management, Digital and Backend Designs.
-  si_vi_intro_2: Silicon Vision offers a portfolio of high performance IPs that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IPs. Our IPs are silicon proven over several process nodes. Demo Boards are also available for most of the IPs.
-  si_vi_intro_3: Our IPs are used in millions of devices in the market all over the globe.
+  si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
+  si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
   about: About
-  about_us_welcome: Welcome to Innovative Silicon IPs
+  about_us_welcome: Welcome to Innovative Silicon IP
   about_us_si_vi_story: Silicon Vision's Story
   about_us_partners: Partners and Clients
-  about_us_parag_1: Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IPs). Our solutions include Bluetooth Low Energy Technology, low power ZigBee, such as RF technology, as well as, Advanced Power Management IPs. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications in the consumer applications, HIDs, smart metering, industrial mobile wireless devices, and generally wireless markets.
+  about_us_parag_1: Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Our solutions include Bluetooth Low Energy Technology, low power ZigBee, such as RF technology, as well as, Advanced Power Management IP. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications in the consumer applications, HIDs, smart metering, industrial mobile wireless devices, and generally wireless markets.
   about_us_parag_2: Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Class A customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Power Management, Digital and Backend Designs.
   about_us_parag_3: We also collaborate with world-class technology partners including TSMC, SMIC, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
-  ips: IPs
+  ips: IP
   ips_title: Silicon Vision's Intellectual Properties
-  ips_desc: Silicon Vision offers a portfolio of high performance IPs that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IPs. Our IPs are silicon proven over several process nodes. Demo boards are also available for most of the IPs. Our IPs are used in millions of devices in the market.
-  rf_index_0: (Radio Frequency IPs)
-  rf_index_1: Silicon Vision RF IPs focus on Low Power Wireless Domain. Several customers all over the globe use our RF IPs. Datasheets and Demo boards are available for all the available IPs
-  rf_index_2: "Radio Frequency IPs includes :"
+  ips_desc: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo boards are also available for most of the IP. Our IP are used in millions of devices in the market.
+  rf_index_0: (Radio Frequency IP)
+  rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
+  rf_index_2: "Radio Frequency IP includes :"
   rf_bluetooth_0: Bluetooth Low Energy
   rf_bluetooth_1: SVI-TRX201 Bluetooth Low Energy Radio
   rf_bluetooth_2: The SVI-TRX201 Radio is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0). The SVI-TRX201 Radio IP covers the Bluetooth low energy specifications with support of GFSK modulation. RF and digital modems are included in the design. When combined with the Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX201 Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
@@ -50,50 +50,50 @@ en:
   rf_transceiver_7: "Output power range: From -12 to +17 dBm"
   rf_transceiver_8: "Programmable data rates: up to 200 kbps"
   rf_transceiver_9: Ultra low power consumption
-  pm_index_0: (Power Management IPs)
+  pm_index_0: (Power Management IP)
   pm_index_1: Silicon Vision provides full customization for complete PMUs with different flavors.
-  pm_index_2: "Power Management IPs include:"
+  pm_index_2: "Power Management IP include:"
   pm_index_3: Bandgap References
   pm_index_4: DC-DC Buck Converters
   pm_index_5: Temperature Sensors
   pm_index_6: Power-On Reset (POR)
   pm_index_7: Low Drop-Out Regulators (LDO)
   pm_bandgap_0: Bandgap References (BG)
-  pm_bandgap_1: SiVi-BG series is a list of IPs that cover different specifications of high performance bandgap reference cells. This IP list covers important features such as ultra-low current, low noise, high supply rejection, wide supply range, and small silicon area. The whole IP list is silicon verified on different technology nodes starting from 180nm down to 40nm.
-  pm_bandgap_2: Bandgap Reference IPs
+  pm_bandgap_1: SiVi-BG series is a list of IP that cover different specifications of high performance bandgap reference cells. This IP list covers important features such as ultra-low current, low noise, high supply rejection, wide supply range, and small silicon area. The whole IP list is silicon verified on different technology nodes starting from 180nm down to 40nm.
+  pm_bandgap_2: Bandgap Reference IP
   pm_converters_0: DC-DC Buck Converters
-  pm_converters_1: SiVi-DCBU series is a list of IPs of step down DC-DC converters achieving high efficiency and high accuracy. These IPs are designed with the flexibility to supply a wide range of processors that require different supply voltages with efficient power management. It operates with a relatively high switching frequency and digital control loop in order to minimize the required BoM. This list is characterized with the small output ripples achieved, and they also have on-chip automatic calibrators and a I2C digital interface.
-  pm_converters_2: DC-DC Buck Converter IPs
+  pm_converters_1: SiVi-DCBU series is a list of IP of step down DC-DC converters achieving high efficiency and high accuracy. These IP are designed with the flexibility to supply a wide range of processors that require different supply voltages with efficient power management. It operates with a relatively high switching frequency and digital control loop in order to minimize the required BoM. This list is characterized with the small output ripples achieved, and they also have on-chip automatic calibrators and a I2C digital interface.
+  pm_converters_2: DC-DC Buck Converter IP
   pm_sensors_0: Temperature Sensors
   pm_sensors_1: Silicon Vision provides an IP library for various types of temperature sensors. The library contains a wide range of sensors, starting with simple single bit sensors, up to high resolution 16 bit temperature sensors with single and double calibration points. All temperature sensors target low power and low silicon area consumption and they are verified on different technology nodes starting from 180nm to 40nm.
-  pm_sensors_2: Temperature Sensor IPs
+  pm_sensors_2: Temperature Sensor IP
   pm_monitors_0: Power-On Reset (POR) and Supply Monitors
   pm_monitors_1: Silicon Vision IP library provides a wide variety of supply monitors that are highly required in most of the higher end SoCs. It is characterized by its ultra-low steady state current consumption and off-chip components. All supply monitors have a brown-out feature to trigger a reset signal when the supply drops to programmable threshold. The library is silicon verified on different technology nodes from 180nm to 65nm.
-  pm_monitors_2: POR and Supply Monitor IPs
+  pm_monitors_2: POR and Supply Monitor IP
   pm_regulators_0: Low Drop-Out Regulators (LDOs)
   pm_regulators_1: Silicon Vision SiVi-LDO library contains different specifications for low drop-out regulators which are highly required by high end SoCs. The library contains ultra-low power regulators with less than 0.5uA as a quiescent current, low noise regulators, and regulators which can supply load currents up to 100mA. Its small silicon area and minimum usage of off-chip components are the competitive edges for SiVi-LDO library. The whole library is silicon verified on different nodes starting from 180nm to 65nm.
-  pm_regulators_2: LDO IPs
-  data_converters_0: (Data Converter IPs)
+  pm_regulators_2: LDO IP
+  data_converters_0: (Data Converter IP)
   data_converters_1: Silicon Vision provides various types of data converters that are highly required by state of the art SoCs. The library contains high resolution, wide bandwidth pipe-lined ADCs, ultra-low power sigma delta ADCs and high resolution SAR ADCs. Various types of high end DACs are also supported. The library is silicon proven on different nodes from 180nm to 40nm.
-  ams_index_0: (AMS IPs)
-  ams_index_1: "AMS IPs include :"
-  ams_index_2: Clock Generator and Synthesizer IPs
-  ams_index_3: Real Time Clocks and Oscillator IPs
-  ams_index_4: Video Analog Front-End IPs
-  ams_clock_gen_0: Clock Generator and Synthesizer IPs
+  ams_index_0: (AMS IP)
+  ams_index_1: "AMS IP include :"
+  ams_index_2: Clock Generator and Synthesizer IP
+  ams_index_3: Real Time Clocks and Oscillator IP
+  ams_index_4: Video Analog Front-End IP
+  ams_clock_gen_0: Clock Generator and Synthesizer IP
   ams_clock_gen_1: Silicon Vision provides various types of clock generators and frequency synthesizers for different applications. The library contains ultra-low power, low noise frequency synthesizers used in low power wireless standards. The list also contains a wide range of general purpose and low noise clock generators for high speed SerDes which are fully integrated with sync separators for video front ends. The library is silicon verified on various technology nodes starting from 180nm to 40nm.
-  ams_clock_gen_2: Clock Generator IPs
-  ams_real_time_clocks_0: Real Time Clocks (RTC) & Oscillator IPs
+  ams_clock_gen_2: Clock Generator IP
+  ams_real_time_clocks_0: Real Time Clocks (RTC) & Oscillator IP
   ams_real_time_clocks_1: The Silicon Vision IP library provides ultra-low power ultra-high accurate RTCs that are required in most of the high end SoCs. The library also provides a wide range of RC and crystal oscillators that cover a wide range of frequencies starting from 10s of KHs to 100s of MHz. Auto calibration feature is also supported if high accuracy is needed. The library is verified on different nodes starting from 180nm to 40nm.
-  ams_real_time_clocks_2: RTC and Oscillator IPs
-  ams_video_analog_0: Video Analog Front-End IPs
+  ams_real_time_clocks_2: RTC and Oscillator IP
+  ams_video_analog_0: Video Analog Front-End IP
   ams_video_analog_1: Silicon Vision provides a high end IP library suitable for diversified HD video applications. This includes video analog front-ends that deals with RGB/YPrPb graphics processing and C-Y/CVBS signal processing. Different sampling rates are supported starting from 36MHz up to 205MHz. The library contains high speed LVDS transmitters for high resolution flat panel displays. The library is silicon verified on different nodes starting from 180nm to 90nm.
   apps: Applications
   apps_title: Silicon Vision's Applications HOME / Applications
   app_comm_0: Communication Systems
   app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
   app_comm_2: Sub 1GHz Tx/Rx
-  app_comm_3: Video Analog Front-End IPs
+  app_comm_3: Video Analog Front-End IP
   app_industrial_ctrl_0: Industrial Control (Wireless Machine to Machine M2M)
   app_industrial_ctrl_1: Machine to Machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
   app_industrial_ctrl_2: Sub 1GHz Tx/Rx
@@ -114,7 +114,7 @@ en:
   app_rc_toys_2: Bluetooth Low Energy (BLE)
   app_hw_0: Wireless Home Automation
   app_hw_1: Home Automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
-  app_hw_2: Data Converter IPs
+  app_hw_2: Data Converter IP
   app_hw_3: Bluetooth Low Energy (BLE)
   app_wireless_periphs_0: Wireless PC peripherals
   app_wireless_periphs_1: PC Peripherals are becoming more integrated into our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) all the way to entertainment (advanced navigation remotes for multi-media centers).
@@ -136,7 +136,7 @@ en:
   news_seg1_4: 2013
   news_seg2_0: Silicon Vision participates at the CEF 2013
   news_seg2_1: April 10, 2013
-  news_seg2_2: China, Shenzhen- China Electronic Fair (CEF) – 10 April 2013 – Shenzhen convention and exhibition center, Silicon Vision invites CEF 2013 visitors to its stand in Hall 1 (1A186), in Shenzhen 10-12 April 2013. Silicon Vision is promoting its low power wireless solutions and power management IPs.
+  news_seg2_2: China, Shenzhen- China Electronic Fair (CEF) – 10 April 2013 – Shenzhen convention and exhibition center, Silicon Vision invites CEF 2013 visitors to its stand in Hall 1 (1A186), in Shenzhen 10-12 April 2013. Silicon Vision is promoting its low power wireless solutions and power management IP.
   news_seg2_3: Apr.
   news_seg2_4: 2013
   news_seg3_0: Silicon Vision at MWC 2013
@@ -146,7 +146,7 @@ en:
   news_seg3_4: 2013
   news_seg4_0: Silicon Vision participates at the CEF 2012
   news_seg4_1: April 10, 2012
-  news_seg4_2: China, Shenzhen- 79th China Electronic Fair (CEF) – 10 April 2012 – Shenzhen convention and exhibition center, Silicon Vision invites CEF 2012 visitors to its stand in Hall 1 (1A164), in Shenzhen 10-12 April 2012. Silicon Vision is promoting at the 79th China Electronics Fair its Low Power Wireless Solutions and Power Management IPs.
+  news_seg4_2: China, Shenzhen- 79th China Electronic Fair (CEF) – 10 April 2012 – Shenzhen convention and exhibition center, Silicon Vision invites CEF 2012 visitors to its stand in Hall 1 (1A164), in Shenzhen 10-12 April 2012. Silicon Vision is promoting at the 79th China Electronics Fair its Low Power Wireless Solutions and Power Management IP.
   news_seg4_3: Apr.
   news_seg4_4: 2012
   news_seg5_0: Silicon Vision at MWC 2012
