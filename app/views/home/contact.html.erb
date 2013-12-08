@@ -1,9 +1,9 @@
 <% content_for :title do %>
-  Contact Us
+  <%= t :contact %>
 <% end %>
 
 <% content_for :description do %>
-  Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), data-converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes, demo boards are also available for most of the IP
+  <%= t :ips_desc %>
 <% end %>
 
 <% content_for :keywords do %>
@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-			<strong>Silicon Vision's</strong> contacts		
+  <%= t :contact_0 %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
@@ -29,21 +29,19 @@
 		</div>
 		<div id="address"class="pull-right">
 			<div class="fszl">
-				<h3>Silicon Vision Technologies Limited</h3>
-				<p class="m5b m20t"><strong>Headquarters</strong></p>
+				<h3><%= t :contact_1 %></h3>
+				<p class="m5b m20t"><strong><%= t :contact_2 %></strong></p>
 				<p>
-					14 Manchester Square<br />
-					London W1U 3PP, United Kingdom.<br />
-					Tel: +44 207 097 1004<br />
-					Email: <a href="mailto:info@si-vision.com">info@si-vision.com</a>
+					<%= t :contact_3 %><br />
+					<%= t :contact_4 %><br />
+					<%= t :contact_5 %><br />
+					 <%= t :contact_20 %>:<a href="mailto:info@si-vision.com"><%= t :contact_6 %></a>
 				</p>
-				<p class="m5b m20t"><strong>Design Centers</strong></p>
+				<p class="m5b m20t"><strong><%= t :contact_7 %></strong></p>
 				<p>
-					Cairo, Egypt<br />
-					Tel:  
-					+202 22 69-7820&nbsp;&nbsp;
-					+1 949 204 3669<br />
-					Email: <a href="mailto:info@si-vision.com">info@si-vision.com</a>
+					<%= t :contact_8 %><br />
+			<%= t :contact_9 %>		<br />
+					 <%= t :contact_20 %>:<a href="mailto:info@si-vision.com"><%= t :contact_6 %></a>
 				</p>
 			</div>
 		</div>
@@ -52,41 +50,41 @@
 		<div class="row">
 			<div id="section-left" class="col-lg-6 pull-left">
 				<div id="contactus-forms">
-					<p><strong class="head">Special Request</strong></p>
+					<p><strong class="head"><%= t :contact_11 %></strong></p>
                   <%= form_tag('', :method=>"post") do %>
                       <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name"><%= t :contact_12 %></label>
                       	<%= text_field(:user, :name, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for='user_country'>Country</label>
+                        <label for='user_country'><%= t :contact_13 %></label>
                  		<select id="user_country" name='user[country]' class="form-control">
-						  <option value="USA">USA</option>
-						  <option value="China">China</option>
-						  <option value="China">Taiwan</option>
-						  <option value="Japan">Japan</option>
-						  <option value="Korea">Korea</option>
-						  <option value="Egypt">Egypt</option>
-						  <option value="WorldWide">WorldWide</option>
+						  <option value="USA"><%= t :contact_14 %></option>
+						  <option value="China"><%= t :contact_15 %></option>
+						  <option value="Tiwan"><%= t :contact_16 %></option>
+						  <option value="Japan"><%= t :contact_17 %></option>
+						  <option value="Korea"><%= t :contact_18 %></option>
+						  <option value="Egypt"><%= t :contact_19 %></option>
+						  <option value="WorldWide"><%= t :contact_32 %></option>
 						</select>
                       </div>
 
                       <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email"><%= t :contact_20 %></label>
                         <%= email_field(:user, :email, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for="company">Company Name</label>
+                        <label for="company"><%= t :contact_21 %></label>
                         <%= text_field(:user, :company, :required => true, :class => "form-control")%>
                       </div>
                       <div class="form-group">
-                        <label for="message">Message</label>
+                        <label for="message"><%= t :contact_22 %></label>
                         <%= text_area_tag(:message, "")%>
                       </div>
                       <div class="form-group">
-                        <label for="ip">Requested IP Number</label>
+                        <label for="ip"><%= t :contact_23 %></label>
                         <%= text_field(:user, :ip, :class => "form-control")%>
-                        <p class="help-block">In case of Data Sheet Request.</p>
+                        <p class="help-block"><%= t :contact_24 %></p>
                       </div>
                       <%= submit_tag("Submit", :disable_with => "Please Wait...", :class => 'btn blue-but small pull-right')%>
                   <% end %>
@@ -97,60 +95,60 @@
 
 			<div id="section-right" class="col-lg-5 col-lg-offset-1 pull-right">
 				<div id="sales-rep">
-					<p><strong class="head">Contact Sales</strong></p>
+					<p><strong class="head"><%= t :contact_25 %></strong></p>
 					<ul>
 						<li>
 							<div class="rep-header">
-								<img src="assets/china-flag-icon2x.png" width="30px" height="20px">
-								<strong> China</strong>
+								<img src="../assets/china-flag-icon2x.png" width="30px" height="20px">
+								<strong><%= t :contact_15 %></strong>
 							</div>
 							<a href="mailto:china-sales@si-vision.com">
-								china-sales@si-vision.com
+<%= t :contact_26 %>
 							</a>
 						</li>
 						<li>
 							<div class="rep-header">
-								<img src="assets/Taiwan-flag-icon2x.png" width="30px" height="20px">
-								<strong> Taiwan</strong>
+								<img src="../assets/Taiwan-flag-icon2x.png" width="30px" height="20px">
+								<strong><%= t :contact_16 %></strong>
 							</div>
 							<a href="mailto:taiwan-sales@si-vision.com">
-								taiwan-sales@si-vision.com
+<%= t :contact_27 %>
 							</a>
 						</li>
 						<li>
 							<div class="rep-header">
-								<img src="assets/japan2x.png" width="30px" height="20px">
-								<strong> Japan</strong>
+								<img src="../assets/japan2x.png" width="30px" height="20px">
+								<strong><%= t :contact_17 %></strong>
 							</div>
 							<a href="mailto:japan-sales@si-vision.com">
-								japan-sales@si-vision.com
+<%= t :contact_28 %>
 							</a>
 						</li>
 						<li>
 							<div class="rep-header">
-								<img src="assets/usa-flag-icon2x.png" width="30px" height="20px">
-								<strong> USA</strong>
+								<img src="../assets/usa-flag-icon2x.png" width="30px" height="20px">
+								<strong><%= t :contact_14 %></strong>
 							</div>
 							<a href="mailto:usa-sales@si-vision.com">
-								usa-sales@si-vision.com
+<%= t :contact_29 %>
 							</a>
 						</li>
 						<li>
 							<div class="rep-header">
-								<img src="assets/korea2x.png" width="30px" height="20px">
-								<strong> Korea</strong>
+								<img src="../assets/korea2x.png" width="30px" height="20px">
+								<strong><%= t :contact_18 %></strong>
 							</div>
 							<a href="mailto:korea-sales@si-vision.com">
-								korea-sales@si-vision.com
+<%= t :contact_30 %>
 							</a>
 						</li>
 						<li>
 							<div class="rep-header">
-								<img src="assets/worldwide-icon2x.png" width="28px" height="28px" >
-								<strong> WorldWide</strong>
+								<img src="../assets/worldwide-icon2x.png" width="28px" height="28px" >
+								<strong><%= t :contact_32 %></strong>
 							</div>
 							<a href="mailto:worldwide-sales@si-vision.com">
-								worldwide-sales@si-vision.com
+<%= t :contact_31 %>
 							</a>
 						</li>
 					</ul>

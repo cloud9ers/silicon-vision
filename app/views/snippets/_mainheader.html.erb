@@ -1,11 +1,12 @@
 <div id="main-header" class="navbar navbar-fixed-top">
   <div class="container" style="position:relative;">
     <%= link_to(image_tag("Logo2x.png", :border=>0 , :width => '253px' , :height => '54px'), {:controller => 'home', :action => 'index'}, {:class => 'navbar-brand visible-lg'}) %>
-      <div style="position:absolute;right:13px;top:-10px;width:105px;">
+      <div style="position:absolute;right:13px;top:-10px;width:238px;">
         <ul style="list-style-type:none;">
-          <li style="float:left;margin-left:5px;"><a style="display:block"class="flag flag-gb" href="<%= get_localized_path("en") %>"></a></li>
-          <li style="float:left;margin-left:5px"><a style="display:block" class="flag flag-cn" href="<%= get_localized_path("ch") %>"></a></li>
-          <li style="float:left;margin-left:5px"><a style="display:block" class="flag flag-jp" href="<%= get_localized_path("ja") %>"></a></li>
+          <li style="color:#0c81cf;font-size:12px;float:left;margin-left:12px;">View in:</li>
+          <li style="float:left;font-size:12px;margin-left:8px;"><a href="<%= get_localized_path("en") %>">En <img src="../assets/usa-flag-icon.png" width="22px" ></a></li>
+          <li style="float:left;font-size:12px;margin-left:8px"><a href="<%= get_localized_path("ch") %>">Ch <img src="../assets/china-flag-icon.png" width="22px" ></a></li>
+          <li style="float:left;font-size:12px;margin-left:8px"><a href="<%= get_localized_path("ja") %>">Ja <img src="../assets/japan.png" width="25px" ></a></li>
         </ul>
       </div>
 
@@ -36,5 +37,3 @@
 
   </div>
 </div>
-
-<%= stylesheet_link_tag 'flags' %>

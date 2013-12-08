@@ -124,8 +124,117 @@ ch:
   app_wireless_meters_2: Sub 1千兆赫兹（GHz）   Tx/Rx
   app_instrumentation_0: 仪表化
   app_flat_panel_0: 平板显示器
+  news: 新闻和报界
+  news_0: 硅视觉新闻和报界
+  news_1: 最新新闻
+  news_2: 媒体中心
+  news_3: 硅视觉最新新闻
+  news_seg1_0: 硅视觉参与全球论坛，设计自动化大会(DAC) 2013年
+  news_seg1_1: 2013 年 6 月 2 日
+  news_seg1_2: 得克萨斯州，奥斯汀-设计自动化会议 (DAC) — — 2013 年 6 月 2 日，在设计自动化大会五十周年纪念(DAC50)上，硅视觉被表示在全球论坛亭里的埃及展台内。硅视觉出示其硅知识产权（IP）的作品集，这个作品集包括支持完整的蓝牙低功耗（BLE）的基带，无线电和协议栈的供品，以及支持无线电和基带的一个智能电网802.15.4g的供品。
+  news_seg1_3: 6月
+  news_seg1_4: 2013 年
+  news_seg2_0: 硅视觉参与中国电子展（CEF） 2013
+  news_seg2_1: 2013年4月10日
+  news_seg2_2: 中国，深圳 - 中国电子展（CEF） - 2013年4月10日 - 深圳会展中心，2013年4月10-12日在深圳，硅视觉邀请了中国电子展（CEF2013）游客到它在第一大厅上有的看台 (1A186)。硅视觉促进其低功耗无线解决方案和电源管理硅视觉出示其硅知识产权（IPs）。
+  news_seg2_3: 4月
+  news_seg2_4: 2013年
+  news_seg3_0: 硅视觉参与移动通信世界大会(MWC 2013)
+  news_seg3_1: 2013年2月25日
+  news_seg3_2: 巴塞罗那，西班牙 - 移动通信世界大会 - 2013年2月25日 -2013年2月25-28日在巴塞罗那，硅视觉邀请了移动通信世界大会(MWC201)2游客到它在第七大厅上有的看台 -7164看台。硅视觉介绍其蓝牙低耗能完整的解决方案和其 802.15.4g 智能电网解决方案的最新解决方案。
+  news_seg3_3: 2月
+  news_seg3_4: 2013年
+  news_seg4_0: 硅视觉参与中国电子展(CEF 2012)
+  news_seg4_1: 2012年4月10日
+  news_seg4_2: 中国，深圳第79届中国电子展（CEF） - 2012年4月10日 - 深圳会展中心，2013年4月10-12日在深圳，硅视觉邀请了中国电子展(CEF 2012)游客到它在第一大厅上有的看台 (1A164)。在第79届中国电子展上，硅视觉促进其低功耗无线解决方案和电源管理知识产权（IPs）。
+  news_seg4_3: 4月
+  news_seg4_4: 2012年
+  news_seg5_0: 硅视觉参与移动通信世界大会(MWC 2012)
+  news_seg5_1: 2012年2月27日
+  news_seg5_2: 巴塞罗那，西班牙- 移动通信世界大会 - 2012年2月27日。2012年2月27日-3月 1日在巴塞罗那硅视觉邀请了移动通信世界大会(MWC2012)游客到它在第一大厅上有的看台 - D-33看台。硅视觉展示它对低功耗无线技术的最新的解决方案，并瞄准了智能电网的应用和人体学接口设备。
+  news_seg5_3: 2月
+  news_seg5_4: 2012年
+  media_seg1_0: 为什么微区位iBeacons可能是苹果公司iOS 7最大的新特点
+  media_seg1_1: 2013年8月29日
+  media_seg1_2: IBeacons是蓝牙低功耗（BLE）的一种实现，它为 iOS 7 应用程序中的事件启用非常精确微区位触发器。
+  media_seg1_3: 阅读更多
+  media_seg1_4: 8月
+  media_seg1_5: 2013年
+  media_seg2_0: 什么是 ...关税暨贸易总协定(GATT)服务？
+  media_seg2_1: 2013年8月21日
+  media_seg2_2: 当我写了最近发布的Android4.3新功能的时，并遇到了蓝牙智能的支持和  “关税暨贸易总协定”的提到以及通用属性配置文件… 但是什么是关税暨贸易总协定(GATT)并什么是关税暨贸易总协定GATT的服务？
+  media_seg2_3: 阅读更多
+  media_seg2_4: 8月
+  media_seg2_5: 2013年
+  media_seg3_0: "研究与市场：智能照明驱动器、控制器以及传感器芯片的市场2013年至2021年"
+  media_seg3_1: 2013年8月19日
+  media_seg3_2: 都柏林 - 研究和市场宣布把"智能照明驱动器、控制器以及传感器芯片的市场报告"加入其作品。
+  media_seg3_3: 阅读更多
+  media_seg3_4: 8月
+  media_seg3_5: 2013年
+  media_seg4_0: 这里为什么你的因特网电话(iPhone)将永远不会有近距离无线通信（NFC）
+  media_seg4_1: 2013年8月14日
+  media_seg4_2: 根据跟管理集成硬件，软件和服务的生态系统的苹果公司一样的公司，规划未来的产品是指的意思就是把新技术安装在一个已开发的连贯体系结构。这可能意味着如NFC的技术，是不适合的，被绕过还被落在后面。但是，服务客户的技术而被拥抱。这就是让苹果移动到用蓝牙智能而不用近距离无线通信（NFC）的原因。
+  media_seg4_3: 阅读更多
+  media_seg4_4: 8月
+  media_seg4_5: 2013年
+  media_seg5_0: 无线网络驾驶被连接的世界
+  media_seg5_1: 2013年8月13日
+  media_seg5_2: 现代互联网是工程的个奇迹，并是建造的最大的机器之一。任何包括有蜂窝或卫星电话的人就是其存在的地方。它对世界各地的十亿人提供信息和连接，但它不到此为止。
+  media_seg5_3: 阅读更多
+  media_seg5_4: 8月
+  media_seg5_5: 2013年
+  media_seg6_0: 为了'Treasure Tag'，诺基亚正在准备近距离无线通信（NFC）和蓝牙4.0 LE
+  media_seg6_1: 2013年6月29日
+  media_seg6_2: 包括谷歌的大牌球员，努力地尝试使近场通信或近距离无线通信（NFC）技术受到注目，但是它们实现了小小的成功。现在，诺基亚才推出名为“'Treasure Tag'”的蓝牙配件，它基于近距离无线通信（NFC）意识形态而允许用户通过电话来跟踪项目。
+  media_seg6_3: 阅读更多
+  media_seg6_4: 6月
+  media_seg6_5: 2013年
+  media_seg7_0: 8.5亿电机及电子学工程师联合会（IEEE 802.15.4）芯片组在2016年将被出货
+  media_seg7_1: 2013年5月14日
+  media_seg7_2: 到2016年,通常被称为无线传感器网络（WSN）的电机及电子学工程师联合会（IEEE802.15.4 IC）市场，将扩大到每年超过8.5亿台，从2010年至2016年经历超过60％的复合年均增长率。
+  media_seg7_3: 阅读更多
+  media_seg7_4: 5月
+  media_seg7_5: 2013年
+  media_seg8_0: 24.6x18.0x3.0毫米 (mm) 包内的五个无线连接标准
+  media_seg8_1: 2012年11月11日
+  media_seg8_2: 村田的LBEL6Z2TXC 无线组合模块瞄准汽车应用并使用一个AEC-Q100兼容芯片组。该模块对无线局域网﹑蓝牙以及蓝牙低功耗（BLE）通信提供支持，该模块还提供调频（FM）无线电接收器和全球定位系统(GPS)接收器，模块尺寸仅是24.6x18.0x3.0毫米(mm)。无线局域网(WLAN) 的特点符合IEEE 802.11 b, g, 和 n标准并支持直通互联（WiFi Direct）。
+  media_seg8_3: 阅读更多
+  media_seg8_4: 11月
+  media_seg8_5: 2012年
   careers: 人才招聘
   careers_0: 加入我们的团队...
   careers_1: 如果你想加入一个快速成长的模拟/混合信号队，在鼓励创新和生产力的环境上工作，获得竞争力的福利和补偿的话，请把您的更新简历发送到 careers@si-vision.com 
   contact: 联系我们
-  news: 新闻和报界
+  contact_0: 硅视觉联系方式联系人首页
+  contact_1: 硅视觉技术有限公司
+  contact_2: 总部
+  contact_3: 14曼彻斯特广场
+  contact_4: 伦敦W1U3PP，英国。
+  contact_5: "电话：+442070971004"
+  contact_6: info@si-vision.com
+  contact_7: 设计中心
+  contact_8: 开罗，埃及
+  contact_9: "电话：+2022269-7820+19492043669"
+  contact_11: 特别的要求
+  contact_12: 姓名
+  contact_13: 国家
+  contact_14: 美国
+  contact_15: 中国
+  contact_16: 台湾
+  contact_17: 日本
+  contact_18: 韩国
+  contact_19: 埃及
+  contact_20: 电子邮件
+  contact_21: 公司名称
+  contact_22: 信息
+  contact_23: 要求 的知识产权（IP）的 号
+  contact_24: 在请求数据表的情况下
+  contact_25: 联系销售
+  contact_26: china-sales@si-vision.com
+  contact_27: taiwan-sales@si-vision.com
+  contact_28: japan-sales@si-vision.com
+  contact_29: usa-sales@si-vision.com
+  contact_30: korea-sales@si-vision.com
+  contact_31: worldwide-sales@si-vision.com
+  contact_32: 全世界
