@@ -126,11 +126,19 @@
     
     <div class="col-lg-6">
       <h4 class="title">Media Center</h4>
+        <div class="media">
+          <img class="pull-left media-object" width="100px" height="100px" src="/assets/econsult.png" >
+          <div class="media-body pl20">
+            <a href="<%= url_for :controller => 'home', :action => 'press' %>#econsult-article">Providing a truly personalised in-store experience</a>
+            <br />
+            <em>December 02, 2013</em>
+          </div>
+        </div>
 
         <div class="media">
           <img class="pull-left media-object" src="/assets/fort-mill-times.png" >
           <div class="media-body pl20">
-            <a href="/press#forbes-article">
+            <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
               Bluetooth Smart and Wi-Fi to Beat Out Proprietary ....
             </a>
             <br />
@@ -142,7 +150,7 @@
         <div class="media">
           <img class="pull-left media-object" src="/assets/forbes.png" >
           <div class="media-body pl20">
-            <a href="/press#forbes-article">
+            <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
               Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
             </a>
             <br />
@@ -153,7 +161,7 @@
         <div class="media">
           <img class="pull-left media-object" src="/assets/eweekly.png" >
           <div class="media-body pl20">
-            <a href="/press#forbes-article">
+            <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
               What is… a GATT Service?
             </a>
             <br />
