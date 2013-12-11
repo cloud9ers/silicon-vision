@@ -86,12 +86,12 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-6">
-      <h4 class="title">Latest News</h4>
+      <h4 class="title"><%= t :news_2 %></h4>
       <div class="media-list">
         <div class="media">
           <img class="pull-left media-object" src="/assets/sivi-partners-mindtree-sm.png" >
           <div class="media-body">
-            <a href="/sivi-media">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
               <h4 class="media-heading">Silicon Vision partners with Mindtree to offer a complete Bluetooth Low...</h4>
             </a>
             <p>Sep 30, 2013</p>
@@ -101,31 +101,31 @@
         <div class="media">
           <img class="pull-left media-object" src="/assets/dac-news.png" >
           <div class="media-body">
-            <a href="/sivi-media#participated-dac2013">
-              <h4 class="media-heading">Silicon Vision participates at Global Forum, DAC 2013</h4>
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>#participated-dac2013">
+              <h4 class="media-heading"><%= t :news_seg1_0 %></h4>
             </a>
-            <p>June 2, 2013</p>
+            <p><%= t :news_seg1_1 %></p>
           </div>
         </div>
 
         <div class="media">
           <img class="pull-left media-object" src="/assets/cef-news-sm.png" >
           <div class="media-body">
-            <a href="/sivi-media#participated-dac2013">
-              <h4 class="media-heading">Silicon Vision participates at the CEF 2013</h4>
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>#participated-dac2013">
+              <h4 class="media-heading"><%= t :news_seg2_0 %></h4>
             </a>
-            <p>April 10, 2013</p>
+            <p><%= t :news_seg2_1 %></p>
           </div>
         </div>
 
-        <a class="visible-lg m10t pull-left" href="/sivi-media">See all ...</a>
+        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">See all ...</a>
 
       </div>
 
     </div>
     
     <div class="col-lg-6">
-      <h4 class="title">Media Center</h4>
+      <h4 class="title"><%= t :news_3 %></h4>
         <div class="media">
           <img class="pull-left media-object" width="100px" height="100px" src="/assets/econsult.png" >
           <div class="media-body pl20">
@@ -151,10 +151,10 @@
           <img class="pull-left media-object" src="/assets/forbes.png" >
           <div class="media-body pl20">
             <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
-              Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
+<%= t :media_seg1_0 %>
             </a>
             <br />
-            <em>August 29, 2013</em>
+            <em><%= t :media_seg1_1 %></em>
           </div>
         </div>
 
@@ -162,14 +162,14 @@
           <img class="pull-left media-object" src="/assets/eweekly.png" >
           <div class="media-body pl20">
             <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
-              What is… a GATT Service?
+<%= t :media_seg2_0 %>
             </a>
             <br />
-            <em>August 21, 2013</em>
+            <em><%= t :media_seg2_1 %></em>
           </div>
         </div>
 
-        <a class="visible-lg m10t pull-left" href="/press">See all ...</a>
+        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>">See all ...</a>
 
     </div>  
   </div>
@@ -181,9 +181,9 @@
 <div id="apps-section">
   <div class="container visible-lg">
       <div class="row">
-        <h4 class="title col-lg-9 pull-left"><strong>Silicon Vision's</strong> Applications</h4>
+        <h4 class="title col-lg-9 pull-left"><%= t :apps %></h4>
         <div class="col-lg-3 pull-right">
-          <a class="blue-but small pull-right"  href="/applications">See all applications</a>
+          <a class="blue-but small pull-right"  href="<%= url_for :controller =>'home', :action => 'applications' %>">See all applications</a>
         </div>
 
       </div>
@@ -193,7 +193,7 @@
             <a class="app-caption" data-toggle="modal" href="#com-sys">
               <img class="img-thumbnail" src="/assets/comunication-system.png">
               <span class="caption">
-                <p>COMMUNICATION SYSTEM</p>  
+                <p><%= t :app_comm_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="com-sys">
@@ -201,12 +201,13 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Comunication System</h4>
+                    <h4 class="modal-title"><%= t :app_comm_0 %></h4>
                   </div>
                   <div class="modal-body">
-                    <p>Applications related to communications systems as zigbee like communications, DSL links and analog front ends.
-                    Link to ISM TXRX</p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <p>
+<%= t :app_comm_1 %>
+                    </p>
+                    <%= link_to(t(:app_comm_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -217,7 +218,7 @@
             <a class="app-caption" data-toggle="modal" href="#wireless-ind">
               <img class="img-thumbnail" src="/assets/2.png">
               <span class="caption">
-                <p>Wirless Industrial control</p>  
+                <p><%= t :app_industrial_ctrl_0 %></p>  
               </span>
             </a>
 
@@ -226,14 +227,14 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wirless Industrial control</h4>
+                    <h4 class="modal-title"><%= t :app_industrial_ctrl_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
+<%= t :app_industrial_ctrl_1 %>
                       
                     </p>
-                    <%= link_to('Sub 1GHz Tx/Rx', {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_industrial_ctrl_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
@@ -244,7 +245,7 @@
             <a class="app-caption" data-toggle="modal" href="#health">
               <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
               <span class="caption">
-                <p>Wirless health monitors</p>  
+                <p><%= t :app_wireless_monitors_0 %></p>  
               </span>
             </a>
                <div class="modal fade" id="health">
@@ -252,14 +253,14 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Wirless health monitors</h4>
+                    <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Wireless Health monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, Wireless health differs from mHealth in that wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas.
+<%= t :app_wireless_monitors_1 %>
                       
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_wireless_monitors_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -273,7 +274,7 @@
             <a class="app-caption" data-toggle="modal" href="#remote-control">
               <img class="img-thumbnail" src="/assets/4.png">
               <span class="caption">
-                <p>Advanced remote controls</p>  
+                <p><%= t :app_remote_controls_0 %></p>  
               </span>
             </a>
             <div class="modal fade" id="remote-control">
@@ -281,14 +282,14 @@
                 <div class="modal-content">
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title">Advanced remote controls</h4>
+                    <h4 class="modal-title"><%= t :app_remote_controls_0 %></h4>
                   </div>
                   <div class="modal-body">
                     <p>
-                      Machine to machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability, M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).
+<%= t :app_remote_controls_1 %>
                       
                     </p>
-                    <%= link_to('Bluetooth Low Energy (BLE)', {
+                    <%= link_to(t(:app_remote_controls_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
