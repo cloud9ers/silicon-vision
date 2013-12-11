@@ -16,8 +16,8 @@
 <%= t :news_0 %>
 		</h4>
 		<div  class="pull-right fszs">
-			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
-			<span>/ Latest News</span>
+			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
+			<span>/ <%= t :news_2 %></span>
 		</div>
 	</div>
 </div>
@@ -28,22 +28,21 @@
       <h3><%= t :news_1 %></h3>
 
 
-			<div class="panel clearfix">
-				<div class="panel news-img col-lg-4 hr-img">
-					<img src="/assets/sivi-partners-mindtree.png" />
-				</div>
-		        
-		        <div class="col-lg-8 pl20">
-		          <h4><%= t :news_seg1_0 %></h4>
-		          <p class="date"><%= t :news_seg1_1 %></p>
-		          <p><%= t :news_seg1_2 %> <a href="/sivi-media/sivi-partners-with-mindtree"></a></p>
-		   		</div>
+      <div class="panel clearfix">
+        <div class="panel news-img col-lg-4 hr-img">
+          <img src="/assets/sivi-partners-mindtree.png" />
+        </div>
+            
+            <div class="col-lg-8 pl20">
+              <h4>Silicon Vision partners with Mindtree to offer a complete Bluetooth Low Energy intellectual property solution for wireless personal area networks</h4>
+              <p class="date">September 30, 2013</p>
+              <p>London, UK and Warren, NJ, USA, 30 September 2013 – Silicon Vision Technologies Ltd and Mindtree Ltd., a global information technology solutions company, have partnered to bring to market a state-of-the-art, integrated RF-baseband-stack intellectual property (IP) solution for BLE .... <a href="/sivi-media/sivi-partners-with-mindtree">Read More</a></p>
+          </div>
 
-		   		<span class="date-label">
-		   		<%= t :news_seg1_3 %>	<br /> <%= t :news_seg1_4 %>
-		   		</span>
-      		</div>
-
+          <span class="date-label">
+            Sep. <br /> 2013
+          </span>
+          </div>
 
 
 			<div class="panel clearfix" id="participated-dac2013">
@@ -52,13 +51,13 @@
 				</div>
 		        
 		        <div class="col-lg-8 pl20">
-		          <h4><%= t :news_seg2_0 %></h4>
-		          <p class="date"><%= t :news_seg2_1 %></p>
-		          <p><%= t :news_seg2_2 %></p>
+		          <h4><%= t :news_seg1_0 %></h4>
+		          <p class="date"><%= t :news_seg1_1 %></p>
+		          <p><%= t :news_seg1_2 %></p>
 		   		</div>
 
 		   		<span class="date-label">
-		   		<%= t :news_seg2_3 %>	<br /><%= t :news_seg2_4 %>
+		   		<%= t :news_seg1_3 %>	<br /><%= t :news_seg1_4 %>
 		   		</span>
       		</div>
 

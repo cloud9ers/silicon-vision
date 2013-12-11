@@ -16,14 +16,14 @@
       <%= t :ips_title %>
 		</h4>
 		<div  class="pull-right fszs">
-			<%= link_to('HOME', {:controller => 'home', :action => 'index'}) %>
+			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
 			<span>/ 
                 <%= link_to('IP', {
                     :controller => 'home',
                     :action => 'ips'
                 }) %>
             </span>
-            <span>/ Data Coverters</span>
+            <span>/ <%= t :data_converters_0 %></span>
 		</div>
 	</div>
 </div>
