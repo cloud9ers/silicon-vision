@@ -1,4 +1,4 @@
-en:
+﻿en:
   home: Home
   si_vi: Silicon Vision
   si_vi_short_desc: A leading IP provider of high performance Silicon IP
@@ -238,3 +238,27 @@ en:
   contact_30: korea-sales@si-vision.com
   contact_31: worldwide-sales@si-vision.com
   contact_32: Worldwide
+  media_seg9_0: "Wearable tech, mobile payments and the Internet of Things: why Bluetooth 4.1 is genuinely exciting (honestly, it is)."
+  media_seg9_1: December 13, 2013
+  media_seg9_2: Since its inception, Bluetooth was supposed to be the definitive standard for 'personal area networks', connecting a myriad of devices in a cloud of radio activity around your body. Realistically, though, all we ever used it for was headsets and speakerphones. With the latest revision to the spec, Bluetooth 4.1, the technology is finally coming of age. And why not? After all, it's only been around for 20 years.
+  media_seg9_3: READ MORE
+  media_seg9_4: Dec.
+  media_seg9_5: 2013
+  media_seg10_0: Providing a truly personalised in-store experience
+  media_seg10_1: December 02, 2013
+  media_seg10_2: We're well used to personalised digital experiences, but the adoption of Bluetooth Low Energy by the major smartphone manufacturers has the potential to bring personalisation to real world experiences.
+  media_seg10_3: READ MORE
+  media_seg10_4: Dec.
+  media_seg10_5: 2013
+  media_seg11_0: Bluetooth Smart and Wi-Fi to dominate mobile body network device market
+  media_seg11_1: September 30, 2013
+  media_seg11_2: Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4.
+  media_seg11_3: READ MORE
+  media_seg11_4: Sep.
+  media_seg11_5: 2013
+  media_seg12_0: Bluetooth Smart and Wi-Fi to Beat Out Proprietary Protocols in Mobile Body Area Network Device Market, Says ABI Research
+  media_seg12_1: September 30, 2013
+  media_seg12_2: LONDON -- Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4. Over the next 5 years, Bluetooth Smart (formerly Bluetooth Low Energy) will lead in shipments and Wi-Fi will lead in revenues in the healthcare device IC market expected to exceed $100 million by 2018.
+  media_seg12_3: READ MORE
+  media_seg12_4: Sep.
+  media_seg12_5: 2013
