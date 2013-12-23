@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">See all ...</a>
+        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>"><%= t :see_all %> ...</a>
 
       </div>
 
@@ -169,7 +169,7 @@
           </div>
         </div>
 
-        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>">See all ...</a>
+        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>"><%= t :see_all %> ...</a>
 
     </div>  
   </div>
@@ -183,7 +183,7 @@
       <div class="row">
         <h4 class="title col-lg-9 pull-left"><%= t :apps %></h4>
         <div class="col-lg-3 pull-right">
-          <a class="blue-but small pull-right"  href="<%= url_for :controller =>'home', :action => 'applications' %>">See all applications</a>
+          <a class="blue-but small pull-right"  href="<%= url_for :controller =>'home', :action => 'applications' %>"><%= t :see_all_apps %></a>
         </div>
 
       </div>
@@ -306,7 +306,7 @@
     <div class="hidden-lg center-txt">
       <h3>Silicon Vision Applications</h3>
       <p class="pb20">Check all Silicon Vision applications that serve lots of problems and based on it's IP</p>
-      <a class="blue-but"  href="/applications">See all applications</a>
+      <a class="blue-but"  href="/applications"><%= t :see_all_apps %></a>
       
     </div>
 </div>

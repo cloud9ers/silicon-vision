@@ -83,6 +83,7 @@
   ams_clock_gen_0: Clock Generator and Synthesizer IP
   ams_clock_gen_1: Silicon Vision provides various types of clock generators and frequency synthesizers for different applications. The library contains ultra-low power, low noise frequency synthesizers used in low power wireless standards. The list also contains a wide range of general purpose and low noise clock generators for high speed SerDes which are fully integrated with sync separators for video front ends. The library is silicon verified on various technology nodes starting from 180nm to 40nm.
   ams_clock_gen_2: Clock Generator IP
+  ams_clock_gen_3: Frequency Synthesizer IP
   ams_real_time_clocks_0: Real Time Clocks (RTC) & Oscillator IP
   ams_real_time_clocks_1: The Silicon Vision IP library provides ultra-low power ultra-high accurate RTCs that are required in most of the high end SoCs. The library also provides a wide range of RC and crystal oscillators that cover a wide range of frequencies starting from 10s of KHs to 100s of MHz. Auto calibration feature is also supported if high accuracy is needed. The library is verified on different nodes starting from 180nm to 40nm.
   ams_real_time_clocks_2: RTC and Oscillator IP
@@ -286,3 +287,9 @@
   contact_30: korea-sales@si-vision.com
   contact_31: worldwide-sales@si-vision.com
   contact_32: Worldwide
+  see_all: See all
+  see_all_apps: See all applications
+  write_email: Write your email
+  go: GO!
+  submit: submit
+  copyright: "All Copyrights reserved to Silicon Vision © 2013."

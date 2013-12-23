@@ -83,6 +83,7 @@
   ams_clock_gen_0: クロック発振器とシンセサイザーIP
   ams_clock_gen_1: シリコン・ビジョンはあらゆるアプリケーションに様々なクロック発振器とシンセサイザーIPを提供しています。ライブラリは省電力無線スタンダードで使用されている超省電力、低騒音周波数シンセサイザーを含みます。リストはビデオフロントエンドの同期セパレーターと完全に集積された高速度のSerDesに必要な広い範囲の一般用と低騒音クロック発振器を含みます。ライブラリは180nmから40nmまで、様々なテクノロジーノードにおいてシリコン検証を受けています。
   ams_clock_gen_2: クロック発振器IP
+  ams_clock_gen_3: 周波数シンセサイザー
   ams_real_time_clocks_0: リアルタイムクロックと発振器IP
   ams_real_time_clocks_1: シリコン・ビジョンのIPライブラリはほとんどのハイエンドのSoCsに必要な超低電力、高精度のRTCを提供しています。また、ライブラリは広い範囲のRCと10KHsから数百MHzまでの広い範囲の周波数をカバーしている水晶発振器を提供しています。また、高精度が必要な場合は自動較正機能もあります。ライブラリは180nmから40nmまで、様々なテクノロジーノードにおいてシリコン検証を受けています。
   ams_real_time_clocks_2: RTCと発振器IP
@@ -250,7 +251,7 @@
   media_seg13_3: 記事前文
   media_seg13_4: 12月
   media_seg13_5: 2013年
-  careers: 採用
+  careers: 採用情報 
   careers_0: シリコン・ビジョンのチームに入りませんか？
   careers_1: 急速に成長しているアナログ・ミックスシグナルチームに入りたい？革新と効率が高い環境で仕事したい？競争的な給付と賠償をもらいたい？じゃ、最新の履歴書をこちらにお申し込みください
   contact: お問い合わせ
@@ -286,3 +287,9 @@
   contact_30: korea-sales@si-vision.com
   contact_31: worldwide-sales@si-vision.com
   contact_32: 世界中
+  see_all: 全てをご覧
+  see_all_apps: アプリケーションを全てご覧
+  write_email: Eメールアドレスをご記入ください
+  go: 行け！
+  submit: 提出
+  copyright: "Copyright (C) 2013 シリコン・ビジョン. All Rights Reserved"
