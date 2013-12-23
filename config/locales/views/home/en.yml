@@ -154,6 +154,24 @@
   news_seg5_2: Barcelona, Spain – Mobile World Congress – 27 February 2012- Silicon Vision invites MWC2012 visitors to its stand in Hall1- Stand D-33, in Barcelona, February 27 - March 1, 2012. Silicon Vision is presenting its latest solutions for Low Power Wireless Technologies, targeting Smart Grid applications and Human Interface devices.
   news_seg5_3: Feb.
   news_seg5_4: 2012
+  news_seg9_0: Silicon Vision partners with Mindtree to offer a complete Bluetooth Low Energy intellectual property solution for wireless personal area networks.
+  news_seg9_1: 30 September 2013 
+  news_seg9_2: London, UK and Warren, NJ, USA, 30 September 2013 – Silicon Vision Technologies Ltd and Mindtree Ltd., a global information technology solutions company, have partnered to bring to market  a state-of-the-art, integrated RF-baseband-stack intellectual property (IP) solution for Bluetooth Low Energy (also known as Bluetooth Smart) technology. The integrated solution has already been proven with a lead customer in Asia, and will enable wireless personal area networks (WPAN) that rely on extremely low power consumption wireless connectivity.
+  news_seg9_3: The two companies have successfully integrated Silicon Vision’s RF PHY (radio) intellectual property for Bluetooth low energy (BLE), with Mindtree’s product-proven, fully-qualified baseband (link layer) and low-footprint protocol stack. This integrated solution is compliant with Bluetooth Low Energy 4.0 (single mode) specification with a highly competitive power consumption figure, enabling system-on-a-chip (SoC) designers to deliver power and area efficient chips for BLE using qualified and proven silicon over several nodes, including TSMC and SMIC.
+  news_seg9_4: Commenting on the new partnership, Tarek Elesseily, CEO of Silicon Vision, said, “We have developed a unique licensable RF intellectual property solution that supports Bluetooth low energy. With Mindtree dominating the independent IP provider space worldwide for BLE baseband, protocol stack and profiles today, we believe that our integrated solution will help realize the vision of millions of consumer electronics products to operate wirelessly for months or even years on tiny cell batteries. Our aim is to be the market leader within this sector with our ultra-low power, fully integrated and quickly portable solution forming part of many consumer electronics products.”
+  news_seg9_5: Vikram Srivats, general manager and global head of Mindtree’s engineering R&D service line, added, “We are enthusiastic about the Silicon Vision relationship. Mindtree’s investment in BLE technology spans more than 100 person-years, with several design wins and customer products shipping in volume already. Silicon Vision brings a silicon-proven RF-PHY solution for BLE, a strong team with ultra-low power RF expertise, and design services ability to quickly scale and meet customer requirements across foundries. With a fully integrated, silicon-proven, qualified and mature solution, our sales teams are already bidding together for new designs worldwide”. 
+  news_seg9_6: Markets for Bluetooth Smart devices include healthcare, sports and fitness, security, and home entertainment. According to industry analyst IMS Research, Bluetooth Smart will be present in 35 percent of all wireless sports and fitness monitoring devices (like pedometers and heart-rate monitors that run on small batteries) shipped this year, and in over 70 percent by 2018. Adding a sports and fitness monitor to a mobile phone can enhance the user experience via downloaded apps. Fitness parameters such as heart rate can be tracked more easily this way.
+  news_seg9_7: In home entertainment, integration of this technology in remote controls can add functionality not possible with infrared technology – such as non-line-of-sight control, voice control, gesture control, touch control and motion detection. With these additional features, device manufacturers can create a richer control environment for consumers, such as in interactive smart TVs.
+  news_seg9_8: Ends
+  news_seg9_9: About Silicon Vision Technologies Ltd
+  news_seg9_10: Silicon Vision Technologies Ltd. is a leading provider of high-performance, low power radio frequency (RF) intellectual property (RFIP). Its solutions leverage Bluetooth low energy technology, low power ZigBee-like RF technology and also advanced power management IP, delivering an industry-leading combination of performance and monolithic integration and targeting a broad range of applications in consumer applications, human interface devices (HIDs), smart metering, industrial and mobile wireless devices and markets. Established since 2007, and with over 350 years’ collective experience serving tier-one customers globally, Silicon Vision also collaborates with world-class technology partners including TSMC, SMIC, Mindtree Ltd., Mentor Graphics and XFab. For more information, visit www.si-vision.com.
+  news_seg9_11: "Press contact:"
+  news_seg9_12: Silicon Vision Technologies Limited
+  news_seg9_13: 14 Manchester Square, London W1U 3PP, United Kingdom
+  news_seg9_14: "Telephone: +44 207 097 1004"
+  news_seg9_15: "Email: press@si-vision.com"
+  news_seg9_16: Sep.
+  news_seg9_17: 2013
   media_seg1_0: Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
   media_seg1_1: August 29, 2013
   media_seg1_2: iBeacons is an implementation of the Bluetooth Low Energy (BLE) profile which enables very precise micro-location triggers for events in iOS 7 apps.
@@ -202,6 +220,36 @@
   media_seg8_3: READ MORE
   media_seg8_4: Nov.
   media_seg8_5: 2012
+  media_seg9_0: "Wearable tech, mobile payments and the Internet of Things: why Bluetooth 4.1 is genuinely exciting (honestly, it is)."
+  media_seg9_1: December 13, 2013
+  media_seg9_2: Since its inception, Bluetooth was supposed to be the definitive standard for 'personal area networks', connecting a myriad of devices in a cloud of radio activity around your body. Realistically, though, all we ever used it for was headsets and speakerphones. With the latest revision to the spec, Bluetooth 4.1, the technology is finally coming of age. And why not? After all, it's only been around for 20 years.
+  media_seg9_3: READ MORE
+  media_seg9_4: Dec.
+  media_seg9_5: 2013
+  media_seg10_0: Providing a truly personalised in-store experience
+  media_seg10_1: December 02, 2013
+  media_seg10_2: We're well used to personalised digital experiences, but the adoption of Bluetooth Low Energy by the major smartphone manufacturers has the potential to bring personalisation to real world experiences.
+  media_seg10_3: READ MORE
+  media_seg10_4: Dec.
+  media_seg10_5: 2013
+  media_seg11_0: Bluetooth Smart and Wi-Fi to dominate mobile body network device market
+  media_seg11_1: September 30, 2013
+  media_seg11_2: Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4.
+  media_seg11_3: READ MORE
+  media_seg11_4: Sep.
+  media_seg11_5: 2013
+  media_seg12_0: Bluetooth Smart and Wi-Fi to Beat Out Proprietary Protocols in Mobile Body Area Network Device Market, Says ABI Research
+  media_seg12_1: September 30, 2013
+  media_seg12_2: LONDON -- Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4. Over the next 5 years, Bluetooth Smart (formerly Bluetooth Low Energy) will lead in shipments and Wi-Fi will lead in revenues in the healthcare device IC market expected to exceed $100 million by 2018.
+  media_seg12_3: READ MORE
+  media_seg12_4: Sep.
+  media_seg12_5: 2013
+  media_seg13_0: "The future of home automation – ZigBee or Z-Wave?" 
+  media_seg13_1: December 14, 2013 
+  media_seg13_2: "There has been an ongoing debate between which technology is the best overall solution for Home Automation: ZigBee or Z-Wave?" 
+  media_seg13_3: READ MORE
+  media_seg13_4: Dec.
+  media_seg13_5: 2013
   careers: Careers
   careers_0: Join our team...
   careers_1: If you want to join a fast growing Analog/Mixed Signal Team, work in an environment that encourages innovation and productivity, get competitive benefits and compensations, then please send your updated resume to careers@si-vision.com
@@ -238,27 +286,3 @@
   contact_30: korea-sales@si-vision.com
   contact_31: worldwide-sales@si-vision.com
   contact_32: Worldwide
-  media_seg9_0: "Wearable tech, mobile payments and the Internet of Things: why Bluetooth 4.1 is genuinely exciting (honestly, it is)."
-  media_seg9_1: December 13, 2013
-  media_seg9_2: Since its inception, Bluetooth was supposed to be the definitive standard for 'personal area networks', connecting a myriad of devices in a cloud of radio activity around your body. Realistically, though, all we ever used it for was headsets and speakerphones. With the latest revision to the spec, Bluetooth 4.1, the technology is finally coming of age. And why not? After all, it's only been around for 20 years.
-  media_seg9_3: READ MORE
-  media_seg9_4: Dec.
-  media_seg9_5: 2013
-  media_seg10_0: Providing a truly personalised in-store experience
-  media_seg10_1: December 02, 2013
-  media_seg10_2: We're well used to personalised digital experiences, but the adoption of Bluetooth Low Energy by the major smartphone manufacturers has the potential to bring personalisation to real world experiences.
-  media_seg10_3: READ MORE
-  media_seg10_4: Dec.
-  media_seg10_5: 2013
-  media_seg11_0: Bluetooth Smart and Wi-Fi to dominate mobile body network device market
-  media_seg11_1: September 30, 2013
-  media_seg11_2: Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4.
-  media_seg11_3: READ MORE
-  media_seg11_4: Sep.
-  media_seg11_5: 2013
-  media_seg12_0: Bluetooth Smart and Wi-Fi to Beat Out Proprietary Protocols in Mobile Body Area Network Device Market, Says ABI Research
-  media_seg12_1: September 30, 2013
-  media_seg12_2: LONDON -- Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4. Over the next 5 years, Bluetooth Smart (formerly Bluetooth Low Energy) will lead in shipments and Wi-Fi will lead in revenues in the healthcare device IC market expected to exceed $100 million by 2018.
-  media_seg12_3: READ MORE
-  media_seg12_4: Sep.
-  media_seg12_5: 2013
