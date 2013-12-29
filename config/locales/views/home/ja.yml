@@ -32,18 +32,18 @@
   rf_bluetooth_0: 低エネルギーブルートゥース
   rf_bluetooth_1: SVI-TRX201低エネルギーブルートゥース無線機
   rf_bluetooth_2: SVI-TRX201無線機は完全に集積された超省電力ブルートゥース機能（ブルートゥース4.0の一部）に対応している低エネルギーブルートゥーススマートCMOS無線IPです。SVI-TRX201無線機IPはGFSK変調サポートで、低エネルギーブルートゥース機能に対応しています。RFとデジタルモデムがデザインに含まれています。ブルートゥーススマートブロードバンドコントローラと併せると、完全なブルートゥーススマートソリューションが作られます。SVI-TRX201無線機はTX/RWデータを含むフルディジタルインタフェース、リアルタイムコントロールインタフェースと登録プログラミングインタフェースを通じ、ベースバンドに接続します。
-  rf_bluetooth_3: "機能：　ダウンロード"
+  rf_bluetooth_3: "機能:ダウンロード"
   rf_bluetooth_4: TSMC/SMIC 0.18um RFCMOS-Gプロセス
   rf_bluetooth_5: 低エネルギーブルートゥースと互換可
-  rf_bluetooth_6: "電圧：1.8v～3.6v"
-  rf_bluetooth_7: "変調：FSK/GFSK"
+  rf_bluetooth_6: "電圧:1.8v～3.6v"
+  rf_bluetooth_7: "変調:FSK/GFSK"
   rf_bluetooth_8: センシティビティ= -87 dBm @ 1.0Mbps
   rf_bluetooth_9: "プリメインパワーアンプ：-20 – +3 dBm"
   rf_bluetooth_10: "RX ピーク/TX ピーク: 13mA/11mA"
   rf_transceiver_0: Sub-1GHz ISMトランシーバー
   rf_transceiver_1: SVI-TRX402 高性能Sub-1GHz ISMトランシーバー
   rf_transceiver_2: シリコン・ビジョンSVITRX402は完全に集積された、省電力、高性能マルチバンド無線トランシーバーIPです。このトランシーバーは415/433/868/915/950MHz ISMバンド（工業的、化学的と医学的）であり、IEEE 802.15.4Gスタンダードと互換しています。SVITRX402には+17dBmプリメインパワーアンプと-114dBm @2kbpsのレシーバーセンシティビティオンエアデータレートがあります。SVITRX402は長距離、低データレートアプリケーションに最適なソリューションであり、スマートメーターに広く使用されています。集積されたハードウェアプロトコルアクセラレーターやコプロセッサ暗号化はタイムクリティカルなプロトコール機能をアプリケーションマイクロコントローラーから移動し、低コストのサードパーティーマイクロコントローラー通用し、高度で、丈夫な無線接続の導入を可能にしています。
-  rf_transceiver_3: "機能：　ダウンロード"
+  rf_transceiver_3: "機能:ダウンロード"
   rf_transceiver_4: "周波数範囲： 400-960MHz"
   rf_transceiver_5: "変調：FSK/GFSK"
   rf_transceiver_6: センシティビティ= -110 dBm @ 19.2kbps
@@ -176,6 +176,7 @@
   careers: 採用情報 
   careers_0: シリコン・ビジョンのチームに入りませんか？
   careers_1: 急速に成長しているアナログ・ミックスシグナルチームに入りたい？革新と効率が高い環境で仕事したい？競争的な給付と賠償をもらいたい？じゃ、最新の履歴書をこちらにお申し込みください
+  careers_2: シリコン・ビジョンの採用情報 
   contact: お問い合わせ
   contact_0: シリコン・ビジョンの連絡先
   contact_1: シリコン・ビジョン・テクノロジーズ株式会社
@@ -295,5 +296,5 @@
   media_seg13_5: 2013
   contact_33: Kucukbakkalkoy Mah. Kayisdagi
   contact_34: Cad. Sevinc Sk. Pasifik Plaza A
-  contact_35: Blok No:5 K.3-Atasehir/Istanbul 
-  contact_36: "Mob: +90-530-236-4790"
+  contact_35: 5丁目 K.3-Atasehir/Istanbul 
+  contact_36: "携帯電話番号: +90-530-236-4790"
