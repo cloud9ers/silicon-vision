@@ -29,7 +29,7 @@
   rf_index_0: (Radio Frequency IP)
   rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
   rf_index_2: "Radio Frequency IP includes :"
-  rf_bluetooth_0: Bluetooth Low Energy
+  rf_bluetooth_0: Bluetooth Low Energy Radio
   rf_bluetooth_1: SVI-TRX201 Bluetooth Low Energy Radio
   rf_bluetooth_2: The SVI-TRX201 Radio is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0). The SVI-TRX201 Radio IP covers the Bluetooth low energy specifications with support of GFSK modulation. RF and digital modems are included in the design. When combined with the Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX201 Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
   rf_bluetooth_3: "Features: Download"
@@ -308,3 +308,25 @@
   news_seg11_2: "Barcelona, Spain – Mobile World Congress – 24 February 2014- Silicon Vision is delighted to inform you that our team will be present in the MWC 2014 at Hall6- 6G21, Silicon Vision team will be promoting its latest solutions for Bluetooth Low Energy full stack IP, and its 802.15.4g smart grid IP. It will be our pleasure to meet you in the MWC 2014, please send us a meeting request to mw2014@si-vision.com."
   news_seg11_3: Feb.
   news_seg11_4: 2014
+  zigbee_radio_0: Silicon Vision, SVI-TRX301 is a fully integrated low power radio transceiver IP targeting IEEE 802.15.4 standard. SVI-TRX301 performance is tailored for low power operation to be used in ZigBee systems and battery-powered modules.
+  zigbee_radio_1: Transmitter output power ranges from -25 to +3dBm, while receiver sensitivity is -93dBm at 250kbps. The frequency range allows operation in 2.4GHz Industrial, Scientific, Medical (ISM) band.
+  zigbee_radio_2: Features
+  zigbee_radio_3: Download
+  zigbee_radio_4: Compatible with IEEE.802.15.4
+  zigbee_radio_5: "Modulation: O-QPSK"
+  zigbee_radio_6: "Sensitivity = -87 dBm @ 250 kbps"
+  zigbee_radio_7: "Chip rate: 2MChip/s"
+  zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
+  zigbee_radio_9: Both the product brief and the data sheet are to be requested.
+  zigbee_radio_10:  Please try to make make it active, then we can add more data after that.
+  zigbee_radio_11: 2.4GHz Zigbee Radio
+  z_wave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
+  z_wave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
+  z_wave_radio_2: Features
+  z_wave_radio_3: Compatible with ITU-T G.9959
+  z_wave_radio_4: "Modulation: FSK, GFSK"
+  z_wave_radio_5: "Frequency: Sub-1GHz ISM Band"
+  z_wave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
+  z_wave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
+  z_wave_radio_8: "Integrated power amplifier: up to  +18 dBm"
+  z_wave_radio_9: "Z-wave (ITU-T G.9959) Radio"
