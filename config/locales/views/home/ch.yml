@@ -308,5 +308,25 @@
   news_seg11_2:  巴塞罗那，西班牙 - 移动通信世界大会 - 2014年2月24日-硅愿景很高兴地通知您 我们的团队将会出现在MWC2014 Hall6-6G21, 硅视觉介绍其蓝牙低耗能完整的解决方案和其 802.15.4g 智能电网解决方案的最新解决方案。这将是我们的荣幸，以满足您在MWC2014年，请向我们发送会议请求mw2014@si-vision.com.
   news_seg11_3: 2月
   news_seg11_4: 2014年
+  zigbee_radio_0: Silicon Vision, SVI-TRX301 is a fully integrated low power radio transceiver IP targeting IEEE 802.15.4 standard. SVI-TRX301 performance is tailored for low power operation to be used in ZigBee systems and battery-powered modules.
+  zigbee_radio_1: Transmitter output power ranges from -25 to +3dBm, while receiver sensitivity is -93dBm at 250kbps. The frequency range allows operation in 2.4GHz Industrial, Scientific, Medical (ISM) band.
+  zigbee_radio_2: Features
+  zigbee_radio_3: Download
+  zigbee_radio_4: Compatible with IEEE.802.15.4
+  zigbee_radio_5: "Modulation: O-QPSK"
+  zigbee_radio_6: "Sensitivity = -87 dBm @ 250 kbps"
+  zigbee_radio_7: "Chip rate: 2MChip/s"
+  zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
+  zigbee_radio_11: 2.4GHz Zigbee Radio
+  zwave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
+  zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
+  zwave_radio_2: Features
+  zwave_radio_3: Compatible with ITU-T G.9959
+  zwave_radio_4: "Modulation: FSK, GFSK"
+  zwave_radio_5: "Frequency: Sub-1GHz ISM Band"
+  zwave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
+  zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
+  zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
+  zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
 
 
