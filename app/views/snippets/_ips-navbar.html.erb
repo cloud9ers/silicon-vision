@@ -19,6 +19,18 @@
                             :action => 'sub-1ghz'
                         }) %>
                     </li>
+                    <li>
+                        <%= link_to(t(:zigbee_radio_11), {
+                            :controller => 'RadioFrequency',
+                            :action => 'zigbee'
+                        }) %>
+                    </li>
+                    <li>
+                        <%= link_to(t(:zwave_radio_9), {
+                            :controller => 'RadioFrequency',
+                            :action => 'zwave'
+                        }) %>
+                    </li>
                 </ul>
             </li>
             <li>

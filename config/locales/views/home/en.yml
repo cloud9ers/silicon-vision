@@ -317,16 +317,14 @@
   zigbee_radio_6: "Sensitivity = -87 dBm @ 250 kbps"
   zigbee_radio_7: "Chip rate: 2MChip/s"
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
-  zigbee_radio_9: Both the product brief and the data sheet are to be requested.
-  zigbee_radio_10:  Please try to make make it active, then we can add more data after that.
   zigbee_radio_11: 2.4GHz Zigbee Radio
-  z_wave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
-  z_wave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
-  z_wave_radio_2: Features
-  z_wave_radio_3: Compatible with ITU-T G.9959
-  z_wave_radio_4: "Modulation: FSK, GFSK"
-  z_wave_radio_5: "Frequency: Sub-1GHz ISM Band"
-  z_wave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
-  z_wave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
-  z_wave_radio_8: "Integrated power amplifier: up to  +18 dBm"
-  z_wave_radio_9: "Z-wave (ITU-T G.9959) Radio"
+  zwave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
+  zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
+  zwave_radio_2: Features
+  zwave_radio_3: Compatible with ITU-T G.9959
+  zwave_radio_4: "Modulation: FSK, GFSK"
+  zwave_radio_5: "Frequency: Sub-1GHz ISM Band"
+  zwave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
+  zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
+  zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
+  zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"

@@ -1,0 +1,80 @@
+
+<% content_for :title do %>
+<%= t :zwave_radio_9 %>
+<% end %>
+
+<% content_for :description do %>
+<% end %>
+
+<% content_for :keywords do %>
+  SVI-TRX201,Radio,highly integrated,ultra-low power,Bluetooth,Smart,CMOS,IP,compliant,Bluetooth,low energy,specification,Bluetooth 4.0,GFSK,modulation
+<% end %>
+
+<div class="head-strip">
+	<div class="container">
+		<h4 class="pull-left">
+      <%= t :ips_title %>
+		</h4>
+		<div  class="pull-right fszs">
+			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
+			<span>/ 
+				<%= link_to(t(:ips), {
+                    :controller => 'home',
+                    :action => 'ips'
+                }) %>
+			</span>
+			<span>/ 
+				<%= link_to(t(:rf_ips), {
+                    :controller => 'RadioFrequency',
+                    :action => 'index'
+                }) %>
+			</span>
+			<span>/ <%= t :zwave_radio_9 %></span>
+		</div>
+	</div>
+</div>
+<!-- head strip end -->
+
+<%= render "snippets/ips-navbar" %>
+
+<div class="container ips-pages">
+	<div class="row">
+		<div class="col-lg-7">
+			<h3 class="m50b">
+				<img src="/assets/rf-icon-s2x.png" width="53px" height="53px" />
+<%= t :zwave_radio_9 %>
+			</h3>
+		</div>
+		<div class="col-lg-5">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8">
+ 			<h4></h4>
+ 			<p>
+        <%= t :zwave_radio_0 %><br>
+<%= t :zwave_radio_1 %>
+ 			</p>
+ 			<div class="col-lg-6">
+ 				<h4 class="pull-left"><%= t(:zwave_radio_2) %>:</h4>
+
+
+	 			<ul class="clear">
+					<li><%= t :zwave_radio_3 %></li>
+					<li><%= t :zwave_radio_4 %></li>
+					<li><%= t :zwave_radio_5 %></li>
+					<li><%= t :zwave_radio_6 %></li>
+					<li><%= t :zwave_radio_7 %></li>
+					<li><%= t :zwave_radio_8 %></li>
+				</ul>
+				
+	 		</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="data-req">
+  <div class="modal-dialog">
+    <%= render "snippets/data-request-form" %>
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
