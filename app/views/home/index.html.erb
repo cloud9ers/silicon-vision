@@ -21,7 +21,7 @@
                   </strong>
                 </p>
                 <div class="col-lg-8 col-lg-offset-2">
-                  <a class="blue-but" href="/about"><%= t :si_vi_learn_more %></a>
+                  <a class="blue-but" href="<%= url_for :controller =>'home', :action => 'about' %>"><%= t :si_vi_learn_more %></a>
                 </div>
         </div>
         <div class="slider-header slide1 item">
@@ -31,7 +31,7 @@
                   <p class="desc"><%= t :rf_ips_desc %>
                   </p>
                   <br />
-                  <a class="blue-but" href="/radio_frequency/index"><%= t :rf_ips_see_more %></a>
+                  <a class="blue-but" href="<%= url_for :controller =>'radio_frequency', :action => 'index' %>"><%= t :rf_ips_see_more %></a>
 
               </div>
             </div>
@@ -43,7 +43,7 @@
                   <h2><%= t :pm_ips %></h2>
                   <p class="desc"><%= t :pm_ips_desc %></p>
                   <br />
-                  <a class="blue-but" href="/power_management/index">
+                  <a class="blue-but" href="<%= url_for :controller =>'power_management', :action => 'index' %>">
                     <%= t :pm_ips_see_more %>
                   </a>
               </div>

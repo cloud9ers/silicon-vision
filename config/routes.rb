@@ -1,9 +1,9 @@
 SiliconVesion::Application.routes.draw do
 
   root :to => "home#index"
-  get '/:locale' => "home#index"
 
   scope "(:locale)", locale: /en|ch|ja/ do
+    get '/' => "home#index"
     get "news/index"
 
     match "/newsletters/subscribe" => "newsletters#subscribe"
