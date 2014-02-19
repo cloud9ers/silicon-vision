@@ -58,6 +58,23 @@
  			<div class="col-lg-6">
  				<h4 class="pull-left"><%= t(:zwave_radio_2) %>:</h4>
 
+ 				<div class="pull-right btn-toolbar m30t">
+					<div class="btn-group">
+						<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+              <%= t(:zigbee_radio_3) %>
+							<span class="caret"></span>
+						</button>
+						<ul class="dropdown-menu">
+							<li>
+				        		<%= link_to 'Download Product Brief', '#', :target => '_blank' %>
+				        	</li>
+				        	<li>
+				        		<a data-id="SVI-TRX201" class="data-req-btn"  data-toggle="modal" href="#data-req">Request Data Sheet</a>
+				        	</li>
+						</ul>
+					</div>
+				</div>
+
 
 	 			<ul class="clear">
 					<li><%= t :zwave_radio_3 %></li>
