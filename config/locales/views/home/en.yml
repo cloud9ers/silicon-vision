@@ -314,7 +314,7 @@
   zigbee_radio_3: Download
   zigbee_radio_4: Compatible with IEEE.802.15.4
   zigbee_radio_5: "Modulation: O-QPSK"
-  zigbee_radio_6: "Sensitivity = -87 dBm @ 250 kbps"
+  zigbee_radio_6: "Sensitivity = -95 dBm @ 250 kbps"
   zigbee_radio_7: "Chip rate: 2MChip/s"
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
   zigbee_radio_11: 2.4GHz Zigbee Radio
