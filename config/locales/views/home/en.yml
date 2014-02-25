@@ -309,7 +309,7 @@
   news_seg11_3: Feb.
   news_seg11_4: 2014
   zigbee_radio_0: Silicon Vision, SVI-TRX301 is a fully integrated low power radio transceiver IP targeting IEEE 802.15.4 standard. SVI-TRX301 performance is tailored for low power operation to be used in ZigBee systems and battery-powered modules.
-  zigbee_radio_1: Transmitter output power ranges from -25 to +3dBm, while receiver sensitivity is -93dBm at 250kbps. The frequency range allows operation in 2.4GHz Industrial, Scientific, Medical (ISM) band.
+  zigbee_radio_1: Transmitter output power ranges from -25 to +3dBm, while receiver sensitivity is -95dBm at 250kbps. The frequency range allows operation in 2.4GHz Industrial, Scientific, Medical (ISM) band.
   zigbee_radio_2: Features
   zigbee_radio_3: Download
   zigbee_radio_4: Compatible with IEEE.802.15.4
