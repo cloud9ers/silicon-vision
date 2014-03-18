@@ -190,10 +190,39 @@
             <a class="app-caption" data-toggle="modal" href="#toys">
               <img class="img-thumbnail" style="width:260px;height:250px" src="/assets/wearabletech.jpg">
               <span class="caption">
-                <p><%= t :app_rc_toys_0 %></p>  
+                <p><%= t :app_wt_0 %></p>  
               </span>
             </a>
                <div class="modal fade" id="toys">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><%= t :app_wt_0 %></h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+<%= t :app_wt_1 %>
+                    </p>
+                    <%= link_to(t(:app_wt_2), {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div>
+
+        <div class="col-lg-3 pull-left">
+            <a class="app-caption" data-toggle="modal" href="#wt">
+             <img class="img-thumbnail" src="/assets/remote-control-toys.png">
+
+              <span class="caption">
+                <p><%= t :app_rc_toys_0 %></p>  
+              </span>
+            </a>
+               <div class="modal fade" id="wt">
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
@@ -204,7 +233,7 @@
                     <p>
 <%= t :app_rc_toys_1 %>
                     </p>
-                    <%= link_to(t(:app_rc_toys_2), {
+                    <%= link_to(t(:app_wt_2), {
                             :controller => 'RadioFrequency',
                             :action => 'bluetooth-low-energy'
                         }) %>
@@ -301,26 +330,7 @@
         </div>
 
 
-          <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="<%= url_for :controller => "data_converter", :action => "index" %>">
-              <img class="img-thumbnail" src="/assets/data-conv-app.png">
-              <span class="caption">
-                <p><%= t :app_instrumentation_0 %></p>  
-              </span>
-            </a>
-          </div>
-
-
-          <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="<%= url_for :controller => "ams", :action => "video-analog-front-ends"%>">
-              <img class="img-thumbnail" src="/assets/hdtv-app.png">
-              <span class="caption">
-                <p><%= t :app_flat_panel_0 %></p>  
-              </span>
-            </a>
-            
-        </div>
 
         
-	</div>
+	<div>
 </div>
