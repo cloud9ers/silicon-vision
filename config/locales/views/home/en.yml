@@ -127,6 +127,8 @@
   app_wireless_meters_2: Sub 1GHz Tx/Rx
   app_instrumentation_0: INSTRUMENTATION
   app_flat_panel_0: FLAT PANEL DISPLAYS
+  app_tot_0: Transfer of Technology (TOT)
+  app_tot_1: Technology Transfer, also called Transfer of Technology (TOT), is the process of transferring skills, knowledge, technologies, methods of manufacturing, samples of manufacturing and facilities among governments or universities and other institutions to ensure that scientific and technological developments are accessible to a wider range of users who can then further develop and exploit the technology into new products, processes, applications, materials or services. It is closely related to (and may arguably be considered a subset of) knowledge transfer.
   news: News and Press
   news_0: Silicon Vision's News and Press
   news_1: Silicon Vision Latest News
@@ -330,3 +332,4 @@
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
   zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
+

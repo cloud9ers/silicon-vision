@@ -331,6 +331,36 @@
 
 
 
+        <div class="col-lg-3 pull-left">
+            <a class="app-caption" data-toggle="modal" href="#tot">
+              <img class="img-thumbnail" width="260px" height="250" src="/assets/tot.jpg">
+              <span class="caption">
+                <p><%= t :app_tot_0 %></p>  
+              </span>
+            </a>
+
+             <div class="modal fade" id="tot">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><%= t :app_tot_0 %></h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+<%= t :app_tot_1 %>
+                      
+                    </p>
+                    <%= link_to(t(:app_wireless_monitors_2), {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
+                  </div>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+        </div>
+
         
 	<div>
 </div>
