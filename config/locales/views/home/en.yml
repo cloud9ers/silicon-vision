@@ -110,7 +110,7 @@
   app_sensor_networks_0: Sensor Networks
   app_sensor_networks_1: A Wireless Sensor Network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc., and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance. Today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
   app_sensor_networks_2: Sub 1GHz Tx/Rx
-  app_wt_0: Wearable Technology
+  app_wt_0: Wearables Technology
   app_wt_1: the term “wearable device” refers to electronic technologies or computers that are incorporated into items of clothing and accessories which can comfortably be worn on the body. These wearable devices can perform many of the same computing tasks as mobile phones and laptop computers; however, in some cases, wearable devices can outperform these hand-held devices entirely. Wearable technology tends to be more sophisticated than hand-held technology on the market today because it can provide sensory and scanning features not typically seen in mobile and laptop devices, such as biofeedback and tracking of physiological function.
   app_wt_2: Bluetooth Low Energy (BLE)
   app_rc_toys_0: Remote Controls for Toys
@@ -127,8 +127,8 @@
   app_wireless_meters_2: Sub 1GHz Tx/Rx
   app_instrumentation_0: INSTRUMENTATION
   app_flat_panel_0: FLAT PANEL DISPLAYS
-  app_tot_0: Transfer of Technology (TOT)
-  app_tot_1: Technology Transfer, also called Transfer of Technology (TOT), is the process of transferring skills, knowledge, technologies, methods of manufacturing, samples of manufacturing and facilities among governments or universities and other institutions to ensure that scientific and technological developments are accessible to a wider range of users who can then further develop and exploit the technology into new products, processes, applications, materials or services. It is closely related to (and may arguably be considered a subset of) knowledge transfer.
+  app_tot_0: The Internet of Things (IoT)
+  app_tot_1: The Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to automatically transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
   news: News and Press
   news_0: Silicon Vision's News and Press
   news_1: Silicon Vision Latest News
