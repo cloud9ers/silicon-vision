@@ -328,6 +328,8 @@
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
   zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
-  app_tot_0: Transfer of Technology (TOT)
-  app_tot_1: Technology Transfer, also called Transfer of Technology (TOT), is the process of transferring skills, knowledge, technologies, methods of manufacturing, samples of manufacturing and facilities among governments or universities and other institutions to ensure that scientific and technological developments are accessible to a wider range of users who can then further develop and exploit the technology into new products, processes, applications, materials or services. It is closely related to (and may arguably be considered a subset of) knowledge transfer.
-
+  app_wt_0: 耐磨
+  app_wt_1: 佩戴式设备”是指以电子技术或计算机,纳入项目的服装和配件,可以舒适地佩戴在身上。 这些佩戴式设备可以执行很多的相同的计算任务,移动电话和便携式计算机但在一些情况下佩戴式设备可以超越这些手持式设备。 佩戴式技术更趋于完善手持技术在当今的市场上,它可以提供感官和扫描功能通常不被视为移动和便携设备如生物反馈和跟踪的生理功能
+  app_wt_2:  蓝牙(Bluetooth) 低功耗(BLE)
+  app_tot_0:  互联网的事情
+  app_tot_1: 这是一种模拟场景,其中的对象动物或人提供唯一标识符和能够自动传输数据的网络而不需要人与人或人与计算机交互。 IOT已经从整合无线技术,微机电系统(MEMS)和互联网
