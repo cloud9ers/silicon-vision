@@ -110,7 +110,7 @@
           <img class="pull-left media-object" src="/assets/sivi-partners-mindtree-sm.png" >
           <div class="media-body">
             <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg9_0 %></h4>
+              <h4 class="media-heading"><%= (t :news_seg9_0).truncate(80) %></h4>
             </a>
             <p><%= t :news_seg9_1 %></p>
           </div>
@@ -242,7 +242,7 @@
         </div>
 
         <div class="col-lg-3">
-            <a class="app-caption" data-toggle="modal" href="#wireless-ind">
+            <a style="height:250px;" class="app-caption" data-toggle="modal" href="#wireless-ind">
               <img class="img-thumbnail" src="/assets/tot.jpg">
               <span class="caption">
                 <p><%= t :app_tot_0 %></p>  
