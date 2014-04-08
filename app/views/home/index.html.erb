@@ -89,12 +89,12 @@
       <h4 class="title"><%= t :news_2 %></h4>
       <div class="media-list">
         <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg11.png" >
+          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/bluetooth_conf.gif" >
           <div class="media-body">
             <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg11_0 %></h4>
+              <h4 class="media-heading"><%= t :news_seg12_0 %></h4>
             </a>
-            <p><%= t :news_seg11_1 %></p>
+            <p><%= t :news_seg12_1 %></p>
           </div>
         </div>
         <div class="media">
@@ -261,7 +261,10 @@
 <%= t :app_tot_1 %>
                       
                     </p>
-                    <%= link_to(t(:app_industrial_ctrl_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                    <%= link_to(t(:app_wireless_monitors_2), {
+                            :controller => 'RadioFrequency',
+                            :action => 'bluetooth-low-energy'
+                        }) %>
                   </div>
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
