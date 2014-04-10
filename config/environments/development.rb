@@ -43,7 +43,7 @@ SiliconVesion::Application.configure do
 
   #newsletter settings
   # => config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
-  config.mail_chimp_api_key = "ededfcfd9f52af734edf08af6926e914-us7"
+  config.mail_chimp_api_key = "66d88bdebefa1dfa0428accbc8a6b058-us8"
 
   # ActionMailer::Base.deliveries array.
   config.action_mailer.delivery_method = :test
