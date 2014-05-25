@@ -6,7 +6,7 @@
   rf_ips: 射频知识产权（IP）
   pm_ips: 电源管理知识产权（IP）
   dc_ips: 数据转换器知识产权（IP）
-  ams_ips: 应用管理系统 (AMS) 知识产权（IP）
+  ams_ips: 混合信号 (AMS) 知识产权（IP）
   rf_ips_desc: 硅视觉射频（RF）知识产权（IP）集中于低功率无线域名
   rf_ips_see_more: 查看更多关于射频知识产权（IP）的知识
   pm_ips_desc: 建筑最先进的片上系统（SoCs）的被使最优化电源管理（PM）知识产权（IP）
@@ -75,8 +75,8 @@
   pm_regulators_2: 低压降稳压器（LDO） 知识产权（IP）
   data_converters_0: 数据转换器知识产权（IP）
   data_converters_2: 硅视觉提供技术发展水平片上系统 （SoCs）非常要求的多种类型的数据转换器．该库包含高分辨率、广泛的带宽管线模数转换器（ADCs）、超低功率西格玛德耳塔（Σ-Δ）模数转换器（ADCs）和高分辨率搜索和援救（SAR）模数转换器（ADCs）。各类高端数模转换器（DACs） 也被支持。此库通过从180毫微米（nm）开始到40毫微米（nm）工艺节点被硅验证。
-  ams_index_0: 应用管理系统（AMS）知识产权（IP）
-  ams_index_1: 应用管理系统 （AMS） 知识产权（IP）包括：
+  ams_index_0: 混合信号（AMS）知识产权（IP）
+  ams_index_1: 混合信号（AMS） 知识产权（IP）包括：
   ams_index_2: 时钟发生器和合成器的知识产权（IP）
   ams_index_3: 实时时钟和振荡器的知识产权（IP）
   ams_index_4: 视频模拟前端的知识产权（IP）
