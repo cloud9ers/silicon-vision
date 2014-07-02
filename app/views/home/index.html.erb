@@ -75,7 +75,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
     <div class="row">
       <h3 class="m50b"><%= t :si_vi_offers %></h3>
 
-      <%= render "snippets/products" %>
+      <%= render "snippets/ips" %>
 
       <p class="col-lg-10 col-lg-offset-1"> <%= t(:si_vi_intro_2) %><br /><%= t :si_vi_intro_3 %></p>
     </div><!-- / .row -->
@@ -192,7 +192,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
                 <p>
                   <%= t :app_comm_1 %>
                 </p>
-                <%= link_to(t(:app_comm_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+                <%= link_to(t(:app_comm_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
               </div>
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
@@ -220,7 +220,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
 
                 </p>
                 <%= link_to(t(:app_wireless_monitors_2), {
-                  :controller => 'RadioFrequency',
+                  :controller => 'ips',
                   :action => 'bluetooth-low-energy'
                 }) %>
               </div>
@@ -249,7 +249,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
 
                 </p>
                 <%= link_to(t(:app_wireless_monitors_2), {
-                  :controller => 'RadioFrequency',
+                  :controller => 'ips',
                   :action => 'bluetooth-low-energy'
                 }) %>
               </div>
@@ -278,7 +278,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
 
                 </p>
                 <%= link_to(t(:app_remote_controls_2), {
-                  :controller => 'RadioFrequency',
+                  :controller => 'ips',
                   :action => 'bluetooth-low-energy'
                 }) %>
               </div>
