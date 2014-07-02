@@ -1,0 +1,55 @@
+<div class="list-group">
+
+  <div class="col-lg-6 m25b">
+    <a href="<%= url_for :controller => 'RadioFrequency', :action => 'bluetooth-low-energy' %>" class="list-group-item">
+      <div class="media">
+        <div class="pull-left">
+          <img class="media-object" src="/assets/blu-sm.png">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading list-group-item-heading text-left m15t"><%= t :rf_bluetooth_0 %></h4>
+        </div>
+      </div>
+    </a>
+  </div><!-- / .col-lg-4 -->
+
+  <div class="col-lg-6 m25b">
+    <a href="<%= url_for :controller => 'RadioFrequency', :action => 'sub-1ghz' %>" class="list-group-item">
+      <div class="media">
+        <div class="pull-left">
+          <img class="media-object" src="/assets/sub-1hz-sm.png">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading list-group-item-heading text-left m15t"><%= t :rf_transceiver_0 %></h4>
+        </div>
+      </div>
+    </a>
+  </div><!-- / .col-lg-4 -->
+
+  <div class="col-lg-6 m25b">
+    <a href="<%= url_for :controller => 'RadioFrequency', :action => 'zigbee' %>" class="list-group-item">
+      <div class="media">
+        <div class="pull-left">
+          <img class="media-object" width="50px" height="50px" src="/assets/zigbee2.jpg">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading list-group-item-heading text-left m15t"><%= t :zigbee_radio_11 %></h4>
+        </div>
+      </div>
+    </a>
+  </div><!-- / .col-lg-4 -->
+
+  <div class="col-lg-6 m25b">
+    <a href="<%= url_for :controller => 'RadioFrequency', :action => 'zwave' %>" class="list-group-item">
+      <div class="media">
+        <div class="pull-left">
+          <img class="media-object" width="50px" height="50px" src="/assets/zwave.png">
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading list-group-item-heading text-left m15t"> <%= t :zwave_radio_9 %></h4>
+        </div>
+      </div>
+    </a>
+  </div><!-- / .col-lg-4 -->
+
+</div><!-- / .list-group -->

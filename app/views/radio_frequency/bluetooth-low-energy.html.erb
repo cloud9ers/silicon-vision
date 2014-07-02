@@ -7,31 +7,25 @@
 <% end %>
 
 <% content_for :keywords do %>
-  SVI-TRX201,Radio,highly integrated,ultra-low power,Bluetooth,Smart,CMOS,IP,compliant,Bluetooth,low energy,specification,Bluetooth 4.0,GFSK,modulation
+SVI-TRX201,Radio,highly integrated,ultra-low power,Bluetooth,Smart,CMOS,IP,compliant,Bluetooth,low energy,specification,Bluetooth 4.0,GFSK,modulation
 <% end %>
 
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
       <%= t :ips_title %>
-		</h4>
-		<div  class="pull-right fszs">
-			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
-			<span>/ 
-				<%= link_to(t(:ips), {
-                    :controller => 'home',
-                    :action => 'ips'
-                }) %>
-			</span>
-			<span>/ 
-				<%= link_to(t(:rf_ips), {
-                    :controller => 'RadioFrequency',
-                    :action => 'index'
-                }) %>
-			</span>
-			<span>/ <%= t :rf_bluetooth_0 %></span>
-		</div>
-	</div>
+    </h4>
+    <div  class="pull-right fszs">
+     <%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
+     <span>/
+      <%= link_to(t(:ips), {
+        :controller => 'home',
+        :action => 'ips'
+      }) %>
+    </span>
+    <span>/ <%= t :rf_bluetooth_0 %></span>
+  </div>
+</div>
 </div>
 <!-- head strip end -->
 
@@ -42,69 +36,69 @@
 		<div class="col-lg-7">
 			<h3 class="m50b">
 				<img src="/assets/rf-icon-s2x.png" width="53px" height="53px" />
-<%= t :rf_bluetooth_0 %>
-			</h3>
-		</div>
-		<div class="col-lg-5">
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-lg-8">
- 			<h4><%= t :rf_bluetooth_1 %></h4>
- 			<p>
-<%= t :rf_bluetooth_2 %>
- 			</p>
- 			<div class="col-lg-6">
- 				<h4 class="pull-left"><%= t(:rf_bluetooth_3).split(":")[0] %>:</h4>
+        <%= t :rf_bluetooth_0 %>
+      </h3>
+    </div>
+    <div class="col-lg-5">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8">
+      <h4><%= t :rf_bluetooth_1 %></h4>
+      <p>
+        <%= t :rf_bluetooth_2 %>
+      </p>
+      <div class="col-lg-6">
+       <h4 class="pull-left"><%= t(:rf_bluetooth_3).split(":")[0] %>:</h4>
 
- 				<div class="pull-right btn-toolbar m30t">
-					<div class="btn-group">
-						<button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
-              <%= t(:rf_bluetooth_3).split(":")[1] %>
-							<span class="caret"></span>
-						</button>
-						<ul class="dropdown-menu">
-							<li>
-				        		<%= link_to 'Download Product Brief', '/files/SVI-TRX201.pdf', :target => '_blank' %>
-				        	</li>
-				        	<li>
-				        		<a data-id="SVI-TRX201" class="data-req-btn"  data-toggle="modal" href="#data-req">Request Data Sheet</a>
-				        	</li>
-						</ul>
-					</div>
-				</div>
+       <div class="pull-right btn-toolbar m30t">
+         <div class="btn-group">
+          <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
+            <%= t(:rf_bluetooth_3).split(":")[1] %>
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+           <li>
+            <%= link_to 'Download Product Brief', '/files/SVI-TRX201.pdf', :target => '_blank' %>
+          </li>
+          <li>
+            <a data-id="SVI-TRX201" class="data-req-btn"  data-toggle="modal" href="#data-req">Request Data Sheet</a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-	 			<ul class="clear">
-					<li><%= t :rf_bluetooth_4 %></li>
-					<li><%= t :rf_bluetooth_5 %></li>
-					<li><%= t :rf_bluetooth_6 %></li>
-					<li><%= t :rf_bluetooth_7 %></li>
-					<li><%= t :rf_bluetooth_8 %></li>
-					<li><%= t :rf_bluetooth_9 %></li>
-					<li><%= t :rf_bluetooth_10 %></li>
-				</ul>
-				
-	 		</div>
-		</div>
-		<div class="col-lg-4 center-txt">
-			<a data-toggle="modal" href="#myModal">
-				<img src="/assets/ble-s.jpg" />
-			</a>
-			<div class="modal fade" id="myModal">
-				<div class="modal-dialog">
-				  <div class="modal-content">
-				    <div class="modal-header">
-				      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				      <h4 class="modal-title"><%= t :rf_bluetooth_0 %></h4>
-				    </div>
-				    <div class="modal-body">
-				      <img src="/assets/ble.jpg" />
-				    </div>
-				  </div><!-- /.modal-content -->
-				</div><!-- /.modal-dialog -->
-			</div><!-- /.modal -->
-		</div>
-	</div>
+    <ul class="clear">
+     <li><%= t :rf_bluetooth_4 %></li>
+     <li><%= t :rf_bluetooth_5 %></li>
+     <li><%= t :rf_bluetooth_6 %></li>
+     <li><%= t :rf_bluetooth_7 %></li>
+     <li><%= t :rf_bluetooth_8 %></li>
+     <li><%= t :rf_bluetooth_9 %></li>
+     <li><%= t :rf_bluetooth_10 %></li>
+   </ul>
+
+ </div>
+</div>
+<div class="col-lg-4 center-txt">
+ <a data-toggle="modal" href="#myModal">
+  <img src="/assets/ble-s.jpg" />
+</a>
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><%= t :rf_bluetooth_0 %></h4>
+      </div>
+      <div class="modal-body">
+        <img src="/assets/ble.jpg" />
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</div>
+</div>
 </div>
 
 <div class="modal fade" id="data-req">
