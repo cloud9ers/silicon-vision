@@ -1,62 +1,62 @@
 <% content_for :title do %>
-  <%= t :home %>
+<%= t :home %>
 <% end %>
 
 <% content_for :description do %>
-  <%= t :si_vi_intro_2 %>
+<%= t :si_vi_intro_2 %>
 <% end %>
 
 <% content_for :keywords do %>
-  IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AMS,IP
+IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AMS,IP
 <% end %>
 <!-- slider -->
 
 <div id="main-slider" class="carousel slide">
-    <div class="carousel-inner">
-        <div class="slider-header slidehead item active">
-          <h2><%= t :si_vi %></h2>
-                <p class="about lead col-lg-8 col-lg-offset-2">
-                  <strong>
-                    <%= t :si_vi_short_desc %>
-                  </strong>
-                </p>
-                <div class="col-lg-8 col-lg-offset-2">
-                  <a class="blue-but" href="<%= url_for :controller =>'home', :action => 'about' %>"><%= t :si_vi_learn_more %></a>
-                </div>
-        </div>
-        <div class="slider-header slide1 item">
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                  <h2><%= t :rf_ips %></h2>
-                  <p class="desc"><%= t :rf_ips_desc %>
-                  </p>
-                  <br />
-                  <a class="blue-but" href="<%= url_for :controller =>'radio_frequency', :action => 'index' %>"><%= t :rf_ips_see_more %></a>
-
-              </div>
-            </div>
-        </div>
-        <div class="slider-header slide2 item">
-            <div class="row">
-                
-                <div class="col-lg-8 col-lg-offset-2 m30t">
-                  <h2><%= t :pm_ips %></h2>
-                  <p class="desc"><%= t :pm_ips_desc %></p>
-                  <br />
-                  <a class="blue-but" href="<%= url_for :controller =>'power_management', :action => 'index' %>">
-                    <%= t :pm_ips_see_more %>
-                  </a>
-              </div>
-            </div>
-        </div>
+  <div class="carousel-inner">
+    <div class="slider-header slidehead item active">
+      <h2><%= t :si_vi %></h2>
+      <p class="about lead col-lg-8 col-lg-offset-2">
+        <strong>
+          <%= t :si_vi_short_desc %>
+        </strong>
+      </p>
+      <div class="col-lg-8 col-lg-offset-2">
+        <a class="blue-but" href="<%= url_for :controller =>'home', :action => 'about' %>"><%= t :si_vi_learn_more %></a>
+      </div>
     </div>
-    <!-- Controls -->
-         <a class="left carousel-control" href="#main-slider" data-slide="prev">
-             <span class="slider-prev"></span>
-           </a>
-           <a class="right carousel-control" href="#main-slider" data-slide="next">
-             <span class="slider-next"></span>
-           </a>
+    <div class="slider-header slide1 item">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h2><%= t :rf_ips %></h2>
+          <p class="desc"><%= t :rf_ips_desc %>
+          </p>
+          <br />
+          <a class="blue-but" href="<%= url_for :controller =>'radio_frequency', :action => 'index' %>"><%= t :rf_ips_see_more %></a>
+
+        </div>
+      </div>
+    </div>
+    <div class="slider-header slide2 item">
+      <div class="row">
+
+        <div class="col-lg-8 col-lg-offset-2 m30t">
+          <h2><%= t :pm_ips %></h2>
+          <p class="desc"><%= t :pm_ips_desc %></p>
+          <br />
+          <a class="blue-but" href="<%= url_for :controller =>'power_management', :action => 'index' %>">
+            <%= t :pm_ips_see_more %>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#main-slider" data-slide="prev">
+   <span class="slider-prev"></span>
+ </a>
+ <a class="right carousel-control" href="#main-slider" data-slide="next">
+   <span class="slider-next"></span>
+ </a>
 </div>
 <!-- slider end -->
 
@@ -65,9 +65,9 @@
     <div class="row">
       <p class="col-lg-10 col-lg-offset-1">
        <%= t :si_vi_intro_1 %>
-      </p>
-    </div>
-  </div>
+     </p>
+   </div>
+ </div>
 </div>
 
 <div id="ips-section" class="ips-section-background">
@@ -83,82 +83,52 @@
 <!-- latest news -->
 <div id="latest-news" >
 
-<div class="container">
-  <div class="row">
-    <div class="col-lg-6">
-      <h4 class="title"><%= t :news_2 %></h4>
-      <div class="media-list">
-        <div class="media">
-          <img class="pull-left media-object" src="/assets/sivi_hg.png" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_hg1 %></h4>
-            </a>
-            <p><%= t :news_seg14_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg13_0 %></h4>
-            </a>
-            <p><%= t :news_seg13_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/bluetooth_conf.gif" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg12_0 %></h4>
-            </a>
-            <p><%= t :news_seg12_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:100px;" src="/assets/news_seg11.png" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>#participated-dac2013">
-              <h4 class="media-heading"><%= t :news_seg11_0 %></h4>
-            </a>
-            <p><%= t :news_seg11_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:100px;" src="/assets/SiliconVision_Logo.png" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg10_0 %></h4>
-            </a>
-            <p><%= t :news_seg10_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" src="/assets/sivi-partners-mindtree-sm.png" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= (t :news_seg9_0).truncate(80) %></h4>
-            </a>
-            <p><%= t :news_seg9_1 %></p>
-          </div>
-        </div>
+  <div class="container">
 
+    <div class="row">
 
-        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>"><%= t :see_all %> ...</a>
+      <div class="col-lg-6">
+        <h4 class="title"><%= t :news_2 %></h4>
+          <div class="media">
+            <img class="pull-left media-object" src="/assets/sivi_hg.png" >
+            <div class="media-body">
+              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+                <h4 class="media-heading"><%= t :news_hg1 %></h4>
+              </a>
+              <p><%= t :news_seg14_1 %></p>
+            </div>
+          </div>
+          <div class="media">
+            <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
+            <div class="media-body">
+              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+                <h4 class="media-heading"><%= t :news_seg13_0 %></h4>
+              </a>
+              <p><%= t :news_seg13_1 %></p>
+            </div>
+          </div>
+          <div class="media">
+            <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/bluetooth_conf.gif" >
+            <div class="media-body">
+              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+                <h4 class="media-heading"><%= t :news_seg12_0 %></h4>
+              </a>
+              <p><%= t :news_seg12_1 %></p>
+            </div>
+          </div>
 
-      </div>
+          <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>"><%= t :see_all %> ...</a>
 
-    </div>
-    
-    <div class="col-lg-6">
-      <h4 class="title"><%= t :news_3 %></h4>
+      </div><!-- / .col-lg-6 -->
 
+      <div class="col-lg-6">
+        <h4 class="title"><%= t :news_3 %></h4>
         <div class="media">
           <img class="pull-left media-object" width="100px" height="60px" src="/assets/ecosys.png" >
           <div class="media-body pl20">
             <a href="<%= url_for :controller => 'home', :action => 'press' %>#econsult-article">Middle East and Africa: youth are driving its innovation ecosystems </a>
             <br />
-            <span>Febraury 23,  2014</span>
+            <span>Febraury 23, 2014</span>
           </div>
         </div>
         <div class="media">
@@ -169,183 +139,161 @@
             <span><%= t :media_seg10_1 %></span>
           </div>
         </div>
-
         <div class="media">
-          <img class="pull-left media-object"  src="/assets/fort-mill-times.png" >
+          <img class="pull-left media-object" src="/assets/fort-mill-times.png" >
           <div class="media-body pl20">
             <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
-<%= t :media_seg12_0 %>
+              <%= t :media_seg12_0 %>
             </a>
             <br />
             <span><%= t :media_seg12_1 %></span>
           </div>
         </div>
 
+        <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>"><%= t :see_all %> ...</a>
 
-        <div class="media">
-          <img class="pull-left media-object"  src="/assets/forbes.png" >
-          <div class="media-body pl20">
-            <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
-<%= t :media_seg1_0 %>
-            </a>
-            <br />
-            <span><%= t :media_seg1_1 %></span>
-          </div>
-        </div>
+      </div><!-- / .col-lg-6 -->
 
-        <div class="media">
-          <img class="pull-left media-object"  src="/assets/eweekly.png" >
-          <div class="media-body pl20">
-            <a href="<%= url_for :controller => 'home', :action => 'press' %>#forbes-article">
-<%= t :media_seg2_0 %>
-            </a>
-            <br />
-            <span><%= t :media_seg2_1 %></span>
-          </div>
-        </div>
+    </div><!-- / .row -->
 
-        <a class="visible-lg m10t pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>"><%= t :see_all %> ...</a>
-
-    </div>  
-  </div>
-</div>
+  </div><!-- / .container -->
 
 </div>
 <!-- latest news End -->
 
 <div id="apps-section">
   <div class="container visible-lg">
-      <div class="row">
-        <h4 class="title col-lg-9 pull-left"><%= t :apps %></h4>
-        <div class="col-lg-3 pull-right">
-          <a class="blue-but small pull-right"  href="<%= url_for :controller =>'home', :action => 'applications' %>"><%= t :see_all_apps %></a>
-        </div>
-
-      </div>
-
-      <div id="applications-list" class="row">
-        <div class="col-lg-3">
-            <a class="app-caption" data-toggle="modal" href="#com-sys">
-              <img class="img-thumbnail" src="/assets/comunication-system.png">
-              <span class="caption">
-                <p><%= t :app_comm_0 %></p>  
-              </span>
-            </a>
-            <div class="modal fade" id="com-sys">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_comm_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_comm_1 %>
-                    </p>
-                    <%= link_to(t(:app_comm_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3">
-            <a style="height:250px;" class="app-caption" data-toggle="modal" href="#wireless-ind">
-              <img class="img-thumbnail" src="/assets/tot.jpg">
-              <span class="caption">
-                <p><%= t :app_tot_0 %></p>  
-              </span>
-            </a>
-
-             <div class="modal fade" id="wireless-ind">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_tot_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_tot_1 %>
-                      
-                    </p>
-                    <%= link_to(t(:app_wireless_monitors_2), {
-                            :controller => 'RadioFrequency',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3">
-            <a class="app-caption" data-toggle="modal" href="#health">
-              <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
-              <span class="caption">
-                <p><%= t :app_wireless_monitors_0 %></p>  
-              </span>
-            </a>
-               <div class="modal fade" id="health">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wireless_monitors_1 %>
-                      
-                    </p>
-                    <%= link_to(t(:app_wireless_monitors_2), {
-                            :controller => 'RadioFrequency',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3">
-            <a class="app-caption" data-toggle="modal" href="#remote-control">
-              <img style="height:250px!important;" class="img-thumbnail" src="/assets/wearabletech.jpg">
-              <span class="caption">
-                <p><%= t :app_wt_0 %></p>  
-              </span>
-            </a>
-            <div class="modal fade" id="remote-control">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wt_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wt_1 %>
-                      
-                    </p>
-                    <%= link_to(t(:app_remote_controls_2), {
-                            :controller => 'RadioFrequency',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
+    <div class="row">
+      <h4 class="title col-lg-9 pull-left"><%= t :apps %></h4>
+      <div class="col-lg-3 pull-right">
+        <a class="blue-but small pull-right"  href="<%= url_for :controller =>'home', :action => 'applications' %>"><%= t :see_all_apps %></a>
       </div>
 
     </div>
 
+    <div id="applications-list" class="row">
+      <div class="col-lg-3">
+        <a class="app-caption" data-toggle="modal" href="#com-sys">
+          <img class="img-thumbnail" src="/assets/comunication-system.png">
+          <span class="caption">
+            <p><%= t :app_comm_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="com-sys">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_comm_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <%= t :app_comm_1 %>
+                </p>
+                <%= link_to(t(:app_comm_2), {:controller => 'RadioFrequency', :action => 'sub-1ghz'}) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
 
-    <div class="hidden-lg center-txt">
-      <h3>Silicon Vision Applications</h3>
-      <p class="pb20">Check all Silicon Vision applications that serve lots of problems and based on it's IP</p>
-      <a class="blue-but"  href="/applications"><%= t :see_all_apps %></a>
-      
+      <div class="col-lg-3">
+        <a style="height:250px;" class="app-caption" data-toggle="modal" href="#wireless-ind">
+          <img class="img-thumbnail" src="/assets/tot.jpg">
+          <span class="caption">
+            <p><%= t :app_tot_0 %></p>
+          </span>
+        </a>
+
+        <div class="modal fade" id="wireless-ind">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_tot_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <%= t :app_tot_1 %>
+
+                </p>
+                <%= link_to(t(:app_wireless_monitors_2), {
+                  :controller => 'RadioFrequency',
+                  :action => 'bluetooth-low-energy'
+                }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
+
+      <div class="col-lg-3">
+        <a class="app-caption" data-toggle="modal" href="#health">
+          <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
+          <span class="caption">
+            <p><%= t :app_wireless_monitors_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="health">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <%= t :app_wireless_monitors_1 %>
+
+                </p>
+                <%= link_to(t(:app_wireless_monitors_2), {
+                  :controller => 'RadioFrequency',
+                  :action => 'bluetooth-low-energy'
+                }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
+
+      <div class="col-lg-3">
+        <a class="app-caption" data-toggle="modal" href="#remote-control">
+          <img style="height:250px!important;" class="img-thumbnail" src="/assets/wearabletech.jpg">
+          <span class="caption">
+            <p><%= t :app_wt_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="remote-control">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_wt_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                  <%= t :app_wt_1 %>
+
+                </p>
+                <%= link_to(t(:app_remote_controls_2), {
+                  :controller => 'RadioFrequency',
+                  :action => 'bluetooth-low-energy'
+                }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
     </div>
+
+  </div>
+
+
+  <div class="hidden-lg center-txt">
+    <h3>Silicon Vision Applications</h3>
+    <p class="pb20">Check all Silicon Vision applications that serve lots of problems and based on it's IP</p>
+    <a class="blue-but"  href="/applications"><%= t :see_all_apps %></a>
+
+  </div>
 </div>
 <!-- apps End -->
