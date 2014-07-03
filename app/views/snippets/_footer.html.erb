@@ -1,16 +1,16 @@
   <div class="container">
-      <div class="row">
-        <h3 class="col-lg-6 col-lg-offset-3"><%= t :subscribe %> </h3>
-        <%= form_tag(newsletters_subscribe_path(:format => 'json'), :id=>'subscribe-form', :class=>'input-group col-lg-6 col-lg-offset-3') do %>
-            <div style="margin-left:0;">
-              <%= email_field(:user, :address, :required => true, :placeholder => t(:write_email), :id =>"subscribe", :class => "form-control")%>
-            </div>
-            <span class="input-group-btn">
-              <%= submit_tag(t(:go), :id=> 'subscribe-btn', :class => 'btn btn-primary')%>
-            </span>
-        <% end %>
+    <div class="row">
+      <h3 class="col-lg-6 col-lg-offset-3"><%= t :subscribe %> </h3>
+      <%= form_tag(newsletters_subscribe_path(:format => 'json'), :id=>'subscribe-form', :class=>'input-group col-lg-6 col-lg-offset-3') do %>
+      <div style="margin-left:0;">
+        <%= email_field(:user, :address, :required => true, :placeholder => t(:write_email), :id =>"subscribe", :class => "form-control")%>
       </div>
+      <span class="input-group-btn">
+        <%= submit_tag(t(:go), :id=> 'subscribe-btn', :class => 'btn btn-primary')%>
+      </span>
+      <% end %>
     </div>
+  </div>
 
   <div id="copyrights">
     <div class="container">
@@ -33,6 +33,6 @@
             </a>
           </li>
         </ul>
-      </div> 
+      </div>
     </div>
   </div>
