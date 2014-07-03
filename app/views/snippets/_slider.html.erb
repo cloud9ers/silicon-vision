@@ -1,0 +1,49 @@
+<div id="main-slider" class="carousel slide">
+
+  <div class="carousel-inner">
+
+    <div class="slider-header slidehead item active">
+      <h2><%= t :si_vi %></h2>
+      <p class="about lead col-lg-8 col-lg-offset-2">
+        <strong><%= t :si_vi_short_desc %></strong>
+      </p>
+      <br />
+      <div class="col-lg-8 col-lg-offset-2">
+        <a class="blue-but" href="<%= url_for :controller =>'home', :action => 'about' %>"><%= t :si_vi_learn_more %></a>
+      </div>
+    </div>
+
+    <div class="slider-header slide1 item">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h2><%= t :rf_ips %></h2>
+          <p class="desc"><%= t :rf_ips_desc %></p>
+          <br />
+          <a class="blue-but" href="<%= url_for :controller =>'ips', :action => 'index' %>"><%= t :rf_ips_see_more %></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="slider-header slide2 item">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h2>Main Product</h2>
+          <p class="desc"><%= t :rf_ips_desc %></p>
+          <br />
+          <a class="blue-but" href="<%= url_for :controller =>'MainProducts', :action => 'index' %>">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!--  / .carousel-inner -->
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#main-slider" data-slide="prev">
+    <span class="slider-prev"></span>
+  </a>
+
+  <a class="right carousel-control" href="#main-slider" data-slide="next">
+    <span class="slider-next"></span>
+  </a>
+
+</div>
