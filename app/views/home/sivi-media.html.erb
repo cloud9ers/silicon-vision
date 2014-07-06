@@ -26,6 +26,24 @@
 	<div class="row">
 		<div class="col-lg-9">
       <h3><%= t :news_1 %></h3>
+
+      <div class="panel clearfix">
+        <div class="panel news-img col-lg-4 hr-img">
+          <img style="width:200px;height:50px;" src="/assets/Logo.png" />
+          <img style="width:200px;height:50px;" src="/assets/hggrace.gif" />
+        </div>
+            
+            <div class="col-lg-8 pl20">
+              <h4><%= t :news_seg14_0 %></h4>
+              <p class="date"><%= t :news_seg14_1 %></p>
+              <p><%= t :news_seg14_2 %><a href="<%= url_for :controller => "sivi-media", :action => "sivi-partners-with-hg" %>">READ MORE</a></p>
+          </div>
+
+          <span class="date-label">
+        <%= t :news_seg14_3 %> <br /> <%= t :news_seg14_4 %>
+          </span>
+        </div>
+
       <div class="panel clearfix">
         <div class="panel news-img col-lg-4 hr-img">
           <img style="width:200px;height:200px;" src="/assets/news_seg13.jpg" />
