@@ -1,11 +1,64 @@
 <% content_for :head do %>
 <%= stylesheet_link_tag "main_products", :media => "all" %>
+<%= stylesheet_link_tag "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css" %>
 <% end %>
 
 <%= render "snippets/head" %>
 
 <body class="<%= controller_name %> <%= action_name %>">
-  <%= yield %>
+
+  <div class="container m50t">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <%= render 'snippets/main_products_nav' %>
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+            <div class="main">
+              <%= yield %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+
+      <div class="row">
+
+        <div class="col-sm-8 col-sm-offset-2">
+          <div class="row m50t m50b">
+            <div class="col-sm-3">
+              <img src="/assets/main-product/bluetooth4-1.png">
+            </div>
+            <div class="col-sm-3">
+              <img src="/assets/main-product/bluetooth4-1.png">
+            </div>
+            <div class="col-sm-3">
+              <img src="/assets/main-product/bluetoothSIP.png">
+            </div>
+            <div class="col-sm-3">
+              <img src="/assets/main-product/bluetoothSmart.png">
+            </div>
+          </div><!-- row -->
+        </div>
+      </div>
+
+      <div class="row m20b">
+        <div class="col-sm-10 col-sm-offset-1">
+          <div class="col-sm-6">
+            Silicon Vision
+          </div>
+          <div class="col-sm-6 text-right">
+            <a href="">Contact US</a>
+          </div>
+        </div>
+      </div><!-- row -->
+
+    </footer>
+
+
+  </div>
+
 </body>
 
 </html>
