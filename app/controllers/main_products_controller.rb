@@ -5,4 +5,16 @@ class MainProductsController < ApplicationController
   def index
   end
 
+  def bluetooth_low_energy
+  end
+
+  def order_demo
+  end
+
+  def updates
+  end
+
+  def partners
+  end
+
 end
