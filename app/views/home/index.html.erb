@@ -89,6 +89,15 @@
       <h4 class="title"><%= t :news_2 %></h4>
       <div class="media-list">
         <div class="media">
+          <img class="pull-left media-object" src="/assets/sivi-partners-mindtree-sm.png" >
+          <div class="media-body">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+              <h4 class="media-heading"><%= t :news_hg1 %></h4>
+            </a>
+            <p><%= t :news_seg14_1 %></p>
+          </div>
+        </div>
+        <div class="media">
           <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
           <div class="media-body">
             <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
@@ -131,16 +140,6 @@
               <h4 class="media-heading"><%= (t :news_seg9_0).truncate(80) %></h4>
             </a>
             <p><%= t :news_seg9_1 %></p>
-          </div>
-        </div>
-
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:100px;" src="/assets/dac-news.png" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>#participated-dac2013">
-              <h4 class="media-heading"><%= t :news_seg1_0 %></h4>
-            </a>
-            <p><%= t :news_seg1_1 %></p>
           </div>
         </div>
 

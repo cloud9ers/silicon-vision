@@ -342,8 +342,17 @@
   news_seg13_2: Computex Taipei, Taiwan ,June 3rd – June 7th, 2014. Silicon Vision sincerely invite you to meet us in Computex exhibition! Our team will be pleased to meet Computex visitors to discuss Business Opportunities. We greatly appreciate if you could send us a meeting request in advance to computextpe2014@si-vision.com. Look forward to seeing you soon!
   news_seg13_3: June
   news_seg13_4: 2014
-  news_seg14_0: Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP on HHGrace’s 0.11μm Technology Platform
+  news_seg14_0: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
   news_seg14_1: July 8th, 2014
-  news_seg14_2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform...
+  news_seg14_2: （中国，上海—2014年7月8日）硅视觉技术有限公司(以下简称“硅视觉”)，一家领先的知识产权（IP）提供商，提供高性能、低功率射频知识产权,与世界领先的8英寸纯晶圆代工厂之一，上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），今天宣布携手合作，在华虹宏力0.11微米混合信号/射频技术平台上推出了蓝牙低功耗IP。这款通过硅验证的IP已被授权给一家客户，该客户应用蓝牙技术开发了无线键盘鼠标等人机接口设备.为满足集成蓝牙模块的无线MCU需求，接下来将很快在华虹宏力射频嵌入式非易失性存储器工艺平台验证这个IP...
   news_seg14_3: July
   news_seg14_4: 2014
+  news_hg1: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
+  news_hg2: （中国，上海—2014年7月8日）硅视觉技术有限公司(以下简称“硅视觉”)，一家领先的知识产权（IP）提供商，提供高性能、低功率射频知识产权,与世界领先的8英寸纯晶圆代工厂之一，上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），今天宣布携手合作，在华虹宏力0.11微米混合信号/射频技术平台上推出了蓝牙低功耗IP。这款通过硅验证的IP已被授权给一家客户，该客户应用蓝牙技术开发了无线键盘鼠标等人机接口设备.为满足集成蓝牙模块的无线MCU需求，接下来将很快在华虹宏力射频嵌入式非易失性存储器工艺平台验证这个IP. 
+  news_hg3: 开发这款建立在成熟0.11微米技术平台上的无线IP，对于帮助客户拓展低成本的蓝牙低功耗市场应用非常重要。硅视觉提供的此款低成本蓝牙低功耗IP解决方案可应用于超低功耗人机对接设备及可穿戴产品，以及医疗健康、运动健身、安防、家庭娱乐等多种产品应用。
+  news_hg4: 硅视觉的SVI-TRX203G IP是一个高集成度、低功耗的完整的PHY IP，符合蓝牙低功耗规范，也是蓝牙4.0/4.1的部分标准，使得此IP成为传感器网络、可穿戴设备及人机接口设备等应用的理想选择。因为集成了射频和数字调制解调器，与其他方案相比，此款IP的尺寸更小，具有更强的竞争力。当工作电压在3V时，发射峰值电流0dBm输出时为4.4毫安，接收峰值电流为5.2毫安。当集成一个蓝牙智能基带控制器时，可以形成一套完整的蓝牙智能解决方案。SVI-TRX203G无线IP通过全数字接口来连接基站，包括TX/RX数据通讯，实时控制接口，及注册程序接口。
+  news_hg5: 硅视觉的蓝牙低功耗IP是华虹宏力IP组合中的一部分，可扩展至市场庞大的消费电子产品，特别是专注于可穿戴技术的蓝牙低功耗应用。除了低功耗蓝牙IP外，华虹宏力还拥有针对可穿戴设备和个人局域网的工艺组合方案，例如0.18微米/0.13微米嵌入式非易失性存储器工艺平台，面向微控制器及触摸屏控制器应用；多样化的CDMOS/BCD工艺，可用于高效率的电源管理IC及音频功放；MEMS工艺可满足不同种类传感器产品的需求
+  news_hg6: 关于硅视觉
+  news_hg7: 2007年成立的硅视觉技术有限公司是一家领先的知识产权（IP）提供商，它提供高性能、低功率射频知识产权 （RF IP）。我们的解决包括蓝牙（Bluetooth）低功耗技术，低功耗的紫蜂 （ZigBee） 。我们的产品提供我们认为是性能和单片集成的业界领先的组合，它把消费类应用，人机对话接口设备（HIDs），智能电表，工业手机无线设备的 广泛的应用范围作为目标，和一般无线市场。想获取更多有关硅视觉的信息，请访问www.si-vision.com 。
+  news_hg8: 关于华虹宏力
+  news_hg9: 上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），由原上海华虹NEC电子有限公司和上海宏力半导体制造有限公司新设合并而成，是世界领先的8英寸纯晶圆代工厂。华虹宏力在上海张江和金桥共有3条8英寸集成电路生产线，月产能达12.4万片，工艺技术覆盖1微米至90纳米各节点，在标准逻辑、嵌入式非易失性存储器、电源管理、功率器件、射频、模拟和混合信号、图像传感器等领域形成了具有竞争力的先进工艺平台，并正在持续开发多种微机电系统（MEMS）工艺解决方案。公司总部位于中国上海，在中国台湾、日本、北美和欧洲等地均提供销售与技术支持。
