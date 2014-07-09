@@ -10,39 +10,13 @@ body {
   padding: 0;
 }
 
-body, body h1, body h2, body h3, body h4, body h5, body h6, body a {
+//
+// Doing some style reset
+
+body, body h1, body h2, body h3, body h4, body h5, body h6, body a, body a:hover {
   color: #fff !important;
 }
 
-img {
-  max-width: 100%
-}
-
-body a {
-  &:hover {
-    color: #fff !important;
-    text-decoration: underline;
-  }
-}
-
-.center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.txt-uppercase {
-  text-transform: uppercase;
-}
-
-.block {
-  display: block;
-}
-
-// Reset body padding
 @media all and (max-width: 991px) {
   body {
     padding-top: 0 !important;
@@ -53,6 +27,34 @@ body a {
   body {
     padding-top: 0 !important;
   }
+}
+
+img {
+  max-width: 100%
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+//
+// Helper classes
+
+.txt-uppercase {
+  text-transform: uppercase;
+}
+
+.block {
+  display: block;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 //
@@ -95,7 +97,7 @@ h4.title {
 }
 
 //
-// Form
+// Form & Buttons
 
 label,
 .form-control:not(select) {
@@ -117,7 +119,27 @@ textarea {
   resize:none;
 }
 
-//
+.btn-primary {
+  background-color: #a3d39c;
+  border: none;
+}
+
+.btn-large {
+  padding: 5px 45px;
+  border-radius: 15px;
+}
+
+.btn-light {
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.post-item:not(:last-child) {
+  box-shadow: 0 1px 0 #c5dae0;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
 //  Custom design for select element in webkit
 
 select {
@@ -140,25 +162,4 @@ select {
     }
   }
 
-}
-
-.btn-primary {
-  background-color: #a3d39c;
-  border: none;
-}
-
-.btn-large {
-  padding: 5px 45px;
-  border-radius: 15px;
-}
-
-.btn-light {
-  border: 1px solid #fff;
-  border-radius: 20px;
-}
-
-.post-item:not(:last-child) {
-  box-shadow: 0 1px 0 #c5dae0;
-  margin-bottom: 1em;
-  padding-bottom: 1em;
 }
