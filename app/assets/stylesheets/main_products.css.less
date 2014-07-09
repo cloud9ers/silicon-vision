@@ -5,17 +5,17 @@
 
 body {
   background-color: #57868C;
-  background: url(/assets/main-product/bg.jpg) no-repeat center center fixed;
+  background: url(/assets/main-product/bg-small.jpg) no-repeat center center fixed;
   background-size: cover;
   padding: 0;
 }
 
-img {
-  max-width: 100%
-}
-
 body, body h1, body h2, body h3, body h4, body h5, body h6, body a {
   color: #fff !important;
+}
+
+img {
+  max-width: 100%
 }
 
 body a {
@@ -23,6 +23,15 @@ body a {
     color: #fff !important;
     text-decoration: underline;
   }
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .txt-uppercase {
@@ -60,11 +69,7 @@ body a {
   width: 100px;
   display: inline-block;
   margin-bottom: 10px;
-}
-
-.nav-icon__img {
-  height: 100px;
-  padding: 30px;
+  position: relative;
 }
 
 .nav-icon .fa {
