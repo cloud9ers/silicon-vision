@@ -5,21 +5,18 @@ class HomeController < ApplicationController
   def about
   end
 
-  def ips
-  end
-
   def applications
   end
-  
+
   define_method('sivi-media') do
   end
 
   define_method('press') do
   end
-  
+
   def careers
   end
-  
+
   def contact
     if request.post?
       Rails.logger.debug {"User #{params["user"]["name"]} is sending a message"}
@@ -35,5 +32,5 @@ class HomeController < ApplicationController
       end
     end
   end
-  
+
 end
