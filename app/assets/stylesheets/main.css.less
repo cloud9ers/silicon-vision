@@ -1,4 +1,4 @@
-@main_color : #0c81cf;
+@main_color : #004b7d;
 @hover-links: #009fff;
 @main_font : 'Open Sans', sans-serif;
 @sec_font:  'Kreon', serif;
@@ -100,15 +100,15 @@ h4.title{
 }
 
 .blue-but{
-	background: #1d9eec;
-	border-radius: 3px;
+	background: rgba(0,75,125,0.8);
+	border-radius: 30px;
 	color: #fff !important;
 	font-family: @main_font;
 	font-size: 14px;
-	padding: 15px 30px 10px;
+	padding: 15px 30px;
 	font-weight: 600;
 	font-size: 12px;
-	border-bottom: 5px solid #1b91d9;
+	transition: background 0.2s ease;
 	&:hover{
 		color: #fff !important;
 		background: #20abff;
@@ -116,7 +116,7 @@ h4.title{
 }
 
 .blue-but.small, input[type="submit"]{
-	background: #1d9eec;
+	background: @main_color;
 	border-radius: 3px;
 	color: #fff !important;
 	font-family: @main_font;
@@ -125,8 +125,6 @@ h4.title{
 	padding: 5px 30px;
 	font-weight: 400;
 	font-size: 12px;
-	border-bottom: 5px solid #1b91d9;
-
 	&:hover{
 		color: #fff !important;
 		background: #20abff;
@@ -183,7 +181,7 @@ ul{
   margin-top:25px !important;
 }
 .slidehead{
-  background: url('silicon-vision-about.jpg') no-repeat top center fixed;
+  background: url('SVITRX202.png') no-repeat top center fixed;
 }
 .slide1{
   background: url('radio-frequency-slider.jpg') no-repeat 0 -70px fixed;
@@ -280,26 +278,26 @@ ul{
 					border:none;
 				}
 			}
-			a.rf{
-				background: url('rf-icon2x.png') no-repeat top center;
+			a.ble{
+				background: url('ble-2x.png') no-repeat top center;
 				background-size: 172px 172px;
 				width: 172px;
 				height: 172px;
 			}
-			a.dc{
-				background: url('dc-icon2x.png') no-repeat top center;
+			a.zigbee{
+				background: url('zigbee-2x.png') no-repeat top center;
 				background-size: 172px 172px;
 				width: 172px;
 				height: 172px;
 			}
-			a.pm{
-				background: url('pm-icon2x.png') no-repeat top center;
+			a.ism{
+				background: url('ism-2x.png') no-repeat top center;
 				background-size: 172px 172px;
 				width: 172px;
 				height: 172px;
 			}
-			a.ams{
-				background: url('AMS-icon2x.png') no-repeat top center;
+			a.zwave{
+				background: url('zwave-2x.png') no-repeat top center;
 				background-size: 172px 172px;
 				width: 172px;
 				height: 172px;
@@ -397,7 +395,7 @@ a:hover{
 	}
 	#copyrights{
 		margin-top: 70px;
-		background: #0966a3;
+		background: @main_color;
 		color: #fff;
 		font-size: 12px;
 		height: 45px;
@@ -420,7 +418,7 @@ a:hover{
 
 .head-strip{
 	color:#ffffff;
-	background: @section_header_color;
+	background: @main_color;
 	height: 100px;
 	padding-top: 40px;
 	h4 , a , a:hover{
@@ -600,8 +598,8 @@ ul.nav-stacked{
 			font-size: 18px;
 
 		}
-		input[type="text"], textarea , input[type="email"]{
-			background: #f6f6f6;
+		input[type="text"], select, textarea , input[type="email"]{
+			background: #cecece;
 			border: 0;
 			width: 100%;
 
