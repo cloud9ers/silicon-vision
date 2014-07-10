@@ -1,3 +1,61 @@
+<div class="col-lg-8 col-lg-offset-2 visible-lg">
+  <ul class="nav nav-pills">
+    <li>
+      <a href="<%= url_for :controller => 'ips', :action => 'bluetooth-low-energy' %>" class="ble"></a>
+      <p><a href="#">Bluetooth Low Energy</a></p>
+    </li>
+    <li>
+      <a href="<%= url_for :controller => 'ips', :action => 'sub-1ghz' %>" class="ism"></a>
+      <p><a href="#">ISM Radio IP</a></p>
+    </li>
+    <li>
+      <a href="<%= url_for :controller => 'ips', :action => 'zigbee' %>" class="zigbee"></a>
+      <p><a href="#">Zigbee Radio Frequency</a></p>
+    </li>
+    <li>
+      <a href="<%= url_for :controller => 'ips', :action => 'zwave' %>" class="zwave"></a>
+      <p><a href="#">Z-wave Radio IP</a></p>
+    </li>
+  </ul>
+</div>
+
+
+<!-- <div class="hidden-lg row">
+  <ul class="nav nav-pills">
+    <li>
+        <%= link_to(t(:rf_ips), {
+            :controller => 'RadioFrequency',
+            :action => 'index'
+        },
+        {:class => 'rf'}) %>
+    </li>
+    <li>
+        <%= link_to(t(:pm_ips), {
+            :controller => 'PowerManagement',
+            :action => 'index'
+        },
+        {:class => 'pm'}) %>
+    </li>
+    <li>
+        <%= link_to(t(:dc_ips), {
+            :controller => 'DataConverter',
+            :action => 'index'
+        },
+        {:class => 'dc'}) %>
+    </li>
+    <li>
+        <%= link_to(t(:ams_ips), {
+            :controller => 'Ams',
+            :action => 'index'
+        },
+        {:class => 'ams'}) %>
+    </li>
+  </ul>
+</div> -->
+
+<!-- 
+
+
 <div class="list-group">
 
   <div class="col-lg-6 m25b">
@@ -11,7 +69,7 @@
         </div>
       </div>
     </a>
-  </div><!-- / .col-lg-4 -->
+  </div>
 
   <div class="col-lg-6 m25b">
     <a href="<%= url_for :controller => 'ips', :action => 'sub-1ghz' %>" class="list-group-item">
@@ -24,7 +82,7 @@
         </div>
       </div>
     </a>
-  </div><!-- / .col-lg-4 -->
+  </div>
 
   <div class="col-lg-6 m25b">
     <a href="<%= url_for :controller => 'ips', :action => 'zigbee' %>" class="list-group-item">
@@ -37,7 +95,7 @@
         </div>
       </div>
     </a>
-  </div><!-- / .col-lg-4 -->
+  </div>
 
   <div class="col-lg-6 m25b">
     <a href="<%= url_for :controller => 'ips', :action => 'zwave' %>" class="list-group-item">
@@ -50,6 +108,6 @@
         </div>
       </div>
     </a>
-  </div><!-- / .col-lg-4 -->
+  </div>
 
-</div><!-- / .list-group -->
+</div> -->

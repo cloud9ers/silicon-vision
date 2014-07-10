@@ -1,7 +1,7 @@
 <div id="main-header" class="navbar navbar-fixed-top">
   <div class="container" style="position:relative;">
   <%= link_to(image_tag("Logo2x.png", :border=>0 , :width => '253px' , :height => '54px'), {:controller => 'home', :action => 'index'}, {:class => 'navbar-brand visible-lg'}) %>
-      <div style="position:absolute;right:-20px;">
+      <div style="position:absolute;right:-20px;top:20px;">
         <ul style="list-style-type:none;">
           <li style="float:left;font-size:12px;margin-left:8px;"><a href="<%= get_localized_path("en") %>">US <img src="/assets/usa-flag-icon.png" width="22px" ></a></li>
           <li style="float:left;font-size:12px;margin-left:8px"><a href="<%= get_localized_path("ch") %>">简体中文 <img src="/assets/china-flag-icon.png" width="22px" ></a></li>
