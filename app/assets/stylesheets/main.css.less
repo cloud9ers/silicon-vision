@@ -115,6 +115,19 @@ h4.title{
 	}
 }
 
+.promotional-link{
+	color: #fff !important;
+	font-size: 14px;
+	font-family: @main_font !important;
+	transition: background 0.2s ease;
+
+	&:hover{
+		background: rgba(0,75,125,0.8);
+		border-radius: 20px;
+		padding: 10px 15px;
+		color: #fff !important;
+	}
+}
 .blue-but.small, input[type="submit"]{
 	background: @main_color;
 	border-radius: 3px;
@@ -187,7 +200,14 @@ ul{
   background: url('radio-frequency-slider.jpg') no-repeat 0 -70px fixed;
 }
 .slide2{
-  background: url('sub-head-bg3.jpg') no-repeat 0 -70px fixed;
+  background: url('ble-bg.jpg') no-repeat 0 -100px fixed;
+}
+
+.slide3{
+  background: url('place-holder-bg.png') no-repeat 50% 50%;
+}
+.slide4{
+  background: url('place-holder-bg.png') no-repeat 50% 50%;
 }
 
 .slider-header{
@@ -270,7 +290,7 @@ ul{
 		li{
 			height: 230px;
 			width: 190px;
-			margin: 0px !important;
+			margin-right: 1px;
 			a{
 				padding-top: 190px;
 				&:hover{
@@ -281,26 +301,22 @@ ul{
 			a.ble{
 				background: url('ble-2x.png') no-repeat top center;
 				background-size: 172px 172px;
-				width: 172px;
-				height: 172px;
+				
 			}
 			a.zigbee{
 				background: url('zigbee-2x.png') no-repeat top center;
 				background-size: 172px 172px;
-				width: 172px;
-				height: 172px;
+				
 			}
 			a.ism{
 				background: url('ism-2x.png') no-repeat top center;
 				background-size: 172px 172px;
-				width: 172px;
-				height: 172px;
+				
 			}
 			a.zwave{
 				background: url('zwave-2x.png') no-repeat top center;
 				background-size: 172px 172px;
-				width: 172px;
-				height: 172px;
+				
 			}
 		}
 	}

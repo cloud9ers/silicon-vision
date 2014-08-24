@@ -13,27 +13,41 @@
       </div>
     </div>
 
-    <div class="slider-header slide1 item">
+    <div class="slider-header slide2 item">
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
-          <h2><%= t :rf_ips %></h2>
-          <p class="desc"><%= t :rf_ips_desc %></p>
+          <h2><%= t :slider_slide2_head %></h2>
           <br />
-          <a class="blue-but" href="<%= url_for :controller =>'ips', :action => 'index' %>"><%= t :rf_ips_see_more %></a>
+          <a class="blue-but" href="<%= url_for :controller => 'ips', :action => 'bluetooth-low-energy' %>">Learn More About BLE IPs</a>
+          <br />
+          <br />
+          <a class="promotional-link" href="<%= url_for :controller =>'MainProducts', :action => 'index' %>">Promotional Page</a>
         </div>
       </div>
     </div>
 
-    <div class="slider-header slide2 item">
+
+    <div class="slider-header slide3 item">
       <div class="row">
         <div class="col-lg-6 col-lg-offset-3">
-          <h2>Main Product</h2>
-          <p class="desc"><%= t :rf_ips_desc %></p>
+          <h2><%= t :slider_slide3_head %></h2>
           <br />
-          <a class="blue-but" href="<%= url_for :controller =>'MainProducts', :action => 'index' %>">Learn More</a>
+           <a class="blue-but" href="<%= url_for :controller =>'MainProducts', :action => 'index' %>">Learn More</a>
         </div>
       </div>
     </div>
+
+    <div class="slider-header slide4 item">
+      <div class="row">
+        <div class="col-lg-6 col-lg-offset-3">
+          <h2><%= t :slider_slide4_head %></h2>
+          <br />
+           <a class="blue-but" href="<%= url_for :controller =>'MainProducts', :action => 'index' %>">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    
 
   </div><!--  / .carousel-inner -->
 

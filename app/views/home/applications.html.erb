@@ -13,7 +13,7 @@
 <div class="head-strip">
 	<div class="container">
 		<h4 class="pull-left">
-  <%= t :apps_title %>
+      <%= t :apps_title %>
 		</h4>
 		<div  class="pull-right fszs">
 			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
@@ -24,343 +24,356 @@
 <!-- head strip end -->
 <div id="apps-page" class="container">
 	<div class="row">
-		<div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#com-sys">
-              <img class="img-thumbnail" src="/assets/comunication-system.png">
-              <span class="caption">
-                <p><%= t :app_comm_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="com-sys">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_comm_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p><%= t :app_comm_1 %></p>
-                    <%= link_to(t(:app_comm_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
-                    <%= link_to(t(:app_comm_3), {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
+      <!-- IOT -->
+      <div class="col-lg-3 pull-left">
+        <a class="app-caption" data-toggle="modal" href="#tot">
+          <img class="img-thumbnail" width="260px" height="250" src="/assets/tot.jpg">
+          <span class="caption">
+            <p><%= t :app_tot_0 %></p>
+          </span>
+        </a>
+       <div class="modal fade" id="tot">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_tot_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                  <%= t :app_tot_1 %>
+              </p>
+              <%= link_to(t(:app_wireless_monitors_2), {
+                      :controller => 'ips',
+                      :action => 'bluetooth-low-energy'
+                  }) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
 
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#wireless-ind">
-              <img class="img-thumbnail" src="/assets/2.png">
-              <span class="caption">
-                <p><%= t :app_industrial_ctrl_0 %></p>
-              </span>
-            </a>
+    <!-- Home Automation -->
+    <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#home-auto">
+        <img class="img-thumbnail" src="/assets/home-automation.png">
+        <span class="caption">
+          <p><%= t :app_hw_0 %></p>
+        </span>
+      </a>
+    <div class="modal fade" id="home-auto">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_hw_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                  <%= t :app_hw_1 %>
+              </p>
+              <%= link_to(t(:app_hw_2), {
+              :controller => 'DataConverter',
+              :action => 'index'
+              }) %>
+              <%= link_to(t(:app_hw_3), {
+              :controller => 'ips',
+              :action => 'bluetooth-low-energy'
+              }) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
 
-             <div class="modal fade" id="wireless-ind">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_industrial_ctrl_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_industrial_ctrl_1 %>
-
-                    </p>
-                    <%= link_to(t(:app_industrial_ctrl_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#health">
-              <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
-              <span class="caption">
-                <p><%= t :app_wireless_monitors_0 %></p>
-              </span>
-            </a>
-               <div class="modal fade" id="health">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wireless_monitors_1 %>
-
-                    </p>
-                    <%= link_to(t(:app_wireless_monitors_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#remote-control">
-              <img class="img-thumbnail" src="/assets/4.png">
-              <span class="caption">
-                <p><%= t :app_remote_controls_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="remote-control">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_remote_controls_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_remote_controls_1 %>
-                    </p>
-                    <%= link_to(t(:app_remote_controls_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-
-
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#tire-pres">
-              <img class="img-thumbnail" src="/assets/Tire-pressure-monitoring.png">
-              <span class="caption">
-                <p><%= t :app_tire_pressure_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="tire-pres">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_tire_pressure_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                  <p>
-<%= t :app_tire_pressure_1 %>
-                  </p>
-                    <%= link_to(t(:app_tire_pressure_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#sensor-net">
-              <img class="img-thumbnail" src="/assets/sensor-networks.png">
-              <span class="caption">
-                <p><%= t :app_sensor_networks_0 %></p>
-              </span>
-            </a>
-
-             <div class="modal fade" id="sensor-net">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_sensor_networks_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_sensor_networks_1 %>
-                    </p>
-                    <%= link_to(t(:app_sensor_networks_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#toys">
-              <img class="img-thumbnail" style="width:260px;height:250px" src="/assets/wearabletech.jpg">
-              <span class="caption">
-                <p><%= t :app_wt_0 %></p>
-              </span>
-            </a>
-               <div class="modal fade" id="toys">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wt_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wt_1 %>
-                    </p>
-                    <%= link_to(t(:app_wt_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#wt">
-             <img class="img-thumbnail" src="/assets/remote-control-toys.png">
-
-              <span class="caption">
-                <p><%= t :app_rc_toys_0 %></p>
-              </span>
-            </a>
-               <div class="modal fade" id="wt">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_rc_toys_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_rc_toys_1 %>
-                    </p>
-                    <%= link_to(t(:app_wt_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#home-auto">
-              <img class="img-thumbnail" src="/assets/home-automation.png">
-              <span class="caption">
-                <p><%= t :app_hw_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="home-auto">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_hw_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_hw_1 %>
-                    </p>
-                    <%= link_to(t(:app_hw_2), {
-                    :controller => 'DataConverter',
-                    :action => 'index'
+    <!-- wearable tech -->
+    <div class="col-lg-3 pull-left">
+        <a class="app-caption" data-toggle="modal" href="#toys">
+          <img class="img-thumbnail" style="width:260px;height:250px" src="/assets/wearabletech.jpg">
+          <span class="caption">
+            <p><%= t :app_wt_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="toys">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_wt_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+        <%= t :app_wt_1 %>
+                </p>
+                <%= link_to(t(:app_wt_2), {
+                        :controller => 'ips',
+                        :action => 'bluetooth-low-energy'
                     }) %>
-                    <%= link_to(t(:app_hw_3), {
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
+
+    <!-- Smart Meter -->
+    <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#smart-meter">
+        <img class="img-thumbnail" src="/assets/smart-meter.png">
+        <span class="caption">
+          <p><%= t :app_wireless_meters_0 %></p>
+        </span>
+      </a>
+      <div class="modal fade" id="smart-meter">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                  <%= t :app_wireless_meters_1 %>
+              </p>
+              <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+    </div>
+
+    <!-- Wireless Health -->
+    <div class="col-lg-3 pull-left">
+        <a class="app-caption" data-toggle="modal" href="#health">
+          <img class="img-thumbnail" src="/assets/wirelesshealth-monitor.png">
+          <span class="caption">
+            <p><%= t :app_wireless_monitors_0 %></p>
+          </span>
+        </a>
+
+        <div class="modal fade" id="health">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_wireless_monitors_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
+                    <%= t :app_wireless_monitors_1 %>
+                </p>
+                <%= link_to(t(:app_wireless_monitors_2), {
+                        :controller => 'ips',
+                        :action => 'bluetooth-low-energy'
+                    }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+    </div>
+
+
+
+    <div class="col-lg-3 pull-left">
+    <a class="app-caption" data-toggle="modal" href="#com-sys">
+      <img class="img-thumbnail" src="/assets/comunication-system.png">
+      <span class="caption">
+        <p><%= t :app_comm_0 %></p>
+      </span>
+    </a>
+    <div class="modal fade" id="com-sys">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title"><%= t :app_comm_0 %></h4>
+          </div>
+          <div class="modal-body">
+            <p><%= t :app_comm_1 %></p>
+            <%= link_to(t(:app_comm_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
+            <%= link_to(t(:app_comm_3), {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    </div>
+
+    <div class="col-lg-3 pull-left">
+    <a class="app-caption" data-toggle="modal" href="#wireless-ind">
+    <img class="img-thumbnail" src="/assets/2.png">
+    <span class="caption">
+      <p><%= t :app_industrial_ctrl_0 %></p>
+    </span>
+    </a>
+
+    <div class="modal fade" id="wireless-ind">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title"><%= t :app_industrial_ctrl_0 %></h4>
+        </div>
+        <div class="modal-body">
+          <p>
+            <%= t :app_industrial_ctrl_1 %>
+          </p>
+          <%= link_to(t(:app_industrial_ctrl_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    </div>
+
+        
+
+    <div class="col-lg-3 pull-left">
+    <a class="app-caption" data-toggle="modal" href="#remote-control">
+      <img class="img-thumbnail" src="/assets/4.png">
+      <span class="caption">
+        <p><%= t :app_remote_controls_0 %></p>
+      </span>
+    </a>
+    <div class="modal fade" id="remote-control">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title"><%= t :app_remote_controls_0 %></h4>
+          </div>
+          <div class="modal-body">
+            <p>
+    <%= t :app_remote_controls_1 %>
+            </p>
+            <%= link_to(t(:app_remote_controls_2), {
                     :controller => 'ips',
                     :action => 'bluetooth-low-energy'
-                    }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#wireless-pc">
-              <img class="img-thumbnail" src="/assets/wireless-pc-peripherals.png">
-              <span class="caption">
-                <p><%= t :app_wireless_periphs_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="wireless-pc">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wireless_periphs_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wireless_periphs_1 %>
-                    </p>
-                    <%= link_to(t(:app_wireless_periphs_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
-
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#smart-meter">
-              <img class="img-thumbnail" src="/assets/smart-meter.png">
-              <span class="caption">
-                <p><%= t :app_wireless_meters_0 %></p>
-              </span>
-            </a>
-            <div class="modal fade" id="smart-meter">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_wireless_meters_1 %>
-                    </p>
-                    <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
+                }) %>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    </div>
 
 
 
-        <div class="col-lg-3 pull-left">
-            <a class="app-caption" data-toggle="modal" href="#tot">
-              <img class="img-thumbnail" width="260px" height="250" src="/assets/tot.jpg">
-              <span class="caption">
-                <p><%= t :app_tot_0 %></p>
-              </span>
-            </a>
 
-             <div class="modal fade" id="tot">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"><%= t :app_tot_0 %></h4>
-                  </div>
-                  <div class="modal-body">
-                    <p>
-<%= t :app_tot_1 %>
+      <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#tire-pres">
+        <img class="img-thumbnail" src="/assets/Tire-pressure-monitoring.png">
+        <span class="caption">
+          <p><%= t :app_tire_pressure_0 %></p>
+        </span>
+      </a>
+      <div class="modal fade" id="tire-pres">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_tire_pressure_0 %></h4>
+            </div>
+            <div class="modal-body">
+            <p>
+      <%= t :app_tire_pressure_1 %>
+            </p>
+              <%= link_to(t(:app_tire_pressure_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      </div>
 
-                    </p>
-                    <%= link_to(t(:app_wireless_monitors_2), {
-                            :controller => 'ips',
-                            :action => 'bluetooth-low-energy'
-                        }) %>
-                  </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-        </div>
+      <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#sensor-net">
+        <img class="img-thumbnail" src="/assets/sensor-networks.png">
+        <span class="caption">
+          <p><%= t :app_sensor_networks_0 %></p>
+        </span>
+      </a>
+
+       <div class="modal fade" id="sensor-net">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_sensor_networks_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+      <%= t :app_sensor_networks_1 %>
+              </p>
+              <%= link_to(t(:app_sensor_networks_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      </div>
 
 
-	<div>
+
+      <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#wt">
+       <img class="img-thumbnail" src="/assets/remote-control-toys.png">
+
+        <span class="caption">
+          <p><%= t :app_rc_toys_0 %></p>
+        </span>
+      </a>
+         <div class="modal fade" id="wt">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_rc_toys_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+      <%= t :app_rc_toys_1 %>
+              </p>
+              <%= link_to(t(:app_wt_2), {
+                      :controller => 'ips',
+                      :action => 'bluetooth-low-energy'
+                  }) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      </div>
+
+
+
+
+      <div class="col-lg-3 pull-left">
+      <a class="app-caption" data-toggle="modal" href="#wireless-pc">
+        <img class="img-thumbnail" src="/assets/wireless-pc-peripherals.png">
+        <span class="caption">
+          <p><%= t :app_wireless_periphs_0 %></p>
+        </span>
+      </a>
+      <div class="modal fade" id="wireless-pc">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"><%= t :app_wireless_periphs_0 %></h4>
+            </div>
+            <div class="modal-body">
+              <p>
+      <%= t :app_wireless_periphs_1 %>
+              </p>
+              <%= link_to(t(:app_wireless_periphs_2), {
+                      :controller => 'ips',
+                      :action => 'bluetooth-low-energy'
+                  }) %>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+      </div>
+
+
+
+
+
+
+
+</div>
 </div>
