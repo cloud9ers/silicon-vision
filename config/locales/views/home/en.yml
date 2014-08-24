@@ -1,7 +1,7 @@
 ﻿en:
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: A leading IP provider of high performance Silicon IP
+  si_vi_short_desc: low power wireless IP provider serving the IOT Market
   si_vi_learn_more: LEARN MORE ABOUT SILICON VISION
   rf_ips: Radio Frequency IP
   pm_ips: Power Management IP
@@ -12,20 +12,27 @@
   pm_ips_desc: Optimized PM IP for building state of the art SoCs
   pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IP
   si_vi_offers:  Silicon Vision Offers a Selection of High Performance IP
-  si_vi_intro_1: Silicon Vision Technologies Ltd. has been in business since 2007, with more than 350 years of collective experience and serving Class A customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Power Management, Digital and Backend Designs.
+  si_vi_intro_1: Silicon Vision is a market oriented company delivering high quality & innovative Low Power Wireless IP to enable advanced world class products; maximizing value for our customers and staff.
   si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
   si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
   about: About
   about_us_welcome: Welcome to Innovative Silicon IP
-  about_us_si_vi_story: Silicon Vision's Story
+  about_us_si_vi_story: Silicon Vision Story
   about_us_partners: Partners and Clients
-  about_us_parag_1: Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Our solutions include Bluetooth Low Energy Technology, low power ZigBee, such as RF technology, as well as, Advanced Power Management IP. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications in the consumer applications, HIDs, smart metering, industrial mobile wireless devices, and generally wireless markets.
-  about_us_parag_2: Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Class A customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Power Management, Digital and Backend Designs.
-  about_us_parag_3: We also collaborate with world-class technology partners including SMIC, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
+  about_us_parag_1: Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Our solutions include Bluetooth low energy radio, low power ZigBee radio and other low power wireless radios. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications serving consumers electronics, HIDs, smart meters, industrial mobile wireless devices, and generally wireless markets.
+  about_us_parag_2: Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Digital and Backend Designs.
+  about_us_parag_3: We also collaborate with world-class technology partners including SMIC, HHGrace, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
   ips: IP
+
+  # Slider
+  slider_slide2_head: Bluetooth Low Energy IP
+  slider_slide3_head: ISM Radio IP
+  slider_slide4_head: Zigbee Radio IP
+
+
   ips_title: Silicon Vision's Intellectual Properties
-  ips_desc: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo boards are also available for most of the IP. Our IP are used in millions of devices in the market.
+  ips_desc: Silicon Vision offers a portfolio of high performance Low Power Wireless IP. Our IP are silicon proven over several process nodes. Customers can always order Demo Boards for most of the IP. Our IP are used in millions of devices in the market all over the globe.
   rf_index_0: (Radio Frequency IP)
   rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
   rf_index_2: "Radio Frequency IP includes :"
@@ -90,7 +97,7 @@
   ams_video_analog_0: Video Analog Front-End IP
   ams_video_analog_1: Silicon Vision provides a high end IP library suitable for diversified HD video applications. This includes video analog front-ends that deals with RGB/YPrPb graphics processing and C-Y/CVBS signal processing. Different sampling rates are supported starting from 36MHz up to 205MHz. The library contains high speed LVDS transmitters for high resolution flat panel displays. The library is silicon verified on different nodes starting from 180nm to 90nm.
   apps: Applications
-  apps_title: Silicon Vision's Applications HOME / Applications
+  apps_title: Silicon Vision Applications
   app_comm_0: Communication Systems
   app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
   app_comm_2: Sub 1GHz Tx/Rx
@@ -130,7 +137,7 @@
   app_tot_0: Internet of Things (IoT)
   app_tot_1: Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to automatically transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
   news: News and Press
-  news_0: Silicon Vision's News and Press
+  news_0: Silicon Vision News and Press
   news_1: Silicon Vision Latest News
   news_2: Latest News
   news_3: Media Center
@@ -263,7 +270,7 @@
   media_seg11_3: READ MORE
   media_seg11_4: Sep.
   media_seg11_5: 2013
-  media_seg12_0: Bluetooth Smart and Wi-Fi to Beat Out Proprietary Protocols in Mobile Body Area Network Device Market, Says ABI Research
+  media_seg12_0: Bluetooth Smart and Wi-Fi to Beat Out Proprietary Protocols in Mobile Body...
   media_seg12_1: September 30, 2013
   media_seg12_2: LONDON -- Proprietary wireless protocols are quickly losing their dominance in the healthcare market to more standards-based wireless technologies such as Wi-Fi, Bluetooth, and IEEE 802.15.4. Over the next 5 years, Bluetooth Smart (formerly Bluetooth Low Energy) will lead in shipments and Wi-Fi will lead in revenues in the healthcare device IC market expected to exceed $100 million by 2018.
   media_seg12_3: READ MORE
@@ -346,7 +353,7 @@
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
   zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
-  news_hg1:  Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP on HHGrace’s 0.11μm Technology Platform
+  news_hg1:  Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP ...
   news_hg2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform. This silicon proven IP has already been licensed to a customer for human interface devices using BLE for wireless keyboard and mouse. To meet the application wireless MCU integrated with BLE module, this IP currently undergoing verification on HHGrace’s embedded Non-Volatile Memory (eNVM) RF process platform and will be released soon.
   news_hg3: The availability of this radio IP on mature 0.11μm process technology is significant for the low cost BLE market. HHGrace provides low power and competitive technology solutions to help designers reduce power consumption and product cost. The BLE IP solution from Silicon Vision will enable low cost, ultra-low power human interface devices and wearable products. And the market applications of this BLE IP also include healthcare, sports and fitness, security, and home entertainment.
   news_hg4: Silicon Vision’s SVI-TRX203G IP is a highly integrated low power radio (complete PHY) compliant with the Bluetooth low energy specification, which is part of Bluetooth 4.0/4.1 standards, making it ideal for health, sensor networks, wearable technology, and human interface device applications. With integrated RF and digital modems, the area of the silicon for this IP is competitive compared to other solutions. At 3V battery with ideal DC-DC converter, the peak transmit current at 0dBm output is 4.4mA, and the peak receive current is 5.2mA.  When combined with a Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX203G radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
