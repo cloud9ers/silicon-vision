@@ -1,11 +1,18 @@
 <div id="main-header" class="navbar navbar-fixed-top">
   <div class="container" style="position:relative;">
   <%= link_to(image_tag("Logo2x.png", :border=>0 , :width => '253px' , :height => '54px'), {:controller => 'home', :action => 'index'}, {:class => 'navbar-brand visible-lg'}) %>
-      <div style="position:absolute;right:-20px;top:20px;">
+      <div style="position:absolute;right:10px;top:20px;">
         <ul style="list-style-type:none;">
-          <li style="float:left;font-size:12px;margin-left:8px;"><a href="<%= get_localized_path("en") %>">US <img src="/assets/usa-flag-icon.png" width="22px" ></a></li>
-          <li style="float:left;font-size:12px;margin-left:8px"><a href="<%= get_localized_path("ch") %>">简体中文 <img src="/assets/china-flag-icon.png" width="22px" ></a></li>
-          <li style="float:left;font-size:12px;margin-left:8px"><a href="<%= get_localized_path("ja") %>">日本語 <img src="/assets/japan.png" width="25px" ></a></li>
+          <li style="float:left;font-size:12px;margin-left:8px;">
+            <a href="<%= get_localized_path("en") %>"><img src="/assets/usa-flag-icon.png" width="22px" ></a>
+          </li>
+          <li style="float:left;font-size:12px;margin-left:8px">
+            <a href="<%= get_localized_path("ch") %>"><img src="/assets/china-flag-icon.png" width="22px" ></a>
+          </li>
+          <li style="float:left;font-size:12px;margin-left:8px">
+            <a href="<%= get_localized_path("ja") %>"><img src="/assets/japan.png" width="25px" ></a>
+
+          </li>
         </ul>
       </div>
 
@@ -21,9 +28,9 @@
         </ul>
       </div><!--/.nav-collapse -->
 
-      <%= link_to(image_tag("Logo2x.png", :border=>0, :style => "max-width:100%;"), {:controller => 'home', :action => 'index'}, {:class => 'm20t center-txt hidden-lg'}) %>
+      <%= link_to(image_tag("Logo2x.png", :border=>0, :style => "max-width:50%;"), {:controller => 'home', :action => 'index'}, {:class => 'm20t center-txt hidden-lg'}) %>
       <div class="hidden-lg">
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills" style="margin-left:40px">
           <li><%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %></li>
           <li><%= link_to(t(:about), {:controller => 'home', :action => 'about'}) %></li>
           <li><%= link_to(t(:ips), {:controller => 'home', :action => 'ips'}) %></li>
