@@ -43,35 +43,35 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
 
       <div class="col-lg-6">
         <h4 class="title"><%= t :news_2 %></h4>
-          <div class="media">
-            <img class="pull-left media-object" src="/assets/sivi_hg.png" >
-            <div class="media-body">
-              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-                <h4 class="media-heading"><%= t :news_hg1 %></h4>
-              </a>
-              <p><%= t :news_seg14_1 %></p>
-            </div>
+        <div class="media">
+          <img class="pull-left media-object" src="/assets/sivi_hg.png" >
+          <div class="media-body">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+              <h4 class="media-heading"><%= t :news_hg1 %></h4>
+            </a>
+            <p><%= t :news_seg14_1 %></p>
           </div>
-          <div class="media">
-            <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
-            <div class="media-body">
-              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-                <h4 class="media-heading"><%= t :news_seg13_0 %></h4>
-              </a>
-              <p><%= t :news_seg13_1 %></p>
-            </div>
+        </div>
+        <div class="media">
+          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
+          <div class="media-body">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+              <h4 class="media-heading"><%= t :news_seg13_0 %></h4>
+            </a>
+            <p><%= t :news_seg13_1 %></p>
           </div>
-          <div class="media">
-            <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/bluetooth_conf.gif" >
-            <div class="media-body">
-              <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-                <h4 class="media-heading"><%= t :news_seg12_0 %></h4>
-              </a>
-              <p><%= t :news_seg12_1 %></p>
-            </div>
+        </div>
+        <div class="media">
+          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/bluetooth_conf.gif" >
+          <div class="media-body">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+              <h4 class="media-heading"><%= t :news_seg12_0 %></h4>
+            </a>
+            <p><%= t :news_seg12_1 %></p>
           </div>
+        </div>
 
-          <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>"><%= t :see_all %> ...</a>
+        <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'sivi-media' %>"><%= t :see_all %> ...</a>
 
       </div><!-- / .col-lg-6 -->
 
@@ -90,7 +90,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
           </div>
         </div>
 
-        
+
         <div class="media">
           <img class="pull-left media-object" width="100px" height="60px" src="/assets/ecosys.png" >
           <div class="media-body pl20">
@@ -111,11 +111,11 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
                 <%= t :media_seg10_0 %>
               </h4>
             </a>
-            
+
             <p><%= t :media_seg10_1 %></p>
           </div>
         </div>
-      
+
 
         <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>"><%= t :see_all %> ...</a>
 
@@ -139,7 +139,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
     </div>
 
     <div id="applications-list" class="row">
-        <!-- IOT -->
+      <!-- IOT -->
       <div class="col-lg-3 pull-left">
         <a class="app-caption" data-toggle="modal" href="#tot">
           <img class="img-thumbnail" width="260px" height="250" src="/assets/tot.jpg">
@@ -147,62 +147,62 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
             <p><%= t :app_tot_0 %></p>
           </span>
         </a>
-       <div class="modal fade" id="tot">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title"><%= t :app_tot_0 %></h4>
-            </div>
-            <div class="modal-body">
-              <p>
+        <div class="modal fade" id="tot">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_tot_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
                   <%= t :app_tot_1 %>
-              </p>
-              <%= link_to(t(:app_wireless_monitors_2), {
-                      :controller => 'ips',
-                      :action => 'bluetooth-low-energy'
-                  }) %>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-    </div>
+                </p>
+                <%= link_to(t(:app_wireless_monitors_2), {
+                  :controller => 'ips',
+                  :action => 'bluetooth-low-energy'
+                }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
 
-    <!-- Home Automation -->
-    <div class="col-lg-3 pull-left">
-      <a class="app-caption" data-toggle="modal" href="#home-auto">
-        <img class="img-thumbnail" src="/assets/home-automation.png">
-        <span class="caption">
-          <p><%= t :app_hw_0 %></p>
-        </span>
-      </a>
-    <div class="modal fade" id="home-auto">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title"><%= t :app_hw_0 %></h4>
-            </div>
-            <div class="modal-body">
-              <p>
+      <!-- Home Automation -->
+      <div class="col-lg-3 pull-left">
+        <a class="app-caption" data-toggle="modal" href="#home-auto">
+          <img class="img-thumbnail" src="/assets/home-automation.png">
+          <span class="caption">
+            <p><%= t :app_hw_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="home-auto">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_hw_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
                   <%= t :app_hw_1 %>
-              </p>
-              <%= link_to(t(:app_hw_2), {
-              :controller => 'DataConverter',
-              :action => 'index'
-              }) %>
-              <%= link_to(t(:app_hw_3), {
-              :controller => 'ips',
-              :action => 'bluetooth-low-energy'
-              }) %>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-    </div>
+                </p>
+                <%= link_to(t(:app_hw_2), {
+                  :controller => 'DataConverter',
+                  :action => 'index'
+                }) %>
+                <%= link_to(t(:app_hw_3), {
+                  :controller => 'ips',
+                  :action => 'bluetooth-low-energy'
+                }) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
 
-    <!-- wearable tech -->
-    <div class="col-lg-3 pull-left">
+      <!-- wearable tech -->
+      <div class="col-lg-3 pull-left">
         <a class="app-caption" data-toggle="modal" href="#toys">
           <img class="img-thumbnail" style="width:260px;height:250px" src="/assets/wearabletech.jpg">
           <span class="caption">
@@ -218,49 +218,46 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
               </div>
               <div class="modal-body">
                 <p>
-        <%= t :app_wt_1 %>
+                  <%= t :app_wt_1 %>
                 </p>
                 <%= link_to(t(:app_wt_2), {
-                        :controller => 'ips',
-                        :action => 'bluetooth-low-energy'
-                    }) %>
+                  :controller => 'ips',
+                  :action => 'bluetooth-low-energy'
+                }) %>
               </div>
             </div><!-- /.modal-content -->
           </div><!-- /.modal-dialog -->
         </div><!-- /.modal -->
-    </div>
+      </div>
 
-    <!-- Smart Meter -->
-    <div class="col-lg-3 pull-left">
-      <a class="app-caption" data-toggle="modal" href="#smart-meter">
-        <img class="img-thumbnail" src="/assets/smart-meter.png">
-        <span class="caption">
-          <p><%= t :app_wireless_meters_0 %></p>
-        </span>
-      </a>
-      <div class="modal fade" id="smart-meter">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
-            </div>
-            <div class="modal-body">
-              <p>
+      <!-- Smart Meter -->
+      <div class="col-lg-3 pull-left">
+        <a class="app-caption" data-toggle="modal" href="#smart-meter">
+          <img class="img-thumbnail" src="/assets/smart-meter.png">
+          <span class="caption">
+            <p><%= t :app_wireless_meters_0 %></p>
+          </span>
+        </a>
+        <div class="modal fade" id="smart-meter">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <p>
                   <%= t :app_wireless_meters_1 %>
-              </p>
-              <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
-            </div>
-          </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-      </div><!-- /.modal -->
-    </div>
-
-    
+                </p>
+                <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+      </div>
 
     </div>
   </div>
-
 
   <div class="hidden-lg center-txt">
     <h3>Silicon Vision Applications</h3>
