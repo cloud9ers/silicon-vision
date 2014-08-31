@@ -1,4 +1,4 @@
-<div class="row m50b m50t">
+<div class="row m50b m50t hidden-sm">
 
   <div class="col-sm-10 col-sm-offset-1">
 
@@ -64,3 +64,98 @@
   </div>
 
 </div><!-- row -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row m50b m50t visible-sm">
+
+  <div style="margin-left:5%">
+
+    <div class="row">
+
+      <div style="width:30%" class="m50b text-center pull-left">
+        <%= link_to({:controller => 'MainProducts', :action => 'bluetooth_low_energy'}, {:class => 'txt-uppercase nav-item block'}) do %>
+        <div>
+          <div class="nav-icon nav-icon--large">
+            <img src="/assets/main-product/Bluetooth-icon.png" class="center" style="width: 30px">
+          </div>
+        </div>
+        <span class="block fs12">Bluetooth Low Energy</span>
+        <% end %>
+      </div>
+
+      <div style="width:30%" class="m50b text-center pull-left">
+        <%= link_to({:controller => 'MainProducts', :action => 'order_demo'}, {:class => 'txt-uppercase nav-item block'}) do %>
+        <div>
+
+          <!-- small screens -->
+          <div class="nav-icon nav-icon--large">
+            <img src="/assets/main-product/Order-demo-icon.png" class="center" style="width: 60px">
+          </div>
+        </div>
+        <span class="block fs12">Order Demo Board</span>
+        <% end %>
+      </div>
+
+      <div style="width:30%" class="m50b text-center pull-left">
+        <%= link_to({:controller => 'ips', :action => 'bluetooth-low-energy'}, {:class => 'txt-uppercase nav-item block', :target => '_blank'}) do %>
+        <div>
+
+          <!-- small screens -->
+          <div class="nav-icon nav-icon--large">
+            <img src="/assets/main-product/specifications-icon.png" class="center" style="width: 30px">
+          </div>
+
+        </div>
+        <span class="block fs12">Specifications</span>
+        <% end %>
+      </div>
+
+      <div style="width:30%; margin-left:15%" class="text-center pull-left">
+        <%= link_to({:controller => 'MainProducts', :action => 'updates'}, {:class => 'txt-uppercase nav-item block'}) do %>
+        <div>
+
+          <!-- small screens -->
+          <div class="nav-icon nav-icon--large">
+            <img src="/assets/main-product/Technological-update-icon.png" class="center" style="width: 30px">
+          </div>
+
+
+        </div>
+        <span class="block fs12">Technological Update</span>
+        <% end %>
+      </div>
+
+      <div style="width:30%" class="text-center pull-left">
+        <%= link_to({:controller => 'MainProducts', :action => 'partners'}, {:class => 'txt-uppercase nav-item block'}) do %>
+        <div>
+          <!-- small screens -->
+          <div class="nav-icon nav-icon--large">
+            <img src="/assets/main-product/Partners-icon.png" class="center" style="width: 50px">
+          </div>
+
+        </div>
+        <span class="block fs12">Our Partners</span>
+        <% end %>
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- row -->
+
+
