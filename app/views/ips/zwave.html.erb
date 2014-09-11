@@ -33,40 +33,47 @@ SVI-TRX201,Radio,highly integrated,ultra-low power,Bluetooth,Smart,CMOS,IP,compl
 <div class="container ips-pages">
 	<div class="row">
 		<div class="col-lg-7">
-			<h3 class="m50b">
+			<h3>
 				<img src="/assets/zwave-s2x.png" width="53px" height="53px" />
         <%= t :zwave_radio_9 %>
       </h3>
-    </div>
-    <div class="col-lg-5">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-lg-8">
-      <h4></h4>
+
       <p>
         <%= t :zwave_radio_0 %><br>
         <%= t :zwave_radio_1 %>
       </p>
+    </div>
+    <div class="col-lg-5">
+          <a class="pull-right" data-toggle="modal" href="#myModal">
+            <img class="m50t" src="/assets/zwave.png" width="300px" height="260px"/>
+          </a>
+          <div class="modal fade" id="myModal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title"><%= t :zwave_radio_9 %></h4>
+                </div>
+                <div class="modal-body">
+                  <img src="/assets/zwave.png" width="300px" height="260px"/>
+                </div>
+              </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+          </div><!-- /.modal -->
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-lg-8">
+      
       <div class="col-lg-6">
        <h4 class="pull-left"><%= t(:zwave_radio_2) %>:</h4>
 
-       <div class="pull-right btn-toolbar m30t">
-         <div class="btn-group">
-          <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
-            <%= t(:zigbee_radio_3) %>
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-           <li>
-            <%= link_to 'Download Product Brief', '#', :target => '_blank' %>
-          </li>
-          <li>
-            <a data-id="SVI-TRX201" class="data-req-btn"  data-toggle="modal" href="#data-req">Request Data Sheet</a>
-          </li>
-        </ul>
+      <div class="pull-right m30t">
+        <a class="data-req-btn btn btn-primary btn-xs txt-white" data-id="SVI-TRX201"  data-toggle="modal" href="#data-req">Request Data Sheet</a>  
       </div>
-    </div>
 
 
     <ul class="clear">
@@ -79,24 +86,6 @@ SVI-TRX201,Radio,highly integrated,ultra-low power,Bluetooth,Smart,CMOS,IP,compl
    </ul>
 
  </div>
-</div>
-<div class="col-lg-4 center-txt">
- <a data-toggle="modal" href="#myModal">
-  <img src="/assets/zwave.png" width="300px" height="260px"/>
-</a>
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title"><%= t :zwave_radio_9 %></h4>
-      </div>
-      <div class="modal-body">
-        <img src="/assets/zwave.png" width="300px" height="260px"/>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
 </div>
 </div>
 </div>
