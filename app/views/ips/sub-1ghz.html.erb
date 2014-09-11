@@ -34,71 +34,99 @@ SVITRX402,highly integrated,low power,high performance,multiband,radio,transceiv
 <div class="container ips-pages">
 	<div class="row">
 		<div class="col-lg-7">
-			<h3 class="m50b">
+
+			<h3>
 				<img src="/assets/ism-s2x.png" width="53px" height="53px" />
         <%= t :rf_transceiver_0 %>
       </h3>
+
+      <h4><%= t :rf_transceiver_1 %></h4>
+      <p><%= t :rf_transceiver_2 %></p>
+
     </div>
-    <div class="col-lg-5 center-txt">
+
+    <div class="col-lg-5 ">
+        <a data-toggle="modal" href="#myModal">
+          <img class="m50t" src="/assets/rf-transceiver-s.jpg" width="400px" height="250px" />
+        </a>
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title"><%= t :rf_transceiver_0 %></h4>
+              </div>
+              <div class="modal-body">
+                <img src="/assets/rf-transceiver.jpg" />
+              </div>
+            </div><!-- /.modal-content -->
+          </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->     
     </div>
   </div>
+
+
   <div class="row">
-    <div class="col-lg-8">
-      <h4><%= t :rf_transceiver_1 %></h4>
-      <p>
-        <%= t :rf_transceiver_2 %>
-      </p>
-      <div class="col-lg-6">
-       <h4 class="pull-left"><%= t(:rf_transceiver_3).split(":")[0] %>:</h4>
+        <table class="table table-striped">
+            <thead>
+          <tr>
+            <th>IP Name</th>
+            <th>Process</th>
+            <th>Status</th>
+            <th>Standard </th>
+            <th></th>
+          </tr>
+            </thead>
+            <tbody>
+          <tr>
 
-       <div class="pull-right btn-toolbar m30t">
-         <div class="btn-group">
-          <button type="button" class="btn btn-primary btn-xs dropdown-toggle" data-toggle="dropdown">
-            <%= t(:rf_transceiver_3).split(":")[1] %>
-            <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-           <li>
-            <%= link_to 'Download Product Brief', '/files/SVI-TRX402.pdf', :target => '_blank' %>
-          </li>
-          <li>
-            <a data-id="SVITRX402" class="data-req-btn" data-toggle="modal" href="#data-req">Request Data Sheet</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+            <td class="tleft"><strong>SVI-TRX402T</strong></td>
+            <td>TSMC-180nm</td>
+            <td>Silicon Verified</td>
+            <td>IEEE.802.15.4G</td>
+            <td nowrap>
+                <%= link_to 'Download', '/files/ISM/SVI-TRX402T_PB.pdf', :target => '_blank' , :class => 'btn btn-primary btn-xs download' %>
+            </td>
+          </tr>
 
-    <ul class="clear">
-     <li><%= t :rf_transceiver_4 %></li>
-     <li><%= t :rf_transceiver_5 %></li>
-     <li><%= t :rf_transceiver_6 %></li>
-     <li><%= t :rf_transceiver_7 %></li>
-     <li><%= t :rf_transceiver_8 %></li>
-     <li><%= t :rf_transceiver_9 %></li>
-   </ul>
- </div>
+           <tr>
 
- <br />
-</div>
-<div class="col-lg-4 center-txt">
- <a data-toggle="modal" href="#myModal">
-  <img src="/assets/rf-transceiver-s.jpg" />
-</a>
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title"><%= t :rf_transceiver_0 %></h4>
-      </div>
-      <div class="modal-body">
-        <img src="/assets/rf-transceiver.jpg" />
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-</div>
-</div>
+            <td class="tleft"><strong>SVI-TRX402S</strong></td>
+            <td>SMIC-180nm</td>
+            <td>Silicon Verified</td>
+            <td>IEEE.802.15.4G</td>
+            <td nowrap>
+                <%= link_to 'Download', '/files/ISM/SVI-TRX402S_PB.pdf', :target => '_blank' , :class => 'btn btn-primary btn-xs download' %>
+            </td>
+          </tr>
+
+           <tr>
+
+            <td class="tleft"><strong>SVI-TRX403T</strong></td>
+            <td>TSMC-180nm</td>
+            <td>Silicon Verified</td>
+            <td>China State Grid</td>
+            <td nowrap>
+                <%= link_to 'Download', '#', :target => '_blank' , :class => 'btn btn-primary btn-xs download' %>
+            </td>
+          </tr>
+
+          <tr>
+
+            <td class="tleft"><strong>SVI-TRX403S</strong></td>
+            <td>SMIC-180nm</td>
+            <td>Silicon Verified</td>
+            <td>China State Grid</td>
+            <td nowrap>
+                <%= link_to 'Download', '#', :target => '_blank' , :class => 'btn btn-primary btn-xs download' %>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+  </div>
+
+
 </div>
 
 <div class="modal fade" id="data-req">

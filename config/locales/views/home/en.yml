@@ -12,7 +12,7 @@
   pm_ips_desc: Optimized PM IP for building state of the art SoCs
   pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IP
   si_vi_offers:  Silicon Vision Offers a Selection of High Performance IP
-  si_vi_intro_1: Silicon Vision is a market oriented company delivering high quality & innovative Low Power Wireless IP to enable advanced world class products; maximizing value for our customers and staff.
+  si_vi_intro_1: Silicon Vision is a market oriented company delivering high quality and innovative Low Power Wireless IP to enable advanced world class products, serving the IOT Market and maximizing value for our customers and staff
   si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
   si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
@@ -32,7 +32,7 @@
 
 
   ips_title: Silicon Vision Intellectual Properties
-  ips_desc: Silicon Vision offers a portfolio of high performance Low Power Wireless IP. Our IP are silicon proven over several process nodes. Customers can always order Demo Boards for most of the IP. Our IP are used in millions of devices in the market all over the globe.
+  ips_desc: Silicon Vision offers a portfolio of high performance Low Power Wireless IP. Our IP are silicon proven over several process nodes and our Demo Boards are available for all of our Customers. Our IP are used in millions of devices in the market all over the globe.
   rf_index_0: (Radio Frequency IP)
   rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
   rf_index_2: "Radio Frequency IP includes :"
@@ -47,8 +47,8 @@
   rf_bluetooth_8: Sensitivity = -87 dBm @ 1.0Mbps
   rf_bluetooth_9: "Integrated power amplifier: -20 – +3 dBm"
   rf_bluetooth_10: "RX Peak/TX Peak: 13mA/11mA"
-  rf_transceiver_0: Sub-1GHz ISM Transceiver
-  rf_transceiver_1: SVI-TRX402 High Performance Sub-1GHz ISM Transceiver
+  rf_transceiver_0: Sub-1GHz ISM Radio IP
+  rf_transceiver_1: SVI-TRX402 High Performance Sub-1GHz ISM Radio IP
   rf_transceiver_2: Silicon Vision, SVITRX402 is a highly integrated, low power, high performance Multiband Radio Transceiver IP covering the 415/433/868/915/950MHz ISM bands (Industrial, Scientific and Medical) and compatible with IEEE 802.15.4G standard. SVITRX402 contains an integrated +17dBm power amplifier, and receiver sensitivity of -114dBm at 2kbps on-air data rate. SVITRX402 is an ideal solution for longer-range low data rate applications and is widely used in smart meters. The integrated hardware protocol accelerator and encryption co-processor offload time critical protocol functions from the application microcontroller, enabling the implementation of advanced and robust wireless connectivity with low cost 3rd party microcontrollers.
   rf_transceiver_3: "Features: Download"
   rf_transceiver_4: "Frequency Range: 400-960MHz,"
@@ -277,7 +277,7 @@
   media_seg12_4: Sep.
   media_seg12_5: 2013
   media_seg13_0: "The future of home automation – ZigBee or Z-Wave?" 
-  media_seg13_1: December 14, 2013 
+  media_seg13_1: December 14, 2013
   media_seg13_2: "There has been an ongoing debate between which technology is the best overall solution for Home Automation: ZigBee or Z-Wave?" 
   media_seg13_3: READ MORE
   media_seg13_4: Dec.
@@ -318,7 +318,7 @@
   contact_30: korea-sales@si-vision.com
   contact_31: worldwide-sales@si-vision.com
   contact_32: Worldwide
-  contact_33: Istanbul, Turkey 
+  contact_33: Istanbul, Turkey
   contact_34: "Tel: +90-530-236-4790" 
   contact_35: Blok No:5 K.3-Atasehir/Istanbul 
   contact_36: "Mob: +90-530-236-4790"
@@ -342,7 +342,7 @@
   zigbee_radio_6: "Sensitivity = -95 dBm @ 250 kbps"
   zigbee_radio_7: "Chip rate: 2MChip/s"
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
-  zigbee_radio_11: 2.4GHz Zigbee Radio
+  zigbee_radio_11: Zigbee Radio IP
   zwave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
   zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
   zwave_radio_2: Features
@@ -352,7 +352,7 @@
   zwave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
-  zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
+  zwave_radio_9: "Z-wave Radio IP"
   news_hg1:  Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP ...
   news_hg2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform. This silicon proven IP has already been licensed to a customer for human interface devices using BLE for wireless keyboard and mouse. To meet the application wireless MCU integrated with BLE module, this IP currently undergoing verification on HHGrace’s embedded Non-Volatile Memory (eNVM) RF process platform and will be released soon.
   news_hg3: The availability of this radio IP on mature 0.11μm process technology is significant for the low cost BLE market. HHGrace provides low power and competitive technology solutions to help designers reduce power consumption and product cost. The BLE IP solution from Silicon Vision will enable low cost, ultra-low power human interface devices and wearable products. And the market applications of this BLE IP also include healthcare, sports and fitness, security, and home entertainment.
