@@ -400,7 +400,7 @@
   zwave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
-  zwave_radio_9: "Z-wave Radio IP"
+  zwave_radio_9: "Z-wave IP (ITU-T G.9959) Radio"
   news_hg1:  Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP ...
   news_hg2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform. This silicon proven IP has already been licensed to a customer for human interface devices using BLE for wireless keyboard and mouse. To meet the application wireless MCU integrated with BLE module, this IP currently undergoing verification on HHGrace’s embedded Non-Volatile Memory (eNVM) RF process platform and will be released soon.
   news_hg3: The availability of this radio IP on mature 0.11μm process technology is significant for the low cost BLE market. HHGrace provides low power and competitive technology solutions to help designers reduce power consumption and product cost. The BLE IP solution from Silicon Vision will enable low cost, ultra-low power human interface devices and wearable products. And the market applications of this BLE IP also include healthcare, sports and fitness, security, and home entertainment.
