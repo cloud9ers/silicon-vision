@@ -1,12 +1,19 @@
 ﻿en:
+  # General
+  ble_ips: Bluetooth Low Energy IP
+  ism_ips: ISM Radio IP
+  zgb_ips: Zigbee Radio IP
+  zw_ips:  Z-wave IP
+  apps: Applications
+  submit: submit
+  copyright: "All Copyrights reserved to Silicon Vision © 2014."
+
+  # Home
   home: Home
   si_vi: Silicon Vision
   si_vi_short_desc: low power wireless IP provider serving the IOT Market
   si_vi_learn_more: LEARN MORE
-  rf_ips: Radio Frequency IP
-  pm_ips: Power Management IP
-  dc_ips: Data Coverter IP
-  ams_ips: AMS IP
+
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
   rf_ips_see_more: SEE MORE ABOUT RADIO FREQUENCY IP
   pm_ips_desc: Optimized PM IP for building state of the art SoCs
@@ -16,6 +23,8 @@
   si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
   si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
+
+  # About Us
   about: About
   about_us_welcome: Welcome to Innovative Silicon IP
   about_us_si_vi_story: Silicon Vision Story
@@ -36,6 +45,28 @@
   rf_index_0: (Radio Frequency IP)
   rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
   rf_index_2: "Radio Frequency IP includes :"
+
+  #BLE
+  ble_desc_1: The SVI-TRX2XX Radio family is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0 & 4.1).
+  ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Lonk Layer controller; it forms a complete Bluetooth Smart solution.
+  ble_desc_3: The SVI-TRX2XX Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
+  ble_desc_4: Silicon Vision also offer complete BLE digital baseband features that include TX/RX FIFO’s, CRC, scrambling, packet (filtering, aligning and assembly/de assembly) together with standalone encryption co-processor and all these features are available upon request.
+
+
+  #ISM
+  ism_title: High Performance Sub-1GHz ISM Radio IP
+  ism_desc_1: Silicon Vision, SVITRX40X family is a highly integrated, low power, high performance Multiband Radio Transceiver IP covering the 415/433/868/915/950MHz ISM bands (Industrial, Scientific and Medical) and compatible with both the IEEE 802.15.4G and Chinese State Grid Q/GDW (Micro-Power Wireless Protocol) standards.
+  ism_desc_2: SVITRX40X contains an integrated programmable power amplifier, and receiver with high sensitivity with programmable data rate from 2kbps to 200kbps. SVITRX40X is an ideal solution for longer-range low data rate applications and is widely used in smart meters.
+  ism_desc_3: The integrated hardware protocol accelerator and encryption (AES-256) co-processor offload time critical protocol functions from the application microcontroller, enabling the implementation of advanced and robust wireless connectivity with low cost 3rd party microcontrollers.
+
+  # #IPs Tables
+  # ip_name_th: IP Name
+  # process_th: Process
+  # status_th: Status
+  # standard_th: Standard
+
+
+
   rf_bluetooth_0: Bluetooth Low Energy Radio
   rf_bluetooth_1: SVI-TRX201 Bluetooth Low Energy Radio
   rf_bluetooth_2: The SVI-TRX201 Radio is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0). The SVI-TRX201 Radio IP covers the Bluetooth low energy specifications with support of GFSK modulation. RF and digital modems are included in the design. When combined with the Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX201 Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
@@ -96,7 +127,8 @@
   ams_real_time_clocks_2: RTC and Oscillator IP
   ams_video_analog_0: Video Analog Front-End IP
   ams_video_analog_1: Silicon Vision provides a high end IP library suitable for diversified HD video applications. This includes video analog front-ends that deals with RGB/YPrPb graphics processing and C-Y/CVBS signal processing. Different sampling rates are supported starting from 36MHz up to 205MHz. The library contains high speed LVDS transmitters for high resolution flat panel displays. The library is silicon verified on different nodes starting from 180nm to 90nm.
-  apps: Applications
+
+  # Apps
   apps_title: Silicon Vision Applications
   app_comm_0: Communication Systems
   app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
@@ -114,8 +146,8 @@
   app_tire_pressure_0: Tire Pressure Monitoring
   app_tire_pressure_1: A Tire Pressure Monitoring System (TPMS) is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMSs report real-time tire-pressure information to the driver of the vehicle, either via a gauge, a pictogram display, or a simple low-pressure warning light. TPMSs can be divided into two different types — direct (dTPMSs) and indirect (iTPMSs). TPMSs are provided both at an OEM (factory) level as well as an aftermarket solution level.
   app_tire_pressure_2: Sub 1GHz Tx/Rx
-  app_sensor_networks_0: Sensor Networks
-  app_sensor_networks_1: A Wireless Sensor Network (WSN) consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc., and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance. Today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
+  app_sensor_networks_0: Remote sensing Network
+  app_sensor_networks_1: A Remote sensing Network consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc., and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance. Today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
   app_sensor_networks_2: Sub 1GHz Tx/Rx
   app_wt_0: Wearables
   app_wt_1: the term “wearable device” refers to electronic technologies or computers that are incorporated into items of clothing and accessories which can comfortably be worn on the body. These wearable devices can perform many of the same computing tasks as mobile phones and laptop computers; however, in some cases, wearable devices can outperform these hand-held devices entirely. Wearable technology tends to be more sophisticated than hand-held technology on the market today because it can provide sensory and scanning features not typically seen in mobile and laptop devices, such as biofeedback and tracking of physiological function.
@@ -136,6 +168,16 @@
   app_flat_panel_0: FLAT PANEL DISPLAYS
   app_tot_0: Internet of Things (IoT)
   app_tot_1: Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to automatically transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
+
+  app_hid: HID (Human Interface devices)
+  app_smart_cities: Smart Cities
+  app_metering_sys: Metering systems (AMR)
+  app_remote_keyless_entery: Remote keyless entry
+  app_industrial_control: Industrial control
+  app_road_toll_coll: Road Toll collocation
+  app_toys: Toys
+
+  # News
   news: News and Press
   news_0: Silicon Vision News and Press
   news_1: Silicon Vision Latest News
@@ -204,6 +246,8 @@
   news_seg14_2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform...
   news_seg14_3: July
   news_seg14_4: 2014
+
+  # Media
   media_seg1_0: Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
   media_seg1_1: August 29, 2013
   media_seg1_2: iBeacons is an implementation of the Bluetooth Low Energy (BLE) profile which enables very precise micro-location triggers for events in iOS 7 apps.
@@ -282,10 +326,14 @@
   media_seg13_3: READ MORE
   media_seg13_4: Dec.
   media_seg13_5: 2013
+
+  # Careers
   careers: Careers
   careers_0: Join our team...
   careers_1: If you want to join a fast growing Analog/Mixed Signal Team, work in an environment that encourages innovation and productivity, get competitive benefits and compensations, then please send your updated resume to careers@si-vision.com
   careers_2: Silicon Vision careers
+
+  # Contact Us
   contact: Contact Us
   contact_0: Silicon Vision contacts
   contact_1: Silicon Vision Technologies Limited
@@ -326,8 +374,8 @@
   see_all_apps: See all applications
   write_email: Write your email
   go: GO!
-  submit: submit
-  copyright: "All Copyrights reserved to Silicon Vision © 2014."
+
+  # Other
   news_seg11_0: Silicon Vision at MWC 2014
   news_seg11_1: February 24, 2014 
   news_seg11_2: "Barcelona, Spain – Mobile World Congress – 24 February 2014- Silicon Vision is delighted to inform you that our team will be present in the MWC 2014 at Hall6- 6G21, Silicon Vision team will be promoting its latest solutions for Bluetooth Low Energy full stack IP, and its 802.15.4g smart grid IP. It will be our pleasure to meet you in the MWC 2014, please send us a meeting request to mw2014@si-vision.com."

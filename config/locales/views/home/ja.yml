@@ -1,35 +1,59 @@
 ﻿ja:
   home: ホーム
-  si_vi: シリコン・ビジョン
-  si_vi_short_desc:  高性能シリコンIP（知的財産）のリーディングIPプロバイダー
-  si_vi_learn_more: シリコン・ビジョンについての詳細は、こちらをご覧ください
-  rf_ips: 無線周波数IP（RF IP)
-  pm_ips: パワーマネージメントIP（PM IP)
-  dc_ips: データコンバーターIP
-  ams_ips: AMS IP
+  si_vi: シリコンビジョン
+  si_vi_short_desc:  IOT(モノのインターネット)マーケットに特化した低消費電力ワイアレスIP(知的財産)
+  si_vi_learn_more: 詳細
+  ble_ips: ブルートゥース 低エネルギーIP
+  ism_ips: ISMラジオ知的財産
+  zgb_ips: ZigBee(ジグビー)ラジオIP
+  zw_ips:  Zウェイブ ラジオ IP
   rf_ips_desc: シリコン・ビジョンのRF IPは省電力無線ドメインが中心になっています。
   rf_ips_see_more: 無線周波数IPについての詳細は、こちらをご覧ください
   pm_ips_desc: 最先端のシステムオンチップ（SoC）を製作するのに最適なPM IP
   pm_ips_see_more: パワーマネージメントIPについての詳細は、こちらをご覧ください
-  si_vi_offers:  シリコン・ビジョンはあらゆる高性能IPを提供しています：
-  si_vi_intro_1: シリコン・ビジョン・テクノロジーズ株式会社は2007年に設立され、350年の集合的な経験を所有し、世界の一流お客様のために勤めてきました。シリコン・ビジョンのチームはRF回線、システム、パワーマネージメント、デジタル及びバックエンドデザインなどで豊富な経験を所有しています。
+  si_vi_offers:  シリコンビジョンはハイパーフォーマンスIP(知的財産)をご提供します。
+  si_vi_intro_1: シリコンビジョン社は市場志向型のアプローチで高品質かつ革新的な低消費電力ワイヤレス知的財産により 世界有数の製品の有効活用を可能にし、IOT(モノのインターネット)、お客様とスタッフの更なる発展に 寄与しています。
   si_vi_intro_2: シリコン・ビジョンは主に無線周波数（RF）、パワーマネージメント（PM）、データコンバーター（DC）、その他のAMS IPを中心に、高性能IPを提供しています。我々のIPは処理ノードにおいてシリコン検証を受けています。ほとんどのIPのデモ・ボードもあります。
   si_vi_intro_3: シリコン・ビジョンのIPは世界中の市場で、何百万個の装置に使用されています。
   subscribe: お知らせのメール受信ご希望の方はメーリングリストへご登録ください
+
+  # About Us
   about: シリコン・ビジョンについて
-  about_us_welcome: 革新的なシリコンIPへようこそ！
-  about_us_si_vi_story: シリコン・ビジョンの歴史
+  about_us_welcome: シリコンIPの革新的技術
+  about_us_si_vi_story: シリコンビジョンの歴史
   about_us_partners: 主要取引先
-  about_us_parag_1: シリコン・ビジョン・テクノロジーズ株式会社は高性能、省電力無線周波数（RF IP）のリーディングIPプロバイダーです。我々のソリューションは、RF技術や先端的なパワーマネージメントIPなどの低エネルギーブルートゥース技術、省電力ZigBeeを含んでいます。我々の商品は性能とモノリシク集積の一流取り合わせを提供し、消費者アプリケーション、HID、スマートメーター、工業無線携帯装置や一般的な無線市場の広い範囲を対象にしています。
-  about_us_parag_2: シリコン・ビジョン・テクノロジーズ株式会社は2007年に設立され、350年の集合的な経験を所有し、世界の一流お客様のために勤めてきました。シリコン・ビジョンのチームはRF回線、システム、パワーマネージメント、ディジタル及びバックエンドデザインなどで豊富な経験を所有しています。
-  about_us_parag_3: また、SMIC、Mindtree株式会社、Mentor GraphicsやXFabなどの世界一流のテクノロジーパートナーと協力しています。シリコン・ビジョンは世界中で代表事務所を所有し、お客様のご質問やご依頼に対応しています。
+  about_us_parag_1: シリコン・ビジョン・テクノロジーズ株式会社は高性能、低消費電力の無線周波数、知的財産(RF IP)のリーデ ィングカンパニーです。消費者アプリケーション、HID、スマートメーター、工業無線携帯装置や一般的な無 線市場の広い範囲を対象にしています。弊社の製品は 業界をリードする性能とモノリシック集積化を融 合させ、消費者電気製品、HID、スマートメーター、工業用ワイヤレス機器、一般的ワイヤレスマーケットなど 幅広い範囲を包括しています。
+  about_us_parag_2: シリコンビジョン社は350年以上の経験を元に2007年に設立され、世界中の一流の企業にサービスを提供 してきました。シリコ ンビジョンのチームはRFサーキット及びシステム、、デジタル及びバックエンドデザイ ン等、豊富な経験を有しています。
+  about_us_parag_3: またシリコンビジョン社はMIC、Mindtree、Mentor Graphics、XFabなど のワールドクラスな企業と事業提携をしています。
   ips: IP
-  ips_title: シリコン・ビジョンの知的財産
-  ips_desc: シリコン・ビジョンは主に無線周波数（RF）、パワーマネージメント（PM）、データコンバーター（DC）、その他のAMS IPを中心に、高性能IPを提供しています。我々のIPは処理ノードにおいてシリコン検証を受けています。ほとんどのIPのデモ・ボードもあります。シリコン・ビジョンのIPは世界中の市場で、何百万個の装置に使用されています。
+
+  # Slider
+  slider_slide2_head: ブルートゥース 低エネルギーIP
+  slider_slide3_head: ISMラジオ知的財産
+  slider_slide4_head: ZigBee(ジグビー)ラジオIP
+
+  ips_title: シリコンビジョンインテレクチュアルプロパティ(知的財産)
+  ips_desc: シリコンビジョン社は高パーフォーマンスな低消費電力ワイアレスIP(知的財産)のポートフォリオをご提供い たします。 弊社のIP(知的財産)はシリコンで数々のプロセスを経てノードを検証し、またデモ用ボードも お客様向けにご用意しています。 弊社のIPは世界中の多くの製品で採用されています。
   rf_index_0: （無線周波数IP）
   rf_index_1: シリコン・ビジョンのRF IPは省電力無線ドメインが中心になっています。我々のRF IPは世界中のお客様に使って頂いています。すべてのIPのデータシートとデモ・ボードもあります。
   rf_index_2: "無線周波数IPは以下を含みます："
-  rf_bluetooth_0: 低エネルギーブルートゥース
+
+
+  #BLE
+  ble_desc_1: SVI-TRX2XXラジオシリーズは高度に統合され、超低電力ブルートゥーススマートCMOSラジオIPでありブルート ゥース 低消費電力規格(ブルートゥース 4.0/4.1)に準拠しています。 
+  ble_desc_2: SVI-TRX2XXラジオ IPはブルート ゥース 低消費電力規格をGFSK 調整でカバーします。RF、アナログベースバンド、デジタルモデムがデザイン に組み込まれ、ブルートゥーススマートベースバンド/リンク レイヤコントロールと統合されると、ブルート ゥーススマートソリューションを構成します。
+  ble_desc_3: TRX2XXラジオはTX/RX データ、リアルタイムコントロールインターフェイス、レジストレーションプログラミング インターフェイスなど、全てのデジタルインターフェイスを通してベースバンドに接続します。
+  ble_desc_4: シリコンビジョン社は、TX/RX FIFO, CRC, スクランブリング, パケット(フィルタリング、アライニング、組 み立て、解体)などを含み、更に単体の暗号化コプロセッサを持つ統合 BLEデジタルベースバンドを提供 し、これらはリクエストによりご対応しています
+
+
+  #ISM
+  ism_title: 高パーフォーマンス サブ1GHz ISM ラジオ IP
+  ism_desc_1: シリコンビジョン社のSVITRX40Xシリーズは高い統合性と、低消費電力、高性能のマルチバンドラジオトラ ンシーバーIPで415/433/868/915/950MHz ISMバンド(工業用、科学、医学)をカバーし、IEEE 802.15.4Gと 中国の規格Q/GDW (マイクロパワーワイヤレスプロトコ)の両方に対応します。
+  ism_desc_2: SVITRX40Xは統合プログ ラム可能パワーアンプとプログラムデータ域2kbps から 200kbpsの高感度レシーバーを含んでいます。
+  ism_desc_3: SVITRX40Xは低範囲低データレートアプリケーションに最適なソリューションで、スマートメーターでは、 多く活用されています。 統合ハードウェアプロトコルとアプリケーションマイクロコントローラーからの 暗号(AES-256)コプロセッサ、オフロードクリティカルプロトコル機能は、低コストなサードパーティのマ イクロコントローラーとも、高度で安定したワイアレスの接続を実現します。
+
+
+  rf_bluetooth_0: ブルートゥース 低エネルギーIP
   rf_bluetooth_1: SVI-TRX201低エネルギーブルートゥース無線機
   rf_bluetooth_2: SVI-TRX201無線機は完全に集積された超省電力ブルートゥース機能（ブルートゥース4.0の一部）に対応している低エネルギーブルートゥーススマートCMOS無線IPです。SVI-TRX201無線機IPはGFSK変調サポートで、低エネルギーブルートゥース機能に対応しています。RFとデジタルモデムがデザインに含まれています。ブルートゥーススマートブロードバンドコントローラと併せると、完全なブルートゥーススマートソリューションが作られます。SVI-TRX201無線機はTX/RWデータを含むフルディジタルインタフェース、リアルタイムコントロールインタフェースと登録プログラミングインタフェースを通じ、ベースバンドに接続します。
   rf_bluetooth_3: "機能:ダウンロード"
@@ -125,6 +149,15 @@
   app_wireless_meters_2: Sub 1GHz Tx/Rx
   app_instrumentation_0: インストルメンテーション
   app_flat_panel_0: 平面パネル型ディスプレー
+
+  app_hid: HID(ヒューマンインターフェースデバイス)
+  app_smart_cities: スマートシティ
+  app_metering_sys: メータリングシステム(AMR)
+  app_remote_keyless_entery: リモートキーレスエントリー
+  app_industrial_control: インダストリアルコントロール
+  app_road_toll_coll: 通行料徴収
+  app_toys: おもちゃ
+
   news: ニュースと最新情報
   news_0: シリコン・ビジョンのニュースと最新情報
   news_1: シリコン・ビジョンの最新ニュース
@@ -173,6 +206,9 @@
   news_seg9_15: "Eメール: press@si-vision.com"
   news_seg9_16: 9月
   news_seg9_17: 2013年
+
+
+  #
   careers: 採用情報 
   careers_0: シリコン・ビジョンのチームに入りませんか？
   careers_1: 急速に成長しているアナログ・ミックスシグナルチームに入りたい？革新と効率が高い環境で仕事したい？競争的な給付と賠償をもらいたい？じゃ、最新の履歴書をこちらにお申し込みください
@@ -307,8 +343,8 @@
   news_seg11_2:  スペイン・バルセロナ‐モバイルワールドコングレス‐2014年2月24日- シリコンビジョンは、私たちのチームは、ホール6-6G21でMWC2014に存在するであろうことを通知するために喜んでいる, シリコン・ビジョンは低エネルギーブルートゥース（BLE）や802.15.4gスマートグリッドを展示しています。それはMWC2014であなたを満たすために私たちの喜びになります、mw2014@si-vision.com に私たちに会議出席依頼を送信してください。
   news_seg11_3: 2月
   news_seg11_4: 2014
-  zigbee_radio_0: Silicon Vision, SVI-TRX301 is a fully integrated low power radio transceiver IP targeting IEEE 802.15.4 standard. SVI-TRX301 performance is tailored for low power operation to be used in ZigBee systems and battery-powered modules.
-  zigbee_radio_1: Transmitter output power ranges from -25 to +3dBm, while receiver sensitivity is -93dBm at 250kbps. The frequency range allows operation in 2.4GHz Industrial, Scientific, Medical (ISM) band.
+  zigbee_radio_0: シリコンビジョンSVI-TRX301は低電力ラジオトランシーバーIPでIEEE 802.15.4基準向けです。 SVI-TRX301の性能はZigBeeシステムとバッテリーパワーモジュールで使用される 低消費出力オペレーション用に設計されています。
+  zigbee_radio_1: 送信機器の出力電力の範囲は-25 から +3dBmで、受信機器の感度は250kbpsで - 95dBmです。周波数範囲は工業、化学、医療(ISM)バンドの2.4GHzでの使用可能で す。
   zigbee_radio_2: Features
   zigbee_radio_3: Download
   zigbee_radio_4: Compatible with IEEE.802.15.4
@@ -317,8 +353,8 @@
   zigbee_radio_7: "Chip rate: 2MChip/s"
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
   zigbee_radio_11: 2.4GHz Zigbee Radio
-  zwave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
-  zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
+  zwave_radio_0: シリコンビジョンSVI-TRX 501は完全統合低電力ワイヤレスラジオトランシーバーIPでITU-T G.9959と適合、基準です。SVI-TRX501は性能はZウェイブワイヤレスコミュニケーシ ョンネットワークで使用される低消費出力オペレーション用に設計されています。
+  zwave_radio_1: 送信機器の出力電力の範囲は上限-+18dBmで、受信機器の感度は40kbpsで-106dBmで
   zwave_radio_2: Features
   zwave_radio_3: Compatible with ITU-T G.9959
   zwave_radio_4: "Modulation: FSK, GFSK"
@@ -337,10 +373,10 @@
   news_seg12_2: San JoseあるMcEnery Convention Center,CA ,USA。シリコンビジョン当社のチームは、Bluetooth2014訪問されることを通知するために大変満足しています。 当社のお客様は、このイベントでbtworld2014@si-vision.com に会議のリクエストを送信してください。2Cビジネス機会について議論するために満たすには、喜びになり
   news_seg12_3: 4月
   news_seg12_4: 2014年
-  news_seg13_0: Silicon Vision at Computex Taipei
-  news_seg13_1: June 3rd, 2014
-  news_seg13_2: Computex Taipei, Taiwan ,June 3rd – June 7th, 2014. Silicon Vision sincerely invite you to meet us in Computex exhibition! Our team will be pleased to meet Computex visitors to discuss Business Opportunities. We greatly appreciate if you could send us a meeting request in advance to computextpe2014@si-vision.com. Look forward to seeing you soon!
-  news_seg13_3: June
+  news_seg13_0: シリコンビジョン - コンピューテックス(台北) -2014年6月
+  news_seg13_1: 2014年6月
+  news_seg13_2: コンピューテックス、台湾、台北にて 6月3日から6月7日まで開催します。 シリコンビジョン社 はコンピューテックス展示会にお客様をご招待します。 会場にてお客様との商談の機会をお待ちい たしております。 事前にメールにて、予約を承ります。 computextpe2014@si-vision.com  よろし くお願いします。
+  news_seg13_3: 6月
   news_seg13_4: 2014
   news_seg14_0: シリコンビジョンはHHGraceの0.11μm技術プラットフォーム上でシリコン実証済みのブルートゥーススマートRF IPを発表 
   news_seg14_1: July 8th, 2014

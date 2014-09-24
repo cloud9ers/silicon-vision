@@ -2,19 +2,19 @@
   <ul class="nav nav-pills">
     <li>
       <a href="<%= url_for :controller => 'ips', :action => 'bluetooth-low-energy' %>" class="ble"></a>
-      <p><a href="#">Bluetooth Low Energy IP</a></p>
+      <p><a href="#"><%= t :ble_ips %></a></p>
     </li>
     <li>
       <a href="<%= url_for :controller => 'ips', :action => 'sub-1ghz' %>" class="ism"></a>
-      <p><a href="#">ISM Radio IP</a></p>
+      <p><a href="#"><%= t :ism_ips %></a></p>
     </li>
     <li>
       <a href="<%= url_for :controller => 'ips', :action => 'zigbee' %>" class="zigbee"></a>
-      <p><a href="#">Zigbee Radio IP</a></p>
+      <p><a href="#"><%= t :zgb_ips %></a></p>
     </li>
     <li>
       <a href="<%= url_for :controller => 'ips', :action => 'zwave' %>" class="zwave"></a>
-      <p><a href="#">Z-wave Radio IP</a></p>
+      <p><a href="#"><%= t :zw_ips %></a></p>
     </li>
   </ul>
 </div>
