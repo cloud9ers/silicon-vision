@@ -335,12 +335,12 @@
   media_seg12_4: Sep.
   media_seg12_5: 2013
   media_seg13_0: "The future of home automation – ZigBee or Z-Wave?" 
-  media_seg13_1: December 14, 2013 
+  media_seg13_1: December 14, 2013
   media_seg13_2: "There has been an ongoing debate between which technology is the best overall solution for Home Automation: ZigBee or Z-Wave?" 
   media_seg13_3: READ MORE
   media_seg13_4: Dec.
   media_seg13_5: 2013
-  contact_33: 伊斯坦布尔, 土耳其 
+  contact_33: 伊斯坦布尔, 土耳其
   contact_34: "手机: +90-530-236-4790"
   contact_35: Blok No:5 K.3-Atasehir/Istanbul 
   contact_36: "手机: +90-530-236-4790"
@@ -354,7 +354,7 @@
   news_seg11_2:  巴塞罗那，西班牙 - 移动通信世界大会 - 2014年2月24日-硅愿景很高兴地通知您 我们的团队将会出现在MWC2014 Hall6-6G21, 硅视觉介绍其蓝牙低耗能完整的解决方案和其 802.15.4g 智能电网解决方案的最新解决方案。这将是我们的荣幸，以满足您在MWC2014年，请向我们发送会议请求mw2014@si-vision.com.
   news_seg11_3: 2月
   news_seg11_4: 2014年
-  zigbee_radio_0: Silicon Vision公司的SVI-TRX301是一个面向IEEE802.15.4标准的完全集成的低功耗射频收发器 IP。SVI-TRX301专为电池驱动型模块的Zigbee系统设计,具有低功耗操作的性能。
+  zigbee_radio_0: SiliconVision公司的SVI-TRX301是一个面向IEEE802.15.4标准的完全集成的低功耗射频收发器IP。SVI-TRX301专为电池驱动型模块的Zigbee系统设计,具有低功耗操作的性能。
   zigbee_radio_1: 该IP的发送端的输出功率的范围在-25到+3dBm之间,其接收端的灵敏度在250Kbps的数据率下 达到了-95dBm。其工作频率范围在2.4Ghz的ISM(工业、科学、医疗)公共频段。
   zigbee_radio_2: Features
   zigbee_radio_3: Download
@@ -364,8 +364,8 @@
   zigbee_radio_7: "Chip rate: 2MChip/s"
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
   zigbee_radio_11: 2.4GHz Zigbee Radio
-  zwave_radio_0: Silicon Vision公司的SVI-TRX501是一个面向兼容ITU-T G.9959标准的低功耗无线射频收发 器IP。SVI-TRX501是专为Z-Wave无线通信网络设计的低功耗操作的IP。
-  zwave_radio_1: 其发送端的输 出功率最高达+18dBm,其接受端的灵敏度在40Kbps数据率下为-106dBm。
+  zwave_radio_0: Silicon Vision公司的SVI-TRX501是一个面向兼容ITU-T G.9959标准的低功耗无线射频收发 器IP。
+  zwave_radio_1: SVI-TRX501是专为Z-Wave无线通信网络设计的低功耗操作的IP。其发送端的输 出功率最高达+18dBm,其接受端的灵敏度在40Kbps数据率下为-106dBm。
   zwave_radio_2: Features
   zwave_radio_3: Compatible with ITU-T G.9959
   zwave_radio_4: "Modulation: FSK, GFSK"
