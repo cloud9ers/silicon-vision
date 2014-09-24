@@ -1,35 +1,67 @@
 ﻿ch:
+  # General
+  ble_ips: 蓝牙低功耗IP
+  ism_ips: ISM射频IP
+  zgb_ips: Zigbee射频IP
+  zw_ips:  Z-Wave射频IP
+  apps: 应用
+
+
+  # Home
   home: 首页
-  si_vi: 硅视觉
+  si_vi: Silicon Vision 公司
   si_vi_short_desc: 一个高性能硅知识产权（IP）的领先知识产权（IP）供应商
-  si_vi_learn_more: 了解更多关于硅视觉的知识
-  rf_ips: 射频知识产权（IP）
-  pm_ips: 电源管理知识产权（IP）
-  dc_ips: 数据转换器知识产权（IP）
-  ams_ips: 混合信号 (AMS) 知识产权（IP）
+  si_vi_learn_more: 了解更多
+
+
+
   rf_ips_desc: 硅视觉射频（RF）知识产权（IP）集中于低功率无线域名
   rf_ips_see_more: 查看更多关于射频知识产权（IP）的知识
   pm_ips_desc: 建筑最先进的片上系统（SoCs）的被使最优化电源管理（PM）知识产权（IP）
   pm_ips_see_more: 查看更多关于电源管理知识产权（IP）的知识
-  si_vi_offers: 硅视觉提供高性能的知识产权（IP）选择
-  si_vi_intro_1:  从2007以来，硅视觉技术有限公司依靠了它所有的超过350集体经验并对全球各地A类客户提供服务的经验而开始了业务。硅视觉团队在射频（RF）电路及系统、电源管理和数字后端设计方面上有广泛经验。
+  si_vi_offers: Silicon Vision提供了一系列高性能IP可供选择
+  si_vi_intro_1:  Silicon Vision是一家以市场为导向的公司, 我们提供创新的高品质低功耗无线IP,以助力我们的客 户设计出世界一流的产品服务于物联网市场,并使我们的客户和员工价值最大化。
   si_vi_intro_2: 硅视觉提供高性能知识产权（IP）的作品集，该作品集专注于射频（RF）、电源管理（PM）、数据转换器（DC）和其他应用管理系统 (AMS) 知识产权（IP）。我们的知识产权（IP）通过几个 工艺节点被硅验证。大部分知识产权（IP）的演示板而存在。
   si_vi_intro_3: 我们的知识产权（IP）被使用在全球各地市场上有的数百万的设备。
   subscribe: 订阅我们的邮件列表来接收更新
+
+  # About Us
   about: 关于
-  about_us_welcome: 欢迎来到创新硅知识产权（IP）
-  about_us_si_vi_story: 硅视觉的故事
+  about_us_welcome: 欢迎来到充满创新的Silicon IP
+  about_us_si_vi_story: Silicon Vision的故事
   about_us_partners: 合作伙伴和客户
-  about_us_parag_1: 硅视觉技术有限公司是一家领先的知识产权（IP）提供商，它提供高性能、低功率射频知识产权 （RF IP）。我们的解决包括蓝牙（Bluetooth）低功耗技术，低功耗的紫蜂 （ZigBee） ，如射频 （RF）技术，以及高级的电源管理知识产权（IP） 。我们的产品提供我们认为是性能和单片集成的业界领先的组合，它把消费类应用，人机对话接口设备（HIDs），智能电表，工业手机无线设备的 广泛的应用范围作为目标，和一般无线市场。
-  about_us_parag_2: 从2007以来，硅视觉技术有限公司依靠了它所有的超过350集体经验并对全球各地A类客户提供服务的经验而开始了业务。硅视觉团队在射频（RF）电路及系统、电源管理和数字后端设计方面有广泛经验。
-  about_us_parag_3: 我们还与世界一流的技术伙伴合作，中芯国际（SMIC），MindTree有限公司，明导国际（Mentor Graphics）和XFab。硅视觉在世界各地上有支持客户的要求的代表处。
+  about_us_parag_1: Silicon Vision科技有限公司是领先的高性能、低功耗射频知识产权(RF IP)供应商。我们的解决方案包 括蓝牙低功耗射频, 低功耗的ZigBee射频和其它低功耗无线射频 我们相信我们的产品提供业界领先的 性能和高集成度,并定位于广泛应用,服务于消费者电子、人机交互设备、智能仪表、工业移动无线设备 和其他的无线市场。
+  about_us_parag_2: 自2007年Silicon Vision开始运营,我们的团队拥有超过350年的集体经验,并为遍布全球的第一流的 客户服务。Silicon Vision团队在射频电路与系统,数字和后端设计方面拥有丰富的经验。
+  about_us_parag_3: 我们也与世界一流的技术合作伙伴进行合作,如SMIC、HHGrace、Mindtree Ltd、 Mentor Graphics 和XFab等。Silicon Vision在全球各地建立了办事处来支持客户的要求。
   ips: 知识产权 (IP)
-  ips_title: 硅视觉的知识产权
-  ips_desc: 硅视觉提供高性能知识产权（IP）的作品集，该作品集专注于射频（RF）、电源管理（PM）、数据转换器（DC）和其他应用管理系统 (AMS) 知识产权（IP）。我们的知识产权（IP）通过几个 工艺节点被硅验证。大部分知识产权（IP）的演示板而存在。我们的知识产权（IP）被使用在全球各地市场上有的数百万的设备.
+
+
+  # Slider
+  slider_slide2_head: 蓝牙低功耗IP
+  slider_slide3_head: ISM射频IP
+  slider_slide4_head: Zigbee射频IP
+
+
+  ips_title: Silicon Vision所拥有的知识产权
+  ips_desc: Silicon Vision提供了一系列高性能、低功耗的无线IP组合。我们的IP已经在多个Foundry工艺节点经 过硅验证,并且我们可以为所有的客户提供演示板。我们的IP已经在全球几百万颗的芯片设备内得到了广 泛的采用。
   rf_index_0: 射频（RF）知识产权（IP）
   rf_index_1: 硅视觉射频知识产权(RF IPS)集中于低功率无线域名。全球各地的客户使用我们的射频射频知识产权(RF IPS) 。所有存在的知识产权（IP）的数据表和演示板而存在。
   rf_index_2: "射频（RF）IP知识产权（IP）包括:"
-  rf_bluetooth_0: 蓝牙（Bluetooth） 低功耗
+
+
+  #BLE
+  ble_desc_1: 该SVI-TRX2XX射频系列是一种兼容蓝牙低功耗规格(蓝牙4.0和4.1的一部分)的,高度集 成的超低功耗蓝牙智能CMOS射频IP。
+  ble_desc_2: 该SVI-TRX2XX射频IP通过GFSK调制的支持,覆 盖了蓝牙低功耗规格。射频、模拟基带和数字调制解调器被包含在设计中,当与蓝牙智能基带/ LinkLayer控制器相结合, 便组成了一个完整的蓝牙智能解决方案。
+  ble_desc_3: 该SVI-TRX2XX射频通过一 个完整的数字接口(包括TX / RX数据,实时控制接口和寄存器编程接口)连接到基带。
+  ble_desc_4: Silicon Vision还提供完整的BLE数字基带功能,包括TX/RX FIFO’s, CRC,Scrambling,封包(过滤, 调整和装配/解组装),并提供独立的加密协处理器,所有这些功能都可以根据客户要求来提供。
+
+  #ISM
+  ism_title:  高性能的,低于1千兆赫的 ISM射频IP
+  ism_desc_1: Silicon Vision SVITRX40X系列是一个高度集成、低功耗、高性能的多频段射频收发器IP,覆盖 415/433/868/915/950兆赫兹的ISM频段(工业、科学和医疗),并同时与IEEE802.15.4G和中国国 家电网公司Q / GDW(微功率无线协议)标准相兼容。
+  ism_desc_2: SVITRX40X包含一个集成的可编程功率放大 器,和高灵敏度的接收器,数据率可以在2kbps和200kbps之间进行调节。
+  ism_desc_3: SVITRX40X是远程低 数据速率应用的一个理想解决方案,并已广泛应用于智能仪表。集成的硬件协议加速器和加密(AES-256)协同处理器,可以将时序苛刻的协议处理任务从应用处理器上接管过来,从而使得客户可以使用 低成本的第三方微控制器就可以实现先进和强大的无线连接功能。
+
+  rf_bluetooth_0: 蓝牙低能耗IP
   rf_bluetooth_1: SVI-TRX201蓝牙 （Bluetooth）低功耗
   rf_bluetooth_2: SVI-TRX201 无线电是一个高度集成、低功耗蓝牙智能互补金属氧化物半导体（CMOS）无线电知识产权（IP），它符合蓝牙低功耗规范（蓝牙4.0的部分）。SVI-TRX201 无线电通过高斯频移键控 (GFSK) 调制的支持而涵盖蓝牙 (Bluetooth) 低功耗规格。设计中包括射频(RF)和数字调制解调器。当它跟蓝牙智能基带控制器结合使用的时， 它形成了一个完整的蓝牙智能的解决方案。 SVI-TRX201 无线电通过包括传送 (TX)/接收 (RX) 数据、实时控制接口和登记程序编程接口的全数字接口而连接到基带。
   rf_bluetooth_3: "特点:下载"
@@ -89,7 +121,10 @@
   ams_real_time_clocks_2: 实时装置（RTC）和振荡器的知识产权（IP）
   ams_video_analog_0: 视频模拟前端的知识产权（IP）
   ams_video_analog_1: 硅愿景提供一个适合多元化高清视频应用的高端知识产权（IP）库。这包括与RGB/ YPrPb图形处理和C-Y/CVBS信号处理的视频模拟前端。从36兆赫(MHz)达到205兆赫(MHz)的不同的采样率而被支持。该库包含高分辨率平板显示器的高速低电压差分信号(LVDS) 发送器。此库通过从180毫微米（nm）开始到90毫微米（nm）工艺节点被硅验证。
-  apps: 应用程序
+
+
+  # Apps
+  apps: 应用
   apps_title: 硅视觉应用程序首页/应用程序
   app_comm_0: 通信系统
   app_comm_1: 相关紫蜂(ZigBee)等的通信系统的应用程序如通讯、数字用户线路(DSL) 链接和模拟前端。
@@ -98,7 +133,7 @@
   app_industrial_ctrl_0: 工业控制（无线机器对机器 M2M）
   app_industrial_ctrl_1: 机器对机器( M2M) 是指使无线和有线系统与有相同的能力的其他设备进行通信的技术。[1][2]机器对机器( M2M) 使用一个设备（如一个传感器或者一个仪表）以便捕捉一个事件（如温度，存货水平等），这个事件通过一个网络被中继 （无线、 有线或混合） 到一个应用程序 （软件程序），这个应用程序把捕捉的事件转换成有意义的信息（例如需要重新进货的项目） [3] 这样的通信最初通过具有远程网络机器而完成，这些机器把信息传递回来到中心位置以便受到分析，这些信息以后可以被重新路由到一台如个人电脑的系统。
   app_industrial_ctrl_2: Sub 1千兆赫兹（GHz） Tx/Rx
-  app_wireless_monitors_0: 无线健康显示器
+  app_wireless_monitors_0: 健康监控
   app_wireless_monitors_1: 无线健康显示器就是无线技术在传统医学里的一体化，如疾病的诊断，监测和治疗， 以及其他可以帮助个人提高他们的个人健康和康乐的工具。无线医疗解决方案和正常的健康解决方案有区别，就是无线医疗解决方案不会永远是移动的，并移动医疗解决方案不总是被以无线方式启用。移动宽带连接有助于达到新的边远地区的患者，这就是在通过数据传输改善生产效率和便利性的同时而发生的。
   app_wireless_monitors_2: 蓝牙(Bluetooth) 低功耗(BLE)
   app_remote_controls_0: 先进的远程控制
@@ -110,10 +145,13 @@
   app_sensor_networks_0: 传感器网络
   app_sensor_networks_1: 无线传感器网络(WSN) 由空间上分布的自主传感器组成以便监测物理和环境信息，如温度，声音，压力，等，并以便通过网络合作地将它们的数据传递到主要的位置。更现代的网络是双向的，而使传感器活动能够被控制。无线传感器网络的发展通过如战场监视的军事应用而有动机。今天，这种网络被用于许多工业和消费类应用，如工业过程监测和控制，机器状况监测，等等。
   app_sensor_networks_2: Sub 1千兆赫兹（GHz） Tx/Rx
+
+  app_wt_0: 可穿戴设备;
+
   app_rc_toys_0: 玩具的遥控器
   app_rc_toys_1: 玩具的遥控器就是可能通过无线电控制而可控的遥控器。遥控(RC) 系统已被安装在所有可以想象的车辆类型里，这包括车、 船、 飞机、 和甚至直升机和规模铁路玩具。
   app_rc_toys_2: 蓝牙(Bluetooth) 低功耗
-  app_hw_0: 无线家庭自动化
+  app_hw_0: 家庭自动化
   app_hw_1: 无线家庭自动化就是楼宇自动化的住宅扩展。这是家庭、家务或家用活动的自动化。家庭自动化包括照明，HVAC（加热，通风和空调），家电，大门和门的防盗锁等系统，以便提供改良的方便、 舒适、 能源效率和安全。老年人和残疾人的家庭自动化对可能在不同方面需要照顾者或机构照顾的人提供更高的生活质量。
   app_hw_2: 数据转换器知识产权（IP）
   app_hw_3: 蓝牙(Bluetooth) 低功耗
@@ -125,6 +163,15 @@
   app_wireless_meters_2: Sub 1千兆赫兹（GHz）   Tx/Rx
   app_instrumentation_0: 仪表化
   app_flat_panel_0: 平板显示器
+
+  app_hid: HID(人机交互设备)
+  app_smart_cities: 智能城市
+  app_metering_sys: 仪表系统
+  app_remote_keyless_entery: 遥控无钥匙进入
+  app_industrial_control: 工业控制
+  app_road_toll_coll: 公路收费系统
+  app_toys: 玩具
+
   news: 新闻和报界
   news_0: 硅视觉新闻和报界
   news_1: 硅视觉最新新闻
@@ -337,11 +384,11 @@
   news_seg12_2: 圣荷西会议中心CA美国。芯片是很高兴地通知您,我们的团队将会访问2014的蓝牙世界。 它将是我们的荣幸,满足我们的客户在这一事件,讨论业务机会。请向我们发送会议请求btworld2014@si-vision.com
   news_seg12_3: 4月
   news_seg12_4: 2014年
-  news_seg13_0: Silicon Vision at Computex Taipei
-  news_seg13_1: June 3rd, 2014
-  news_seg13_2: Computex Taipei, Taiwan ,June 3rd – June 7th, 2014. Silicon Vision sincerely invite you to meet us in Computex exhibition! Our team will be pleased to meet Computex visitors to discuss Business Opportunities. We greatly appreciate if you could send us a meeting request in advance to computextpe2014@si-vision.com. Look forward to seeing you soon!
-  news_seg13_3: June
-  news_seg13_4: 2014
+  news_seg13_0: Silicon Vision公司在台北Computex参展
+  news_seg13_1: 2014年6月3日
+  news_seg13_2: 2014年6月3日—6月7日台湾,台北电脑展。Silicon Vision诚挚地邀请您到Computex展 来参观我们的站台!我们的团队会很高兴与Computex的参观者共洽商机。如果您可以提前发送会面 要求至 computextpe2014@si-vision com我们将非常感激。期待很快与您见面!
+  news_seg13_3: 6月
+  news_seg13_4: 2014年
   news_seg14_0: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
   news_seg14_1: July 8th, 2014
   news_seg14_2: （中国，上海—2014年7月8日）硅视觉技术有限公司(以下简称“硅视觉”)，一家领先的知识产权（IP）提供商，提供高性能、低功率射频知识产权,与世界领先的8英寸纯晶圆代工厂之一，上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），今天宣布携手合作，在华虹宏力0.11微米混合信号/射频技术平台上推出了蓝牙低功耗IP。这款通过硅验证的IP已被授权给一家客户，该客户应用蓝牙技术开发了无线键盘鼠标等人机接口设备.为满足集成蓝牙模块的无线MCU需求，接下来将很快在华虹宏力射频嵌入式非易失性存储器工艺平台验证这个IP...
