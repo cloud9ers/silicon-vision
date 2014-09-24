@@ -373,7 +373,7 @@
   zwave_radio_6: "Sensitivity = - 106 dBm @ 40 kbps"
   zwave_radio_7: "Date Rates: 9.6 kbps, 40 kbps and 100 kbps"
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
-  zwave_radio_9: "Z-wave (ITU-T G.9959) Radio"
+  zwave_radio_9: "Z-Wave射频IP (ITU-T G.9959)"
   app_wt_0: 耐磨
   app_wt_1: 佩戴式设备”是指以电子技术或计算机,纳入项目的服装和配件,可以舒适地佩戴在身上。 这些佩戴式设备可以执行很多的相同的计算任务,移动电话和便携式计算机但在一些情况下佩戴式设备可以超越这些手持式设备。 佩戴式技术更趋于完善手持技术在当今的市场上,它可以提供感官和扫描功能通常不被视为移动和便携设备如生物反馈和跟踪的生理功能
   app_wt_2: 蓝牙(Bluetooth) 低功耗(BLE)
