@@ -41,7 +41,7 @@
             </div>
             <div class="modal-body">
               <p>
-                  <%= t :app_tot_1 %>
+                  <%= t :app_tot_2 %>
               </p>
               <%= link_to(t(:app_wireless_monitors_2), {
                       :controller => 'ips',
@@ -72,10 +72,6 @@
               <p>
                   <%= t :app_hw_1 %>
               </p>
-              <%= link_to(t(:app_hw_2), {
-              :controller => 'DataConverter',
-              :action => 'index'
-              }) %>
               <%= link_to(t(:app_hw_3), {
               :controller => 'ips',
               :action => 'bluetooth-low-energy'
@@ -190,7 +186,6 @@
           <div class="modal-body">
             <p><%= t :app_comm_1 %></p>
             <%= link_to(t(:app_comm_2), {:controller => 'ips', :action => 'sub-1ghz'}) %>
-            <%= link_to(t(:app_comm_3), {:controller => 'Ams', :action => 'video-analog-front-ends'}) %>
           </div>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
@@ -223,7 +218,7 @@
     </div><!-- /.modal -->
     </div>
 
-        
+
 
     <div class="col-lg-3 pull-left">
     <a class="app-caption" data-toggle="modal" href="#remote-control">
