@@ -133,6 +133,7 @@ en:
   app_comm_0: Communication Systems
   app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
   app_comm_2: ISM Radio IP
+  app_comm_3: Video Analog Front-End IP
   app_industrial_ctrl_0: Industrial Control (Wireless Machine to Machine M2M)
   app_industrial_ctrl_1: Machine to Machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
   app_industrial_ctrl_2: ISM Radio IP
@@ -155,6 +156,7 @@ en:
   app_rc_toys_1: Toy Remote Controls that are steerable with the use of radio control. All types of vehicles imaginable have had RC systems installed in them, including cars, boats, planes, and even helicopters and scale railway toys.
   app_hw_0: Wireless Home Automation
   app_hw_1: Home Automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
+  app_hw_2: Data Converter IP
   app_hw_3: Bluetooth low energy IP
   app_wireless_periphs_0: Wireless PC peripherals
   app_wireless_periphs_1: PC Peripherals are becoming more integrated into our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) all the way to entertainment (advanced navigation remotes for multi-media centers).
@@ -166,6 +168,7 @@ en:
   app_flat_panel_0: FLAT PANEL DISPLAYS
   app_tot_0: Internet of Things (IoT)
   app_tot_1: Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to automatically transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
+  app_tot_2: Bluetooth Low Energy (BLE)
 
   app_hid: HID (Human Interface devices)
   app_smart_cities: Smart Cities
