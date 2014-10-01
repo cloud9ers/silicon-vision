@@ -168,7 +168,6 @@ en:
   app_flat_panel_0: FLAT PANEL DISPLAYS
   app_tot_0: Internet of Things (IoT)
   app_tot_1: Internet of Things (IoT) is a scenario in which objects, animals or people are provided with unique identifiers and the ability to automatically transfer data over a network without requiring human-to-human or human-to-computer interaction. IoT has evolved from the convergence of wireless technologies, micro-electromechanical systems (MEMS) and the Internet.
-  app_tot_2: Bluetooth Low Energy (BLE)
 
   app_hid: HID (Human Interface devices)
   app_smart_cities: Smart Cities
