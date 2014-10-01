@@ -147,6 +147,7 @@ ja:
   app_wireless_meters_2: Sub 1GHz Tx/Rx
   app_instrumentation_0: インストルメンテーション
   app_flat_panel_0: 平面パネル型ディスプレー
+  app_tot_2: 低エネルギーブルートゥース（BLE）
 
   app_hid: HID(ヒューマンインターフェースデバイス)
   app_smart_cities: スマートシティ

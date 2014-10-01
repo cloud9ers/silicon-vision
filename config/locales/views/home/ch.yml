@@ -161,6 +161,7 @@ ch:
   app_wireless_meters_2: Sub 1千兆赫兹（GHz）   Tx/Rx
   app_instrumentation_0: 仪表化
   app_flat_panel_0: 平板显示器
+  app_tot_2: 蓝牙(Bluetooth) 低功耗
 
   app_hid: HID(人机交互设备)
   app_smart_cities: 智能城市
