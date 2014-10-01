@@ -147,25 +147,6 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
             <p><%= t :app_tot_0 %></p>
           </span>
         </a>
-        <div class="modal fade" id="tot">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"><%= t :app_tot_0 %></h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                  <%= t :app_tot_1 %>
-                </p>
-                <%= link_to(t(:app_wireless_monitors_2), {
-                  :controller => 'ips',
-                  :action => 'bluetooth-low-energy'
-                }) %>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
       </div>
 
       <!-- Home Automation -->
@@ -176,29 +157,6 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
             <p><%= t :app_hw_0 %></p>
           </span>
         </a>
-        <div class="modal fade" id="home-auto">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"><%= t :app_hw_0 %></h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                  <%= t :app_hw_1 %>
-                </p>
-                <%= link_to(t(:app_hw_2), {
-                  :controller => 'DataConverter',
-                  :action => 'index'
-                }) %>
-                <%= link_to(t(:app_hw_3), {
-                  :controller => 'ips',
-                  :action => 'bluetooth-low-energy'
-                }) %>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
       </div>
 
       <!-- wearable tech -->
@@ -209,25 +167,6 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
             <p><%= t :app_wt_0 %></p>
           </span>
         </a>
-        <div class="modal fade" id="toys">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"><%= t :app_wt_0 %></h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                  <%= t :app_wt_1 %>
-                </p>
-                <%= link_to(t(:app_wt_2), {
-                  :controller => 'ips',
-                  :action => 'bluetooth-low-energy'
-                }) %>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
       </div>
 
       <!-- Smart Meter -->
@@ -238,24 +177,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
             <p><%= t :app_wireless_meters_0 %></p>
           </span>
         </a>
-        <div class="modal fade" id="smart-meter">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                  <%= t :app_wireless_meters_1 %>
-                </p>
-                <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
       </div>
-
     </div>
   </div>
 
@@ -263,7 +185,84 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
     <h3>Silicon Vision Applications</h3>
     <p class="pb20">Check all Silicon Vision applications that serve lots of problems and based on it's IP</p>
     <a class="blue-but"  href="/applications"><%= t :see_all_apps %></a>
-
   </div>
 </div>
+
+<div class="modal fade" id="home-auto">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><%= t :app_hw_0 %></h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          <%= t :app_hw_1 %>
+        </p>
+        <%= link_to(t(:app_hw_3), {
+          :controller => 'ips',
+          :action => 'bluetooth-low-energy'
+        }) %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="smart-meter">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><%= t :app_wireless_meters_0 %></h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          <%= t :app_wireless_meters_1 %>
+        </p>
+        <%= link_to(t(:app_wireless_meters_2),{:controller => 'ips', :action => 'sub-1ghz'}) %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="toys">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><%= t :app_wt_0 %></h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          <%= t :app_wt_1 %>
+        </p>
+        <%= link_to(t(:app_wt_2), {
+          :controller => 'ips',
+          :action => 'bluetooth-low-energy'
+        }) %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<div class="modal fade" id="tot">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title"><%= t :app_tot_0 %></h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          <%= t :app_tot_1 %>
+        </p>
+        <%= link_to(t(:app_wireless_monitors_2), {
+          :controller => 'ips',
+          :action => 'bluetooth-low-energy'
+        }) %>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <!-- apps End -->
