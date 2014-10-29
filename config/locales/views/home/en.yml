@@ -11,7 +11,7 @@
   # Home
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: low power wireless IP provider serving the IOT Market
+  si_vi_short_desc: low power wireless IP provider serving the IOT market
   si_vi_learn_more: LEARN MORE
 
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
@@ -48,7 +48,7 @@
 
   #BLE
   ble_desc_1: The SVI-TRX2XX Radio family is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0 & 4.1).
-  ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Lonk Layer controller; it forms a complete Bluetooth Smart solution.
+  ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Link Layer controller; it forms a complete Bluetooth Smart solution.
   ble_desc_3: The SVI-TRX2XX Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
   ble_desc_4: Silicon Vision also offer complete BLE digital baseband features that include TX/RX FIFO’s, CRC, scrambling, packet (filtering, aligning and assembly/de assembly) together with standalone encryption co-processor and all these features are available upon request.
 
