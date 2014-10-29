@@ -1,4 +1,4 @@
-﻿en:
+en:
   # General
   ble_ips: Bluetooth Low Energy IP
   ism_ips: ISM Radio IP
@@ -11,7 +11,7 @@
   # Home
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: low power wireless IP provider serving the IOT market
+  si_vi_short_desc: low power wireless IP provider serving the IOT Market
   si_vi_learn_more: LEARN MORE
 
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
@@ -48,7 +48,7 @@
 
   #BLE
   ble_desc_1: The SVI-TRX2XX Radio family is a highly integrated, ultra-low power Bluetooth Smart CMOS radio IP that is compliant with the Bluetooth low energy specification (part of Bluetooth 4.0 & 4.1).
-  ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Link Layer controller; it forms a complete Bluetooth Smart solution.
+  ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Lonk Layer controller; it forms a complete Bluetooth Smart solution.
   ble_desc_3: The SVI-TRX2XX Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
   ble_desc_4: Silicon Vision also offer complete BLE digital baseband features that include TX/RX FIFO’s, CRC, scrambling, packet (filtering, aligning and assembly/de assembly) together with standalone encryption co-processor and all these features are available upon request.
 
@@ -132,38 +132,38 @@
   apps_title: Silicon Vision Applications
   app_comm_0: Communication Systems
   app_comm_1: Applications related to communication systems such as ZigBee like communications, DSL links and analog front-ends.
-  app_comm_2: Sub 1GHz Tx/Rx
+  app_comm_2: ISM Radio IP
   app_comm_3: Video Analog Front-End IP
   app_industrial_ctrl_0: Industrial Control (Wireless Machine to Machine M2M)
   app_industrial_ctrl_1: Machine to Machine (M2M) refers to technologies that allow both wireless and wired systems to communicate with other devices of the same ability.[1][2] M2M uses a device (such as a sensor or meter) to capture an event (such as temperature, inventory level, etc.), which is relayed through a network (wireless, wired or hybrid) to an application (software program), that translates the captured event into meaningful information (for example, items need to be restocked).[3] Such communication was originally accomplished by having a remote network of machines relay information back to a central hub for analysis, which would then be rerouted into a system like a personal computer.
-  app_industrial_ctrl_2: Sub 1GHz Tx/Rx
+  app_industrial_ctrl_2: ISM Radio IP
   app_wireless_monitors_0: Wireless Health Monitors
   app_wireless_monitors_1: Wireless Health Monitors are the integration of wireless technology into traditional medicine, such as diagnosis, monitoring and treatment of illness, as well as other tools that can help individuals improve their personal health and well-being. Wireless health solutions differ from normal health solutions in that; wireless health solutions will not always be mobile and mobile health solutions will not always be wirelessly enabled. Mobile broadband connectivity is useful in reaching new patients in remote areas while improving productivity and convenience through data transmission.
-  app_wireless_monitors_2: Bluetooth Low Energy (BLE)
+  app_wireless_monitors_2: Bluetooth low energy IP
   app_remote_controls_0: Advanced remote controls
   app_remote_controls_1: A Remote Control is a component of an electronic device, most commonly a television set, DVD player and home theater systems, originally used for operating the device wirelessly from a short line-of-sight distance. Remote control has continually evolved and advanced over recent years to include Bluetooth low energy connectivity, motion sensor-enabled capabilities and voice control.
-  app_remote_controls_2: Bluetooth Low Energy (BLE)
+  app_remote_controls_2: Bluetooth low energy IP
   app_tire_pressure_0: Tire Pressure Monitoring
   app_tire_pressure_1: A Tire Pressure Monitoring System (TPMS) is an electronic system designed to monitor the air pressure inside the pneumatic tires on various types of vehicles. TPMSs report real-time tire-pressure information to the driver of the vehicle, either via a gauge, a pictogram display, or a simple low-pressure warning light. TPMSs can be divided into two different types — direct (dTPMSs) and indirect (iTPMSs). TPMSs are provided both at an OEM (factory) level as well as an aftermarket solution level.
-  app_tire_pressure_2: Sub 1GHz Tx/Rx
+  app_tire_pressure_2: ISM Radio IP
   app_sensor_networks_0: Remote sensing Network
   app_sensor_networks_1: A Remote sensing Network consists of spatially distributed autonomous sensors to monitor physical or environmental conditions, such as temperature, sound, pressure, etc., and to cooperatively pass their data through the network to a main location. The more modern networks are bi-directional, also enabling control of sensor activity. The development of wireless sensor networks was motivated by military applications such as battlefield surveillance. Today such networks are used in many industrial and consumer applications, such as industrial process monitoring and control, machine health monitoring, and so on.
-  app_sensor_networks_2: Sub 1GHz Tx/Rx
+  app_sensor_networks_2: ISM Radio IP
   app_wt_0: Wearables
   app_wt_1: the term “wearable device” refers to electronic technologies or computers that are incorporated into items of clothing and accessories which can comfortably be worn on the body. These wearable devices can perform many of the same computing tasks as mobile phones and laptop computers; however, in some cases, wearable devices can outperform these hand-held devices entirely. Wearable technology tends to be more sophisticated than hand-held technology on the market today because it can provide sensory and scanning features not typically seen in mobile and laptop devices, such as biofeedback and tracking of physiological function.
-  app_wt_2: Bluetooth Low Energy (BLE)
+  app_wt_2: Bluetooth low energy IP
   app_rc_toys_0: Remote Controls for Toys
   app_rc_toys_1: Toy Remote Controls that are steerable with the use of radio control. All types of vehicles imaginable have had RC systems installed in them, including cars, boats, planes, and even helicopters and scale railway toys.
   app_hw_0: Wireless Home Automation
   app_hw_1: Home Automation is the residential extension of building automation. It is automation of the home, housework or household activity. Home automation may include centralized control of lighting, HVAC (heating, ventilation and air conditioning), appliances, security locks of gates and doors and other systems, to provide improved convenience, comfort, energy efficiency and security. Home automation for the elderly and disabled can provide increased quality of life for persons who might otherwise require caregivers or institutional care.
   app_hw_2: Data Converter IP
-  app_hw_3: Bluetooth Low Energy (BLE)
+  app_hw_3: Bluetooth low energy IP
   app_wireless_periphs_0: Wireless PC peripherals
   app_wireless_periphs_1: PC Peripherals are becoming more integrated into our computing experience and increasingly employ the convenience of wireless connectivity. Product examples range from professional products (e.g. wireless keyboards and mice) all the way to entertainment (advanced navigation remotes for multi-media centers).
-  app_wireless_periphs_2: Bluetooth Low Energy (BLE)
+  app_wireless_periphs_2: Bluetooth low energy IP
   app_wireless_meters_0: Wireless Smart Meters
   app_wireless_meters_1: A Wireless Smart Meter is usually an electrical meter that records the consumption of electric energy in intervals of an hour or less and communicates that information wirelessly at least once a day back to the utility for monitoring and billing purposes. [7] Smart meters enable two-way communication between the meter and the central system. Unlike home energy monitors, smart meters can gather data for remote reporting. Such an Advanced Metering Infrastructure (AMI) differs from traditional Automatic Meter Reading (AMR) in that it enables two-way communication with the meter.
-  app_wireless_meters_2: Sub 1GHz Tx/Rx
+  app_wireless_meters_2: ISM Radio IP
   app_instrumentation_0: INSTRUMENTATION
   app_flat_panel_0: FLAT PANEL DISPLAYS
   app_tot_0: Internet of Things (IoT)
@@ -209,11 +209,11 @@
   news_seg5_3: Feb.
   news_seg5_4: 2012
   news_seg9_0: Silicon Vision partners with Mindtree to offer a complete Bluetooth Low Energy intellectual property solution for wireless personal area networks.
-  news_seg9_1: 30 September 2013 
+  news_seg9_1: 30 September 2013
   news_seg9_2: London, UK and Warren, NJ, USA, 30 September 2013 – Silicon Vision Technologies Ltd and Mindtree Ltd., a global information technology solutions company, have partnered to bring to market  a state-of-the-art, integrated RF-baseband-stack intellectual property (IP) solution for Bluetooth Low Energy (also known as Bluetooth Smart) technology. The integrated solution has already been proven with a lead customer in Asia, and will enable wireless personal area networks (WPAN) that rely on extremely low power consumption wireless connectivity.
   news_seg9_3: The two companies have successfully integrated Silicon Vision’s RF PHY (radio) intellectual property for Bluetooth low energy (BLE), with Mindtree’s product-proven, fully-qualified baseband (link layer) and low-footprint protocol stack. This integrated solution is compliant with Bluetooth Low Energy 4.0 (single mode) specification with a highly competitive power consumption figure, enabling system-on-a-chip (SoC) designers to deliver power and area efficient chips for BLE using qualified and proven silicon over several nodes, including TSMC and SMIC.
   news_seg9_4: Commenting on the new partnership, Tarek Elesseily, CEO of Silicon Vision, said, “We have developed a unique licensable RF intellectual property solution that supports Bluetooth low energy. With Mindtree dominating the independent IP provider space worldwide for BLE baseband, protocol stack and profiles today, we believe that our integrated solution will help realize the vision of millions of consumer electronics products to operate wirelessly for months or even years on tiny cell batteries. Our aim is to be the market leader within this sector with our ultra-low power, fully integrated and quickly portable solution forming part of many consumer electronics products.”
-  news_seg9_5: Vikram Srivats, general manager and global head of Mindtree’s engineering R&D service line, added, “We are enthusiastic about the Silicon Vision relationship. Mindtree’s investment in BLE technology spans more than 100 person-years, with several design wins and customer products shipping in volume already. Silicon Vision brings a silicon-proven RF-PHY solution for BLE, a strong team with ultra-low power RF expertise, and design services ability to quickly scale and meet customer requirements across foundries. With a fully integrated, silicon-proven, qualified and mature solution, our sales teams are already bidding together for new designs worldwide”. 
+  news_seg9_5: Vikram Srivats, general manager and global head of Mindtree’s engineering R&D service line, added, “We are enthusiastic about the Silicon Vision relationship. Mindtree’s investment in BLE technology spans more than 100 person-years, with several design wins and customer products shipping in volume already. Silicon Vision brings a silicon-proven RF-PHY solution for BLE, a strong team with ultra-low power RF expertise, and design services ability to quickly scale and meet customer requirements across foundries. With a fully integrated, silicon-proven, qualified and mature solution, our sales teams are already bidding together for new designs worldwide”.
   news_seg9_6: Markets for Bluetooth Smart devices include healthcare, sports and fitness, security, and home entertainment. According to industry analyst IMS Research, Bluetooth Smart will be present in 35 percent of all wireless sports and fitness monitoring devices (like pedometers and heart-rate monitors that run on small batteries) shipped this year, and in over 70 percent by 2018. Adding a sports and fitness monitor to a mobile phone can enhance the user experience via downloaded apps. Fitness parameters such as heart rate can be tracked more easily this way.
   news_seg9_7: In home entertainment, integration of this technology in remote controls can add functionality not possible with infrared technology – such as non-line-of-sight control, voice control, gesture control, touch control and motion detection. With these additional features, device manufacturers can create a richer control environment for consumers, such as in interactive smart TVs.
   news_seg9_8: Ends
@@ -320,9 +320,9 @@
   media_seg12_3: READ MORE
   media_seg12_4: Sep.
   media_seg12_5: 2013
-  media_seg13_0: "The future of home automation – ZigBee or Z-Wave?" 
+  media_seg13_0: "The future of home automation – ZigBee or Z-Wave?"
   media_seg13_1: December 14, 2013
-  media_seg13_2: "There has been an ongoing debate between which technology is the best overall solution for Home Automation: ZigBee or Z-Wave?" 
+  media_seg13_2: "There has been an ongoing debate between which technology is the best overall solution for Home Automation: ZigBee or Z-Wave?"
   media_seg13_3: READ MORE
   media_seg13_4: Dec.
   media_seg13_5: 2013
@@ -367,8 +367,8 @@
   contact_31: worldwide-sales@si-vision.com
   contact_32: Worldwide
   contact_33: Istanbul, Turkey
-  contact_34: "Tel: +90-530-236-4790" 
-  contact_35: Blok No:5 K.3-Atasehir/Istanbul 
+  contact_34: "Tel: +90-530-236-4790"
+  contact_35: Blok No:5 K.3-Atasehir/Istanbul
   contact_36: "Mob: +90-530-236-4790"
   see_all: See all
   see_all_apps: See all applications
@@ -377,8 +377,8 @@
 
   # Other
   news_seg11_0: Silicon Vision at MWC 2014
-  news_seg11_1: February 24, 2014 
-  news_seg11_2: "Barcelona, Spain – Mobile World Congress – 24 February 2014- Silicon Vision is delighted to inform you that our team will be present in the MWC 2014 at Hall6- 6G21, Silicon Vision team will be promoting its latest solutions for Bluetooth Low Energy full stack IP, and its 802.15.4g smart grid IP. It will be our pleasure to meet you in the MWC 2014, please send us a meeting request to mw2014@si-vision.com."
+  news_seg11_1: February 24, 2014 
+  news_seg11_2: "Barcelona, Spain – Mobile World Congress – 24 February 2014- Silicon Vision is delighted to inform you that our team will be present in the MWC 2014 at Hall6- 6G21, Silicon Vision team will be promoting its latest solutions for Bluetooth Low Energy full stack IP, and its 802.15.4g smart grid IP. It will be our pleasure to meet you in the MWC 2014, please send us a meeting request to mw2014@si-vision.com."
   news_seg11_3: Feb.
   news_seg11_4: 2014
   zigbee_radio_0: Silicon Vision, SVI-TRX301 is a fully integrated low power radio transceiver IP targeting IEEE 802.15.4 standard. SVI-TRX301 performance is tailored for low power operation to be used in ZigBee systems and battery-powered modules.
@@ -392,7 +392,7 @@
   zigbee_radio_8: "Integrated power amplifier: -25 – +3 dBm"
   zigbee_radio_11: Zigbee Radio IP
   zwave_radio_0: Silicon Vision, SVI-TRX 501 is a fully integrated low power wireless radio transceiver IP targeting  compatible with  ITU-T G.9959  standard. SVI-TRX501 performance is tailored for low power operation to be used in Z-wave  wireless communication networks.
-  zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps. 
+  zwave_radio_1: Transmitter output power is up to +18dBm, while receiver sensitivity is -106dBm at 40kbps.
   zwave_radio_2: Features
   zwave_radio_3: Compatible with ITU-T G.9959
   zwave_radio_4: "Modulation: FSK, GFSK"
@@ -402,10 +402,10 @@
   zwave_radio_8: "Integrated power amplifier: up to  +18 dBm"
   zwave_radio_9: "Z-wave IP (ITU-T G.9959) Radio"
   news_hg1:  Silicon Vision Delivers Silicon Proven Bluetooth Smart RF IP ...
-  news_hg2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform. This silicon proven IP has already been licensed to a customer for human interface devices using BLE for wireless keyboard and mouse. To meet the application wireless MCU integrated with BLE module, this IP currently undergoing verification on HHGrace’s embedded Non-Volatile Memory (eNVM) RF process platform and will be released soon.
-  news_hg3: The availability of this radio IP on mature 0.11μm process technology is significant for the low cost BLE market. HHGrace provides low power and competitive technology solutions to help designers reduce power consumption and product cost. The BLE IP solution from Silicon Vision will enable low cost, ultra-low power human interface devices and wearable products. And the market applications of this BLE IP also include healthcare, sports and fitness, security, and home entertainment.
-  news_hg4: Silicon Vision’s SVI-TRX203G IP is a highly integrated low power radio (complete PHY) compliant with the Bluetooth low energy specification, which is part of Bluetooth 4.0/4.1 standards, making it ideal for health, sensor networks, wearable technology, and human interface device applications. With integrated RF and digital modems, the area of the silicon for this IP is competitive compared to other solutions. At 3V battery with ideal DC-DC converter, the peak transmit current at 0dBm output is 4.4mA, and the peak receive current is 5.2mA.  When combined with a Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX203G radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
-  news_hg5: HHGrace now offers Silicon Vision’s BLE IP as part of its portfolio of IP available on its technology solutions, extending the reach of Silicon Vision’s IP to high volume consumer electronics manufacturers focusing on delivering wearable technology BLE applications. Besides BLE IP, HHGrace provides a wide range of technology portfolio for wearable device and personal area network applications, such as 0.18μm/0.13μm eNVM technology platforms for microcontrollers and touch screen controllers, diversified CDMOS/BCD process solutions which are able to improve power management IC and audio amplifier, and MEMS technologies which meet the requirements for various sensor products. 
+  news_hg2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform. This silicon proven IP has already been licensed to a customer for human interface devices using BLE for wireless keyboard and mouse. To meet the application wireless MCU integrated with BLE module, this IP currently undergoing verification on HHGrace’s embedded Non-Volatile Memory (eNVM) RF process platform and will be released soon.
+  news_hg3: The availability of this radio IP on mature 0.11μm process technology is significant for the low cost BLE market. HHGrace provides low power and competitive technology solutions to help designers reduce power consumption and product cost. The BLE IP solution from Silicon Vision will enable low cost, ultra-low power human interface devices and wearable products. And the market applications of this BLE IP also include healthcare, sports and fitness, security, and home entertainment.
+  news_hg4: Silicon Vision’s SVI-TRX203G IP is a highly integrated low power radio (complete PHY) compliant with the Bluetooth low energy specification, which is part of Bluetooth 4.0/4.1 standards, making it ideal for health, sensor networks, wearable technology, and human interface device applications. With integrated RF and digital modems, the area of the silicon for this IP is competitive compared to other solutions. At 3V battery with ideal DC-DC converter, the peak transmit current at 0dBm output is 4.4mA, and the peak receive current is 5.2mA.  When combined with a Bluetooth Smart baseband controller, it forms a complete Bluetooth Smart solution. The SVI-TRX203G radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
+  news_hg5: HHGrace now offers Silicon Vision’s BLE IP as part of its portfolio of IP available on its technology solutions, extending the reach of Silicon Vision’s IP to high volume consumer electronics manufacturers focusing on delivering wearable technology BLE applications. Besides BLE IP, HHGrace provides a wide range of technology portfolio for wearable device and personal area network applications, such as 0.18μm/0.13μm eNVM technology platforms for microcontrollers and touch screen controllers, diversified CDMOS/BCD process solutions which are able to improve power management IC and audio amplifier, and MEMS technologies which meet the requirements for various sensor products.
   news_hg6: About Silicon Vision Technologies Ltd
   news_hg7: Established since 2007, Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth Low Energy IP, and low power ZigBee IP. Silicon Vision products deliver an industry-leading combination of performance and monolithic integration. Silicon Vision IP targets a broad range of applications in the domain of consumer applications, HIDs, smart metering, industrial mobile wireless devices, and generally low power wireless markets. For more information, visit www.si-vision.com.
   news_hg8: About HHGrace
