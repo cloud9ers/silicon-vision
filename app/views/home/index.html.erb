@@ -78,6 +78,21 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
       <div class="col-lg-6">
         <h4 class="title"><%= t :news_3 %></h4>
 
+
+        <div class="media">
+          <img class="pull-left media-object" width="80px" height="80px" src="/assets/new-elec.png" >
+          <div class="media-body pl20">
+            <a href="<%= url_for :controller => 'home', :action => 'press' %>">
+              <h4 class="media-heading">
+                Will CSR help Qualcomm capture the Internet of Everything?
+              </h4>
+            </a>
+
+            <p>28 October 2014</p>
+          </div>
+        </div>
+
+
         <div class="media">
           <img class="pull-left media-object" width="100px" height="60px" src="/assets/EDN-network.png" >
           <div class="media-body pl20">
@@ -103,18 +118,7 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
           </div>
         </div>
 
-        <div class="media">
-          <img class="pull-left media-object" width="80px" height="80px" src="/assets/econsult.png" >
-          <div class="media-body pl20">
-            <a href="<%= url_for :controller => 'home', :action => 'press' %>#econsult-article">
-              <h4 class="media-heading">
-                <%= t :media_seg10_0 %>
-              </h4>
-            </a>
-
-            <p><%= t :media_seg10_1 %></p>
-          </div>
-        </div>
+        
 
 
         <a class="visible-lg pull-left" href="<%= url_for :controller =>'home', :action => 'press' %>"><%= t :see_all %> ...</a>
