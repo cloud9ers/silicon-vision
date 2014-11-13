@@ -9,6 +9,11 @@ class MainProductsController < ApplicationController
   end
 
   def order_demo
+    @order = Order.new
+  end
+
+  def create_order
+    @order = Order.new(params[:order])
   end
 
   def updates

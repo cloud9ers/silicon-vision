@@ -26,7 +26,7 @@ end
 gem 'mailchimp'
 
 gem 'pry'
-# gem 'pry-debugger'
+gem 'debugger'
 
 # group :test do
 #   # gem 'capybara'
