@@ -82,6 +82,7 @@ SiliconVesion::Application.configure do
   }
 
   config.datasheets_receiver_address = "info@si-vision.com"
+  config.demo_orders_receiver_address = "info@si-vision.com"
   #newsletter settings
   #config.mail_chimp_api_key = "8caa4ec0707e3c62331e31d6913a8a3a-us5"
   config.mail_chimp_api_key = "66d88bdebefa1dfa0428accbc8a6b058-us8"
