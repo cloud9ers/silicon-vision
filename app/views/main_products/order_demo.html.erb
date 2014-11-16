@@ -1,8 +1,16 @@
-<% if flash[:notice] || flash.now[:error] %>
-  <%= flash[:notice] || flash.now[:error] %>
+<% if flash[:notice] %>
+  <div class="alert alert-success">
+    <%= flash[:notice] %>
+  </div>
 <% end %>
-<h4 class="title">Demo</h4>
 
+<% if flash.now[:error] %>
+  <div class="alert alert-danger">
+    <%= flash.now[:error] %>
+  </div>
+<% end %>
+
+<h4 class="title">Demo</h4>
 <div class="row">
   <%= form_for @order, :url => demos_order_path, :method => :post do |f|%>
 
