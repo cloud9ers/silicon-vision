@@ -17,7 +17,7 @@ SiliconVesion::Application.configure do
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
   # change to true to allow email to be sent during development
-  config.action_mailer.perform_deliveries = false
+  config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
 
@@ -46,18 +46,16 @@ SiliconVesion::Application.configure do
   config.mail_chimp_api_key = "66d88bdebefa1dfa0428accbc8a6b058-us8"
 
   # ActionMailer::Base.deliveries array.
-  config.action_mailer.delivery_method = :test
-  config.action_mailer.raise_delivery_errors = false
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.delivery_method = :smtp
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
   config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
+      :address              => "smtp.mandrillapp.com",
       :port                 => 587,
-      :domain               => 'silicon-vision',
-      :user_name            => 'mohamed.daif.cloud9ers@gmail.com',
-      :password             => 'abudaif123456',
-      :authentication       => 'plain',
-      :enable_starttls_auto => true
+      :domain               => 'gmail.com',
+      :user_name            => 'nouran.mhmoud@gmail.com',
+      :password             => 'XgQDcdsuZNmZl4JpSxBf-w',
+      :authentication       => :plain
   }
   config.receiver_address = {
       'USA'    => 'usa-sales@si-vision.com'  ,
@@ -69,6 +67,7 @@ SiliconVesion::Application.configure do
       'worldWide' => 'worldwide-sales@si-vision.com'
   }
 
-  config.datasheets_receiver_address = "ashihaby@cloud9ers.com"
+  config.datasheets_receiver_address = "nouran.mhmoud@gmail.com"
+  config.demo_orders_receiver_address = "nouran.mhmoud@gmail.com"
 
 end
