@@ -65,7 +65,7 @@ SiliconVesion::Application.configure do
       :address              => "smtp.mandrillapp.com",
       :port                 => 587,
       :domain               => 'si-vision.com',
-      :user_name            => 'nouran.mhmoud@gmail.com',
+      :user_name            => 'info@si-vision.com',
       :password             => 'XgQDcdsuZNmZl4JpSxBf-w',
       :authentication       => 'plain',
       :enable_starttls_auto => true
