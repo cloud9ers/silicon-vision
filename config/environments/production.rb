@@ -62,11 +62,11 @@ SiliconVesion::Application.configure do
   config.active_support.deprecation = :notify
 
   config.action_mailer.smtp_settings = {
-      :address              => "smtp.gmail.com",
+      :address              => "smtp.mandrillapp.com",
       :port                 => 587,
-      :domain               => 'silicon-vision',
-      :user_name            => 'mohamed.daif.cloud9ers@gmail.com',
-      :password             => 'abudaif123456',
+      :domain               => 'si-vision.com',
+      :user_name            => 'nouran.mhmoud@gmail.com',
+      :password             => 'XgQDcdsuZNmZl4JpSxBf-w',
       :authentication       => 'plain',
       :enable_starttls_auto => true
   }
