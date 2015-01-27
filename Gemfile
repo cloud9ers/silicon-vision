@@ -8,7 +8,7 @@ group :assets do
 end
 gem 'jquery-rails'
 gem 'figaro'
-gem 'rolify'
+#gem 'rolify'
 gem 'simple_form'
 group :development do
   gem 'better_errors'
@@ -25,8 +25,8 @@ end
 # gem 'hominid'
 gem 'mailchimp'
 
-gem 'pry'
-gem 'debugger'
+#gem 'pry'
+#gem 'debugger'
 
 # group :test do
 #   # gem 'capybara'
