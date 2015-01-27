@@ -7,6 +7,7 @@ en:
   apps: Applications
   submit: submit
   copyright: "All Copyrights reserved to Silicon Vision © 2014."
+  sub_ips: Smartbluetooth Family
 
   # Home
   home: Home
@@ -246,6 +247,13 @@ en:
   news_seg14_2: (Shanghai, China—July 8th, 2014) Silicon Vision Technologies Ltd (“Silicon Vision”), a leading provider of high-performance, low power radio frequency intellectual property (IP), and Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), one of the world-leading 8” pure play foundries, have jointly announced today their partnership to deliver Silicon Vision’s Bluetooth low energy (BLE) radio IP on HHGrace’s 0.11μm mixed-signal/RF technology platform...
   news_seg14_3: July
   news_seg14_4: 2014
+  news_seg15_0_0: Silicon Vision Announces Bluetooth Low Energy...
+  news_seg15_0_1: Jan 19th, 2015
+  news_seg15_0: Silicon Vision Announces Bluetooth Low Energy Transceiver IP SIG Certification
+  news_seg15_1: Jan 19th, 2015
+  news_seg15_2: Silicon Vision Technologies Limited is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth low energy radio, low power ZigBee radio and other low power wireless radios. today Silicon Vision Ltd. announced that its SmartFusion® 2 SoC FPGAs and IGLOO® 2 FPGAs have achieved PCI® Express (PCIe) 2.0 endpoint specification certification and are now included on the PCI SIG Integrators List.
+  news_seg15_3: Jan
+  news_seg15_4: 2015
 
   # Media
   media_seg1_0: Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
@@ -410,3 +418,12 @@ en:
   news_hg7: Established since 2007, Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth Low Energy IP, and low power ZigBee IP. Silicon Vision products deliver an industry-leading combination of performance and monolithic integration. Silicon Vision IP targets a broad range of applications in the domain of consumer applications, HIDs, smart metering, industrial mobile wireless devices, and generally low power wireless markets. For more information, visit www.si-vision.com.
   news_hg8: About HHGrace
   news_hg9: Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), incorporated through the consolidation between Shanghai Hua Hong NEC Electronics Company, Limited (“Hua Hong NEC”) and Grace Semiconductor Manufacturing Corporation (“Grace”), has become one of the world’s leading 8-inch pure-play wafer foundries. With three 8-inch wafer fabrication facilities in Zhangjiang and Jinqiao of Shanghai, HHGrace offers production capacity over 124,000 8-inch wafers per month. HHGrace provides professional and highly value-added foundry services covering technology solutions from 1.0μm to 90nm process nodes, focusing on advanced and differentiated technologies including eNVM (embedded Non-Volatile Memory), power management IC, power discrete, RF, CMOS image sensors as well as standard logic and mixed-signal. HHGrace is also in the process of developing MEMS solutions as one of its up-and-coming technologies. With its headquarters located in Shanghai, China, HHGrace extends its sales and technical support to customers in Taiwan, Japan, North America and Europe.
+  news_cer1: Silicon Vision Announces Bluetooth Low Energy Transceiver IP SIG Certification
+  news_cer2: Silicon Vision Technologies Limited is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth low energy radio, low power ZigBee radio and other low power wireless radios. today Silicon Vision Ltd. announced that its SmartFusion® 2 SoC FPGAs and IGLOO® 2 FPGAs have achieved PCI® Express (PCIe) 2.0 endpoint specification certification and are now included on the PCI SIG Integrators List. According to the company's testing results, the newly certified devices are the industry's lowest power PCIe 2.0 programmable logic solutions, providing a reduction of up to 10X static power consumption compared to other programmable logic devices with comparable mainstream features.
+  news_cer3: Additionally, these innovative solutions deliver unparalleled security and reliability making them ideal for high-availability, low-power applications in communications infrastructure equipment, programmable logic controllers (PLCs), medical diagnostic equipment and bridging applications in defense equipment.
+  news_cer4: By leveraging the integrated PCIe blocks in our SmartFusion2 SoC FPGAs and IGLOO2 FPGAs designers can meet the high system bandwidth and programmable systems integration requirements needed in communications, industrial, aviation and defense applications at significantly lower power than competitive devices, said Venkatesh Narayanan, director of Software & Systems Engineering for Microsemi's SoC Products Group. Certifying the embedded hard IP in our groundbreaking solutions also helps our customers accelerate time-to-market, while providing an added level of assurance that our products deliver the performance called for in key industry standards.
+  news_cer5: In addition, the company recently attained industry compliance certifications for hard intellectual property (IP) embedded in its industry-leading SmartFusion2 SoC FPGAs including controller area network (CAN) and USB 2.0. By certifying these broadly used communications interfaces Microsemi customers can expect correct operation in their systems enabling a shorter design cycle time which lowers their overall cost of ownership all in a low power, secure and reliable SoC FPGA.
+  news_cer6: About SVI-TRX201X
+  news_cer7: The SVI-TRX201X Radio is a highly integrated and ultra-low power Bluetooth Low Energy CMOS radio IP that is compliant with Bluetooth LE specification (part of Bluetooth 4.0 & 4.1). The SVI-TRX201X Radio qualified with the Bluetooth LE specifications to support wide range of IoT applications. The IP includes 2.4GHz RF Transceiver and digital MODEM, when combined with the Bluetooth LE baseband controller; it forms a complete Bluetooth LE solution. The SVI-TRX201X radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and register programming interface.
+  news_cer8: Pricing and Availability
+  news_cer9: Silicon Vision Technologies Limited London, UK. Telephone, +44 207 097 1004 Email, info@si-vision.com

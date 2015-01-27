@@ -1,0 +1,65 @@
+<% content_for :title do %>
+  Silicon Vision partners with Mindtree
+<% end %>
+
+<% content_for :description do %>
+  Silicon Vision partners with Mindtree to offer a complete Bluetooth Low Energy intellectual property solution for wireless personal area networks
+<% end %>
+
+<% content_for :keywords do %>
+  Silicon Vision ,partnership,Mindtree, Bluetooth Low Energy, intellectual property, wireless personal area networks
+<% end %> 	
+
+<div class="head-strip">
+	<div class="container">
+		<h4 class="pull-left">
+<%= t :news_0 %>
+		</h4>
+		<div  class="pull-right fszs">
+			<%= link_to(t(:home), {:controller => 'home', :action => 'index'}) %>
+      <span>/ <%= t :news_3 %></span>
+		</div>
+	</div>
+</div>
+<!-- head strip end -->
+<div id="media-page" class="container">
+	<div class="row">
+		<div class="col-lg-9 panel">
+
+			<div class="panel news-img col-lg-4 hr-img" >
+					<img src="/assets/19jan.png" />
+			</div>
+
+			<div class="col-lg-8">
+        <h3><%= t :news_cer1 %></h3>
+
+				<p >
+          <%= t :news_cer2 %>
+        </p>
+
+			</div>
+
+            <p>
+              <%= t :news_cer3 %>
+            </p>
+            <p>
+              <%= t :news_cer4 %>
+            </p>
+
+            <p>
+              <%= t :news_cer5 %>
+            </p>
+
+            <h4><%= t :news_cer6 %></h4>
+                <p>
+                  <%= t :news_cer7 %>
+                </p>
+            <H4><%= t :news_cer8 %></H4>
+            <p>
+              <%= t :news_cer9 %>
+            </p>
+
+		</div>
+		<%= render "snippets/media-navbar" %>
+	</div>
+</div>
