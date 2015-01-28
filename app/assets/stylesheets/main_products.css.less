@@ -18,15 +18,32 @@ body, body h1, body h2, body h3, body h4, body h5, body h6, body a, body a:hover
   color: #fff !important;
 }
 
+.certified {
+    width: 70px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+  }
+
 @media all and (max-width: 991px) {
   body {
     padding-top: 0 !important;
+  }
+  .certified {
+    width: 60px;
+    left: 0;
   }
 }
 
 @media all and (max-width: 758px) {
   body {
     padding-top: 0 !important;
+  }
+  .certified {
+    width: 50px;
+    top: 10px;
+    left: 40px;
   }
 }
 
