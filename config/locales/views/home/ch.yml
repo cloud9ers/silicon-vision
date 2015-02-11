@@ -399,6 +399,19 @@ ch:
   news_seg15_2: 今天Silicon Vision Technologies Ltd.（Silicon Vision科技有限公司）宣布其蓝牙低能耗无线电知 识产权在Bluetooth SIG（蓝牙特别兴趣小组）获得官方认证。根据检测结果，该获得认证的无线 电是业界与蓝牙4.0、4.1和4.2版标准兼容的，相同工艺节点中功耗最低的，此外，创新的知识产 权包含了完整的，集成了频率合成器、晶体振荡器、数字GFSK调制器/解调制器、AGC环路（自 动增益控制）、AFC（自动频率控制）、状态机、4线SPI接口，用于射频/模拟块的自动校准器、 用于电源管理的偏置和稳压器的2.4GHz收发器。
   news_seg15_3: 年
   news_seg15_4: 2015
+
+  news_seg16_0_0: Silicon Vision at MWC 2015
+  news_seg16_0_1: Mar 2nd, 2015
+  news_seg16_0: Silicon Vision at MWC 2015
+  news_seg16_1: Mar 2nd, 2015
+  news_seg16_2_1: With a complete wireless connectivity portfolio including
+  news_seg16_2_2: and
+  news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
+  news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
+  news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
+  news_seg16_3: Mar
+  news_seg16_4: 2015
+  
   news_hg1: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
   news_hg2: （中国，上海—2014年7月8日）硅视觉技术有限公司(以下简称“硅视觉”)，一家领先的知识产权（IP）提供商，提供高性能、低功率射频知识产权,与世界领先的8英寸纯晶圆代工厂之一，上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），今天宣布携手合作，在华虹宏力0.11微米混合信号/射频技术平台上推出了蓝牙低功耗IP。这款通过硅验证的IP已被授权给一家客户，该客户应用蓝牙技术开发了无线键盘鼠标等人机接口设备.为满足集成蓝牙模块的无线MCU需求，接下来将很快在华虹宏力射频嵌入式非易失性存储器工艺平台验证这个IP.
   news_hg3: 开发这款建立在成熟0.11微米技术平台上的无线IP，对于帮助客户拓展低成本的蓝牙低功耗市场应用非常重要。硅视觉提供的此款低成本蓝牙低功耗IP解决方案可应用于超低功耗人机对接设备及可穿戴产品，以及医疗健康、运动健身、安防、家庭娱乐等多种产品应用。

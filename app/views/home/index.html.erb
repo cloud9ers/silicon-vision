@@ -45,6 +45,16 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
         <h4 class="title"><%= t :news_2 %></h4>
 
         <div class="media">
+          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/MWC-2015.jpg" >
+          <div class="media-body">
+            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
+              <h4 class="media-heading"><%= t :news_seg16_0_0 %></h4>
+            </a>
+            <p><%= t :news_seg16_0_1 %></p>
+          </div>
+        </div>
+
+        <div class="media">
           <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/19jan.png" >
           <div class="media-body">
             <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
@@ -61,15 +71,6 @@ IP,high,performance,radio frequency,RF,power management,PM,data-converters,DC,AM
               <h4 class="media-heading"><%= t :news_hg1 %></h4>
             </a>
             <p><%= t :news_seg14_1 %></p>
-          </div>
-        </div>
-        <div class="media">
-          <img class="pull-left media-object" style="width:100px;height:60px;" src="/assets/news_seg13_thumb.jpg" >
-          <div class="media-body">
-            <a href="<%= url_for :controller =>'home', :action => 'sivi-media' %>">
-              <h4 class="media-heading"><%= t :news_seg13_0 %></h4>
-            </a>
-            <p><%= t :news_seg13_1 %></p>
           </div>
         </div>
 
