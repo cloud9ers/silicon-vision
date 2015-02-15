@@ -5,6 +5,7 @@ ch:
   zgb_ips: Zigbee射频IP
   zw_ips:  Z-Wave射频IP
   apps: 应用
+  sub_ips: Smartbluetooth Family
 
 
   # Home
@@ -396,20 +397,24 @@ ch:
   news_seg15_0_1: 2015年1月28日
   news_seg15_0: Silicon Vision宣布蓝牙低能耗无线电知识产权 蓝牙特别兴 趣小组认证和上市
   news_seg15_1: 2015年1月28日
-  news_seg15_2: 今天Silicon Vision Technologies Ltd.（Silicon Vision科技有限公司）宣布其蓝牙低能耗无线电知 识产权在Bluetooth SIG（蓝牙特别兴趣小组）获得官方认证。根据检测结果，该获得认证的无线 电是业界与蓝牙4.0、4.1和4.2版标准兼容的，相同工艺节点中功耗最低的，此外，创新的知识产 权包含了完整的，集成了频率合成器、晶体振荡器、数字GFSK调制器/解调制器、AGC环路（自 动增益控制）、AFC（自动频率控制）、状态机、4线SPI接口，用于射频/模拟块的自动校准器、 用于电源管理的偏置和稳压器的2.4GHz收发器。
+  news_seg15_2_1: 今天
+  news_seg15_2_2: Silicon Vision Technologies Ltd.（Silicon Vision科技有限公司）
+  news_seg15_2_3: 宣布其蓝牙低能耗无线电知识产权在
+  news_seg15_2_4: Bluetooth SIG （蓝牙特别兴趣小组）
+  news_seg15_2_5: 获得官方认证。根据检测结果，该获得认证的无线 电是业界与蓝牙4.0、4.1和4.2版标准兼容的，相同工艺节点中功耗最低的，此外，创新的知识产 权包含了完整的，集成了频率合成器、晶体振荡器、数字GFSK调制器/解调制器、AGC环路（自 动增益控制）、AFC（自动频率控制）、状态机、4线SPI接口，用于射频/模拟块的自动校准器、 用于电源管理的偏置和稳压器的2.4GHz收发器。。。
   news_seg15_3: 年
   news_seg15_4: 2015
 
   news_seg16_0_0: Silicon Vision at MWC 2015
-  news_seg16_0_1: Mar 2nd, 2015
+  news_seg16_0_1: Feb 12th, 2015
   news_seg16_0: Silicon Vision at MWC 2015
-  news_seg16_1: Mar 2nd, 2015
+  news_seg16_1: Feb 12th, 2015
   news_seg16_2_1: With a complete wireless connectivity portfolio including
   news_seg16_2_2: and
   news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
   news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
   news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
-  news_seg16_3: Mar
+  news_seg16_3: Feb
   news_seg16_4: 2015
   
   news_hg1: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
@@ -422,10 +427,29 @@ ch:
   news_hg8: 关于华虹宏力
   news_hg9: 上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），由原上海华虹NEC电子有限公司和上海宏力半导体制造有限公司新设合并而成，是世界领先的8英寸纯晶圆代工厂。华虹宏力在上海张江和金桥共有3条8英寸集成电路生产线，月产能达12.4万片，工艺技术覆盖1微米至90纳米各节点，在标准逻辑、嵌入式非易失性存储器、电源管理、功率器件、射频、模拟和混合信号、图像传感器等领域形成了具有竞争力的先进工艺平台，并正在持续开发多种微机电系统（MEMS）工艺解决方案。公司总部位于中国上海，在中国台湾、日本、北美和欧洲等地均提供销售与技术支持。
   news_cer1: Silicon Vision宣布蓝牙低能耗无线电知识产权 蓝牙特别兴 趣小组认证和上市
-  news_cer2: 今天Silicon Vision Technologies Ltd.（Silicon Vision科技有限公司）宣布其蓝牙低能耗无线电知 识产权在Bluetooth SIG（蓝牙特别兴趣小组）获得官方认证。根据检测结果，该获得认证的无线 电是业界与蓝牙4.0、4.1和4.2版标准兼容的，相同工艺节点中功耗最低的，此外，创新的知识产 权包含了完整的，集成了频率合成器、晶体振荡器、数字GFSK调制器/解调制器、AGC环路（自 动增益控制）、AFC（自动频率控制）、状态机、4线SPI接口，用于射频/模拟块的自动校准器、 用于电源管理的偏置和稳压器的2.4GHz收发器。Silicon Vision Smartbluetooth（智能蓝牙）系列 提供了无与伦比的性能和可靠性; 使它们非常适用于高可用性、低功耗的可穿戴、医疗和人机接 口设备市场的应用。
-  news_cer3: 经过认证的蓝牙低能耗无线电知识产权帮助我们的客户加速将产品推向市场的过程，同时提供更 高的保障级别，这种保障是我们的产品所提供的所谓关键行业标准。蓝牙特别兴趣小组认证还将 使Silicon Vision在全球扩大其授权业务，满足了多更无线电知识产权客户，并利用丰富的无线电 知识产权产品组合解决物联网的市场问题。该Smartbluetooth（智能蓝牙）蓝牙低能耗系列可用 于多种工艺节点，包括来自一线半导体代工厂，包括TSMC, SMIC 和HHgrace的180纳米、110纳 米和55纳米节点。
-  news_cer4: 车的速度和踏板节奏等传输到具有蓝牙功能的设备，比如智能手机、运动手表和自行车电脑。 由Silicon Vision认证的蓝牙低能耗知识产权将启用新一代蓝牙智能健身设备。现在，企业可以迅 速制造运动设备上的蓝牙低功耗传感器来瞬间传输数据，如将跑步节奏、步幅、总距离或骑自行 ABI-research公司预测，从2011年至2016年，使用蓝牙的体育和健身设备出货量将增长10倍，共 计2.78亿，占总可用市场的60％。这是被抛弃专有的解决方案和趋向蓝牙智能设备的趋势所推动。
-  news_cer5: 请访问特别兴趣小组列表来查看我们的声明QID= D025509
+  news_cer2_1: 今天
+  news_cer2_2: Silicon Vision Technologies Ltd.（Silicon Vision科技有限公司）
+  news_cer2_3: 宣布其蓝牙低能耗无线电知识产权在
+  news_cer2_4: Bluetooth SIG （蓝牙特别兴趣小组）
+  news_cer2_5: 获得官方认证。根据检测结果，该获得认证的无线 电是业界与蓝牙4.0、4.1和4.2版标准兼容的，相同工艺节点中功耗最低的，此外，创新的知识产 权包含了完整的，集成了频率合成器、晶体振荡器、数字GFSK调制器/解调制器、AGC环路（自 动增益控制）、AFC（自动频率控制）、状态机、4线SPI接口，用于射频/模拟块的自动校准器、 用于电源管理的偏置和稳压器的2.4GHz收发器。Silicon Vision
+  news_cer2_6: 智能蓝牙
+  news_cer2_7: 系列 提供了无与伦比的性能和可靠性; 使它们非常适用于高可用性、低功耗的可穿戴、医疗和人机接 口设备市场的应用。
+  news_cer3_1: 经过认证的蓝牙低能耗无线电知识产权帮助我们的客户加速将产品推向市场的过程，同时提供更高的保障级别，这种保障是我们的产品所提供的所谓关键行业标准。蓝牙特别兴趣小组认证还将使
+  news_cer3_2: Silicon Vision
+  news_cer3_3: 经过认证的蓝牙低能耗无线电知识产权帮助我们的客户加速将产品推向市场的过程，同时提供更 高的保障级别，这种保障是我们的产品所提供的所谓关键行业标准。蓝牙特别兴趣小组认证还将 使在全球扩大其授权业务，满足了多更无线电知识产权客户，并利用丰富的无线电
+  news_cer3_4: 智能蓝牙
+  news_cer3_5: 于多种工艺节点，包括来自一线半导体代工厂，包括 的180纳米、110纳 米和55纳米节点。
+  news_cer3_6: TSMC,
+  news_cer3_7: SMIC
+  news_cer3_8: 和
+  news_cer3_9: HHgrace.
+  news_cer4_1: 认证的蓝牙低能耗知识产权将启用新一代蓝牙智能健身设备。
+  news_cer4_2: 由Silicon Vision
+  news_cer4_3: 速制造运动设备上的蓝牙低功耗传感器来瞬间传输数据，如将跑步节奏、步幅、总距离或骑自行车的速度和踏板节奏等传输到具有蓝牙功能的设备，比如智能手机、运动手表和自行车电脑。
+  news_cer4_4: ABI-research,
+  news_cer4_5: 公司预测，从2011年至2016年，使用蓝牙的体育和健身设备出货量将增长10倍，共计2.78亿，占总可用市场的60％。这是被抛弃专有的解决方案和趋向蓝牙智能设备的趋势所推动。
+  news_cer5_1: 请访问特别兴趣小组列表来查看我们的声明QID=
+  news_cer5_2: D025509
   news_cer6: 关于Silicon Vision
   news_cer7: Silicon Vision科技有限公司是领先的高性能知识产权，低能耗无线电知识产权（RF IP）供应商 。Silicon Vision解决方案包括智能电表和其它低功耗无线无线电所用的蓝牙低能耗的无线电，低 功耗的ZigBee无线电，Sub 1-GHz ISM无线电。
   news_cer8: 关于Bluetooth®无线技术

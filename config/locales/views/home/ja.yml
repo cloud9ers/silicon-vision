@@ -16,6 +16,7 @@ ja:
   si_vi_intro_2: シリコン・ビジョンは主に無線周波数（RF）、パワーマネージメント（PM）、データコンバーター（DC）、その他のAMS IPを中心に、高性能IPを提供しています。我々のIPは処理ノードにおいてシリコン検証を受けています。ほとんどのIPのデモ・ボードもあります。
   si_vi_intro_3: シリコン・ビジョンのIPは世界中の市場で、何百万個の装置に使用されています。
   subscribe: お知らせのメール受信ご希望の方はメーリングリストへご登録ください
+  sub_ips: Smartbluetooth Family
 
   # About Us
   about: シリコン・ビジョンについて
@@ -208,20 +209,24 @@ ja:
   news_seg15_0_1: 年 月 日
   news_seg15_0: シリコン∙ビジョンがBluetoothの低エネルギー・無線IPSIGの認証とリストを発表
   news_seg15_1: 年 月 日
-  news_seg15_2: 本日、Silicon Vision Technologies Ltd. (シリコン∙ビジョン∙テクノロジーズ株式会社) は Bluetoothの低エネルギーラジオIPが正式にBluetooth SIGの認定リストに認定された ことを発表しました。 テスト結果によると、認定された無線機はBluetooth規格バージョン4.0、4.1および4.2とも に 互換性があり、同じプロセス∙ノード向けの業界で最も低い消費電力であるとされていま す。 さらには革新的なIPが統合された周波数シンセサイザを備えた2.4GHz帯のトランシー バーがついており、XTAL発振器、デジタルGFSK変調器/デモジュレータ、AGCループ (自動利得制御)、AFC(自動周波数制御)、ステートマシン、4線式SPIインタフェー ス、RF /アナログブロックの自動校正器、またバイアスおよび電源管理のためのLDO も 含まれています。...
+  news_seg15_2_1: 本日、
+  news_seg15_2_2: Silicon Vision Technologies Ltd.
+  news_seg15_2_3: (シリコン∙ビジョン∙テクノロジーズ株式会社)は
+  news_seg15_2_4: Bluetooth SIG
+  news_seg15_2_5: の認定リストに認定された ことを発表しました。 テスト結果によると、認定された無線機はBluetooth規格バージョン4.0、4.1および4.2とも に 互換性があり、同じプロセス∙ノード向けの業界で最も低い消費電力であるとされていま す。...
   news_seg15_3: 月
   news_seg15_4: 年
 
   news_seg16_0_0: Silicon Vision at MWC 2015
-  news_seg16_0_1: Mar 2nd, 2015
+  news_seg16_0_1: Feb 12th, 2015
   news_seg16_0: Silicon Vision at MWC 2015
-  news_seg16_1: Mar 2nd, 2015
+  news_seg16_1: Feb 12th, 2015
   news_seg16_2_1: With a complete wireless connectivity portfolio including
   news_seg16_2_2: and
   news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
   news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
   news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
-  news_seg16_3: Mar
+  news_seg16_3: Feb
   news_seg16_4: 2015
 
 
@@ -411,10 +416,29 @@ ja:
   news_hg9: 上海華虹NECエレクトロニクス株式会社LTD.（「華虹NEC」）とグレースセミコンダクター製造業·コーポレーション（「Grace」）間の統合により設立された上海華虹グレースセミコンダクター製造業·コーポレーション（「HHGrace」）は、世界有数の8インチ専業ピュア・プレイウェーハファウンドリの一つとなりました。上海の張江と金橋に位置する8インチウエハー製造の3施設で、HHGraceは月額124,000枚以上の8インチウエハの生産能力を提供しています。 HHGraceはENVM（組込み不揮発性メモリ）、パワーマネジメントIC、パワーディスクリート、RF、CMOSイメージセンサなどや標準ロジックとミックスド·シグナルを含む、先進的で差別化技術にフォーカスした90nm～1.0μmのプロセスノード技術ソリューションをカバーするプロフェッショナルで、付加価値の高いファウンドリサービスを提供します。その上、HHGraceは来新進技術の一つとして、MEMSソリューションを開発中です。 HHGraceは来新進技術の一つとして、MEMSソリューションを開発中でもあります。中国の上海に位置する本社を通じて、HHGraceは台湾、日本、北米、欧州での顧客へ販売およびテクニカルサポートを拡張しています。
 
   news_cer1: シリコン∙ビジョンがBluetoothの低エネルギー・無線IPSIGの認証とリストを発表
-  news_cer2: 本日、Silicon Vision Technologies Ltd. (シリコン∙ビジョン∙テクノロジーズ株式会社) は Bluetoothの低エネルギーラジオIPが正式にBluetooth SIGの認定リストに認定された ことを発表しました。 テスト結果によると、認定された無線機はBluetooth規格バージョン4.0、4.1および4.2とも に 互換性があり、同じプロセス∙ノード向けの業界で最も低い消費電力であるとされていま す。 さらには革新的なIPが統合された周波数シンセサイザを備えた2.4GHz帯のトランシー バーがついており、XTAL発振器、デジタルGFSK変調器/デモジュレータ、AGCループ (自動利得制御)、AFC(自動周波数制御)、ステートマシン、4線式SPIインタフェー ス、RF /アナログブロックの自動校正器、またバイアスおよび電源管理のためのLDO も 含まれています。
-  news_cer3: シリコン・ビジョンSmartbluetoothファミリーは比類ないパフォーマンスと信頼性を常に 提供しており、ウェアラブルな医療分野やHID市場において高可用性な 低電力アプリケーションとして最適です。 Bluetooth低エネルギー無線IPを証明することは、当社の顧客の市場投入までの時間を加 速する際に役立つことにつながり、さらには我々の商品が主な業界標準に達しているレ ベルのパフォーマンスを提供しているという追加保証にもなるのです。 SIGの認定はシリコン・ビジョンのライセンス事業の世界的レベル拡大を可能にし、 よ り多くの RF Ip顧客へと手を差し伸べ、豊かな無線IPポートフォリオを使いIoT市場への対応に生か すことが出来るでしょう。
-  news_cer4: SmartbluetoothのBluetooth低エネルギー∙ファミリーは180nm、110nm、さらにはTSMC、SMICとHHgrace含むティア1の半導体ファウンドリからの55nmなどの広い範囲のプロセスノードで提供されています。
-  news_cer5: シリコン∙ビジョンによるBluetooth 低エネルギー認定IPは次世代のBluetooth スマート フィットネス機器を可能にします。 企業らはいまや簡単にBluetooth 低エネルギーセンサーの含まれたスポーツ・デバイスに 瞬時に実行中のケイデンス、歩幅、総距離、またはサイクリング速度 などのデータを送 信させることが出来、またペダルケイデンスをスマートフォン、スポーツウォッチ、サ イクリング コンピュータのようなBluetooth 有効デバイスに送ることも可能となっているのです。 ABIリサーチ社は、Bluetooth対応のスポーツやフィットネス機器の出荷台数は2011年から 2016年の間に10倍に成長することを予測しており、結果として総数は2億7800万となり、 これは総利用可能な市場の60パーセントを表しています。この傾向は、専売のソリュー ションから離れ、Bluetooth スマート・デバイスへと移行するというトレンドから来てい るものです。 我々の発表をご覧になりたい場合はSIG リスティングをご覧ください、 QIDはこちらです:D025509
+  news_cer2_1: 本日、
+  news_cer2_2: Silicon Vision Technologies Ltd
+  news_cer2_3: (シリコン∙ビジョン∙テクノロジーズ株式会社)は
+  news_cer2_4: Bluetooth SIG
+  news_cer2_5: の低エネルギーラジオIPが正式にBluetooth SIGの認定リストに認定された ことを発表しました。 テスト結果によると、認定された無線機はBluetooth規格バージョン4.0、4.1および4.2とも 互換性があり、同じプロセス∙ノード向けの業界で最も低い消費電力であるとされていま さらには革新的なIPが統合された周波数シンセサイザを備えた2.4GHz帯のトランシー バーがついており、XTAL発振器、デジタルGFSK変調器/デモジュレータ、AGCループ (自動利得制御)、AFC(自動周波数制御)、ステートマシン、4線式SPIインタフェー ス、RF /アナログブロックの自動校正器、またバイアスおよび電源管理のためのLDO も 含まれています。 シリコン・ビジョン
+  news_cer2_6: Smartbluetooth
+  news_cer2_7: ファミリーは比類ないパフォーマンスと信頼性を常に提供しており、ウェアラブルな医療分野やHID市場において高可用性な低電力アプリケーションとして最適です。
+  news_cer3_1: SIGの認定は・ビジョンのライセンス事業の世界的レベル拡大を可能にし、 よ り多くの
+  news_cer3_2: シリコン・ビジョン
+  news_cer3_3: RF Ip顧客へと手を差し伸べ、豊かな無線IPポートフォリオを使いIoT市場への対応に生か すことが出来るでしょう。
+  news_cer3_4: Smartbluetooth
+  news_cer3_5: のBluetooth低エネルギー∙ファミリーは180nm、110nm、さらには含むティア1の半導体ファウンドリからの55nmなどの広い範囲のプロセスノードで提供されています。
+  news_cer3_6: TSMC、
+  news_cer3_7: SMIC
+  news_cer3_8: と
+  news_cer3_9: HHgrace.
+  news_cer4_1: によるBluetooth
+  news_cer4_2: シリコン・ビジョン
+  news_cer4_3: 低エネルギー認定IPは次世代のBluetooth スマート フィットネス機器を可能にします。 企業らはいまや簡単にBluetooth 低エネルギーセンサーの含まれたスポーツ・デバイスに 瞬時に実行中のケイデンス、歩幅、総距離、またはサイクリング速度 などのデータを送 信させることが出来、またペダルケイデンスをスマートフォン、スポーツウォッチ、サ コンピュータのようなBluetooth 有効デバイスに送ることも可能となっているのです。
+  news_cer4_4: ABIリサーチ社,
+  news_cer4_5: は、Bluetooth対応のスポーツやフィットネス機器の出荷台数は2011年から2016年の間に10倍に成長することを予測しており、結果として総数は2億7800万となり、 これは総利用可能な市場の60パーセントを表しています。この傾向は、専売のソリュー ションから離れ、Bluetooth スマート・デバイスへと移行するというトレンドから来てい るものです。
+  news_cer5_1: 我々の発表をご覧になりたい場合はSIG リスティングをご覧ください、QIDはこちらです=
+  news_cer5_2: D025509
   news_cer6: シリコン・ビジョンについて
   news_cer7: シリコン∙ビジョン∙テクノロジーズ∙リミテッドは、低消費電力の無線周波数知的財産 (RF IP)を 主戦力としている高性能の大手IPプロバイダです。シリコン・ビジョン・ソリューショ ンには スマートメーターやその他の低電力無線通信機用のBluetooth低エネルギーラジオ、低電 力のZigBee無線機、サブ1 GHzのISMラジオが含まれています。
   news_cer8: Bluetooth® ワイヤレス・テクノロジーについて

@@ -37,15 +37,15 @@
               <p class="date"><%= t :news_seg16_1 %></p>
               <p>
                 <%= t :news_seg16_2_1 %>
-                 <a href="/ips/bluetooth-low-energy">Bluetooth Low Energy</a>,
-                 <a href="/ips/zigbee"> Zigbee</a>
+                 <a href="<%= url_for :controller => 'ips', :action => 'bluetooth-low-energy' %>">Bluetooth Low Energy</a>,
+                 <a href="<%= url_for :controller => 'ips', :action => 'zigbee' %>"> Zigbee</a>
                  <%= t :news_seg16_2_2 %>
-                 <a href="/ips/sub-1ghz">Sub-1GHz 802.15.4G</a>
+                 <a href="<%= url_for :controller => 'ips', :action => 'sub-1ghz' %>">Sub-1GHz 802.15.4G</a>
                  <%= t :news_seg16_2_3 %>
               </p>
               <p>
                 <%= t :news_seg16_2_4 %>
-                <a href="/">Silicon Vision</a>
+                <a href="<%= url_for :controller => 'home', :action => 'index' %>">Silicon Vision</a>
                 <%= t :news_seg16_2_5 %>
                 <a href="mailto:mwc2015@si-vision.com">mwc2015@si-vision.com</a>
               </p>
@@ -64,7 +64,14 @@
             <div class="col-lg-8 pl20">
               <h4><%= t :news_seg15_0 %></h4>
               <p class="date"><%= t :news_seg15_1 %></p>
-              <p><%= t :news_seg15_2 %><a href="<%= url_for :controller => "sivi-media", :action => "sivi-partners-with-certification" %>"><%= t :media_seg1_3 %></a></p>
+              <p>
+                <%= t :news_seg15_2_1 %>
+                <a href="<%= url_for :controller => 'home', :action => 'index' %>"><%= t :news_seg15_2_2 %></a>
+                <%= t :news_seg15_2_3 %>
+                <a href="https://www.bluetooth.org/en-us" target="_blank"><%= t :news_seg15_2_4 %></a>
+                <%= t :news_seg15_2_5 %>
+                <a href="<%= url_for :controller => "sivi-media", :action => "sivi-partners-with-certification" %>"><%= t :media_seg1_3 %></a>
+              </p>
           </div>
 
           <span class="date-label">
