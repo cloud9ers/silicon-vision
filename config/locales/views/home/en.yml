@@ -251,20 +251,24 @@ en:
   news_seg15_0_1: Jan 28th, 2015
   news_seg15_0: Silicon Vision Announces Bluetooth Low Energy Radio IP SIG Certification and Listing
   news_seg15_1: Jan 28th, 2015
-  news_seg15_2: Today Silicon Vision Technologies Ltd. announced that its Bluetooth Low Energy Radio IP is officially certified in the Bluetooth SIG Qualified Listings. According to the testing results, the certified radio is the industry's lowest power for the same process node that is compatible with Bluetooth standards version 4.0, 4.1 and 4.2, Additionally, the innovative IP includes a complete 2.4GHz Transceiver with integrated Frequency Synthesizer, XTAL oscillator...
+  news_seg15_2_1: Today
+  news_seg15_2_2: Silicon Vision Technologies Ltd.
+  news_seg15_2_3: announced that its Bluetooth Low Energy Radio IP is officially certified in the
+  news_seg15_2_4: Bluetooth SIG
+  news_seg15_2_5: Qualified Listings. According to the testing results, the certified radio is the industry's lowest power for the same process node that is compatible with Bluetooth standards version 4.0, 4.1 and 4.2, Additionally, the innovative IP includes a complete 2.4GHz Transceiver with integrated Frequency Synthesizer, XTAL oscillator...
   news_seg15_3: Jan
   news_seg15_4: 2015
 
   news_seg16_0_0: Silicon Vision at MWC 2015
-  news_seg16_0_1: Mar 2nd, 2015
+  news_seg16_0_1: Feb 12th, 2015
   news_seg16_0: Silicon Vision at MWC 2015
-  news_seg16_1: Mar 2nd, 2015
+  news_seg16_1: Feb 12th, 2015
   news_seg16_2_1: With a complete wireless connectivity portfolio including
   news_seg16_2_2: and
   news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
   news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
   news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
-  news_seg16_3: Mar
+  news_seg16_3: Feb
   news_seg16_4: 2015
 
   # Media
@@ -431,10 +435,29 @@ en:
   news_hg8: About HHGrace
   news_hg9: Shanghai Huahong Grace Semiconductor Manufacturing Corporation (“HHGrace”), incorporated through the consolidation between Shanghai Hua Hong NEC Electronics Company, Limited (“Hua Hong NEC”) and Grace Semiconductor Manufacturing Corporation (“Grace”), has become one of the world’s leading 8-inch pure-play wafer foundries. With three 8-inch wafer fabrication facilities in Zhangjiang and Jinqiao of Shanghai, HHGrace offers production capacity over 124,000 8-inch wafers per month. HHGrace provides professional and highly value-added foundry services covering technology solutions from 1.0μm to 90nm process nodes, focusing on advanced and differentiated technologies including eNVM (embedded Non-Volatile Memory), power management IC, power discrete, RF, CMOS image sensors as well as standard logic and mixed-signal. HHGrace is also in the process of developing MEMS solutions as one of its up-and-coming technologies. With its headquarters located in Shanghai, China, HHGrace extends its sales and technical support to customers in Taiwan, Japan, North America and Europe.
   news_cer1: Silicon Vision Announces Bluetooth Low Energy Radio IP SIG Certification and Listing
-  news_cer2: Today Silicon Vision Technologies Ltd. announced that its Bluetooth Low Energy Radio IP is officially certified in the Bluetooth SIG Qualified Listings. According to the testing results, the certified radio is the industry's lowest power for the same process node that is compatible with Bluetooth standards version 4.0, 4.1 and 4.2, Additionally, the innovative IP includes a complete 2.4GHz Transceiver with integrated Frequency Synthesizer, XTAL oscillator, digital GFSK Modulator/De-Modulator, AGC loop (Automatic Gain Control), AFC (Automatic Frequency Control), State Machine, 4-Wire SPI Interface, Automatic Calibrators for RF/Analog blocks, Bias and LDOs for power management. Silicon Vision Smartbluetooth family delivers unparalleled performance and reliability; making them ideal for high-availability, low-power applications in wearable, medical, and HID markets.
-  news_cer3: Certifying the Bluetooth Low Energy Radio IP also helps our customers to accelerate the time- to-market, while providing an added level of assurance that our products deliver the performance called for key industry standards. The SIG certification will also enable Silicon Vision to expand its licensing business worldwide, reaching out more RF IP customers, and capitalizing with rich wireless IP portfolio addressing the IoT market. The Smartbluetooth Bluetooth Low Energy family is available on wide range of process nodes including 180nm, 110nm and 55nm from tier-one semiconductor foundries including TSMC, SMIC and HHgrace.
-  news_cer4: The Bluetooth low energy certified IP by Silicon Vision will enable the next generation of Bluetooth Smart fitness devices. Companies can now quickly make Bluetooth low energy sensors in sports devices to instantaneously transmit data such as running cadence, stride length, total distance, or cycling speed, and pedal cadence to Bluetooth enabled devices like smart phones, sports watches, and cycling computers. ABI-research, Inc. forecasts shipments of Bluetooth enabled sports and fitness devices will grow ten-fold from 2011 to 2016, totaling 278 million and representing over 60 percent of the total available market. This is driven by the trend to move away from proprietary solutions and toward Bluetooth Smart devices.
-  news_cer5: Please visit SIG Listings to view our declaration with QID= D025509
+  news_cer2_1: Today
+  news_cer2_2: Silicon Vision Technologies Ltd
+  news_cer2_3: . announced that its Bluetooth Low Energy Radio IP is officially certified in the
+  news_cer2_4: Bluetooth SIG
+  news_cer2_5: Qualified Listings. According to the testing results, the certified radio is the industry's lowest power for the same process node that is compatible with Bluetooth standards version 4.0, 4.1 and 4.2, Additionally, the innovative IP includes a complete 2.4GHz Transceiver with integrated Frequency Synthesizer, XTAL oscillator, digital GFSK Modulator/De-Modulator, AGC loop (Automatic Gain Control), AFC (Automatic Frequency Control), State Machine, 4-Wire SPI Interface, Automatic Calibrators for RF/Analog blocks, Bias and LDOs for power management. Silicon Vision
+  news_cer2_6: Smartbluetooth
+  news_cer2_7: family delivers unparalleled performance and reliability; making them ideal for high-availability, low-power applications in wearable, medical, and HID markets.
+  news_cer3_1: Certifying the Bluetooth Low Energy Radio IP also helps our customers to accelerate the time- to-market, while providing an added level of assurance that our products deliver the performance called for key industry standards. The SIG certification will also enable
+  news_cer3_2: Silicon Vision
+  news_cer3_3: to expand its licensing business worldwide, reaching out more RF IP customers, and capitalizing with rich wireless IP portfolio addressing the IoT market. The
+  news_cer3_4: Smartbluetooth
+  news_cer3_5: Bluetooth Low Energy family is available on wide range of process nodes including 180nm, 110nm and 55nm from tier-one semiconductor foundries including
+  news_cer3_6: TSMC,
+  news_cer3_7: SMIC
+  news_cer3_8: and
+  news_cer3_9: HHgrace.
+  news_cer4_1: The Bluetooth low energy certified IP by
+  news_cer4_2: Silicon Vision
+  news_cer4_3: will enable the next generation of Bluetooth Smart fitness devices. Companies can now quickly make Bluetooth low energy sensors in sports devices to instantaneously transmit data such as running cadence, stride length, total distance, or cycling speed, and pedal cadence to Bluetooth enabled devices like smart phones, sports watches, and cycling computers.
+  news_cer4_4: ABI-research,
+  news_cer4_5: Inc. forecasts shipments of Bluetooth enabled sports and fitness devices will grow ten-fold from 2011 to 2016, totaling 278 million and representing over 60 percent of the total available market. This is driven by the trend to move away from proprietary solutions and toward Bluetooth Smart devices.
+  news_cer5_1: Please visit SIG Listings to view our declaration with QID=
+  news_cer5_2: D025509
   news_cer6: About Silicon Vision
   news_cer7: Silicon Vision Technologies Limited is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth low energy radio, low power ZigBee radio, Sub 1-GHz ISM radio for smart meters and other low power wireless radios.
   news_cer8: About Bluetooth® Wireless Technology
