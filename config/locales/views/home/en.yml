@@ -258,7 +258,6 @@ en:
   news_seg15_2_5: Qualified Listings. According to the testing results, the certified radio is the industry's lowest power for the same process node that is compatible with Bluetooth standards version 4.0, 4.1 and 4.2, Additionally, the innovative IP includes a complete 2.4GHz Transceiver with integrated Frequency Synthesizer, XTAL oscillator...
   news_seg15_3: Jan
   news_seg15_4: 2015
-
   news_seg16_0_0: Silicon Vision at MWC 2015
   news_seg16_0_1: Feb 12th, 2015
   news_seg16_0: Silicon Vision at MWC 2015
@@ -270,6 +269,18 @@ en:
   news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
   news_seg16_3: Feb
   news_seg16_4: 2015
+
+  news_seg17_0_0: Silicon Vision and Mindtree Enable Next Genera...
+  news_seg17_0_1: Feb 24th, 2015
+  news_seg17_0: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
+  news_seg17_1: Feb 24th, 2015
+  news_seg17_2_1: London, UK and Warren, NJ, USA, February 24, 2015 -
+  news_seg17_2_2: Silicon Vision Technologies Ltd.
+  news_seg17_2_4: a low power wireless intellectual property (IP) company and
+  news_seg17_2_5: Mindtree
+  news_seg17_2_6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
+  news_seg17_3: Feb
+  news_seg17_4: 2015
 
   # Media
   media_seg1_0: Why Micro-Location iBeacons May Be Apple's Biggest New Feature For iOS 7
@@ -466,3 +477,32 @@ en:
   news_cer11: Silicon Vision Technologies Limited.
   news_cer12: Limited. London, UK. Email, info@si-vision.com
   news_cer13: Order Demo Boards
+
+  news_min1: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
+  news_min2: London, UK and Warren, NJ, USA, February 24, 2015 -
+  news_min3: Silicon Vision Technologies Ltd.
+  news_min4: a low power wireless intellectual property (IP) company and
+  news_min5: Mindtree
+  news_min6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
+  news_min7: Recently the
+  news_min8: Bluetooth Special Interest Group (SIG)
+  news_min9: has adopted version 4.2 of the Bluetooth core specification,
+  news_min10: introducing improvements to the security of the technology that mean Bluetooth beacons are now unable to engage with smartphones without permission from the user and making it harder for eavesdroppers to track a device via its Bluetooth connection. The new specification also increases the speed and reliability of data transfers between Bluetooth Smart devices and reduces both battery consumption and opportunities for transmission errors to occur.
+  news_min11: “With our silicon proven Bluetooth Smart Radio IP, we are empowering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT) market”, said Mohamed Mohsen, VP of Business Development, Silicon Vision.
+  news_min12: Jayanth Krishna, Director - Short-range Wireless, Mindtree, said, " The highly configurable and flexible interface of Mindtree’s IP enabled a seamless integration with Silicon Vision’s RF. Customers can now use the superior pre-integrated solutions, de-risk their products and launch the products faster even in the extremely dynamic markets such as IoT and wearables"
+  news_min13: Mindtree is in its 15th year of offering a comprehensive portfolio of Bluetooth intellectual property solutions and a range of design, engineering, testing and consulting services to semiconductor vendors and OEMs. The IP portfolio includes certified, customizable, ultra-low power and footprint silicon IP for Bluetooth® Smart 4.1 and 4.2, and ultra-compact, complete certified portfolio of protocol stack and profiles IP for Bluetooth® Smart 4.1 and 4.2. Mindtree also offers a feature-rich and compact Bluetooth® Smart Ready 4.1 and 4.2 and Bluetooth® Classic protocol stack and profiles.
+  news_min14: About Silicon Vision
+  news_min15: Silicon Vision Technologies Limited is a leading IP provider of high- performance, low-power wireless intellectual property (IP). Silicon Vision portfolio includes Bluetooth Low Energy Radio and baseband, 2.4GHz low power ZigBee, Sub 1-GHz 802.15.4G ISM radio enabling wide range of IOT applications.
+  news_min16: Silicon Vision Technologies Limited.
+  news_min17: London, UK.
+  news_min18: Telephone ( +44 207 097 1004 )
+  news_min19: Email, info@si-vision.com
+  news_min20: About Mindtree
+  news_min21: Mindtree [NSE, MINDTREE] delivers technology services and accelerates growth for Global 1000 companies by solving complex business challenges with breakthrough technical innovations. Mindtree specializes in e-commerce, mobility, cloud enablement, digital transformation, business intelligence, data analytics, testing, infrastructure, EAI and ERP solutions. We are among the fastest growing technology firms globally with more than 200 clients and offices in 14 countries.
+  news_min22: Visit us at
+  news_min23: www.mindtree.com
+  news_min24: For more information, contact
+  news_min25: Priyanka Waghre
+  news_min26: Mindtree
+  news_min27: +91-98867-29295
+  news_min28: Priyanka.Waghre@mindtree.com
