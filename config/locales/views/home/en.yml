@@ -52,6 +52,8 @@ en:
   ble_desc_2: The SVI-TRX2XX Radio IP covers the Bluetooth low energy specifications with support of  GFSK modulation. RF, analog baseband and digital modems are included in the design, when combined with the Bluetooth Smart baseband/Lonk Layer controller; it forms a complete Bluetooth Smart solution.
   ble_desc_3: The SVI-TRX2XX Radio connects to the baseband through a fully digital interface containing TX/RX data, real time control interface and registration programming interface.
   ble_desc_4: Silicon Vision also offer complete BLE digital baseband features that include TX/RX FIFO’s, CRC, scrambling, packet (filtering, aligning and assembly/de assembly) together with standalone encryption co-processor and all these features are available upon request.
+  ble_desc_5: Please visit SIG Listings to view our declaration with QID=
+  ble_desc_6: D025509
 
 
   #ISM

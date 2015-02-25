@@ -55,7 +55,9 @@ ch:
   ble_desc_2: 该SVI-TRX2XX射频IP通过GFSK调制的支持,覆 盖了蓝牙低功耗规格。射频、模拟基带和数字调制解调器被包含在设计中,当与蓝牙智能基带/ LinkLayer控制器相结合, 便组成了一个完整的蓝牙智能解决方案。
   ble_desc_3: 该SVI-TRX2XX射频通过一 个完整的数字接口(包括TX / RX数据,实时控制接口和寄存器编程接口)连接到基带。
   ble_desc_4: Silicon Vision还提供完整的BLE数字基带功能,包括TX/RX FIFO’s, CRC,Scrambling,封包(过滤, 调整和装配/解组装),并提供独立的加密协处理器,所有这些功能都可以根据客户要求来提供。
-
+  ble_desc_5: Please visit SIG Listings to view our declaration with QID=
+  ble_desc_6: D025509
+  
   #ISM
   ism_title:  高性能的,低于1千兆赫的 ISM射频IP
   ism_desc_1: Silicon Vision SVITRX40X系列是一个高度集成、低功耗、高性能的多频段射频收发器IP,覆盖 415/433/868/915/950兆赫兹的ISM频段(工业、科学和医疗),并同时与IEEE802.15.4G和中国国 家电网公司Q / GDW(微功率无线协议)标准相兼容。
