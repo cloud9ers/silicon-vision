@@ -407,29 +407,32 @@ ch:
   news_seg15_3: 年
   news_seg15_4: 2015
 
-  news_seg16_0_0: Silicon Vision at MWC 2015
-  news_seg16_0_1: Feb 12th, 2015
-  news_seg16_0: Silicon Vision at MWC 2015
-  news_seg16_1: Feb 12th, 2015
-  news_seg16_2_1: With a complete wireless connectivity portfolio including
-  news_seg16_2_2: and
-  news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
-  news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
-  news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
-  news_seg16_3: Feb
-  news_seg16_4: 2015
+  news_seg16_0_0: Silicon Vision 公司在2015世界移动通信大会
+  news_seg16_0_1: 年 月 日
+  news_seg16_0: Silicon Vision 公司在2015世界移动通信大会
+  news_seg16_1: 年 月 日
+  news_seg16_2_1: 有了完整的无线连通性组合，包括
+  news_seg16_2_2: 和
+  news_seg16_2_3: 射频和数字基带，我们获得了下一代低功耗连接设备，该设备将世界向着物联网（IOT）市场进行了彻底变革。
+  news_seg16_2_4: 如果您所在的行业正面临着深刻的变革，您将需要可以与您一起合作来了解和开发预测未来的解决方 案的，知识渊博的战略合作伙伴。需要更多了解，关于我们可以如何帮您实现公司产品设计的目标， 我们邀请您与我们在移动通信世界大会见面。请发电子邮件至
+  news_seg16_2_5: 会面并且查看我们的最新产品组合。
+  news_seg16_3: 月
+  news_seg16_4: 年
+  news_seg_li_1: 低功耗蓝牙
+  news_seg_li_2: 无线个域网
+  news_seg_li_3: 低于1-GHz的ISM 802.15.4G射频和
 
-  news_seg17_0_0: Silicon Vision and Mindtree Enable Next Genera...
-  news_seg17_0_1: Feb 24th, 2015
-  news_seg17_0: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
-  news_seg17_1: Feb 24th, 2015
-  news_seg17_2_1: London, UK and Warren, NJ, USA, February 24, 2015 -
-  news_seg17_2_2: Silicon Vision Technologies Ltd.
-  news_seg17_2_4: a low power wireless intellectual property (IP) company and
+  news_seg17_0_0: Silicon Vision与Mindtree采用蓝牙智能4.2开启了下一...
+  news_seg17_0_1: 年 月 日
+  news_seg17_0: Silicon Vision与Mindtree采用蓝牙智能4.2开启了下一代物联网设备
+  news_seg17_1: 年 月 日
+  news_seg17_2_1: 英国伦敦和美国新泽西州沃伦，2015年2月24日 - 一家低功耗无线知识产权 （IP）公司
+  news_seg17_2_2: Silicon Vision 科技有限公司
+  news_seg17_2_4: 和一家全球性的技术服务公司
   news_seg17_2_5: Mindtree
-  news_seg17_2_6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
-  news_seg17_3: Feb
-  news_seg17_4: 2015
+  news_seg17_2_6: 宣布了全面整合的蓝牙智能4.2解决方案的有效性，该解决方案包括Silicon Vision的硅验证，蓝牙技术联盟认证的无线电收发器知识产权和MindTree具备 资质的蓝牙智能V4.2链路层、协议栈和配置文件。
+  news_seg17_3: 月
+  news_seg17_4: 年
   
   news_hg1: 华虹宏力携手硅视觉，在其0.11微米技术平台上共推硅验证智能蓝牙射频IP
   news_hg2: （中国，上海—2014年7月8日）硅视觉技术有限公司(以下简称“硅视觉”)，一家领先的知识产权（IP）提供商，提供高性能、低功率射频知识产权,与世界领先的8英寸纯晶圆代工厂之一，上海华虹宏力半导体制造有限公司（以下简称“华虹宏力”），今天宣布携手合作，在华虹宏力0.11微米混合信号/射频技术平台上推出了蓝牙低功耗IP。这款通过硅验证的IP已被授权给一家客户，该客户应用蓝牙技术开发了无线键盘鼠标等人机接口设备.为满足集成蓝牙模块的无线MCU需求，接下来将很快在华虹宏力射频嵌入式非易失性存储器工艺平台验证这个IP.
@@ -473,31 +476,31 @@ ch:
   news_cer12: 英国伦敦. 电子邮件, info@si-vision.com
   news_cer13: 要订购演示版
 
-  news_min1: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
-  news_min2: London, UK and Warren, NJ, USA, February 24, 2015 -
-  news_min3: Silicon Vision Technologies Ltd.
-  news_min4: a low power wireless intellectual property (IP) company and
+  news_min1: Silicon Vision与Mindtree采用蓝牙智能4.2开启了下一代物联网设备
+  news_min2: 英国伦敦和美国新泽西州沃伦，2015年2月24日 - 一家低功耗无线知识产权 （IP）公司
+  news_min3: Silicon Vision 科技有限公司
+  news_min4: 和一家全球性的技术服务公司
   news_min5: Mindtree
-  news_min6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
-  news_min7: Recently the
-  news_min8: Bluetooth Special Interest Group (SIG)
-  news_min9: has adopted version 4.2 of the Bluetooth core specification,
-  news_min10: introducing improvements to the security of the technology that mean Bluetooth beacons are now unable to engage with smartphones without permission from the user and making it harder for eavesdroppers to track a device via its Bluetooth connection. The new specification also increases the speed and reliability of data transfers between Bluetooth Smart devices and reduces both battery consumption and opportunities for transmission errors to occur.
-  news_min11: “With our silicon proven Bluetooth Smart Radio IP, we are empowering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT) market”, said Mohamed Mohsen, VP of Business Development, Silicon Vision.
-  news_min12: Jayanth Krishna, Director - Short-range Wireless, Mindtree, said, " The highly configurable and flexible interface of Mindtree’s IP enabled a seamless integration with Silicon Vision’s RF. Customers can now use the superior pre-integrated solutions, de-risk their products and launch the products faster even in the extremely dynamic markets such as IoT and wearables"
-  news_min13: Mindtree is in its 15th year of offering a comprehensive portfolio of Bluetooth intellectual property solutions and a range of design, engineering, testing and consulting services to semiconductor vendors and OEMs. The IP portfolio includes certified, customizable, ultra-low power and footprint silicon IP for Bluetooth® Smart 4.1 and 4.2, and ultra-compact, complete certified portfolio of protocol stack and profiles IP for Bluetooth® Smart 4.1 and 4.2. Mindtree also offers a feature-rich and compact Bluetooth® Smart Ready 4.1 and 4.2 and Bluetooth® Classic protocol stack and profiles.
-  news_min14: About Silicon Vision
-  news_min15: Silicon Vision Technologies Limited is a leading IP provider of high- performance, low-power wireless intellectual property (IP). Silicon Vision portfolio includes Bluetooth Low Energy Radio and baseband, 2.4GHz low power ZigBee, Sub 1-GHz 802.15.4G ISM radio enabling wide range of IOT applications.
-  news_min16: Silicon Vision Technologies Limited.
-  news_min17: London, UK.
-  news_min18: Telephone ( +44 207 097 1004 )
+  news_min6: 宣布了全面整合的蓝牙智能4.2解决方案的有效性，该解决方案包括Silicon Vision的硅验证，蓝牙技术联盟认证的无线电收发器知识产权和MindTree具备 资质的蓝牙智能V4.2链路层、协议栈和配置文件。
+  news_min7: 最近，
+  news_min8: 蓝牙特别兴趣小组（SIG）
+  news_min9: 已经采用了4.2版的蓝牙核心规范，
+  news_min10: 引入了安全技术的改进，这种改进意味着如果没有用户的许可，蓝牙信号目前还无法参与到智能手机中，使窃听者更难通过蓝牙连接跟踪到一台设备。新规范还增加了蓝牙智能设备之间数据传输的速度和可靠性，降低了电池消耗和发生传输错误的机会。
+  news_min11: “有了我们的硅验证蓝牙智能无线知识产权，我们拥有了下一代低功耗连接设 备，该设备将世界向着物联网（IOT）市场进行了彻底变革”， Silicon Vision业务开发副总裁，穆罕默德·穆赫辛表示。
+  news_min12: Mindtree短程无线业务主管贾亚思·克里希纳表示，“MindTree的知识产权的 高度可配置和灵活的接口实现了与Silicon Vision的射频发射的无缝集成。即 使在极具活力的市场，如物联网和可穿戴”，客户现在仍可以使用卓越的预集 成解决方案，解除产品风险和更快地推出产品。
+  news_min13: Mindtree已经连续15年为半导体供应商和代工厂提供蓝牙知识产权解决方案及 一系列的设计、工程、测试和咨询服务的综合型组合。该知识产权产品组合包 括认证的、可定制的、超低功耗和影响范围的硅知识产权智能蓝牙4.1和4.2， 以及非常紧凑，完整认证的协议栈产品组合和智能蓝牙4.1和4.2配置文件知识 产权。 Mindtree还提供了功能丰富和紧凑的蓝牙智能4.1和4.2以及蓝牙经典协 议栈和配置文件。
+  news_min14: 关于Silicon Vision
+  news_min15: Silicon Vision技术有限公司是高性能、低功耗、领先的无线知识产权提供商 （IP）。Silicon Vision的产品组合包括蓝牙低功耗射频和基带，2.4GHz的低 功耗无线个域网，低于1-GHz的ISM 802.15.4G ISM射频在物联网广泛的授权应 用。
+  news_min16: Silicon Vision 科技有限公司
+  news_min17: 英国，伦敦.
+  news_min18: 电话 ( +44 207 097 1004 )
   news_min19: Email, info@si-vision.com
-  news_min20: About Mindtree
-  news_min21: Mindtree [NSE, MINDTREE] delivers technology services and accelerates growth for Global 1000 companies by solving complex business challenges with breakthrough technical innovations. Mindtree specializes in e-commerce, mobility, cloud enablement, digital transformation, business intelligence, data analytics, testing, infrastructure, EAI and ERP solutions. We are among the fastest growing technology firms globally with more than 200 clients and offices in 14 countries.
-  news_min22: Visit us at
+  news_min20: 关于Mindtree
+  news_min21: Mindtree [国家证券交易所名称：MINDTREE] 通过应用具有突破性的技术创新 ，解决复杂的商业挑战，来为全球1000多家企业提供技术服务和加速成长。 Mindtree最擅长电子商务、移动性、云计算实现、数字化改造、商业智能、数 据分析、测试、基础设施、企业应用集成和企业资源管理解决方案。我们是全 球增长最快的科技公司之一，拥有超过200位客户，在14个国家设有办事处，。
+  news_min22: 请访问我们网站
   news_min23: www.mindtree.com
-  news_min24: For more information, contact
-  news_min25: Priyanka Waghre
+  news_min24: 欲了解更多信息，请联系
+  news_min25: 普利岩柯·瓦格
   news_min26: Mindtree
   news_min27: +91-98867-29295
   news_min28: Priyanka.Waghre@mindtree.com

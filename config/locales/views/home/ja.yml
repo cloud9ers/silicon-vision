@@ -218,17 +218,20 @@ ja:
   news_seg15_3: 月
   news_seg15_4: 年
 
-  news_seg16_0_0: Silicon Vision at MWC 2015
-  news_seg16_0_1: Feb 12th, 2015
-  news_seg16_0: Silicon Vision at MWC 2015
-  news_seg16_1: Feb 12th, 2015
-  news_seg16_2_1: With a complete wireless connectivity portfolio including
-  news_seg16_2_2: and
-  news_seg16_2_3: Radio’s and Digital Basebands, we are powering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT).
-  news_seg16_2_4: When your industry is facing profound change you need a knowledgeable strategic partner who can work with you to understand and develop solutions that anticipate the future. To learn more about how we can help you achieve your company’s product design goals, we invite you to meet with us at Mobile World Congress. Request a meeting with
-  news_seg16_2_5: team and view the latest updates of our portfolio, by emailing
-  news_seg16_3: Feb
-  news_seg16_4: 2015
+  news_seg16_0_0: MWC でのシリコン・ビジョン 2015
+  news_seg16_0_1: 年 月 日
+  news_seg16_0: MWC でのシリコン・ビジョン 2015
+  news_seg16_1: 年 月 日
+  news_seg16_2_1: ラジオのデジタルベースバンドを含む完全
+  news_seg16_2_2: および
+  news_seg16_2_3: なワイヤレス接続のポートフォリオは、IoTに向けて世界を変革するべく設定されている低電力接続された デバイスの次世代の電力を供給しています。
+  news_seg16_2_4: あなたの業界が重大な変化に直面している際には、その状況を理解し、将来を予測した上でソリューションを開発するべくあなたと一緒に作業することが可能な知識豊富な戦略的パートナーが必要となります。我々がいかにしてあなたの会社の製品の設計目標を達成する手助けをするかについて詳しくお知りになりたい場合は、モバイル∙ワールド∙コングレス(MWC)にぜひご参加ください。
+  news_seg16_2_5: にメールを送り、シリコンビジョンチームとのミーティングをリクエストし、当社のポートフォリオの最新の更新プログラムをご覧ください。
+  news_seg16_3: 月
+  news_seg16_4: 年
+  news_seg_li_1: 低エネルギーブルートゥース
+  news_seg_li_2: ZigBee
+  news_seg_li_3: およびサブ1GHz
 
 
   #
@@ -416,17 +419,17 @@ ja:
   news_hg8: HHGraceについて
   news_hg9: 上海華虹NECエレクトロニクス株式会社LTD.（「華虹NEC」）とグレースセミコンダクター製造業·コーポレーション（「Grace」）間の統合により設立された上海華虹グレースセミコンダクター製造業·コーポレーション（「HHGrace」）は、世界有数の8インチ専業ピュア・プレイウェーハファウンドリの一つとなりました。上海の張江と金橋に位置する8インチウエハー製造の3施設で、HHGraceは月額124,000枚以上の8インチウエハの生産能力を提供しています。 HHGraceはENVM（組込み不揮発性メモリ）、パワーマネジメントIC、パワーディスクリート、RF、CMOSイメージセンサなどや標準ロジックとミックスド·シグナルを含む、先進的で差別化技術にフォーカスした90nm～1.0μmのプロセスノード技術ソリューションをカバーするプロフェッショナルで、付加価値の高いファウンドリサービスを提供します。その上、HHGraceは来新進技術の一つとして、MEMSソリューションを開発中です。 HHGraceは来新進技術の一つとして、MEMSソリューションを開発中でもあります。中国の上海に位置する本社を通じて、HHGraceは台湾、日本、北米、欧州での顧客へ販売およびテクニカルサポートを拡張しています。
 
-  news_seg17_0_0: Silicon Vision and Mindtree Enable Next Genera...
-  news_seg17_0_1: Feb 24th, 2015
-  news_seg17_0: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
-  news_seg17_1: Feb 24th, 2015
-  news_seg17_2_1: London, UK and Warren, NJ, USA, February 24, 2015 -
+  news_seg17_0_0: シリコンビジョンとマインドツリーがBluetoothスマート...
+  news_seg17_0_1: 年 月 日
+  news_seg17_0: シリコンビジョンとマインドツリーがBluetoothスマート4.2と次世代のIoTデバイスを有効化
+  news_seg17_1: 年 月 日
+  news_seg17_2_1: ロンドン、英国、ウォーレン、ニュージャージー、米国、2015年2月24日‐低電力無線知的財産(IP)の会社である
   news_seg17_2_2: Silicon Vision Technologies Ltd.
-  news_seg17_2_4: a low power wireless intellectual property (IP) company and
+  news_seg17_2_4: (シリコンビジョ ン·テクノロジーズ株式会社)と グローバルな技術サービス企業である
   news_seg17_2_5: Mindtree
-  news_seg17_2_6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
-  news_seg17_3: Feb
-  news_seg17_4: 2015
+  news_seg17_2_6: (マインドツ リー)の二社は,シリコンビジョンの実績のあるシリコン、 Bluetooth SIGの認証を受けラジオトランシーバIPとマインドツリーの資格のあるブルートゥース スマートV4.2リンク層、プロトコルスタックとプロファイルが含まれた完全に統合されているブルー トゥーススマート4.2ソリューションを発表しました。
+  news_seg17_3: 月
+  news_seg17_4: 年
 
 
   news_cer1: シリコン∙ビジョンがBluetoothの低エネルギー・無線IPSIGの認証とリストを発表
@@ -462,31 +465,31 @@ ja:
   news_cer12: イギリス、ロンドン. Email, info@si-vision.com
   news_cer13: デモボードを注文され
 
-  news_min1: Silicon Vision and Mindtree Enable Next Generation IoT Devices with Bluetooth Smart 4.2
-  news_min2: London, UK and Warren, NJ, USA, February 24, 2015 -
+  news_min1: シリコンビジョンとマインドツリーがBluetoothスマート4.2と次世代のIoTデバイスを有効化
+  news_min2: ロンドン、英国、ウォーレン、ニュージャージー、米国、2015年2月24日‐低電力無線知的財産(IP)の会社である
   news_min3: Silicon Vision Technologies Ltd.
-  news_min4: a low power wireless intellectual property (IP) company and
+  news_min4: (シリコンビジョ ン·テクノロジーズ株式会社)と グローバルな技術サービス企業である
   news_min5: Mindtree
-  news_min6: a global technology services company announced the availability of fully integrated Bluetooth Smart 4.2 solution that includes Silicon Vision’s silicon proven, Bluetooth SIG certified Radio Transceiver IP and Mindtree’s qualified Bluetooth Smart v4.2 link layer, protocol stack and profiles.
-  news_min7: Recently the
-  news_min8: Bluetooth Special Interest Group (SIG)
-  news_min9: has adopted version 4.2 of the Bluetooth core specification,
-  news_min10: introducing improvements to the security of the technology that mean Bluetooth beacons are now unable to engage with smartphones without permission from the user and making it harder for eavesdroppers to track a device via its Bluetooth connection. The new specification also increases the speed and reliability of data transfers between Bluetooth Smart devices and reduces both battery consumption and opportunities for transmission errors to occur.
-  news_min11: “With our silicon proven Bluetooth Smart Radio IP, we are empowering the next-generation of low power connected devices that are set to revolutionize the world towards Internet of Things (IoT) market”, said Mohamed Mohsen, VP of Business Development, Silicon Vision.
-  news_min12: Jayanth Krishna, Director - Short-range Wireless, Mindtree, said, " The highly configurable and flexible interface of Mindtree’s IP enabled a seamless integration with Silicon Vision’s RF. Customers can now use the superior pre-integrated solutions, de-risk their products and launch the products faster even in the extremely dynamic markets such as IoT and wearables"
-  news_min13: Mindtree is in its 15th year of offering a comprehensive portfolio of Bluetooth intellectual property solutions and a range of design, engineering, testing and consulting services to semiconductor vendors and OEMs. The IP portfolio includes certified, customizable, ultra-low power and footprint silicon IP for Bluetooth® Smart 4.1 and 4.2, and ultra-compact, complete certified portfolio of protocol stack and profiles IP for Bluetooth® Smart 4.1 and 4.2. Mindtree also offers a feature-rich and compact Bluetooth® Smart Ready 4.1 and 4.2 and Bluetooth® Classic protocol stack and profiles.
-  news_min14: About Silicon Vision
-  news_min15: Silicon Vision Technologies Limited is a leading IP provider of high- performance, low-power wireless intellectual property (IP). Silicon Vision portfolio includes Bluetooth Low Energy Radio and baseband, 2.4GHz low power ZigBee, Sub 1-GHz 802.15.4G ISM radio enabling wide range of IOT applications.
-  news_min16: Silicon Vision Technologies Limited.
-  news_min17: London, UK.
-  news_min18: Telephone ( +44 207 097 1004 )
-  news_min19: Email, info@si-vision.com
-  news_min20: About Mindtree
-  news_min21: Mindtree [NSE, MINDTREE] delivers technology services and accelerates growth for Global 1000 companies by solving complex business challenges with breakthrough technical innovations. Mindtree specializes in e-commerce, mobility, cloud enablement, digital transformation, business intelligence, data analytics, testing, infrastructure, EAI and ERP solutions. We are among the fastest growing technology firms globally with more than 200 clients and offices in 14 countries.
-  news_min22: Visit us at
+  news_min6: (マインドツ リー)の二社は,シリコンビジョンの実績のあるシリコン、 Bluetooth SIGの認証を受けラジオトランシーバIPとマインドツリーの資格のあるブルートゥース スマートV4.2リンク層、プロトコルスタックとプロファイルが含まれた完全に統合されているブルー トゥーススマート4.2ソリューションを発表しました。
+  news_min7: 最近になって
+  news_min8: (ブルートゥーススペシャルインタレスト·グループまたはSIG)
+  news_min9: は、ブルートゥースのコア仕様のバージョン4.2をアダプトしたことにより、セキュリティの技術が改善されてBluetoothのビーコンが
+  news_min10: ユーザーの許可なしにスマートフォンに従事することが不可能となり、つまりは盗聴者の類がBluetoothの接続を通してデバイスのトラッキングがより困難なものへとしたのです。さらに新しい仕様では、速度およびBluetoothスマートデバイス間のデータ転送の信頼性が向上し、伝送エラーの発生率および電池の消費両方を減少させることが可能となるのです。
+  news_min11: 「我々の実績シリコンBluetooth スマートラジオIPにより、我々はIoT市場に 向けて世界に革命を起こすであろう次世代の低電力接続デバイスに力を与えて いるのです。」とシリコン・ビジョン事業開発副社長のモハメド·モフセンは語りました。
+  news_min12: マインドツリー の短距離無線 ディレクターであるジェイヤンス・クリシュナは次の ように述べています:「マインドツリーのIPの高度設定が可能で柔軟な インターフェースは、Silicon VisionのRFとのシームレスな統合を可能にしました。これにより、 お客様たちは優れた事前統合ソリューションを利用し、自社製品の リスクを減らした上でさらにはIoTやウェアラブルなどの非常にダイナミックな市場で速く製品を投 入することが出来ます。
+  news_min13: マインドツリーは、Bluetooth知的財産ソリューションの包括的なポートフォリオと 設計、エンジニアリング、テストの範囲を提供し、半導体ベンダーやOEMに コンサルティングサービスをし続けて15年目に突入しています。 Ipポートフォリオには、ブルートゥーススマート4.1および4.2のための認証取得 済みのカスタマイズ可能な超低消費電力と設置面積のシリコンIPが含まれており、 さらにはブルートゥーススマート4.1および4.2 用にプロトコルスタックの超小型で完全な認定済 みポートフォリオも加わっておりIPのプロファイルも行えます。 マインドツリーはさらに豊富な機能を備えたコンパクトなBluetooth®のスマートレ ディ4.1と4.2、またBluetooth®クラシックプロトコルスタックとプロファイルを提供しています。
+  news_min14: Silicon Vision(シリコンビジョン)について
+  news_min15: シリコン·ビジョン·テクノロジーズ株式会社は、高性能の大手低消費電力(IP)の プロバイダです。シリコンビジョンポートフォリオには、IOTアプリケーションの広い 範囲を可能にするBluetoothの低エネルギーラジオ、ベースバンド、2.4GHzの低電力ジグ ビー、サブ1 GHzの802.15.4G ISMラジオが含まれています。
+  news_min16: シリコン·ビジョン·テクノロジーズ株式会社
+  news_min17: ロンドン、英国
+  news_min18: 電話番号 ( +44 207 097 1004 )
+  news_min19: メールアドレス, info@si-vision.com
+  news_min20: Mindtree (マインドツリー)について
+  news_min21: マインドツリー[NSE:マインドツリー]は技術サービスを提供しており、、画期的な 技術革新と複雑なビジネス上の課題を解決することによって、 グローバル1000社の成長を加速させています。 マインドツリーは電子商取引、モビリティ、クラウド有効化、デジタル変換、ビジネス·インテリジェン ス、データ分析、テスト、インフラ、さらにはEAIとERPソリューションを専門としています。 わが社 は14カ国に200以上のクライアントやオフィスで グローバルに最も急成長しているテクノロジー企業の一つです。
+  news_min22: サイトはこちら
   news_min23: www.mindtree.com
-  news_min24: For more information, contact
-  news_min25: Priyanka Waghre
+  news_min24: さらに詳しい情報を知りたい場合はこちらまでに連絡をどうぞ
+  news_min25: Priyanka Waghre(プリヤンカ・ ワーグレー)
   news_min26: Mindtree
   news_min27: +91-98867-29295
   news_min28: Priyanka.Waghre@mindtree.com
