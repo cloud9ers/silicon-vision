@@ -12,7 +12,7 @@ en:
   # Home
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: low power wireless IP provider serving the IOT Market
+  si_vi_short_desc: Innovate IC Solutions
   si_vi_learn_more: LEARN MORE
 
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
@@ -20,7 +20,9 @@ en:
   pm_ips_desc: Optimized PM IP for building state of the art SoCs
   pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IP
   si_vi_offers:  Silicon Vision Offers a Selection of High Performance IP
-  si_vi_intro_1: Silicon Vision is a market oriented company delivering high quality and innovative Low Power Wireless IP to enable advanced world class products, serving the IOT Market and maximizing value for our customers and staff
+  si_vi_intro_1_1: The IP Assets of Silicon Vision Have Been Acquired by Synopsys
+  si_vi_intro_1_2: Click Here
+  si_vi_intro_1_3: to Learn More
   si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
   si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
@@ -36,7 +38,7 @@ en:
   ips: IP
 
   # Slider
-  slider_slide2_head: Bluetooth Low Energy IP
+  slider_slide2_head: "Silicon Vision: Innovate IC Solutions"
   slider_slide3_head: ISM Radio IP
   slider_slide4_head: Zigbee Radio IP
 
