@@ -12,7 +12,7 @@ en:
   # Home
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: Innovate IC Solutions
+  si_vi_short_desc: Innovative IC Solutions
   si_vi_learn_more: LEARN MORE
 
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
@@ -34,13 +34,13 @@ en:
   about_us_partners: Partners and Clients
   about_us_parag_1: "Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Digital and Backend Designs."
   about_us_parag_2_1: "In July 30, 2015 Synopsys Inc. has acquired all Silicon Vision low power wireless IP and Silicon Vision is now working exclusively with Synopsys Inc."
-  about_us_parag_2_2: See PR
+  about_us_parag_2_2: See Press Release
   about_us_parag_3: We also collaborate with world-class technology partners including SMIC, HHGrace, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
 
   ips: IP
 
   # Slider
-  slider_slide2_head: "Silicon Vision: Innovate IC Solutions"
+  slider_slide2_head: "Silicon Vision: Innovative IC Solutions"
   slider_slide3_head: ISM Radio IP
   slider_slide4_head: Zigbee Radio IP
 
