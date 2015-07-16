@@ -12,7 +12,7 @@ en:
   # Home
   home: Home
   si_vi: Silicon Vision
-  si_vi_short_desc: low power wireless IP provider serving the IOT Market
+  si_vi_short_desc: Innovative IC Solutions
   si_vi_learn_more: LEARN MORE
 
   rf_ips_desc: Silicon Vision RF IP are focused on low power wireless domain
@@ -20,28 +20,32 @@ en:
   pm_ips_desc: Optimized PM IP for building state of the art SoCs
   pm_ips_see_more:  SEE MORE ABOUT POWER MANAGEMENT IP
   si_vi_offers:  Silicon Vision Offers a Selection of High Performance IP
-  si_vi_intro_1: Silicon Vision is a market oriented company delivering high quality and innovative Low Power Wireless IP to enable advanced world class products, serving the IOT Market and maximizing value for our customers and staff
+  si_vi_intro_1_1: The IP Assets of Silicon Vision Have Been Acquired by Synopsys
+  si_vi_intro_1_2: Click Here
+  si_vi_intro_1_3: to Learn More
   si_vi_intro_2: Silicon Vision offers a portfolio of high performance IP that focus on Radio frequency (RF), Power Management (PM), Data-Converters (DC) and other AMS IP. Our IP are silicon proven over several process nodes. Demo Boards are also available for most of the IP.
   si_vi_intro_3: Our IP are used in millions of devices in the market all over the globe.
   subscribe: Subscribe to our mailing list to receive updates
 
   # About Us
   about: About
-  about_us_welcome: Welcome to Innovative Silicon IP
+  about_us_welcome: Welcome to Silicon Vision
   about_us_si_vi_story: Silicon Vision Story
   about_us_partners: Partners and Clients
-  about_us_parag_1: Silicon Vision Technologies Ltd. is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Our solutions include Bluetooth low energy radio, low power ZigBee radio and other low power wireless radios. Our products deliver what we believe is an industry-leading combination of performance and monolithic integration, and target a broad range of applications serving consumers electronics, HIDs, smart meters, industrial mobile wireless devices, and generally wireless markets.
-  about_us_parag_2: Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Digital and Backend Designs.
+  about_us_parag_1: "Silicon Vision has been in business since 2007, with more than 350 years of collective experience and serving Tier-1 customers all over the globe. The Silicon Vision team has broad experience in RF Circuits and Systems, Digital and Backend Designs."
+  about_us_parag_2_1: "In July 30, 2015 Synopsys Inc. has acquired all Silicon Vision low power wireless IP and Silicon Vision is now working exclusively with Synopsys Inc."
+  about_us_parag_2_2: See Press Release
   about_us_parag_3: We also collaborate with world-class technology partners including SMIC, HHGrace, Mindtree Ltd., Mentor Graphics, and XFab. Silicon Vision has worldwide representation offices to support customer requests.
+
   ips: IP
 
   # Slider
-  slider_slide2_head: Bluetooth Low Energy IP
+  slider_slide2_head: "Silicon Vision: Innovative IC Solutions"
   slider_slide3_head: ISM Radio IP
   slider_slide4_head: Zigbee Radio IP
 
 
-  ips_title: Silicon Vision Intellectual Properties
+  ips_title: Silicon Vision Innovative IC solutions
   ips_desc: Silicon Vision offers a portfolio of high performance Low Power Wireless IP. Our IP are silicon proven over several process nodes and our Demo Boards are available for all of our Customers. Our IP are used in millions of devices in the market all over the globe.
   rf_index_0: (Radio Frequency IP)
   rf_index_1: Silicon Vision RF IP focus on Low Power Wireless Domain. Several customers all over the globe use our RF IP. Datasheets and Demo boards are available for all the available IP
@@ -223,7 +227,7 @@ en:
   news_seg9_9: About Silicon Vision Technologies Ltd
   news_seg9_10: Silicon Vision Technologies Ltd. is a leading provider of high-performance, low power radio frequency (RF) intellectual property (RFIP). Its solutions leverage Bluetooth low energy technology, low power ZigBee-like RF technology and also advanced power management IP, delivering an industry-leading combination of performance and monolithic integration and targeting a broad range of applications in consumer applications, human interface devices (HIDs), smart metering, industrial and mobile wireless devices and markets. Established since 2007, and with over 350 years’ collective experience serving tier-one customers globally, Silicon Vision also collaborates with world-class technology partners including TSMC, SMIC, Mindtree Ltd., Mentor Graphics and XFab. For more information, visit www.si-vision.com.
   news_seg9_11: "Press contact:"
-  news_seg9_12: Silicon Vision Technologies Limited
+  news_seg9_12: Silicon Vision LLC
   news_seg9_13: London, UK
   news_seg9_14: "Telephone: +44 207 097 1004"
   news_seg9_15: "Email: press@si-vision.com"
@@ -376,10 +380,10 @@ en:
   # Contact Us
   contact: Contact Us
   contact_0: Silicon Vision contacts
-  contact_1: Silicon Vision Technologies Limited
+  contact_1: Silicon Vision LLC
   contact_2: Headquarters
-  contact_4: London, UK
-  contact_5: "Tel: +44 207 097 1004"
+  contact_4: 79 Al Moltaqa Al Araby District , Sheraton Heliopolis, 11361 Cairo, Egypt.
+  contact_5: "Tel: +2-02- 22697820"
   contact_6: info@si-vision.com
   contact_7: Design Centers
   contact_8: Cairo, Egypt
@@ -475,11 +479,11 @@ en:
   news_cer5_1: Please visit SIG Listings to view our declaration with QID=
   news_cer5_2: D025509
   news_cer6: About Silicon Vision
-  news_cer7: Silicon Vision Technologies Limited is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth low energy radio, low power ZigBee radio, Sub 1-GHz ISM radio for smart meters and other low power wireless radios.
+  news_cer7: Silicon Vision LLC is a leading IP provider of high-performance, low-power radio frequency intellectual property (RF IP). Silicon Vision solutions include Bluetooth low energy radio, low power ZigBee radio, Sub 1-GHz ISM radio for smart meters and other low power wireless radios.
   news_cer8: About Bluetooth® Wireless Technology
   news_cer9: Bluetooth wireless technology is the global wireless standard enabling simple connectivity for a broad range of electronic devices. Version 4.0 featuring Bluetooth low energy technology creates new application opportunities for products within the mobile phone, consumer electronics, PC, automotive, health & wellness, sports & fitness and smart home industries. With nearly two billion devices shipping annually, Bluetooth technology is the only proven wireless solution for developers, product manufacturers, and consumers worldwide. Backed by industry leading companies, the Bluetooth SIG empowers more than 16,000 member companies to collaborate, innovate and guide Bluetooth wireless technology. For more information please visit www.bluetooth.com.
   news_cer10: Bluetooth wireless technology, Simple. Secure. Everywhere.
-  news_cer11: Silicon Vision Technologies Limited.
+  news_cer11: Silicon Vision LLC.
   news_cer12: Limited. London, UK. Email, info@si-vision.com
   news_cer13: Order Demo Boards
 
@@ -497,8 +501,8 @@ en:
   news_min12: Jayanth Krishna, Director - Short-range Wireless, Mindtree, said, " The highly configurable and flexible interface of Mindtree’s IP enabled a seamless integration with Silicon Vision’s RF. Customers can now use the superior pre-integrated solutions, de-risk their products and launch the products faster even in the extremely dynamic markets such as IoT and wearables"
   news_min13: Mindtree is in its 15th year of offering a comprehensive portfolio of Bluetooth intellectual property solutions and a range of design, engineering, testing and consulting services to semiconductor vendors and OEMs. The IP portfolio includes certified, customizable, ultra-low power and footprint silicon IP for Bluetooth® Smart 4.1 and 4.2, and ultra-compact, complete certified portfolio of protocol stack and profiles IP for Bluetooth® Smart 4.1 and 4.2. Mindtree also offers a feature-rich and compact Bluetooth® Smart Ready 4.1 and 4.2 and Bluetooth® Classic protocol stack and profiles.
   news_min14: About Silicon Vision
-  news_min15: Silicon Vision Technologies Limited is a leading IP provider of high- performance, low-power wireless intellectual property (IP). Silicon Vision portfolio includes Bluetooth Low Energy Radio and baseband, 2.4GHz low power ZigBee, Sub 1-GHz 802.15.4G ISM radio enabling wide range of IOT applications.
-  news_min16: Silicon Vision Technologies Limited.
+  news_min15: Silicon Vision LLC is a leading IP provider of high- performance, low-power wireless intellectual property (IP). Silicon Vision portfolio includes Bluetooth Low Energy Radio and baseband, 2.4GHz low power ZigBee, Sub 1-GHz 802.15.4G ISM radio enabling wide range of IOT applications.
+  news_min16: Silicon Vision LLC.
   news_min17: London, UK.
   news_min18: Telephone ( +44 207 097 1004 )
   news_min19: Email, info@si-vision.com
