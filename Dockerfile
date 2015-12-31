@@ -70,5 +70,5 @@ ServerName example.com\n \
 RUN a2ensite sivi
 RUN a2dissite 000-default
 EXPOSE 80
-RUN bin/bash -c 'echo '#test' >> ~/.bashrc'
+RUN /bin/bash -c 'echo '#test' >> ~/.bashrc'
 ENTRYPOINT apache2ctl -D FOREGROUND
